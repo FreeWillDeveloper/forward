@@ -19,7 +19,66 @@
       "url": "https://github.com/selierlin/Share-SSR-V2ray",
       "branch": "master",
       "target_dir": "widgets/ForwardWidgets-Share-SSR-V2ray",
-      "description": "ForwardWidgets by selierlin - Share-SSR-V2ray"
+      "description": "ForwardWidgets by selierlin - Share-SSR-V2ray 科学上网教程/机场推荐/直连网站/镜像网站/插件"
+    },
+    {
+      "name": "ForwardWidgets-SmsForwarder",
+      "url": "https://github.com/pppscn/SmsForwarder",
+      "branch": "main",
+      "target_dir": "widgets/ForwardWidgets-SmsForwarder",
+      "description": "ForwardWidgets by pppscn - SmsForwarder 短信转发器"
+    },
+    {
+      "name": "ForwardWidgets-Are-u-ok",
+      "url": "https://github.com/bcseputetto/Are-u-ok",
+      "branch": "master",
+      "target_dir": "widgets/ForwardWidgets-Are-u-ok",
+      "description": "ForwardWidgets by bcseputetto - Are-u-ok iStoreOS软件包发布"
+    },
+    {
+      "name": "ForwardWidgets-memos",
+      "url": "https://github.com/usememos/memos",
+      "branch": "main",
+      "target_dir": "widgets/ForwardWidgets-memos",
+      "description": "ForwardWidgets by usememos - memos 可本地部署的便签"
+    }
+    ,
+    {
+      "name": "ForwardWidgets-chinese-independent-blogs",
+      "url": "https://github.com/timqian/chinese-independent-blogs",
+      "branch": "master",
+      "target_dir": "widgets/ForwardWidgets-chinese-independent-blogs",
+      "description": "ForwardWidgets by timqian - chinese-independent-blogs 中文独立博客收集"
+    }
+    ,
+    {
+      "name": "ForwardWidgets-WindowsTools",
+      "url": "https://github.com/antatura/WindowsTools",
+      "branch": "master",
+      "target_dir": "widgets/ForwardWidgets-WindowsTools",
+      "description": "ForwardWidgets by antatura - WindowsTools 使用Windows工具收集"
+    },
+    {
+      "name": "ForwardWidgets-fe-interview",
+      "url": "https://github.com/haizlin/fe-interview",
+      "branch": "master",
+      "target_dir": "widgets/ForwardWidgets-fe-interview",
+      "description": "ForwardWidgets by haizlin - fe-interview 每日前端面试题"
+    }
+    ,
+    {
+      "name": "ForwardWidgets-easy-vibe",
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "branch": "main",
+      "target_dir": "widgets/ForwardWidgets-easy-vibe",
+      "description": "ForwardWidgets by datawhalechina - easy-vibe 零基础Vibe Coding教程"
+    },
+    {
+      "name": "ForwardWidgets-extensions",
+      "url": "https://github.com/keiyoushi/extensions",
+      "branch": "repo",
+      "target_dir": "widgets/ForwardWidgets-extensions",
+      "description": "ForwardWidgets by keiyoushi - extensions Tachiyomi扩展安装包"
     }
   ],
   "settings": {
