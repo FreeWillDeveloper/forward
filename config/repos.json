@@ -67,7 +67,7 @@
       "name": "ForwardWidgets-easy-vibe",
       "url": "https://github.com/datawhalechina/easy-vibe",
       "branch": "main",
-      "target_dir": "collection/ForwardWidgets-easy-vibe",
+      "target_dir": "ai/ForwardWidgets-easy-vibe",
       "description": "ForwardWidgets by datawhalechina - easy-vibe 零基础Vibe Coding教程"
     },
     {
@@ -83,6 +83,13 @@
       "branch": "main",
       "target_dir": "collection/free-programming-books-zh_CN",
       "description": "ForwardWidgets by datawhalechina - free-programming-books-zh_CN 免费中文编程书籍"
+    },
+    {
+      "name": "ForwardWidgets-learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "branch": "main",
+      "target_dir": "ai/learn-claude-code",
+      "description": "ForwardWidgets by datawhalechina - learn-claude-code 从0复刻Claude Code"
     }
   ],
   "settings": {
