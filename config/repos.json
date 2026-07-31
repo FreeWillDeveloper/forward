@@ -17,7 +17,7 @@
     {
       "name": "ForwardWidgets-Share-SSR-V2ray",
       "url": "https://github.com/selierlin/Share-SSR-V2ray",
-      "branch": "main",
+      "branch": "master",
       "target_dir": "widgets/ForwardWidgets-Share-SSR-V2ray",
       "description": "ForwardWidgets by selierlin - Share-SSR-V2ray"
     }    
