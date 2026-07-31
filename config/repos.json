@@ -41,16 +41,14 @@
       "branch": "main",
       "target_dir": "widgets/ForwardWidgets-memos",
       "description": "ForwardWidgets by usememos - memos 可本地部署的便签"
-    }
-    ,
+    },
     {
       "name": "ForwardWidgets-chinese-independent-blogs",
       "url": "https://github.com/timqian/chinese-independent-blogs",
       "branch": "master",
       "target_dir": "widgets/ForwardWidgets-chinese-independent-blogs",
       "description": "ForwardWidgets by timqian - chinese-independent-blogs 中文独立博客收集"
-    }
-    ,
+    },
     {
       "name": "ForwardWidgets-WindowsTools",
       "url": "https://github.com/antatura/WindowsTools",
@@ -64,8 +62,7 @@
       "branch": "master",
       "target_dir": "widgets/ForwardWidgets-fe-interview",
       "description": "ForwardWidgets by haizlin - fe-interview 每日前端面试题"
-    }
-    ,
+    },
     {
       "name": "ForwardWidgets-easy-vibe",
       "url": "https://github.com/datawhalechina/easy-vibe",
