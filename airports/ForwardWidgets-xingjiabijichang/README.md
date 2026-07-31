@@ -1,0 +1,330 @@
+
+
+<h1 align="center">性价比机场推荐</h1>
+
+
+<p align="center">
+  <strong>简体中文</strong>
+  &nbsp;·&nbsp;
+  <a href="./README_EN.md">English</a>
+</p>
+
+🚀推荐几款最具性价比的机场
+
+本文主要推荐几款性价比非常高的机场，稳定性都非常不错，如果您对冷门节点、带宽峰值有要求，可以看看下面机场详情。请多备用几个机场，以防止失联。任何机场都有跑路的风险，推荐购买月付，以降低风险（本消息不针对任何机场）。
+
+如果对于稳定性也没有特殊的需求，可以参考我的另一篇文档[低价机场推荐](https://github.com/KaWaIDeSuNe/dijiajichang) 最低仅一包辣条的价格。
+
+
+如果本项目对您有所帮助，欢迎 [Star](https://github.com/KaWaIDeSuNe/xingjiabijichang)，您的支持是我更新的动力！
+
+
+
+![](https://komarev.com/ghpvc/?username=xingjiabijichang)
+---
+
+## 机场限时优惠
+
+
+暂无
+
+---
+
+## 一、飞兔云(9.9/月118G)
+
+官网地址1:[点击进入](https://vip.xn--h5qy75o.vip/#/register?code=4ZoNj0zb)
+
+官网地址2:[点击进入](https://xn--9kq10e0y7h.site/index.html?register=4ZoNj0zb)
+
+
+机场特色:签到送流量
+
+主观评价: 大型机场中转机场，80+多个节点，整体质量非常不错，冷门节点多，稳定性很不错，性价比也很可以，一次性套餐的价格算是比较便宜的。(已恢复)
+
+使用方式: 🟢 支持官方客户端 🟢支持第三方客户端 
+
+过境线路：Amazon（日本）、直连（冷门节点直连）
+
+家宽节点：香港
+
+🟢推荐购买人群：联通、移动用户   🔴不推荐人群：电信用户
+
+套餐价格:
+<img width="2045" height="1514" alt="image" src="https://github.com/user-attachments/assets/66110f9c-1c4e-427e-8c3b-ae05d0bb2246" />
+
+
+
+
+[飞兔云测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/%E9%A3%9E%E5%85%94%E4%BA%91.md)
+
+
+---
+
+## 二、紅葉(10/月158G)
+
+
+官网地址1:[点击进入](https://www.紅葉.site/auth/register?code=V9cquaO2)
+
+官网地址2:[点击进入](https://www.xn--qprx60h.site/auth/register?code=V9cquaO2)
+
+特色：注册即送首月50G免费流量套餐，高速BGP.EIP线路,秒开8K,支持解锁流媒体，GPT，晚高峰不卡,Vmess协议,速度飞快！
+
+主观评价: 10元158G为BGP线路，还有19.8的IPLC专线，整体看起来非常不错，性价比也很高.（近期，更换了机场主）
+
+使用方式: 🟢 支持官方客户端 🟢支持第三方客户端 
+
+过境线路：Lumen（英国）、Lumen（日本）
+
+套餐价格:
+<img width="1414" alt="image" src="https://github.com/user-attachments/assets/24c02cff-dfd3-4daa-a848-b971e1709184" />
+
+推荐购买人群：三网推荐
+
+
+
+[紅葉测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/%E7%B4%85%E8%91%89.md)
+
+
+---
+
+## 三、青云梯(25/月150G)
+
+
+
+官网地址1:[点击进入](https://a22.qytaff01.cc/verify?next=%2Fregister%3Faff%3DymkMqBTU)
+
+官网地址2:[点击进入](https://ivt01.qytaff.cc/register?aff=ymkMqBTU)
+
+机场特色：全IPLC专线，原生IP解锁各大流媒体，三网优化，智能负载均衡(针对不同用户的本地实际网络分配最适合的入口和线路)。
+
+长期优惠码：年付以下85折：**qyt85** 年付以上8折：**qyt80** 
+
+主观评价: 运营五年稳定优质的专线机场，智能的入口分配，不同地区或运营商也能体验到稳定的网络环境，解锁也非常优秀。
+
+使用方式: 🟢 支持官方客户端 🔴不支持第三方客户端 
+
+
+套餐价格:
+
+![image](https://github.com/user-attachments/assets/86cd8d74-dcbd-4cf4-963a-0bf37fdca822)
+
+推荐购买人群：三网推荐
+
+
+
+[青云梯测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/%E9%9D%92%E4%BA%91%E6%A2%AF.md)
+
+
+
+
+---
+
+## 四、龙猫云(15/月100G)
+官网地址:[点击进入](https://inv06.lmaff01.cc/register?aff=9QZ7Wx1m)
+
+主观评价:运营挺长时间的全IPLC专线机场，各项指标都非常不错，缺点是客服解决问题偏慢。
+
+使用方式: 🟢 支持官方客户端 🔴不支持第三方客户端 
+
+套餐价格:
+![image](https://github.com/user-attachments/assets/daef4d22-3cea-4747-8df7-fd37b0961755)
+
+推荐购买人群：其他省份的三网用户
+
+不推荐人群：江苏用户 （用户反馈江苏移动不可用）
+
+[龙猫云测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/%E9%BE%99%E7%8C%AB%E4%BA%91.md)
+
+
+
+---
+
+
+
+## 五、EF Network(8.9/月100G)
+
+官网地址:[点击进入](https://666.subef.top/#/login?code=ArQFWeH9)
+
+主观评价: 带宽速度数一数二，可以改海外ip，挺不错的。
+
+使用方式: 🔴不支持官方客户端 🟢支持第三方客户端 
+
+家宽节点：马来西亚
+
+套餐价格:
+<img width="1478" alt="image" src="https://github.com/user-attachments/assets/3c8e95a7-d5fd-447b-aa48-cc617a4d5c77" />
+
+ping图：
+![image](https://github.com/user-attachments/assets/a95f7aae-96c1-49d4-8cd5-8c2fb680ff3c)
+
+
+
+
+---
+
+## 六、KTM Cloud(14/月2048G) 
+
+官网地址1:[点击进入](https://ktmcloud.link/#/register?code=EXL0Y3vD)
+
+官网地址2:[点击进入](https://ktmcloud.vip/#/register?code=EXL0Y3vD)
+
+官网地址3:[点击进入](https://ktmcloud.net/#/register?code=EXL0Y3vD)
+
+
+
+
+主观评价:中转机场，流量价格便宜14元2048流量，速度比起其他中转机场差了点，节点也不少,总体很不错，单位流量价格便宜，推荐需要大流量用户购买。
+
+具有竞争力的套餐： 1️⃣ 2048GB/月（约0.007元/GB）
+
+套餐价格:
+
+<img width="820" alt="image" src="https://github.com/user-attachments/assets/d901cbdc-b9e5-4189-bdf1-5e96c45070fc" />
+
+
+[KTM Cloud测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/KTMCloud.md)
+
+
+
+
+---
+
+## 七、极速云(15.99/月400G)
+
+官网地址1:[点击进入](https://905.jsy902.xyz/#/register?code=aSnr6JSe)
+
+官网地址2:[点击进入](https://w1.lypyf.com/#/register?code=aSnr6JSe)
+
+主观评价: IEPL+中转线路，注意所有节点都是3倍率，原因见公告，总的来说质量还不错。
+
+推荐购买人群：三网推荐
+
+套餐价格:
+
+<img width="1583" height="668" alt="image" src="https://github.com/user-attachments/assets/fe0bca36-383f-4447-8618-e8de095a0fd4" />
+
+
+
+[极速云测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/%E6%9E%81%E9%80%9F%E4%BA%91.md)
+
+---
+
+## 八、WY Cloud(18/月100G)
+
+
+官网地址1:[点击进入](https://www.z1z1.xyz/#/register?code=jTkEdr8s)
+
+
+特色：购买套餐送Emby账户，解锁全球Netflix、Disney+、Hulu、HBO Max、BBC iPlayer 等全平台流媒体服务，看片无障碍，游戏、日常办公也同样丝滑流畅。
+
+主观评价: 腾讯云专线+海外中转，120多个节点，近期新增了很多冷门节点，还有一些家宽节点，入口与出口网络供应商覆盖极广，几乎不会全线崩溃。
+
+使用方式: 🟢 支持官方客户端 🟢支持第三方客户端 
+
+过境线路：腾讯云（专线）、Sakura中国（中转）、Amazon新加坡（中转）
+
+家宽节点：香港
+
+套餐价格:
+
+<img width="1301" height="913" alt="image" src="https://github.com/user-attachments/assets/8182e7c1-bd45-43cb-a718-8e9f9c236719" />
+
+
+推荐购买人群：三网推荐
+
+*最大带宽*
+- 热门节点 5Gbps
+
+<img width="3121" height="1495" alt="2025-09-29T14-12-03 292-174" src="https://github.com/user-attachments/assets/f44ede22-d438-45e9-9d7f-2942a2778a0e" />
+
+
+
+[WY Cloud测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/WY%20Cloud.md)
+
+---
+
+## 九、TNTCloud(20/月110G)
+
+
+官网地址:[点击进入](http://web01.tntyun.cc/#/register?code=GiCykFjU)
+
+机场特色：高速专线，晚高峰不限速，解锁Tiktok、ChatGPT、流媒体Netflix、Disney+、HBO、HUGO
+
+新人特惠85折：**TNT85**（限量包不适用）
+
+主观评价: 全专线机场，主打热门节点地区，晚高峰表现优秀。
+
+使用方式: 🟢 支持官方客户端 🔴不支持第三方客户端 
+
+套餐价格:
+
+<img width="953" height="875" alt="image" src="https://github.com/user-attachments/assets/463d3cc9-ecaa-4e1e-8712-78aed95e96b3" />
+
+推荐购买人群：
+
+
+
+[TNTCloud测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/TNTCloud.md)
+
+---
+
+## 购买指导总结
+方便各位快速筛选定位
+
+1. **价格区分：**
+     1)**需要普通月付套餐**(每月50G-1000G流量)：
+   
+   **20块/月以下**：飞兔云(9.9/月118G)、飞兔云(16.9/月218G)、EF Network(8.9元/100G)、EF Network(18元/320G)、极速云(13元/150G)、极速云(16元/225G)、动力港(15元/200G)、山水云(9/月100G)、山水云(15/月200G)、龙猫云(15/月100G)
+   
+   **20-50块/月**：飞兔云(29.9/月450G)、动力港(30元/500G)、EF Network(27元/500G)、EF Network(36元/750G)、青云梯(25元/150G)、极速云(30元/438G)、山水云(29/月500G)、KTM Cloud(20元/月100G)、KTM Cloud(30元/月200G)
+   
+   **50块以上/月**：极速云(55元/812G)、青云梯(45元/300G)、山水云(59/月999G)、KTM Cloud(60元/月400G)
+   
+    2)**需要大流量月付套餐**(每月1000G以上)：
+     KTM Cloud(21元季付/月1000G)、KTM Cloud(14元/月2000G)、KTM Cloud(24元/月5000G)、KTM Cloud(24元/月5000G)、EF Network(45元/月1000G)、EF Network(54元/月1600G)、EF Network(108元/月3200G)、、飞兔云(49.9/月1000G)、飞兔云(99.9/月2000G)
+   
+   3)**需要小流量月付套餐**(每月50G以下)：
+   KTM Cloud(10元/月45G)
+   
+   4)**需要不限时按量付费套餐**：
+     飞兔云(29.9/100G)、飞兔云(59.9/200G)、飞兔云(99.9/500G)、EF Network(45元/月350G)、EF Network(69元/月750G)、EF Network(135元/月1600G
+   
+   5）**回国付费套餐**：
+
+2.  **机场线路：**
+
+    1)**专线机场：** 青云梯、龙猫云
+
+    2)**中转机场：** EF Network、飞兔云
+
+    3)**专线+中转机场：** 极速云、山水云、KTM Cloud、WY Cloud
+
+3. **有冷门节点：** 飞兔云
+   
+4. **有免费的流量试用**： 
+   
+
+
+
+---
+
+## 第三方客户端软件下载（配合订阅链接使用）
+MacOS、Linux、Windows下载：[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)
+
+安卓、鸿蒙下载：[ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)
+
+iOS：apple store搜索clashmi、搜索sing-box、搜索Shadowrocket下载（更推荐clashmi和sing-box，Shadowrocket对新协议支持不好）
+
+---
+
+## 机场测试工具
+
+[NekoSpeed](https://github.com/KaWaIDeSuNe/NekoSpeed)，基于Go语言开发开源测试工具已上线，目前还在持续优化中，欢迎大家提出宝贵的建议，后续测试详情图计划由本项目生成。 
+
+---
+如果您有任何需求、问题或建议，欢迎提出。
+
+## Star 历史
+
+![Star History Chart](https://api.star-history.com/svg?repos=KaWaIDeSuNe/xingjiabijichang&type=Date)
+
