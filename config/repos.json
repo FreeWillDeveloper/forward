@@ -1,25 +1,25 @@
 {
   "repositories": [
     {
-      "name": "ForwardWidgets-huangxd",
-      "url": "https://github.com/huangxd-/ForwardWidgets",
+      "name": "ForwardWidgets-xingjiabijichang",
+      "url": "https://github.com/KaWaIDeSuNe/xingjiabijichang",
       "branch": "main",
-      "target_dir": "widgets/ForwardWidgets-huangxd",
-      "description": "ForwardWidgets by huangxd - 豆瓣和Trakt观影清单及个性化推荐"
+      "target_dir": "widgets/ForwardWidgets-xingjiabijichang",
+      "description": "ForwardWidgets by KaWaIDeSuNe - 性价比机场推荐"
     },
     {
-      "name": "ForwardWidgets-2kuai",
-      "url": "https://github.com/2kuai/ForwardWidgets",
+      "name": "ForwardWidgets-dijiajichang",
+      "url": "https://github.com/KaWaIDeSuNe/dijiajichang",
       "branch": "main",
-      "target_dir": "widgets/ForwardWidgets-2kuai",
-      "description": "ForwardWidgets by 2kuai - JS组件模块库"
+      "target_dir": "widgets/ForwardWidgets-dijiajichang",
+      "description": "ForwardWidgets by KaWaIDeSuNe - 低价机场推荐"
     },
     {
-      "name": "ForwardWidgets-pack1r",
-      "url": "https://github.com/pack1r/ForwardWidgets",
+      "name": "ForwardWidgets-Share-SSR-V2ray",
+      "url": "https://github.com/selierlin/Share-SSR-V2ray",
       "branch": "main",
-      "target_dir": "widgets/ForwardWidgets-pack1r",
-      "description": "ForwardWidgets by pack1r - JS组件模块库"
+      "target_dir": "widgets/ForwardWidgets-Share-SSR-V2ray",
+      "description": "ForwardWidgets by selierlin - Share-SSR-V2ray"
     }    
   ],
   "settings": {
