@@ -13,7 +13,14 @@
       "branch": "main",
       "target_dir": "widgets/ForwardWidgets-dijiajichang",
       "description": "ForwardWidgets by KaWaIDeSuNe - 低价机场推荐"
-    }    
+    },
+    {
+      "name": "ForwardWidgets-Share-SSR-V2ray",
+      "url": "https://github.com/selierlin/Share-SSR-V2ray",
+      "branch": "master",
+      "target_dir": "widgets/ForwardWidgets-Share-SSR-V2ray",
+      "description": "ForwardWidgets by selierlin - Share-SSR-V2ray"
+    }
   ],
   "settings": {
     "auto_commit": true,
