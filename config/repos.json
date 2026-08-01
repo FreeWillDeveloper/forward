@@ -1,95 +1,95 @@
 {
   "repositories": [
     {
-      "name": "ForwardWidgets-xingjiabijichang",
+      "name": "ForwardAirports-xingjiabijichang",
       "url": "https://github.com/KaWaIDeSuNe/xingjiabijichang",
       "branch": "main",
-      "target_dir": "airports/ForwardWidgets-xingjiabijichang",
-      "description": "ForwardWidgets by KaWaIDeSuNe - 性价比机场推荐"
+      "target_dir": "airports/ForwardAirports-xingjiabijichang",
+      "description": "ForwardAirports by KaWaIDeSuNe - 性价比机场推荐"
     },
     {
-      "name": "ForwardWidgets-dijiajichang",
+      "name": "ForwardAirports-dijiajichang",
       "url": "https://github.com/KaWaIDeSuNe/dijiajichang",
       "branch": "main",
-      "target_dir": "airports/ForwardWidgets-dijiajichang",
-      "description": "ForwardWidgets by KaWaIDeSuNe - 低价机场推荐"
+      "target_dir": "airports/ForwardAirports-dijiajichang",
+      "description": "ForwardAirports by KaWaIDeSuNe - 低价机场推荐"
     },
     {
-      "name": "ForwardWidgets-Share-SSR-V2ray",
+      "name": "ForwardAirports-Share-SSR-V2ray",
       "url": "https://github.com/selierlin/Share-SSR-V2ray",
       "branch": "master",
-      "target_dir": "airports/ForwardWidgets-Share-SSR-V2ray",
-      "description": "ForwardWidgets by selierlin - Share-SSR-V2ray 科学上网教程/机场推荐/直连网站/镜像网站/插件"
+      "target_dir": "airports/ForwardAirports-Share-SSR-V2ray",
+      "description": "ForwardAirports by selierlin - Share-SSR-V2ray 科学上网教程/机场推荐/直连网站/镜像网站/插件"
     },
     {
-      "name": "ForwardWidgets-SmsForwarder",
+      "name": "ForwardProjects-SmsForwarder",
       "url": "https://github.com/pppscn/SmsForwarder",
       "branch": "main",
-      "target_dir": "project/ForwardWidgets-SmsForwarder",
-      "description": "ForwardWidgets by pppscn - SmsForwarder 短信转发器"
+      "target_dir": "projects/ForwardProjects-SmsForwarder",
+      "description": "ForwardProjects by pppscn - SmsForwarder 短信转发器"
     },
     {
-      "name": "ForwardWidgets-Are-u-ok",
+      "name": "ForwardDownloads-Are-u-ok",
       "url": "https://github.com/bcseputetto/Are-u-ok",
       "branch": "master",
-      "target_dir": "downloads/ForwardWidgets-Are-u-ok",
-      "description": "ForwardWidgets by bcseputetto - Are-u-ok iStoreOS软件包发布"
+      "target_dir": "downloads/ForwardDownloads-Are-u-ok",
+      "description": "ForwardDownloads by bcseputetto - Are-u-ok iStoreOS软件包发布"
     },
     {
-      "name": "ForwardWidgets-memos",
+      "name": "ForwardProjects-memos",
       "url": "https://github.com/usememos/memos",
       "branch": "main",
-      "target_dir": "project/ForwardWidgets-memos",
-      "description": "ForwardWidgets by usememos - memos 可本地部署的便签"
+      "target_dir": "projects/ForwardProjects-memos",
+      "description": "ForwardProjects by usememos - memos 可本地部署的便签"
     },
     {
-      "name": "ForwardWidgets-chinese-independent-blogs",
+      "name": "ForwardCollections-chinese-independent-blogs",
       "url": "https://github.com/timqian/chinese-independent-blogs",
       "branch": "master",
-      "target_dir": "collection/ForwardWidgets-chinese-independent-blogs",
-      "description": "ForwardWidgets by timqian - chinese-independent-blogs 中文独立博客收集"
+      "target_dir": "collections/ForwardCollections-chinese-independent-blogs",
+      "description": "ForwardCollections by timqian - chinese-independent-blogs 中文独立博客收集"
     },
     {
-      "name": "ForwardWidgets-WindowsTools",
+      "name": "ForwardCollections-WindowsTools",
       "url": "https://github.com/antatura/WindowsTools",
       "branch": "master",
-      "target_dir": "collection/ForwardWidgets-WindowsTools",
-      "description": "ForwardWidgets by antatura - WindowsTools 使用Windows工具收集"
+      "target_dir": "collections/ForwardCollections-WindowsTools",
+      "description": "ForwardCollections by antatura - WindowsTools 使用Windows工具收集"
     },
     {
-      "name": "ForwardWidgets-fe-interview",
+      "name": "ForwardCollections-fe-interview",
       "url": "https://github.com/haizlin/fe-interview",
       "branch": "master",
-      "target_dir": "collection/ForwardWidgets-fe-interview",
-      "description": "ForwardWidgets by haizlin - fe-interview 每日前端面试题"
+      "target_dir": "collections/ForwardCollections-fe-interview",
+      "description": "ForwardCollections by haizlin - fe-interview 每日前端面试题"
     },
     {
-      "name": "ForwardWidgets-easy-vibe",
+      "name": "ForwardAI-easy-vibe",
       "url": "https://github.com/datawhalechina/easy-vibe",
       "branch": "main",
-      "target_dir": "ai/ForwardWidgets-easy-vibe",
-      "description": "ForwardWidgets by datawhalechina - easy-vibe 零基础Vibe Coding教程"
+      "target_dir": "ai/ForwardAI-easy-vibe",
+      "description": "ForwardAI by datawhalechina - easy-vibe 零基础Vibe Coding教程"
     },
     {
-      "name": "ForwardWidgets-extensions",
+      "name": "ForwardDownloads-extensions",
       "url": "https://github.com/keiyoushi/extensions",
       "branch": "repo",
-      "target_dir": "downloads/ForwardWidgets-extensions",
-      "description": "ForwardWidgets by keiyoushi - extensions Tachiyomi扩展安装包"
+      "target_dir": "downloads/ForwardDownloads-extensions",
+      "description": "ForwardDownloads by keiyoushi - extensions Tachiyomi扩展安装包"
     },
     {
-      "name": "ForwardWidgets-free-programming-books-zh_CN",
+      "name": "ForwardCollections-free-programming-books-zh_CN",
       "url": "https://github.com/justjavac/free-programming-books-zh_CN",
       "branch": "main",
-      "target_dir": "collection/free-programming-books-zh_CN",
-      "description": "ForwardWidgets by datawhalechina - free-programming-books-zh_CN 免费中文编程书籍"
+      "target_dir": "collections/ForwardCollections-free-programming-books-zh_CN",
+      "description": "ForwardCollections by datawhalechina - free-programming-books-zh_CN 免费中文编程书籍"
     },
     {
-      "name": "ForwardWidgets-learn-claude-code",
+      "name": "ForwardAI-learn-claude-code",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "branch": "main",
-      "target_dir": "ai/learn-claude-code",
-      "description": "ForwardWidgets by shareAI-lab - learn-claude-code 从0复刻Claude Code"
+      "target_dir": "ai/ForwardAI-learn-claude-code",
+      "description": "ForwardAI by shareAI-lab - learn-claude-code 从0复刻Claude Code"
     }
   ],
   "settings": {
