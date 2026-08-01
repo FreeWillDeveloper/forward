@@ -2,7 +2,12 @@ name: 模块库同步
 
 on:
   schedule:
+    # 第1次：UTC 02:00（北京时间当日10点）
     - cron: '0 2 * * *'
+    # 第2次：UTC 10:00（北京时间当日18点）
+    - cron: '0 10 * * *'
+    # 第3次：UTC 18:00 （北京时间次日2点）
+    - cron: '0 18 * * *'
   workflow_dispatch:
     inputs:
       repository_name:
