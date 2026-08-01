@@ -1,4 +1,70 @@
 # 更新日志\n
+## [ForwardWidgets-xingjiabijichang] - 2026-08-01 05:20:42
+- 仓库: https://github.com/KaWaIDeSuNe/xingjiabijichang
+- 分支: main
+- 新增: 9e63d5091533a4c7200568958ecc4aaf5b443946
+
+## [ForwardWidgets-dijiajichang] - 2026-08-01 05:20:42
+- 仓库: https://github.com/KaWaIDeSuNe/dijiajichang
+- 分支: main
+- 新增: 7bc6faa5f7e1081f32880e736fa43fe4c99a4d24
+
+## [ForwardWidgets-Share-SSR-V2ray] - 2026-08-01 05:20:42
+- 仓库: https://github.com/selierlin/Share-SSR-V2ray
+- 分支: master
+- 新增: a358127f8f7a379fc1ef8889ed140d2bc450f72c
+
+## [ForwardWidgets-SmsForwarder] - 2026-08-01 05:20:42
+- 仓库: https://github.com/pppscn/SmsForwarder
+- 分支: main
+- 新增: ce931a03739a6a2b0dfc83161bf812a94fd5e45e
+
+## [ForwardWidgets-Are-u-ok] - 2026-08-01 05:20:42
+- 仓库: https://github.com/bcseputetto/Are-u-ok
+- 分支: master
+- 新增: 21f4e5704164832898581d2c150658f88c2d9963
+
+## [ForwardWidgets-memos] - 2026-08-01 05:20:42
+- 仓库: https://github.com/usememos/memos
+- 分支: main
+- 新增: 571e0a3ff6eb0da8f7832bb15d5553a932641b63
+
+## [ForwardWidgets-chinese-independent-blogs] - 2026-08-01 05:20:42
+- 仓库: https://github.com/timqian/chinese-independent-blogs
+- 分支: master
+- 新增: 132a80b682f511b4d114a2845d2ef98956d4f3b7
+
+## [ForwardWidgets-WindowsTools] - 2026-08-01 05:20:42
+- 仓库: https://github.com/antatura/WindowsTools
+- 分支: master
+- 新增: 8cac55f178a7827f2b9d7aca65810dc1f16b6199
+
+## [ForwardWidgets-fe-interview] - 2026-08-01 05:20:42
+- 仓库: https://github.com/haizlin/fe-interview
+- 分支: master
+- 新增: 79bab2c2a203705e1201051ae8c80b752a3d439e
+
+## [ForwardWidgets-easy-vibe] - 2026-08-01 05:20:42
+- 仓库: https://github.com/datawhalechina/easy-vibe
+- 分支: main
+- 新增: 317661be9d583998973d93b0361409113a31d71a
+
+## [ForwardWidgets-extensions] - 2026-08-01 05:20:42
+- 仓库: https://github.com/keiyoushi/extensions
+- 分支: repo
+- 新增: ac3ffec59f305abe050a36b378c9fd7981d9d3f5
+
+## [ForwardWidgets-free-programming-books-zh_CN] - 2026-08-01 05:20:42
+- 仓库: https://github.com/justjavac/free-programming-books-zh_CN
+- 分支: main
+- 新增: cc1108ac90f53a1fd4f773b61f5c6b91b91389ca
+
+## [ForwardWidgets-learn-claude-code] - 2026-08-01 05:20:42
+- 仓库: https://github.com/shareAI-lab/learn-claude-code
+- 分支: main
+- 新增: 7b564c3ee6996039cb4e13a53024dfe2d4388d35
+
+
 ## [ForwardWidgets-xingjiabijichang] - 2026-08-01 03:28:04
 - 仓库: https://github.com/KaWaIDeSuNe/xingjiabijichang
 - 分支: main
