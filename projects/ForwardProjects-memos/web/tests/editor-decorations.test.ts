@@ -3,7 +3,7 @@ import { forceParsing } from "@codemirror/language";
 import { EditorState } from "@codemirror/state";
 import { EditorView } from "@codemirror/view";
 import { describe, expect, it } from "vitest";
-import { findMarkdownTagMatches } from "@/components/MemoEditor/Editor/markdownTagRanges";
+import { findMarkdownMentionMatches, findMarkdownTagMatches } from "@/components/MemoEditor/Editor/markdownTagRanges";
 import { tagMentionDecorations } from "@/components/MemoEditor/Editor/tagMentionDecorations";
 import { memoMarkdownExtensions } from "@/utils/memo-markdown-extension";
 
@@ -21,6 +21,17 @@ function countClass(doc: string, cls: string): number {
 describe("tag/mention decorations", () => {
   it("decorates #tags", () => expect(countClass("a #todo and #work/sub b", "cm-memo-tag")).toBe(2));
   it("does not require a left boundary", () => expect(countClass("hello#tag 中文#标签", "cm-memo-tag")).toBe(2));
+  it("keeps apostrophes only inside XID words", () => {
+    const source = "#tag's #сім'я #O’Brien '#quoted' #users' #'missing";
+    const state = EditorState.create({ doc: source, extensions: [markdown({ extensions: memoMarkdownExtensions })] });
+    expect(findMarkdownTagMatches(state, 0, source.length).map(({ source, value }) => ({ source, value }))).toEqual([
+      { source: "tag's", value: "tag's" },
+      { source: "сім'я", value: "сім'я" },
+      { source: "O’Brien", value: "O’Brien" },
+      { source: "quoted", value: "quoted" },
+      { source: "users", value: "users" },
+    ]);
+  });
   it("uses emitted spans for ignored characters and emoji", () =>
     expect(countClass("#A‍B #́foo #foo/́bar #👩‍💻 #️⃣ ##️⃣", "cm-memo-tag")).toBe(5));
   it("keeps maximal valid prefixes and adjacent tags", () =>
@@ -214,5 +225,22 @@ describe("tag/mention decorations", () => {
   it("allows flow math to interrupt a paragraph", () => expect(countClass("text\n$$\n#math", "cm-memo-tag")).toBe(0));
   it("does not let same-line math hide following text", () => expect(countClass("$$#inline$$\n#ok", "cm-memo-tag")).toBe(1));
   it("allows ordinary text between inline HTML tags", () => expect(countClass("<span>#inside</span>", "cm-memo-tag")).toBe(1));
-  it("decorates @mentions", () => expect(countClass("hi @alice", "cm-memo-mention")).toBe(1));
+  it("decorates writable username references", () =>
+    expect(countClass("@alice @Alice-2 @1alice @a--b @123 @123-456", "cm-memo-mention")).toBe(6));
+  it("rejects invalid username shapes", () => expect(countClass("@-alice @alice- @álîçé", "cm-memo-mention")).toBe(0));
+  it("applies mention boundaries to source text", () =>
+    expect(countClass("hello@alice foo-@bob foo_@carol 中文@dave (@erin) @frank@grace", "cm-memo-mention")).toBe(4));
+  it("decorates mentions in transparent formatting", () => expect(countClass("**@Alice** ~~@bob~~ _@carol_", "cm-memo-mention")).toBe(3));
+  it("keeps mentions in opaque Markdown source undecorated", () =>
+    expect(
+      countClass("`@code` [@link](/x) ![@image](/x) https://example.com/@url $@math$ \\@escaped &#64;entity @ok", "cm-memo-mention"),
+    ).toBe(1));
+  it("keeps GFM emails opaque and does not cross their source boundary", () =>
+    expect(countClass("@alice@example.com foo@bar.com@bob @ok", "cm-memo-mention")).toBe(1));
+  it("returns the exact mention source range and username", () => {
+    const source = "x @Alice-2.";
+    const state = EditorState.create({ doc: source, extensions: [markdown({ extensions: memoMarkdownExtensions })] });
+
+    expect(findMarkdownMentionMatches(state, 0, source.length)).toEqual([{ from: 2, to: 10, username: "Alice-2" }]);
+  });
 });
