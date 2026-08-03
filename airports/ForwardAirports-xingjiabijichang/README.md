@@ -45,7 +45,6 @@
 
 过境线路：Amazon（日本）、直连（冷门节点直连）
 
-家宽节点：香港
 
 🟢推荐购买人群：联通、移动用户   🔴不推荐人群：电信用户
 
@@ -75,10 +74,12 @@
 
 过境线路：Lumen（英国）、Lumen（日本）
 
+推荐购买人群：三网推荐
+
 套餐价格:
 <img width="1414" alt="image" src="https://github.com/user-attachments/assets/24c02cff-dfd3-4daa-a848-b971e1709184" />
 
-推荐购买人群：三网推荐
+
 
 
 
@@ -223,7 +224,7 @@ ping图：
 
 过境线路：腾讯云（专线）、Sakura中国（中转）、Amazon新加坡（中转）
 
-家宽节点：香港
+家宽节点：香港、美国、英国
 
 套餐价格:
 
@@ -231,11 +232,6 @@ ping图：
 
 
 推荐购买人群：三网推荐
-
-*最大带宽*
-- 热门节点 5Gbps
-
-<img width="3121" height="1495" alt="2025-09-29T14-12-03 292-174" src="https://github.com/user-attachments/assets/f44ede22-d438-45e9-9d7f-2942a2778a0e" />
 
 
 
@@ -323,7 +319,7 @@ iOS：apple store搜索clashmi、搜索sing-box、搜索Shadowrocket下载（更
 
 ## Coding Plan推荐 
 
-[OpenCode Go](https://opencode.ai/go?ref=BN09VR5RGA)，首月只需5美元，支持支付宝支付，非常推荐新上线的DeepSeekV4Flash和GPT5.6Luna模型性价比非常高。
+[OpenCode Go](https://opencode.ai/go?ref=TXE14SVQTV)，首月只需5美元，支持支付宝支付，非常推荐新上线的DeepSeekV4Flash和GPT5.6Luna模型性价比非常高。
 
 ---
 如果您有任何需求、问题或建议，欢迎提出。
