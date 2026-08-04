@@ -702,8 +702,12 @@ const stage2SidebarEn = [
         link: '/en/stage-2/backend/git-workflow/'
       },
       {
-        text: 'Web App Deployment',
+        text: 'Put Your Website Online (Easy): One-Click PaaS (Vercel/Zeabur)',
         link: '/en/stage-2/backend/zeabur-deployment/'
+      },
+      {
+        text: 'Put Your Website Online (Advanced): Set Up Your Own VPS',
+        link: '/en/stage-2/backend/cloud-server-deployment/'
       },
       {
         text: 'Modern CLI Dev Tools',
@@ -821,8 +825,12 @@ const zhCnStage2Sidebar = [
         link: '/zh-cn/stage-2/backend/git-workflow/'
       },
       {
-        text: '网页应用部署全面指南',
+        text: '把网站发到网上（简单方式）：Vercel/Zeabur/CloudBase 一键发布',
         link: '/zh-cn/stage-2/backend/zeabur-deployment/'
+      },
+      {
+        text: '把网站发到网上（进阶方式）：自己买台 VPS 服务器搭建发布',
+        link: '/zh-cn/stage-2/backend/cloud-server-deployment/'
       },
       {
         text: 'CLI Coding Agent 编程助手',

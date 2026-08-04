@@ -202,6 +202,32 @@ const rawRelatedArticlesMap = {
       description: '用组件库统一 UI 规范并提升页面开发效率。',
       icon: '🧩'
     }
+  ],
+  'zh-cn/stage-2/backend/cloud-server-deployment': [
+    {
+      href: '/zh-cn/stage-2/backend/zeabur-deployment/',
+      title: '把网站发到网上（简单方式）：Vercel/Zeabur/CloudBase 一键发布',
+      description: '最简单的发站方式，连仓库即上线，不用买服务器也不用懂运维。',
+      icon: '🚀'
+    },
+    {
+      href: '/zh-cn/stage-2/backend/modern-cli/',
+      title: 'CLI Coding Agent 编程助手',
+      description: '用命令行 AI Agent 直接在服务器上执行部署与运维操作。',
+      icon: '⌨️'
+    },
+    {
+      href: '/zh-cn/stage-2/backend/git-workflow/',
+      title: 'Git 与 GitHub 入门指南',
+      description: '代码版本管理是自动化部署的基础。',
+      icon: '📚'
+    },
+    {
+      href: '/zh-cn/stage-2/backend/database-supabase/',
+      title: '数据库与 Supabase 入门',
+      description: '服务器上跑项目离不开数据库，先了解数据层怎么部署。',
+      icon: '🗄️'
+    }
   ]
 }
 
@@ -308,7 +334,17 @@ const localizedArticleText = {
       title: '2.7 Upgrade UI with Modern Component Libraries',
       description:
         'Use component libraries to improve consistency and development speed.'
-    }
+    },
+    'zeabur-deployment': {
+      title: 'Put Your Website Online (Easy): One-Click PaaS',
+      description:
+        'The easiest way to publish a site — connect your repo, click to deploy, no server needed.'
+    },
+    'cloud-server-deployment': {
+      title: 'Put Your Website Online (Advanced): Set Up Your Own VPS',
+      description:
+        'Buy a VPS, set up Nginx/Docker/HTTPS from scratch — full control over your services.'
+    },
   },
   'zh-tw': {
     'ai-capabilities-through-games': {
