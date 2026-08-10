@@ -21,6 +21,8 @@ import ReadingProgress from './components/ReadingProgress.vue'
 import SummaryCard from './components/SummaryCard.vue'
 import Tabs from './components/Tabs.vue'
 import TabItem from './components/TabItem.vue'
+import LearningPathCompact from './components/LearningPathCompact.vue'
+import ProductJourney from './components/ProductJourney.vue'
 
 // API Intro Components
 
@@ -1276,6 +1278,8 @@ export default {
     app.component('SummaryCard', SummaryCard)
     app.component('Tabs', Tabs)
     app.component('TabItem', TabItem)
+    app.component('LearningPathCompact', LearningPathCompact)
+    app.component('ProductJourney', ProductJourney)
     registerAppendixComponents(app)
 
 
