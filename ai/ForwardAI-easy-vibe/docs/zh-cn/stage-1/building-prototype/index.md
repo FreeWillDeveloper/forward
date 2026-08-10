@@ -5,6 +5,7 @@ description: '体验从业务分析到多页面产品原型实现的完整闭环
 
 <script setup>
 import { relatedArticlesMap } from '@theme/data/relatedArticles'
+import StageAssignmentCard from '@theme/components/StageAssignmentCard.vue'
 
 const duration = '约 <strong>8 小时</strong>'
 const relatedArticles =
@@ -504,12 +505,9 @@ AI IDE 的界面和确认方式会持续变化，这里只保留一条稳定的�
 
 AI 可以辅助生成检查清单，但最终仍要由你实际操作并确认结果。完成几轮检查后，原型就可以交给其他人试用。
 
-## 5. 📚 作业：完成你的电商内容工作台
+## 5. 📚 本章作业
 
-<el-card shadow="hover" style="margin: 20px 0; border-radius: 12px;">
-  <template #header>
-    <div style="font-weight: bold; font-size: 16px;">实践任务：完成电商内容工作台</div>
-  </template>
+<StageAssignmentCard title="完成你的电商内容工作台">
 
   <p>
     参考本节课的提示词和内容，完成一次完整闭环：
@@ -535,7 +533,7 @@ AI 可以辅助生成检查清单，但最终仍要由你实际操作并确认�
       </ul>
     </li>
   </ul>
-</el-card>
+</StageAssignmentCard>
 
 ## 下一步
 
