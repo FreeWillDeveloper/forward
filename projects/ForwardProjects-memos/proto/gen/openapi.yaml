@@ -664,7 +664,8 @@ paths:
                        created_ts / updated_ts (timestamp), pinned (bool),
                        visibility (string: PRIVATE | PROTECTED | PUBLIC),
                        tags (list<string>; match with `"work" in tags`, not `tag == "work"`),
-                       has_task_list / has_link / has_code / has_incomplete_tasks (bool).
+                       has_task_list / has_link / has_code / has_incomplete_tasks (bool),
+                       has_location (bool; true when the memo has a location attached).
                      Note: the time fields here are created_ts / updated_ts, which differ from
                      the create_time / update_time names used by order_by.
                      Examples:
@@ -2406,6 +2407,10 @@ components:
                     allOf:
                         - $ref: '#/components/schemas/MotionMedia'
                     description: Optional. Motion media metadata.
+                mediaMetadata:
+                    allOf:
+                        - $ref: '#/components/schemas/MediaMetadata'
+                    description: Optional. Immutable normalized media metadata explicitly supplied by the client at creation time.
         BatchDeleteAttachmentsRequest:
             required:
                 - names
@@ -3219,6 +3224,38 @@ components:
                     type: number
                     description: The longitude of the location.
                     format: double
+        MediaCaptureTime:
+            type: object
+            properties:
+                localDateTime:
+                    type: string
+                utcOffset:
+                    type: string
+        MediaLocation:
+            type: object
+            properties:
+                latitude:
+                    type: number
+                    format: double
+                longitude:
+                    type: number
+                    format: double
+                altitudeMeters:
+                    type: number
+                    format: double
+        MediaMetadata:
+            type: object
+            properties:
+                width:
+                    type: integer
+                    format: int32
+                height:
+                    type: integer
+                    format: int32
+                photo:
+                    $ref: '#/components/schemas/PhotoMetadata'
+                video:
+                    $ref: '#/components/schemas/VideoMetadata'
         Memo:
             required:
                 - state
@@ -3504,6 +3541,34 @@ components:
             description: |-
                 PersonalAccessToken represents a long-lived token for API/script access.
                  PATs are distinct from short-lived JWT access tokens used for session authentication.
+        PhotoMetadata:
+            type: object
+            properties:
+                captureTime:
+                    $ref: '#/components/schemas/MediaCaptureTime'
+                location:
+                    $ref: '#/components/schemas/MediaLocation'
+                sourceExifOrientation:
+                    type: integer
+                    format: int32
+                cameraMake:
+                    type: string
+                cameraModel:
+                    type: string
+                lensModel:
+                    type: string
+                fNumber:
+                    type: number
+                    format: double
+                exposureTimeSeconds:
+                    type: number
+                    format: double
+                iso:
+                    type: integer
+                    format: int32
+                focalLengthMm:
+                    type: number
+                    format: double
         Reaction:
             required:
                 - contentId
@@ -3922,6 +3987,9 @@ components:
                         The preferred theme of the user.
                          This references a CSS file in the web/public/themes/ directory.
                          If not set, the default theme will be used.
+                saveMediaMetadata:
+                    type: boolean
+                    description: Whether the official client should save metadata from future media uploads.
             description: General user settings configuration.
         UserSetting_TagMetadata:
             type: object
@@ -4050,6 +4118,12 @@ components:
                     type: boolean
                     description: Whether a signing secret is configured for this webhook.
             description: UserWebhook represents a webhook owned by a user.
+        VideoMetadata:
+            type: object
+            properties:
+                durationSeconds:
+                    type: number
+                    format: double
 tags:
     - name: AIService
     - name: AttachmentService

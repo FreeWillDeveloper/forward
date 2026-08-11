@@ -484,45 +484,45 @@ const productManagerSidebarEn = [
     ]
   },
   {
-    text: 'Chapter 3: Product Requirements and Direction',
+    text: 'Chapter 3: From Problems to Solutions',
     collapsed: false,
     items: [
       {
-        text: 'Sources of Creative Inspiration',
+        text: '1. Find Real Problems',
         link: '/en/stage-1/appendix-idea-sources/'
       },
       {
-        text: 'How to Identify a Great Idea',
+        text: '2. Select a Direction Worth Building',
         link: '/en/stage-1/finding-great-idea/'
       },
       {
-        text: 'Double Diamond Design Model',
-        link: '/en/stage-1/appendix-double-diamond/'
-      },
-      {
-        text: 'Jobs to Be Done Theory',
+        text: '3. Understand Real Needs (JTBD)',
         link: '/en/stage-1/appendix-jobs-to-be-done/'
       },
       {
-        text: 'The Mom Test: User Interview Method',
+        text: '4. Validate Needs Through Interviews',
         link: '/en/stage-1/appendix-mom-test/'
+      },
+      {
+        text: '5. Narrow the Solution (Double Diamond)',
+        link: '/en/stage-1/appendix-double-diamond/'
       }
     ]
   },
   {
-    text: 'Chapter 4: Product Development and Implementation',
+    text: 'Chapter 4: From Solution to Product',
     collapsed: false,
     items: [
       {
-        text: 'Building Interactive Product Prototypes',
+        text: '6. Build an Interactive Prototype',
         link: '/en/stage-1/building-prototype/'
       },
       {
-        text: 'Integrating AI Capabilities into Prototypes',
+        text: '7. Connect Real AI Capabilities',
         link: '/en/stage-1/integrating-ai-capabilities/'
       },
       {
-        text: 'Complete Project Practice: From Idea to Product',
+        text: '8. Polish and Deliver a Complete Product',
         link: '/en/stage-1/complete-project-practice/'
       }
     ]
@@ -532,11 +532,15 @@ const productManagerSidebarEn = [
     collapsed: false,
     items: [
       {
+        text: 'Publish Your Website on ModelScope',
+        link: '/en/stage-1/appendix-modelscope-static-site/'
+      },
+      {
         text: 'Product Thinking Fundamentals',
         link: '/en/stage-1/appendix-a-product-thinking/'
       },
       {
-        text: 'AI Application Scenario Reference',
+        text: 'Find AI Scenarios in Real Workflows',
         link: '/en/stage-1/appendix-industry-scenarios/'
       },
       {
@@ -574,45 +578,45 @@ const productManagerSidebarKo = [
     ]
   },
   {
-    text: '3장 제품 요구사항과 방향',
+    text: '3장 문제에서 해결책까지',
     collapsed: false,
     items: [
       {
-        text: '창의적 영감의 원천',
+        text: '1. 실제 문제 찾기',
         link: '/ko-kr/stage-1/appendix-idea-sources/'
       },
       {
-        text: '좋은 아이디어 판별 방법',
+        text: '2. 만들 가치가 있는 방향 고르기',
         link: '/ko-kr/stage-1/finding-great-idea/'
       },
       {
-        text: '더블 다이아몬드 디자인 모델',
-        link: '/ko-kr/stage-1/appendix-double-diamond/'
-      },
-      {
-        text: 'Jobs to Be Done 요구 이론',
+        text: '3. 실제 요구 이해하기(JTBD)',
         link: '/ko-kr/stage-1/appendix-jobs-to-be-done/'
       },
       {
-        text: 'The Mom Test: 사용자 인터뷰 방법',
+        text: '4. 인터뷰로 요구 검증하기',
         link: '/ko-kr/stage-1/appendix-mom-test/'
+      },
+      {
+        text: '5. 해결책 좁히기(더블 다이아몬드)',
+        link: '/ko-kr/stage-1/appendix-double-diamond/'
       }
     ]
   },
   {
-    text: '4장 제품 개발과 구현',
+    text: '4장 해결책에서 작품까지',
     collapsed: false,
     items: [
       {
-        text: '인터랙티브한 제품 프로토타입 구축',
+        text: '6. 인터랙티브 프로토타입 만들기',
         link: '/ko-kr/stage-1/building-prototype/'
       },
       {
-        text: '프로토타입에 AI 기능 통합하기',
+        text: '7. 실제 AI 기능 연결하기',
         link: '/ko-kr/stage-1/integrating-ai-capabilities/'
       },
       {
-        text: '완성 프로젝트 실전: 아이디어에서 작품까지',
+        text: '8. 다듬고 완성된 작품으로 제출하기',
         link: '/ko-kr/stage-1/complete-project-practice/'
       }
     ]
@@ -622,11 +626,15 @@ const productManagerSidebarKo = [
     collapsed: false,
     items: [
       {
+        text: 'ModelScope에 웹사이트 게시하기',
+        link: '/ko-kr/stage-1/appendix-modelscope-static-site/'
+      },
+      {
         text: '제품 사고 기초',
         link: '/ko-kr/stage-1/appendix-a-product-thinking/'
       },
       {
-        text: 'AI 애플리케이션 시나리오 참고',
+        text: '실제 업무 흐름에서 AI 장면 찾기',
         link: '/ko-kr/stage-1/appendix-industry-scenarios/'
       },
       {
@@ -945,6 +953,10 @@ const stage3SidebarEn = [
     collapsed: false,
     items: [
       {
+        text: 'From a Web Page to Real Software and an AI-Native Product',
+        link: '/en/stage-3/cross-platform/ai-native-creator/'
+      },
+      {
         text: 'How to Choose the Right Platform for Your App',
         link: '/en/stage-3/cross-platform/choose-platform/'
       },
@@ -965,6 +977,14 @@ const stage3SidebarEn = [
         link: '/en/stage-3/cross-platform/ios-app/'
       },
       {
+        text: 'Build a Store Inspection App with React Native and Expo',
+        link: '/en/stage-3/cross-platform/react-native-expo/'
+      },
+      {
+        text: 'How to Build a Cross-Platform App with Flutter',
+        link: '/en/stage-3/cross-platform/flutter-app/'
+      },
+      {
         text: 'How to Build a PWA Local App',
         link: '/en/stage-3/cross-platform/pwa-local-app/'
       },
@@ -975,6 +995,10 @@ const stage3SidebarEn = [
       {
         text: 'How to Build a Cross-Platform Electron Desktop App',
         link: '/en/stage-3/cross-platform/electron-voice-to-text/'
+      },
+      {
+        text: 'How to Build Platform, Pixel-Art, and 3D Games with Godot',
+        link: '/en/stage-3/cross-platform/godot-game-development/'
       },
       {
         text: 'How to Quickly Build and Mint an NFT',
@@ -991,6 +1015,10 @@ const stage3SidebarEn = [
       {
         text: 'How to Build Your Personal Website and Academic Blog',
         link: '/en/stage-3/personal-brand/personal-website-blog/'
+      },
+      {
+        text: 'How to Publish the Application You Built',
+        link: '/en/stage-3/cross-platform/app-publishing/'
       }
     ]
   },
@@ -1946,28 +1974,29 @@ const stage1SidebarLabels = {
       ]
     },
     {
-      text: '第3章 プロダクトの要件と方向性',
+      text: '第3章 問題から解決策へ',
       items: [
-        'クリエイティブな発想の源',
-        '良いアイデアを見極める方法',
-        'ダブルダイヤモンドデザインモデル',
-        'Jobs to Be Done 要求理論',
-        'The Mom Test：ユーザーインタビュー手法'
+        '1. 本当の問題を見つける',
+        '2. 作る価値のある方向を選ぶ',
+        '3. 本当のニーズを理解する（JTBD）',
+        '4. インタビューでニーズを検証する',
+        '5. 解決策を絞り込む（ダブルダイヤモンド）'
       ]
     },
     {
-      text: '第4章 プロダクト開発と実装',
+      text: '第4章 解決策から作品へ',
       items: [
-        'インタラクティブなプロダクトプロトタイプの構築',
-        'プロトタイプへのAI機能の統合',
-        '完全プロジェクト実践：アイデアから作品まで'
+        '6. 操作できるプロトタイプを作る',
+        '7. 実際のAI機能を接続する',
+        '8. 磨き上げて完成作品を提出する'
       ]
     },
     {
       text: '付録',
       items: [
+        'ModelScopeでウェブサイトを公開する',
         'プロダクト思考の基礎',
-        'AIアプリケーションシナリオ参考',
+        '実際の業務フローからAI活用場面を探す',
         'よくある問題とトラブルシューティング'
       ]
     }
@@ -1982,26 +2011,31 @@ const stage1SidebarLabels = {
       items: ['AI 程式設計工具介紹與使用', '從截圖复刻：第一次模仿練習']
     },
     {
-      text: '第三章 產品需求與方向',
+      text: '第三章 從問題到方案',
       items: [
-        '創意靈感的來源',
-        '如何判斷一個好點子',
-        '雙鑽設計模型',
-        'Jobs to Be Done 需求理論',
-        'The Mom Test：使用者訪談方法'
+        '1. 尋找真實問題',
+        '2. 篩選值得做的方向',
+        '3. 看懂真實需求（JTBD）',
+        '4. 用訪談驗證需求',
+        '5. 收斂方案（雙鑽模型）'
       ]
     },
     {
-      text: '第四章 產品開發與實現',
+      text: '第四章 從方案到作品',
       items: [
-        '構建可互動的產品原型',
-        '為原型接入 AI 能力',
-        '完整專案實戰：從想法到作品'
+        '6. 做出可互動原型',
+        '7. 接入真實 AI 能力',
+        '8. 打磨並交付完整作品'
       ]
     },
     {
       text: '附錄',
-      items: ['產品思維基礎', 'AI 應用場景參考', '常見問題與除錯']
+      items: [
+        '在魔搭社群發布你的網頁',
+        '產品思維基礎',
+        '從真實工作流程中找 AI 場景',
+        '常見問題與除錯'
+      ]
     }
   ],
   'es-es': [
@@ -2020,28 +2054,29 @@ const stage1SidebarLabels = {
       ]
     },
     {
-      text: 'Capítulo 3: Requisitos y Dirección del Producto',
+      text: 'Capítulo 3: Del problema a la solución',
       items: [
-        'Fuentes de inspiración creativa',
-        'Cómo identificar una gran idea',
-        'Modelo de diseño Double Diamond',
-        'Teoría Jobs to Be Done',
-        'The Mom Test: método de entrevistas a usuarios'
+        '1. Encontrar problemas reales',
+        '2. Elegir una dirección que merezca la pena',
+        '3. Entender necesidades reales (JTBD)',
+        '4. Validar necesidades con entrevistas',
+        '5. Concretar la solución (Double Diamond)'
       ]
     },
     {
-      text: 'Capítulo 4: Desarrollo e Implementación del Producto',
+      text: 'Capítulo 4: De la solución al producto',
       items: [
-        'Construcción de prototipos de producto interactivos',
-        'Integración de capacidades de IA en prototipos',
-        'Práctica completa de proyecto: de idea a producto'
+        '6. Crear un prototipo interactivo',
+        '7. Conectar capacidades reales de IA',
+        '8. Pulir y entregar un producto completo'
       ]
     },
     {
       text: 'Apéndice',
       items: [
+        'Publica tu sitio web en ModelScope',
         'Fundamentos del pensamiento de producto',
-        'Referencia de escenarios de aplicación de IA',
+        'Encontrar escenarios de IA en flujos de trabajo reales',
         'Problemas comunes y solución de errores'
       ]
     }
@@ -2062,28 +2097,29 @@ const stage1SidebarLabels = {
       ]
     },
     {
-      text: 'Chapitre 3 : Exigences et Orientation Produit',
+      text: 'Chapitre 3 : Du problème à la solution',
       items: [
-        "Sources d'inspiration créative",
-        'Comment identifier une bonne idée',
-        'Modèle de conception Double Diamond',
-        'Théorie Jobs to Be Done',
-        "The Mom Test : méthode d'entretiens utilisateurs"
+        '1. Trouver des problèmes réels',
+        '2. Choisir une direction qui mérite d’être construite',
+        '3. Comprendre les besoins réels (JTBD)',
+        '4. Valider les besoins par des entretiens',
+        '5. Resserrer la solution (Double Diamond)'
       ]
     },
     {
-      text: 'Chapitre 4 : Développement et Implémentation du Produit',
+      text: 'Chapitre 4 : De la solution au produit',
       items: [
-        'Construction de prototypes de produit interactifs',
-        'Intégration de capacités IA dans les prototypes',
-        "Projet complet pratique : de l'idée au produit"
+        '6. Construire un prototype interactif',
+        '7. Connecter de véritables capacités IA',
+        '8. Finaliser et livrer un produit complet'
       ]
     },
     {
       text: 'Annexe',
       items: [
+        'Publier votre site web sur ModelScope',
         'Fondamentaux de la pensée produit',
-        "Référence des scénarios d'application IA",
+        'Trouver des usages IA dans les flux de travail réels',
         'Problèmes courants et dépannage'
       ]
     }
@@ -2104,28 +2140,29 @@ const stage1SidebarLabels = {
       ]
     },
     {
-      text: 'Kapitel 3: Produktanforderungen und -ausrichtung',
+      text: 'Kapitel 3: Vom Problem zur Lösung',
       items: [
-        'Quellen kreativer Inspiration',
-        'Wie man eine großartige Idee erkennt',
-        'Double Diamond Design-Modell',
-        'Jobs to Be Done-Theorie',
-        'The Mom Test: Benutzerinterviewmethode'
+        '1. Echte Probleme finden',
+        '2. Eine lohnende Richtung auswählen',
+        '3. Echte Bedürfnisse verstehen (JTBD)',
+        '4. Bedürfnisse durch Interviews prüfen',
+        '5. Die Lösung eingrenzen (Double Diamond)'
       ]
     },
     {
-      text: 'Kapitel 4: Produktentwicklung und -implementierung',
+      text: 'Kapitel 4: Von der Lösung zum Produkt',
       items: [
-        'Erstellung interaktiver Produktprototypen',
-        'Integration von KI-Fähigkeiten in Prototypen',
-        'Vollständige Projektpraxis: Von der Idee zum Produkt'
+        '6. Einen interaktiven Prototyp bauen',
+        '7. Echte KI-Funktionen anbinden',
+        '8. Ein vollständiges Produkt ausarbeiten und abgeben'
       ]
     },
     {
       text: 'Anhang',
       items: [
+        'Website auf ModelScope veröffentlichen',
         'Grundlagen des Produktdenkens',
-        'Referenz für KI-Anwendungsszenarien',
+        'KI-Szenarien in echten Arbeitsabläufen finden',
         'Häufige Probleme und Fehlerbehebung'
       ]
     }
@@ -2143,28 +2180,29 @@ const stage1SidebarLabels = {
       ]
     },
     {
-      text: 'الفصل الثالث: متطلبات المنتج والتوجيه',
+      text: 'الفصل الثالث: من المشكلة إلى الحل',
       items: [
-        'مصادر الإلهام الإبداعي',
-        'كيف تحدد فكرة رائعة',
-        'نموذج التصميم الماسي المزدوج',
-        'نظرية Jobs to Be Done',
-        'اختبار الأم: طريقة مقابلات المستخدم'
+        '1. العثور على مشكلات حقيقية',
+        '2. اختيار اتجاه يستحق البناء',
+        '3. فهم الاحتياجات الحقيقية (JTBD)',
+        '4. التحقق من الاحتياجات بالمقابلات',
+        '5. تضييق الحل (الماسة المزدوجة)'
       ]
     },
     {
-      text: 'الفصل الرابع: تطوير المنتج والتنفيذ',
+      text: 'الفصل الرابع: من الحل إلى المنتج',
       items: [
-        'بناء نماذج أولية تفاعلية للمنتج',
-        'دمج قدرات الذكاء الاصطناعي في النماذج الأولية',
-        'مشروع عملي كامل: من الفكرة إلى المنتج'
+        '6. بناء نموذج أولي تفاعلي',
+        '7. ربط قدرات ذكاء اصطناعي حقيقية',
+        '8. صقل منتج كامل وتسليمه'
       ]
     },
     {
       text: 'الملحق',
       items: [
+        'نشر موقعك على ModelScope',
         'أساسيات التفكير المنتجي',
-        'مرجع سيناريوهات تطبيق الذكاء الاصطناعي',
+        'العثور على سيناريوهات الذكاء الاصطناعي في سير العمل الحقيقي',
         'المشاكل الشائعة واستكشاف الأخطاء وإصلاحها'
       ]
     }
@@ -2185,28 +2223,29 @@ const stage1SidebarLabels = {
       ]
     },
     {
-      text: 'Chương 3: Yêu cầu và Định hướng Sản phẩm',
+      text: 'Chương 3: Từ vấn đề đến giải pháp',
       items: [
-        'Nguồn cảm hứng sáng tạo',
-        'Cách xác định một ý tưởng hay',
-        'Mô hình thiết kế Double Diamond',
-        'Lý thuyết Jobs to Be Done',
-        'The Mom Test: phương pháp phỏng vấn người dùng'
+        '1. Tìm vấn đề thật',
+        '2. Chọn hướng đáng để làm',
+        '3. Hiểu nhu cầu thật (JTBD)',
+        '4. Kiểm chứng nhu cầu bằng phỏng vấn',
+        '5. Thu hẹp giải pháp (Double Diamond)'
       ]
     },
     {
-      text: 'Chương 4: Phát triển và Triển khai Sản phẩm',
+      text: 'Chương 4: Từ giải pháp đến sản phẩm',
       items: [
-        'Xây dựng nguyên mẫu sản phẩm tương tác',
-        'Tích hợp năng lực AI vào nguyên mẫu',
-        'Thực chiến dự án hoàn chỉnh: từ ý tưởng đến sản phẩm'
+        '6. Làm nguyên mẫu có thể tương tác',
+        '7. Kết nối năng lực AI thật',
+        '8. Hoàn thiện và bàn giao sản phẩm đầy đủ'
       ]
     },
     {
       text: 'Phụ lục',
       items: [
+        'Đăng trang web lên ModelScope',
         'Nền tảng tư duy sản phẩm',
-        'Tham khảo kịch bản ứng dụng AI',
+        'Tìm kịch bản AI trong quy trình làm việc thật',
         'Các vấn đề thường gặp và khắc phục lỗi'
       ]
     }
@@ -2771,18 +2810,23 @@ const stage3SidebarLabels = {
     {
       text: 'マルチプラットフォーム開発',
       items: [
+        'Web ページから実用ソフトウェア、そして AI ネイティブ製品へ',
         'アプリ開発プラットフォームの選び方',
         'WeChat ミニプログラムの構築',
         'WeChat ミニプログラム（バックエンド付き）',
         'Android アプリ開発（Jetpack Compose）',
         'iOS アプリ開発（SwiftUI）',
+        'React Native + Expo で店舗点検アプリを作る',
+        'Flutter クロスプラットフォームアプリの開発',
         'PWA ローカルアプリの開発',
         'ブラウザ AI アシスタント拡張機能の開発',
         'クロスプラットフォーム Electron デスクトップアプリ',
+        'Godot で横スクロール・ピクセル・3D ゲームを作る',
         'NFT の迅速開発とミント',
         'VS Code 拡張機能の開発',
         '産業用 Qt デスクトップアプリの開発',
-        '個人ウェブサイトと学術ブログの構築'
+        '個人ウェブサイトと学術ブログの構築',
+        '完成したアプリを公開・ストア配信する'
       ]
     },
     {
@@ -2818,18 +2862,23 @@ const stage3SidebarLabels = {
     {
       text: '多平台開發',
       items: [
+        '從網頁到完整程式，再到 AI 原生產品',
         '如何選擇應用開發平台',
         '如何構建微信小程式',
         '如何構建微信小程式（包含後端）',
         '如何構建安卓程式 - Compose 原生開發',
         '如何構建 iOS 程式 - SwiftUI 原生開發',
+        '用 React Native + Expo 建立門市巡檢 App',
+        '如何用 Flutter 開發跨平台 App',
         '如何開發 PWA 本地應用',
         '如何開發瀏覽器 AI 助手插件',
         '如何開發跨平台 Electron 桌面程式',
+        '如何用 Godot 開發橫向、像素與 3D 遊戲',
         '如何快速開發並鑄造 NFT',
         '如何開發 VS Code 插件',
         '如何開發工業級 Qt 桌面應用',
-        '如何構建個人網頁與學術部落格'
+        '如何構建個人網頁與學術部落格',
+        '如何把做好的程式發布上架'
       ]
     },
     {
@@ -2865,18 +2914,23 @@ const stage3SidebarLabels = {
     {
       text: '멀티플랫폼 개발',
       items: [
+        '웹페이지에서 실제 프로그램, AI 네이티브 제품으로',
         '앱 개발 플랫폼 선택 방법',
         'WeChat 미니프로그램 구축',
         'WeChat 미니프로그램 (백엔드 포함)',
         'Android 앱 개발 (Jetpack Compose)',
         'iOS 앱 개발 (SwiftUI)',
+        'React Native + Expo로 매장 점검 앱 만들기',
+        'Flutter 크로스 플랫폼 앱 개발',
         'PWA 로컬 앱 개발',
         '브라우저 AI 어시스턴트 확장 프로그램 개발',
         '크로스 플랫폼 Electron 데스크톱 앱',
+        'Godot로 횡스크롤·픽셀·3D 게임 만들기',
         'NFT 빠른 개발 및 민팅',
         'VS Code 확장 프로그램 개발',
         '산업용 Qt 데스크톱 앱 개발',
-        '개인 웹사이트 및 학술 블로그 구축'
+        '개인 웹사이트 및 학술 블로그 구축',
+        '완성한 앱을 배포하고 스토어에 출시하기'
       ]
     },
     {
@@ -2912,18 +2966,23 @@ const stage3SidebarLabels = {
     {
       text: 'Desarrollo Multiplataforma',
       items: [
+        'De una página web a un programa real y un producto nativo de IA',
         'Cómo elegir la plataforma para tu aplicación',
         'Cómo construir un Mini Programa de WeChat',
         'Cómo construir un Mini Programa de WeChat (con Backend)',
         'Cómo construir una app Android (Jetpack Compose)',
         'Cómo construir una app iOS (SwiftUI)',
+        'Crear una app de inspección con React Native y Expo',
+        'Desarrollar una aplicación multiplataforma con Flutter',
         'Cómo desarrollar una aplicación PWA local',
         'Cómo desarrollar una extensión de navegador AI',
         'Cómo desarrollar una app de escritorio Electron',
+        'Crear juegos de plataformas, pixel art y 3D con Godot',
         'Cómo desarrollar y acuñar NFTs rápidamente',
         'Cómo desarrollar una extensión de VS Code',
         'Cómo desarrollar una app Qt industrial',
-        'Cómo construir tu sitio web personal y blog académico'
+        'Cómo construir tu sitio web personal y blog académico',
+        'Cómo publicar la aplicación terminada'
       ]
     },
     {
@@ -2959,18 +3018,23 @@ const stage3SidebarLabels = {
     {
       text: 'Développement Multiplateforme',
       items: [
+        'De la page web au logiciel, puis au produit natif IA',
         'Comment choisir la plateforme pour votre application',
         'Comment construire un Mini Programme WeChat',
         'Comment construire un Mini Programme WeChat (avec Backend)',
         'Comment construire une app Android (Jetpack Compose)',
         'Comment construire une app iOS (SwiftUI)',
+        'Créer une application d’inspection avec React Native et Expo',
+        'Développer une application multiplateforme avec Flutter',
         'Comment développer une application PWA locale',
         'Comment développer une extension de navigateur AI',
         'Comment développer une app bureau Electron',
+        'Créer des jeux de plateforme, pixel art et 3D avec Godot',
         'Comment développer et minter des NFTs rapidement',
         'Comment développer une extension VS Code',
         'Comment développer une app Qt industrielle',
-        'Comment construire votre site personnel et blog académique'
+        'Comment construire votre site personnel et blog académique',
+        'Publier et distribuer l’application terminée'
       ]
     },
     {
@@ -3006,18 +3070,23 @@ const stage3SidebarLabels = {
     {
       text: 'Plattformübergreifende Entwicklung',
       items: [
+        'Von der Webseite zur Software und zum KI-nativen Produkt',
         'Wie man die richtige Plattform für seine App wählt',
         'Wie man ein WeChat Mini-Programm erstellt',
         'Wie man ein WeChat Mini-Programm (mit Backend) erstellt',
         'Wie man eine Android-App erstellt (Jetpack Compose)',
         'Wie man eine iOS-App erstellt (SwiftUI)',
+        'Eine Filialprüfungs-App mit React Native und Expo bauen',
+        'Eine plattformübergreifende App mit Flutter entwickeln',
         'Wie man eine lokale PWA-App entwickelt',
         'Wie man eine Browser-KI-Assistenten-Erweiterung entwickelt',
         'Wie man eine plattformübergreifende Electron-Desktop-App entwickelt',
+        'Plattform-, Pixel- und 3D-Spiele mit Godot bauen',
         'Wie man schnell NFTs entwickelt und mintet',
         'Wie man eine VS Code-Erweiterung entwickelt',
         'Wie man eine industrielle Qt-Desktop-App entwickelt',
-        'Wie man eine persönliche Website und einen akademischen Blog erstellt'
+        'Wie man eine persönliche Website und einen akademischen Blog erstellt',
+        'Die fertige Anwendung veröffentlichen'
       ]
     },
     {
@@ -3053,18 +3122,23 @@ const stage3SidebarLabels = {
     {
       text: 'التطوير متعدد المنصات',
       items: [
+        'من صفحة ويب إلى برنامج حقيقي ومنتج أصلي للذكاء الاصطناعي',
         'كيفية اختيار المنصة المناسبة لتطبيقك',
         'كيفية بناء برنامج WeChat المصغر',
         'كيفية بناء برنامج WeChat المصغر (مع خلفية)',
         'كيفية بناء تطبيق Android (Jetpack Compose)',
         'كيفية بناء تطبيق iOS (SwiftUI)',
+        'إنشاء تطبيق تفتيش متجر باستخدام React Native وExpo',
+        'تطوير تطبيق متعدد المنصات باستخدام Flutter',
         'كيفية تطوير تطبيق PWA محلي',
         'كيفية تطوير إضافة مساعد ذكاء اصطناعي للمتصفح',
         'كيفية تطوير تطبيق سطح مكتب Electron',
+        'إنشاء ألعاب منصات وPixel Art و3D باستخدام Godot',
         'كيفية تطوير وسك NFTs بسرعة',
         'كيفية تطوير إضافة VS Code',
         'كيفية تطوير تطبيق Qt صناعي',
-        'كيفية بناء موقعك الشخصي ومدونتك الأكاديمية'
+        'كيفية بناء موقعك الشخصي ومدونتك الأكاديمية',
+        'نشر التطبيق المكتمل في المتاجر'
       ]
     },
     {
@@ -3100,18 +3174,23 @@ const stage3SidebarLabels = {
     {
       text: 'Phát triển Đa nền tảng',
       items: [
+        'Từ trang web đến phần mềm và sản phẩm AI-native',
         'Cách chọn nền tảng phù hợp cho ứng dụng của bạn',
         'Cách xây dựng WeChat Mini Program',
         'Cách xây dựng WeChat Mini Program (có Backend)',
         'Cách xây dựng ứng dụng Android (Jetpack Compose)',
         'Cách xây dựng ứng dụng iOS (SwiftUI)',
+        'Xây dựng ứng dụng kiểm tra bằng React Native và Expo',
+        'Phát triển ứng dụng đa nền tảng với Flutter',
         'Cách phát triển ứng dụng PWA cục bộ',
         'Cách phát triển tiện ích trợ lý AI cho trình duyệt',
         'Cách phát triển ứng dụng desktop Electron đa nền tảng',
+        'Làm game platform, pixel art và 3D bằng Godot',
         'Cách phát triển và đúc NFT nhanh chóng',
         'Cách phát triển tiện ích mở rộng VS Code',
         'Cách phát triển ứng dụng desktop Qt công nghiệp',
-        'Cách xây dựng trang web cá nhân và blog học thuật'
+        'Cách xây dựng trang web cá nhân và blog học thuật',
+        'Phát hành ứng dụng đã hoàn thành'
       ]
     },
     {
