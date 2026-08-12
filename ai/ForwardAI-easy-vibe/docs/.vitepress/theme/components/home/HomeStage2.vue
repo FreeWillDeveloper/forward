@@ -49,7 +49,11 @@ const localizedStage2Cards = computed(() => {
           <img
             :src="card.image"
             :alt="card.imageAlt || card.title"
+            width="1672"
+            height="941"
             loading="lazy"
+            decoding="async"
+            fetchpriority="low"
           >
         </div>
         <div class="comm-text">
@@ -114,8 +118,9 @@ const localizedStage2Cards = computed(() => {
 }
 
 .comm-visual {
-  height: 220px;
   width: 100%;
+  height: auto;
+  aspect-ratio: 1672 / 941;
   position: relative;
   overflow: hidden;
 }
@@ -123,6 +128,8 @@ const localizedStage2Cards = computed(() => {
 .comm-visual img {
   width: 100%;
   height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   object-fit: cover;
   object-position: top center;
