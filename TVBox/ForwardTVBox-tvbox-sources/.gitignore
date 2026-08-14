@@ -1,0 +1,6 @@
+# 本地日志不进仓库（避免每次运行都产生无谓 diff）
+update.log
+update.log.*
+
+__pycache__/
+*.pyc
