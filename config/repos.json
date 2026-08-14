@@ -90,6 +90,20 @@
       "branch": "main",
       "target_dir": "ai/ForwardAI-learn-claude-code",
       "description": "ForwardAI by shareAI-lab - learn-claude-code 从0复刻Claude Code"
+    },
+    {
+      "name": "ForwardTVBox-tvyuan-AutoUpdate",
+      "url": "https://github.com/25175/tvyuan",
+      "branch": "master",
+      "target_dir": "TVBox/ForwardTVBox-tvyuan",
+      "description": "ForwardTVBox by 25175 - tvyuan"
+    },
+    {
+      "name": "ForwardAI-tvbox-sources-AutoUpdate",
+      "url": "https://github.com/jifeng250/tvbox-sources",
+      "branch": "main",
+      "target_dir": "TVBox/ForwardTVBox-tvbox-sources",
+      "description": "ForwardTVBox by jifeng250 - tvbox-sources"
     }
   ],
   "settings": {
