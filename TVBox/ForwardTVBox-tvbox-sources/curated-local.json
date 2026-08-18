@@ -1,7 +1,7 @@
 {
  "spider": "./fan.jar",
  "wallpaper": "https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/wallpaper.jpg",
- "updateTime": "2026-08-18 00:30",
+ "updateTime": "2026-08-18 09:00",
  "warningText": "精选单仓·本地版：jar 走本地文件，断网可用。若源加载不出目录，把 jar 改为 file:///绝对路径（见 README）",
  "sites": [
   {
@@ -543,16 +543,6 @@
    "timeout": 10
   },
   {
-   "key": "原创",
-   "name": "原创(不卡)🔗jar",
-   "type": 3,
-   "api": "csp_YCyzGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10
-  },
-  {
    "key": "糯米",
    "name": "糯米(秒播)🔗jar",
    "type": 3,
@@ -563,41 +553,10 @@
    "timeout": 10
   },
   {
-   "key": "萌米",
-   "name": "萌米(多线)🔗jar",
-   "type": 3,
-   "api": "csp_AppTTGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA==",
-   "timeout": 10
-  },
-  {
    "key": "Dm84",
    "name": "巴士(动漫)🔗jar",
    "type": 3,
    "api": "csp_Dm84Guard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10
-  },
-  {
-   "key": "苹果",
-   "name": "苹果(IJK)🔗jar",
-   "type": 3,
-   "api": "csp_LiteAppleGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10
-  },
-  {
-   "key": "白白",
-   "name": "白白(秒播)🔗jar",
-   "type": 3,
-   "api": "csp_SbaibaiGuard",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
@@ -612,17 +571,6 @@
    "quickSearch": 1,
    "changeable": 1,
    "timeout": 10
-  },
-  {
-   "key": "zxzj",
-   "name": "在线之家(秒播)🔗jar",
-   "type": 3,
-   "api": "csp_ZxzjGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10,
-   "ext": "https://www.zxzjhd.com/"
   },
   {
    "key": "厂长",
@@ -645,27 +593,6 @@
    "timeout": 10
   },
   {
-   "key": "低端",
-   "name": "低端(外剧)🔗jar",
-   "type": 3,
-   "api": "csp_DdrkGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10
-  },
-  {
-   "key": "欢视",
-   "name": "欢视(多线)🔗jar",
-   "type": 3,
-   "api": "csp_AppTTGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10,
-   "ext": "uqGL1bNENExT9fFAy5mE5qU="
-  },
-  {
    "key": "奥特",
    "name": "奥特(多线)🔗jar",
    "type": 3,
@@ -675,16 +602,6 @@
    "changeable": 1,
    "timeout": 10,
    "ext": "https://auete.com/"
-  },
-  {
-   "key": "Ysj",
-   "name": "异界(动漫)🔗jar",
-   "type": 3,
-   "api": "csp_YsjGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1,
-   "timeout": 10
   },
   {
    "key": "Anime1",
