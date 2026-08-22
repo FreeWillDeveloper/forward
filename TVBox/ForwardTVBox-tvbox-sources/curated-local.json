@@ -1,7 +1,7 @@
 {
  "spider": "./fan.jar",
  "wallpaper": "https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/wallpaper.jpg",
- "updateTime": "2026-08-22 09:37",
+ "updateTime": "2026-08-22 21:18",
  "warningText": "精选单仓·本地版：jar 走本地文件，断网可用。若源加载不出目录，把 jar 改为 file:///绝对路径（见 README）",
  "sites": [
   {
@@ -37,6 +37,44 @@
     "欧美动漫"
    ],
    "changeable": 1
+  },
+  {
+   "key": "艾旦",
+   "name": "艾旦(7.1万)⚡多线程",
+   "type": 1,
+   "api": "https://lovedan.net/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1,
+   "categories": [
+    "电影",
+    "电视剧",
+    "综艺",
+    "动漫",
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "犯罪片",
+    "战争片",
+    "国产剧",
+    "港台剧",
+    "日韩剧",
+    "欧美剧",
+    "动画电影",
+    "剧情片",
+    "纪录片",
+    "日韩综艺",
+    "港台综艺",
+    "欧美综艺",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "海外动漫",
+    "海外剧",
+    "大陆综艺"
+   ]
   },
   {
    "key": "荐片",
