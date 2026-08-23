@@ -23,10 +23,21 @@ jobs:
           ref: fongmi
           path: fongmi
 
-      - name: Apply mod — CMS category param t= → type=
+      - name: Apply mod — type= + 共存改名(疯影视)
         run: |
+          # 1) CMS分类参数 t= → type=（9源分类复活）
           sed -i 's/params.put("t", tid);/params.put("type", tid);/' fongmi/app/src/main/java/com/fongmi/android/tv/api/SiteApi.java
           grep -n 'params.put("type", tid)' fongmi/app/src/main/java/com/fongmi/android/tv/api/SiteApi.java
+          # 2) applicationId 加后缀 → 与原版共存安装
+          sed -i 's/applicationId "com.fongmi.android.tv"/applicationId "com.fongmi.android.tv.feng"/' fongmi/app/build.gradle
+          grep -n 'applicationId' fongmi/app/build.gradle
+          # 3) 改名 疯影视
+          sed -i 's|<string name="app_name">TV</string>|<string name="app_name">疯影视</string>|' fongmi/app/src/main/res/values/strings.xml
+          sed -i 's|<string name="app_name">影视</string>|<string name="app_name">疯影视</string>|' fongmi/app/src/main/res/values-zh-rCN/strings.xml
+          grep -rn 'app_name' fongmi/app/src/main/res/values/strings.xml fongmi/app/src/main/res/values-zh-rCN/strings.xml
+          # 4) versionName → 5.6.1-feng（源码最新5.6.0，对齐Release线+标识魔改）
+          sed -i 's/versionName "5.6.0"/versionName "5.6.1-feng"/' fongmi/app/build.gradle
+          grep -n 'versionName' fongmi/app/build.gradle
 
       - name: Set up JDK 21
         uses: actions/setup-java@v4
@@ -53,6 +64,28 @@ jobs:
           ref: release-1.11.0-fongmi
           path: media
 
+      - name: Build FFmpeg native libs (decoder-ffmpeg 依赖)
+        run: |
+          # 浅克隆 FongMi/FFmpeg 源码
+          git clone --depth 1 --branch release/6.0 https://github.com/FFmpeg/FFmpeg.git "$GITHUB_WORKSPACE/media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg"
+          ls "$GITHUB_WORKSPACE/media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/configure" >/dev/null && echo "ffmpeg source OK"
+          # 探测可用的 NDK（runner 自带或 sdkmanager 装的）
+          ls "$ANDROID_HOME/ndk/" 2>/dev/null || echo "no ndk dir"
+          NDK_PATH="$(ls -d "$ANDROID_HOME/ndk/"*/ 2>/dev/null | head -1 | sed 's|/\$||')"
+          if [ -z "$NDK_PATH" ] || [ ! -f "$NDK_PATH/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang" ]; then
+            echo "standard NDK not found, searching..."
+            find "$ANDROID_HOME/ndk" -name 'aarch64-linux-android21-clang' 2>/dev/null | head -3
+            NDK_D="$(find "$ANDROID_HOME/ndk" -type d -name prebuilt 2>/dev/null | head -1)"
+            NDK_PATH="$(dirname "$(dirname "$(dirname "$NDK_D")")")"
+          fi
+          echo "using NDK: $NDK_PATH"
+          cd "$GITHUB_WORKSPACE/media/libraries/decoder_ffmpeg/src/main"
+          chmod +x jni/build_ffmpeg.sh
+          jni/build_ffmpeg.sh "$(pwd)" "$NDK_PATH" linux-x86_64 21 aac mp3 opus vorbis flac ac3 eac3 dts h264 hevc mpeg4 vp8 vp9 mjpeg > "$GITHUB_WORKSPACE/ffmpeg-build.log" 2>&1
+          echo "FFMPEG_BUILD_EXIT=$?"
+          ls "$GITHUB_WORKSPACE/media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg/android-libs/arm64-v8a/" || echo "no arm64 libs"
+          tail -15 "$GITHUB_WORKSPACE/ffmpeg-build.log"
+
       - name: Cache Gradle
         uses: actions/cache@v4
         with:
@@ -66,7 +99,7 @@ jobs:
         run: |
           chmod +x gradlew
           set +e
-          ./gradlew :lib-common:assembleRelease :lib-database:assembleRelease :lib-datasource:assembleRelease :lib-datasource-okhttp:assembleRelease :lib-datasource-rtmp:assembleRelease :lib-effect:assembleRelease :lib-exoplayer:assembleRelease :lib-extractor:assembleRelease :lib-mpvplayer:assembleRelease :lib-session:assembleRelease :lib-ui:assembleRelease :lib-ui-danmaku:assembleRelease --no-daemon --stacktrace > "$GITHUB_WORKSPACE/media-gradle.log" 2>&1
+          ./gradlew :lib-common:assembleRelease :lib-database:assembleRelease :lib-datasource:assembleRelease :lib-datasource-okhttp:assembleRelease :lib-datasource-rtmp:assembleRelease :lib-effect:assembleRelease :lib-exoplayer:assembleRelease :lib-extractor:assembleRelease :lib-mpvplayer:assembleRelease :lib-decoder-ffmpeg:assembleRelease :lib-decoder-mpegh:assembleRelease :lib-session:assembleRelease :lib-ui:assembleRelease :lib-ui-danmaku:assembleRelease --no-daemon --stacktrace > "$GITHUB_WORKSPACE/media-gradle.log" 2>&1
           ec=$?
           set -e
           echo "MEDIA_GRADLE_EXIT=$ec" >> "$GITHUB_WORKSPACE/media-gradle.log"
@@ -95,7 +128,8 @@ jobs:
         run: |
           chmod +x gradlew
           set +e
-          ./gradlew :app:assembleRelease --no-daemon > "$GITHUB_WORKSPACE/gradle.log" 2>&1
+          # debug构建(无混淆)用于定位闪退；release在混淆规则修复后再启用
+          ./gradlew :app:assembleDebug --no-daemon > "$GITHUB_WORKSPACE/gradle.log" 2>&1
           ec=$?
           set -e
           echo "GRADLE_EXIT=$ec" >> "$GITHUB_WORKSPACE/gradle.log"
@@ -111,6 +145,7 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/build-logs"
           cp "$GITHUB_WORKSPACE/gradle.log" "$GITHUB_WORKSPACE/build-logs/gradle.log" 2>/dev/null || echo "no gradle.log" > "$GITHUB_WORKSPACE/build-logs/gradle.log"
           cp "$GITHUB_WORKSPACE/media-gradle.log" "$GITHUB_WORKSPACE/build-logs/media-gradle.log" 2>/dev/null || true
+          cp "$GITHUB_WORKSPACE/ffmpeg-build.log" "$GITHUB_WORKSPACE/build-logs/ffmpeg-build.log" 2>/dev/null || true
           find "$GITHUB_WORKSPACE/fongmi" -name "*.apk" -type f > "$GITHUB_WORKSPACE/build-logs/apk-files.txt" 2>/dev/null || true
           cd "$GITHUB_WORKSPACE"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/jifeng250/tvbox-sources.git"
@@ -134,6 +169,7 @@ jobs:
           body: |
             - 魔改: SiteApi.java 分类请求参数 t= → type=
             - 效果: 9源分类浏览全部可用
+            - 构建:  (debug版-闪退定位)
             - 自动构建: GitHub Actions
           make_latest: true
           overwrite: true
