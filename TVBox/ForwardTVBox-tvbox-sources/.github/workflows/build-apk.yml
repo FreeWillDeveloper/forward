@@ -1,0 +1,139 @@
+name: 🤖 Build FongMi APK (type= mod) v10
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/build-apk.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout tvbox-sources (self)
+        uses: actions/checkout@v4
+
+      - name: Checkout FongMi/TV (branch fongmi)
+        uses: actions/checkout@v4
+        with:
+          repository: FongMi/TV
+          ref: fongmi
+          path: fongmi
+
+      - name: Apply mod — CMS category param t= → type=
+        run: |
+          sed -i 's/params.put("t", tid);/params.put("type", tid);/' fongmi/app/src/main/java/com/fongmi/android/tv/api/SiteApi.java
+          grep -n 'params.put("type", tid)' fongmi/app/src/main/java/com/fongmi/android/tv/api/SiteApi.java
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up Python 3.10 (chaquopy)
+        uses: actions/setup-python@v5
+        id: python
+        with:
+          python-version: '3.10'
+
+      - name: Install Android SDK 37 + NDK 27
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null 2>&1 || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-37" "build-tools;36.0.0" "ndk;27.2.12479018" >/dev/null 2>&1 || true
+          echo "sdks ready"
+
+      - name: Checkout FongMi/media (media3 mod)
+        uses: actions/checkout@v4
+        with:
+          repository: FongMi/media
+          ref: release-1.11.0-fongmi
+          path: media
+
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('fongmi/gradle/libs.versions.toml', 'fongmi/**/build.gradle', 'media/settings.gradle.kts') }}
+
+      - name: Build media3 modules (aar)
+        working-directory: media
+        run: |
+          chmod +x gradlew
+          set +e
+          ./gradlew :lib-common:assembleRelease :lib-database:assembleRelease :lib-datasource:assembleRelease :lib-datasource-okhttp:assembleRelease :lib-datasource-rtmp:assembleRelease :lib-effect:assembleRelease :lib-exoplayer:assembleRelease :lib-extractor:assembleRelease :lib-mpvplayer:assembleRelease :lib-session:assembleRelease :lib-ui:assembleRelease :lib-ui-danmaku:assembleRelease --no-daemon --stacktrace > "$GITHUB_WORKSPACE/media-gradle.log" 2>&1
+          ec=$?
+          set -e
+          echo "MEDIA_GRADLE_EXIT=$ec" >> "$GITHUB_WORKSPACE/media-gradle.log"
+          echo "===== media gradle log tail ====="
+          tail -100 "$GITHUB_WORKSPACE/media-gradle.log"
+          if [ "$ec" != "0" ]; then exit $ec; fi
+          echo "=== aars ==="
+          find . -path "*/build*/outputs/aar/*.aar" -type f
+
+      - name: Copy aars to TV app/libs
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/fongmi/app/libs"
+          find "$GITHUB_WORKSPACE/media" -path "*/build*/outputs/aar/*.aar" -type f -exec cp {} "$GITHUB_WORKSPACE/fongmi/app/libs/" \;
+          echo "=== copied aars ==="
+          ls -la "$GITHUB_WORKSPACE/fongmi/app/libs/"
+          ls -la "$GITHUB_WORKSPACE/fongmi/app/libs/"
+
+      - name: Generate keystore & local.properties
+        run: |
+          keytool -genkeypair -v -keystore "$GITHUB_WORKSPACE/fongmi/app/release.keystore" -alias fongmi -keyalg RSA -keysize 2048 -validity 10000 -storepass fongmi123 -keypass fongmi123 -dname "CN=FongMi Mod, OU=TV, O=jifeng250, L=CN, ST=CN, C=CN" >/dev/null 2>&1
+          printf 'storeFile=release.keystore\nkeyAlias=fongmi\nstorePassword=fongmi123\n' > "$GITHUB_WORKSPACE/fongmi/local.properties"
+          echo "keystore done"
+
+      - name: Build TV APK (assembleRelease)
+        working-directory: fongmi
+        run: |
+          chmod +x gradlew
+          set +e
+          ./gradlew :app:assembleRelease --no-daemon > "$GITHUB_WORKSPACE/gradle.log" 2>&1
+          ec=$?
+          set -e
+          echo "GRADLE_EXIT=$ec" >> "$GITHUB_WORKSPACE/gradle.log"
+          echo "===== gradle log tail ====="
+          tail -80 "$GITHUB_WORKSPACE/gradle.log"
+          echo "===== APK files ====="
+          find . -name "*.apk" -type f || true
+          if [ "$ec" != "0" ]; then exit $ec; fi
+
+      - name: Commit build log (always)
+        if: always()
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/build-logs"
+          cp "$GITHUB_WORKSPACE/gradle.log" "$GITHUB_WORKSPACE/build-logs/gradle.log" 2>/dev/null || echo "no gradle.log" > "$GITHUB_WORKSPACE/build-logs/gradle.log"
+          cp "$GITHUB_WORKSPACE/media-gradle.log" "$GITHUB_WORKSPACE/build-logs/media-gradle.log" 2>/dev/null || true
+          find "$GITHUB_WORKSPACE/fongmi" -name "*.apk" -type f > "$GITHUB_WORKSPACE/build-logs/apk-files.txt" 2>/dev/null || true
+          cd "$GITHUB_WORKSPACE"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/jifeng250/tvbox-sources.git"
+          git config user.name "jifeng250 bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add build-logs/ gradle.log media-gradle.log
+          git commit -m "📋 build log run ${{ github.run_number }} [skip ci]" || echo "no changes"
+          for i in 1 2 3; do
+            git pull --rebase origin main >/dev/null 2>&1 || true
+            git push origin main && break
+            sleep 3
+          done
+
+      - name: Publish to GitHub Release
+        if: success()
+        uses: softprops/action-gh-release@v2
+        with:
+          files: fongmi/**/*.apk
+          tag_name: fongmi-mod-${{ github.run_number }}
+          name: FongMi 5.6.1 mod（type=分类参数支持）
+          body: |
+            - 魔改: SiteApi.java 分类请求参数 t= → type=
+            - 效果: 9源分类浏览全部可用
+            - 自动构建: GitHub Actions
+          make_latest: true
+          overwrite: true

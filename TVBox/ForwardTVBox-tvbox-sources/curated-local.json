@@ -1,7 +1,15 @@
 {
  "spider": "./fan.jar",
  "wallpaper": "https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/wallpaper.jpg",
- "updateTime": "2026-08-22 21:18",
+ "headers": [
+  {
+   "host": "lovedan.net",
+   "header": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+   }
+  }
+ ],
+ "updateTime": "2026-08-23 07:35",
  "warningText": "精选单仓·本地版：jar 走本地文件，断网可用。若源加载不出目录，把 jar 改为 file:///绝对路径（见 README）",
  "sites": [
   {
