@@ -9,7 +9,7 @@
    }
   }
  ],
- "updateTime": "2026-08-24 09:58",
+ "updateTime": "2026-08-24 22:25",
  "warningText": "精选单仓·本地版：jar 走本地文件，断网可用。若源加载不出目录，把 jar 改为 file:///绝对路径（见 README）",
  "sites": [
   {
@@ -27,9 +27,7 @@
     "喜剧片",
     "爱情片",
     "恐怖片",
-    "犯罪片",
     "剧情片",
-    "冒险片",
     "记录片",
     "韩剧",
     "香港剧",
@@ -130,7 +128,8 @@
    "changeable": 0,
    "ext": {
     "Cloud-drive": "tvfan/Cloud-drive.txt"
-   }
+   },
+   "timeout": 15
   },
   {
    "key": "MDrive",
@@ -141,7 +140,9 @@
    "searchable": 1,
    "ext": {
     "Cloud-drive": "tvfan/Cloud-drive.txt"
-   }
+   },
+   "timeout": 15,
+   "quickSearch": 0
   },
   {
    "key": "小雅",
@@ -149,10 +150,11 @@
    "type": 3,
    "api": "csp_AList",
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/alist.json",
-   "jar": "./custom_spider.jar"
+   "jar": "./custom_spider.jar",
+   "timeout": 15
   },
   {
    "key": "csp_SNzy",
@@ -169,15 +171,9 @@
     "爱情片",
     "剧情片",
     "战争片",
-    "记录片",
     "国产剧",
     "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
     "海外剧",
-    "泰国剧",
     "国产动漫",
     "日韩动漫",
     "欧美动漫",
@@ -309,7 +305,6 @@
     "剧情片",
     "国产剧",
     "欧美剧",
-    "香港剧",
     "韩国剧",
     "日本剧",
     "台湾剧",
@@ -807,7 +802,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json"
   },
@@ -831,7 +826,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json$$$https://662688.xyz"
   },
@@ -843,7 +838,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json"
   },
@@ -855,7 +850,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json"
   },
@@ -879,7 +874,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json$$$https://xpanpan.site$$$null$$$1"
   },
@@ -891,7 +886,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json$$$1"
   },
@@ -903,7 +898,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json$$$https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/json/115share.txt$$$db$$$1"
   },
@@ -915,7 +910,7 @@
    "jar": "./pg.jar",
    "timeout": 10,
    "searchable": 1,
-   "quickSearch": 1,
+   "quickSearch": 0,
    "changeable": 1,
    "ext": "https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/lib/token.json$$$https://ghfast.top/https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/json/quarkshare.txt"
   }
