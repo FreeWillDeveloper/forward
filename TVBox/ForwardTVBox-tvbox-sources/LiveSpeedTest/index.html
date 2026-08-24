@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>直播源测速</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0D1117;color:#E6EDF3;font-family:-apple-system,BlinkMacSystemFont,sans-serif;padding:16px;padding-bottom:80px}
+h1{font-size:22px;margin-bottom:16px;color:#58A6FF}
+.card{background:#161B22;border-radius:8px;padding:12px;margin-bottom:12px}
+.btn{display:block;width:100%;padding:12px;border:none;border-radius:6px;font-size:15px;font-weight:600;cursor:pointer;text-align:center}
+.btn-primary{background:#238636;color:#fff}
+.btn-primary:disabled{background:#1a5f2a;color:#666}
+.btn-blue{background:#1F6FEB;color:#fff}
+.btn-blue:disabled{background:#144a9e;color:#666}
+.btn-purple{background:#8957E5;color:#fff}
+.btn-purple:disabled{background:#5a3a94;color:#666}
+.btn-ghost{background:transparent;color:#58A6FF;border:1px solid #30363D;margin-top:6px;font-size:13px;padding:8px}
+.info{font-size:13px;color:#8B949E;margin-top:6px}
+.progress{height:6px;background:#21262D;border-radius:3px;margin:8px 0;overflow:hidden}
+.progress-bar{height:100%;background:#238636;border-radius:3px;transition:width .3s;width:0%}
+#tvProgress{font-size:12px;color:#8B949E;margin-bottom:4px}
+.status-bar{display:flex;justify-content:space-between;font-size:12px;color:#8B949E;margin-bottom:8px}
+.result-row{display:flex;align-items:center;padding:6px 4px;font-size:12px;border-bottom:1px solid #21262D;gap:8px}
+.result-row:last-child{border:none}
+.result-status{width:20px;text-align:center;font-size:14px}
+.result-name{width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#C9D1D9;font-weight:600}
+.result-url{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#8B949E}
+.result-latency{width:60px;text-align:right;font-weight:600;font-size:12px}
+.latency-fast{color:#238636}
+.latency-mid{color:#D29922}
+.latency-slow{color:#F85149}
+.latency-dead{color:#484F58}
+#resultContainer{max-height:60vh;overflow-y:auto;margin-top:8px}
+.header-row{display:flex;font-size:11px;color:#484F58;padding:4px;font-weight:600;gap:8px;margin-top:8px;padding-bottom:0}
+.header-row span:nth-child(1){width:20px;text-align:center}
+.header-row span:nth-child(2){width:110px}
+.header-row span:nth-child(3){flex:1}
+.header-row span:nth-child(4){width:60px;text-align:right}
+#sourceCount{font-size:14px;font-weight:600;color:#E6EDF3}
+#sourceInfo{font-size:12px;color:#8B949E;margin-top:4px}
+select{width:100%;padding:10px;background:#0D1117;color:#E6EDF3;border:1px solid #30363D;border-radius:6px;font-size:14px;margin-bottom:6px;appearance:auto}
+.genre-header{font-size:11px;color:#58A6FF;font-weight:700;padding:8px 4px 4px;background:#0D1117;border-bottom:1px solid #21262D}
+</style>
+</head>
+<body>
+
+<h1>📡 直播源测速</h1>
+
+<div class="card">
+  <label style="font-size:13px;color:#8B949E;display:block;margin-bottom:4px">选择直播源</label>
+  <select id="sourceSelect" onchange="onSourceChange()">
+    <option value="internal">📺 优选直播(本网测速) — iptv4-fast.txt</option>
+    <option value="m3u">📺 IPTV4直播M3U(带台标EPG) — live.zbds.top</option>
+    <option value="manual">📁 手动选择文件</option>
+  </select>
+  <input type="file" id="fileInput" accept=".txt,.m3u,.m3u8" style="display:none">
+  <div id="sourceInfo">正在加载直播源列表...</div>
+  <div id="sourceCount">频道: 0</div>
+</div>
+
+<div class="card">
+  <button class="btn btn-primary" id="btnStart" onclick="startTest()" disabled>▶ 一键测速</button>
+  <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+  <div id="tvProgress" class="info">准备就绪</div>
+</div>
+
+<div class="card">
+  <div class="status-bar">
+    <span>频道可用: <b id="availCount">0</b></span>
+    <span>地址不可用: <b id="deadCount">0</b></span>
+    <span>地址总计: <b id="totalCount">0</b></span>
+  </div>
+
+  <div class="header-row">
+    <span>状态</span>
+    <span>频道</span>
+    <span>最优地址</span>
+    <span>延迟</span>
+  </div>
+  <div id="resultContainer"></div>
+</div>
+
+<button class="btn btn-purple" id="btnExport" onclick="exportBest()" disabled>💾 导出最优源</button>
+
+<script>
+const SOURCE_URLS = {
+  internal: 'https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/live/iptv4-fast.txt',
+  m3u: 'https://live.zbds.top/tv/iptv4.m3u'
+};
+const TIMEOUT = 5000;
+const CONCURRENCY = 10;
+
+// parsed structure: [{type:'genre', name}, {type:'channel', name, urls:[...]}]
+let structure = [];
+let channels = [];
+let results = {};  // url -> {ok, latency}
+let isTesting = false;
+
+document.addEventListener('DOMContentLoaded', async () => {
+  await fetchSource('internal');
+});
+
+async function onSourceChange() {
+  const val = document.getElementById('sourceSelect').value;
+  if (val === 'manual') {
+    document.getElementById('fileInput').click();
+    return;
+  }
+  await fetchSource(val);
+}
+
+document.getElementById('fileInput').addEventListener('change', async function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  document.getElementById('sourceInfo').textContent = '已选文件: ' + file.name;
+  const text = await file.text();
+  parseAndSetSources(text);
+});
+
+async function fetchSource(key) {
+  const url = SOURCE_URLS[key];
+  if (!url) return;
+  document.getElementById('sourceInfo').textContent = '正在拉取直播源...';
+  document.getElementById('btnStart').disabled = true;
+  document.getElementById('resultContainer').innerHTML = '';
+  results = {};
+  updateStats();
+  document.getElementById('btnExport').disabled = true;
+
+  try {
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const text = await resp.text();
+    document.getElementById('sourceInfo').textContent = '✅ 已拉取: ' + url.split('/').pop();
+    parseAndSetSources(text);
+  } catch (e) {
+    document.getElementById('sourceInfo').textContent = '❌ 拉取失败: ' + e.message;
+    if (key === 'm3u') {
+      document.getElementById('sourceInfo').textContent = '❌ 外部源拉取失败，试试切换为"优选直播"';
+    }
+  }
+}
+
+// Parse both TVBox format (频道名,url#url#url) and M3U (#EXTINF + url)
+function parseAndSetSources(text) {
+  const lines = text.split('\n');
+  structure = [];
+  let currentGenre = '未分类';
+  const seenUrls = new Set();
+
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i].trim();
+    if (!line) continue;
+
+    // M3U genre header
+    if (line.startsWith('#EXTGRP:')) {
+      currentGenre = line.substring(8).trim();
+      structure.push({ type: 'genre', name: currentGenre });
+      continue;
+    }
+    // M3U channel line
+    if (line.startsWith('#EXTINF:')) {
+      let name = '未知频道';
+      const im = line.indexOf('tvg-name="');
+      if (im >= 0) {
+        const after = line.substring(im + 10);
+        name = after.substring(0, after.indexOf('"'));
+      }
+      let urlLine = '';
+      while (!urlLine && i + 1 < lines.length) {
+        i++;
+        urlLine = lines[i].trim();
+      }
+      if (urlLine.startsWith('http') || urlLine.startsWith('rtmp') || urlLine.startsWith('rtsp')) {
+        structure.push({ type: 'channel', name: name, urls: [urlLine] });
+      }
+      continue;
+    }
+    // TVBox format: 频道名,url1#url2#url3
+    if (line.endsWith('#genre#')) {
+      currentGenre = line.substring(0, line.length - 7).trim();
+      structure.push({ type: 'genre', name: currentGenre });
+      continue;
+    }
+    if (line.includes(',')) {
+      const idx = line.indexOf(',');
+      const name = line.substring(0, idx).trim();
+      const urlsPart = line.substring(idx + 1);
+      if (urlsPart.startsWith('http') || urlsPart.startsWith('rtmp') || urlsPart.startsWith('rtsp')) {
+        const urls = urlsPart.split('#').filter(u => u && (u.startsWith('http') || u.startsWith('rtmp') || u.startsWith('rtsp')));
+        structure.push({ type: 'channel', name: name, urls: urls });
+        continue;
+      }
+    }
+    // bare URL lines (plain txt)
+    if (line.startsWith('http') || line.startsWith('rtmp') || line.startsWith('rtsp')) {
+      structure.push({ type: 'channel', name: '未命名', urls: [line] });
+    }
+  }
+
+  channels = structure.filter(s => s.type === 'channel');
+  const totalUrls = channels.reduce((sum, c) => sum + c.urls.length, 0);
+  document.getElementById('sourceCount').textContent = '频道: ' + channels.length + ' / 地址: ' + totalUrls;
+  document.getElementById('btnStart').disabled = channels.length === 0;
+  document.getElementById('tvProgress').textContent = channels.length > 0 ? '准备就绪，点击"一键测速"开始' : '未找到有效源';
+}
+
+function allUrls() {
+  const seen = new Set();
+  const list = [];
+  for (const c of channels) {
+    for (const u of c.urls) {
+      if (!seen.has(u)) {
+        seen.add(u);
+        list.push(u);
+      }
+    }
+  }
+  return list;
+}
+
+async function startTest() {
+  if (isTesting || channels.length === 0) return;
+  isTesting = true;
+  results = {};
+  document.getElementById('btnStart').disabled = true;
+  document.getElementById('btnStart').textContent = '⏳ 测速中...';
+  document.getElementById('btnExport').disabled = true;
+  const bar = document.getElementById('progressBar');
+  bar.style.width = '0%';
+
+  const urls = allUrls();
+  const total = urls.length;
+  let done = 0;
+
+  for (let i = 0; i < total; i += CONCURRENCY) {
+    const batch = urls.slice(i, i + CONCURRENCY);
+    const batchResults = await Promise.all(batch.map(u => testUrl(u)));
+    batch.forEach((u, j) => { results[u] = batchResults[j]; });
+    done += batch.length;
+    bar.style.width = (done / total * 100) + '%';
+    document.getElementById('tvProgress').textContent = `测速中: ${done}/${total}`;
+    displayResults();
+    updateStats();
+    await new Promise(r => setTimeout(r, 10));
+  }
+
+  isTesting = false;
+  document.getElementById('btnStart').disabled = false;
+  document.getElementById('btnStart').textContent = '▶ 重新测速';
+  const availUrls = Object.values(results).filter(r => r.ok).length;
+  const availChannels = channels.filter(c => c.urls.some(u => results[u] && results[u].ok)).length;
+  document.getElementById('tvProgress').textContent = `✅ 完成！${availChannels}/${channels.length} 频道可用，${availUrls}/${total} 地址通`;
+  document.getElementById('btnExport').disabled = availChannels === 0;
+}
+
+async function testUrl(url) {
+  const start = performance.now();
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), TIMEOUT);
+    const resp = await fetch(url, {
+      method: 'HEAD',
+      mode: 'no-cors',
+      signal: controller.signal
+    });
+    clearTimeout(timer);
+    const elapsed = Math.round(performance.now() - start);
+    return { ok: true, latency: elapsed };
+  } catch (e) {
+    const elapsed = Math.round(performance.now() - start);
+    return { ok: false, latency: elapsed >= TIMEOUT ? TIMEOUT : elapsed };
+  }
+}
+
+function bestResultFor(channel) {
+  let best = null;
+  for (const u of channel.urls) {
+    const r = results[u];
+    if (r && r.ok && (!best || r.latency < best.latency)) best = { url: u, latency: r.latency };
+  }
+  return best;
+}
+
+function displayResults() {
+  const container = document.getElementById('resultContainer');
+  let html = '';
+  let genreOrder = [];
+  const seenGenres = new Set();
+
+  // Preserve original structure order, group channels under genres
+  for (const s of structure) {
+    if (s.type === 'genre') {
+      html += `<div class="genre-header">${escapeHtml(s.name)}</div>`;
+    } else {
+      const best = bestResultFor(s);
+      if (!best) {
+        html += `<div class="result-row">
+          <span class="result-status">❌</span>
+          <span class="result-name" title="${escapeHtml(s.name)}">${escapeHtml(s.name)}</span>
+          <span class="result-url">全部不可用</span>
+          <span class="result-latency latency-dead">超时</span>
+        </div>`;
+        continue;
+      }
+      const latClass = best.latency < 200 ? 'latency-fast' : best.latency < 500 ? 'latency-mid' : 'latency-slow';
+      html += `<div class="result-row">
+        <span class="result-status">✅</span>
+        <span class="result-name" title="${escapeHtml(s.name)}">${escapeHtml(s.name)}</span>
+        <span class="result-url" title="${escapeHtml(best.url)}">${escapeHtml(best.url)}</span>
+        <span class="result-latency ${latClass}">${best.latency}ms</span>
+      </div>`;
+    }
+  }
+  container.innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function updateStats() {
+  const availUrls = Object.values(results).filter(r => r.ok).length;
+  const dead = Object.values(results).filter(r => !r.ok).length;
+  const availChannels = channels.filter(c => c.urls.some(u => results[u] && results[u].ok)).length;
+  document.getElementById('availCount').textContent = availChannels;
+  document.getElementById('deadCount').textContent = dead;
+  document.getElementById('totalCount').textContent = Object.keys(results).length;
+}
+
+function exportBest() {
+  // Export in TVBox format: keep genre headers, each channel = name,fastest_ok_url
+  // If a channel has multiple OK urls, keep all sorted by latency joined with #
+  let out = '';
+  for (const s of structure) {
+    if (s.type === 'genre') {
+      out += `${s.name},#genre#\n`;
+    } else {
+      const okUrls = s.urls
+        .filter(u => results[u] && results[u].ok)
+        .sort((a, b) => results[a].latency - results[b].latency);
+      if (okUrls.length > 0) {
+        out += `${s.name},${okUrls.join('#')}\n`;
+      }
+    }
+  }
+  const blob = new Blob([out], { type: 'text/plain' });
+    const a = document.createElement('a');
+    const now = new Date();
+    const pad = n => String(n).padStart(2, '0');
+    const ts = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}_${pad(now.getHours())}${pad(now.getMinutes())}`;
+    a.href = URL.createObjectURL(blob);
+    a.download = `最优直播源_${ts}.txt`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  const availChannels = channels.filter(c => c.urls.some(u => results[u] && results[u].ok)).length;
+  document.getElementById('tvProgress').textContent = `✅ 已导出 ${availChannels} 个频道的最优直播源`;
+}
+</script>
+</body>
+</html>

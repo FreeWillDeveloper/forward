@@ -1,0 +1,29 @@
+name: Build LiveSpeedTest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Build APK
+        run: |
+          cd LiveSpeedTest
+          gradle assembleRelease --no-daemon --stacktrace
+      - if: success()
+        uses: softprops/action-gh-release@v2
+        with:
+          files: LiveSpeedTest/app/build/outputs/apk/release/*.apk
+          tag_name: livespeedtest-${{ github.run_number }}
+          overwrite: true
