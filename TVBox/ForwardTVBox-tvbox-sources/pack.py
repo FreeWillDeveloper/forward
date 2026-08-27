@@ -18,7 +18,7 @@ REQUIRED = ['curated.json', 'fan.jar', 'custom_spider.jar', 'pg.jar', 'tvfan/Clo
 
 
 def make_local_config():
-    """生成 curated-local.json：jar 字段指向包内相对路径"""
+    """生成 curated-local.json：仅 jar 字段指向包内相对路径；js源保持在线URL(影视仓本地js源不可靠,曾致全源崩溃)"""
     src = os.path.join(SRC, 'curated.json')
     dst = os.path.join(SRC, 'curated-local.json')
     cfg = json.load(open(src, encoding='utf-8'))
@@ -29,8 +29,9 @@ def make_local_config():
                 if jn in s['jar']:
                     s['jar'] = './' + jn
                     break
+    # 注: 不要改写 type=3 的 js 源 api/ext 为本地路径 —— 影视仓本地包加载 js 源会失败并拖垮整个配置
     cfg['updateTime'] = datetime.now().strftime('%Y-%m-%d %H:%M')
-    cfg['warningText'] = '精选单仓·本地版：jar 走本地文件，断网可用。若源加载不出目录，把 jar 改为 file:///绝对路径（见 README）'
+    cfg['warningText'] = '精选单仓·本地版：jar 走本地文件,断网可用;js源(如B站短剧)需联网加载'
     with open(dst, 'w', encoding='utf-8') as f:
         json.dump(cfg, f, ensure_ascii=False, indent=1)
     return dst
@@ -79,14 +80,13 @@ def main():
     filename = os.path.basename(dst)
     raw = f"https://raw.githubusercontent.com/jifeng250/tvbox-sources/main/{filename}"
     urls = [
-        f"https://ghfast.top/{raw}",
-        f"https://gh-proxy.com/{raw}",
-        f"https://ghproxy.net/{raw}",
-        f"https://cdn.jsdelivr.net/gh/jifeng250/tvbox-sources@main/{filename}",
-        f"https://fastly.jsdelivr.net/gh/jifeng250/tvbox-sources@main/{filename}",
-        f"https://gcore.jsdelivr.net/gh/jifeng250/tvbox-sources@main/{filename}",
-        raw,
-    ]
+            f"https://gh-proxy.com/{raw}",
+            f"https://ghproxy.net/{raw}",
+            f"https://cdn.jsdelivr.net/gh/jifeng250/tvbox-sources@main/{filename}",
+            f"https://fastly.jsdelivr.net/gh/jifeng250/tvbox-sources@main/{filename}",
+            f"https://gcore.jsdelivr.net/gh/jifeng250/tvbox-sources@main/{filename}",
+            raw,
+        ]
     ver = {
         "version": date_str,
         "date": datetime.now().strftime('%Y-%m-%d %H:%M'),
