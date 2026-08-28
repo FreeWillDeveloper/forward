@@ -81,8 +81,15 @@
       "name": "ForwardAI-ai-engineering-hub",
       "url": "https://github.com/patchy631/ai-engineering-hub",
       "branch": "main",
-      "target_dir": "ai/ForwardAI-easy-vibe",
+      "target_dir": "ai/ForwardAI-ai-engineering-hub",
       "description": "ForwardAI by patchy631 - ai-engineering-hub 关于LLMs、RAGs以及Real World AI Agent的项目集合"
+    },
+    {
+      "name": "ForwardAI-learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "branch": "main",
+      "target_dir": "ai/ForwardAI-learn-claude-code",
+      "description": "ForwardAI by shareAI-lab - learn-claude-code 从0复刻Claude Code"
     },
     {
       "name": "ForwardDownloads-extensions",
@@ -97,13 +104,6 @@
       "branch": "main",
       "target_dir": "collections/ForwardCollections-free-programming-books-zh_CN",
       "description": "ForwardCollections by datawhalechina - free-programming-books-zh_CN 免费中文编程书籍"
-    },
-    {
-      "name": "ForwardAI-learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "branch": "main",
-      "target_dir": "ai/ForwardAI-learn-claude-code",
-      "description": "ForwardAI by shareAI-lab - learn-claude-code 从0复刻Claude Code"
     },
     {
       "name": "ForwardTVBox-tvyuan-AutoUpdate",
