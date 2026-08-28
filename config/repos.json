@@ -78,6 +78,13 @@
       "description": "ForwardAI by datawhalechina - easy-vibe 零基础Vibe Coding教程"
     },
     {
+      "name": "ForwardAI-ai-engineering-hub",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "branch": "main",
+      "target_dir": "ai/ForwardAI-easy-vibe",
+      "description": "ForwardAI by patchy631 - ai-engineering-hub 关于LLMs、RAGs以及Real World AI Agent的项目集合"
+    },
+    {
       "name": "ForwardDownloads-extensions",
       "url": "https://github.com/keiyoushi/extensions",
       "branch": "repo",
