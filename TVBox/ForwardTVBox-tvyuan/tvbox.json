@@ -2,8 +2,35 @@
   "spider": "",
   "sites": [
     {
+      "key": "影视 • 率率[直连]",
+      "name": "[924KB/s|1011ms|稳] 影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "影视 • 索尼[直连]",
+      "name": "[880KB/s|1030ms|稳] 影视 • 索尼[直连]",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "🐝索尼资源",
+      "name": "[862KB/s|1086ms|稳] 🐝索尼资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "360资源",
-      "name": "[380KB/s|4166ms|中] 360资源",
+      "name": "[265KB/s|2504ms|中] 360资源",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
@@ -11,26 +38,8 @@
       "filterable": 0
     },
     {
-      "key": "淫水机",
-      "name": "[6672KB/s|259ms|稳] 淫水机",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "黄AV",
-      "name": "[4750KB/s|289ms|稳] 黄AV",
-      "type": 0,
-      "api": "https://www.pgxdy.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "*91麻豆",
-      "name": "[4727KB/s|276ms|稳] *91麻豆",
+      "name": "[2751KB/s|448ms|稳] *91麻豆",
       "type": 1,
       "api": "https://91md.me/api.php/provide/vod/",
       "searchable": 1,
@@ -39,7 +48,7 @@
     },
     {
       "key": "🍊19",
-      "name": "[4612KB/s|538ms|稳] 🍊19",
+      "name": "[2386KB/s|477ms|稳] 🍊19",
       "type": 1,
       "api": "https://19q.cc/api.php/provide/vod",
       "searchable": 1,
@@ -47,46 +56,37 @@
       "filterable": 0
     },
     {
-      "key": "iKun资源",
-      "name": "[2200KB/s|1049ms|稳] iKun资源",
-      "type": 0,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "🥣爱坤┃影视",
-      "name": "[2108KB/s|926ms|稳] 🥣爱坤┃影视",
+      "key": "🍊鸡坤",
+      "name": "[2095KB/s|665ms|稳] 🍊鸡坤",
       "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+      "api": "https://jkunzyapi.com/api.php/provide/vod/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
-      "key": "🍏爱坤",
-      "name": "[1908KB/s|955ms|稳] 🍏爱坤",
+      "key": "💥┃火狐2K┃有广",
+      "name": "[1833KB/s|405ms|稳] 💥┃火狐2K┃有广",
       "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
-      "key": "🍏无印",
-      "name": "[1878KB/s|1285ms|稳] 🍏无印",
+      "key": "🎀光速┃采集",
+      "name": "[1814KB/s|467ms|稳] 🎀光速┃采集",
       "type": 1,
-      "api": "https://api.wsyzy.net/api.php/provide/vod/",
+      "api": "http://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
-      "key": "金鹰影视",
-      "name": "[1514KB/s|753ms|稳] 金鹰影视",
-      "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
+      "key": "🍏光速",
+      "name": "[1805KB/s|444ms|稳] 🍏光速",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
