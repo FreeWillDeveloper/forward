@@ -55,7 +55,6 @@ import SidebarRow, { SIDEBAR_ROW_CLASSES, SIDEBAR_ROW_FOCUS_CLASSES, SidebarRowI
 import SidebarSection, { SIDEBAR_SECTION_STACK_CLASSES } from "./SidebarSection";
 import SpaceSwitcher from "./SpaceSwitcher";
 import {
-  SIDEBAR_FOOTER_CLASSES,
   SIDEBAR_LEADING_SLOT_CLASSES,
   SIDEBAR_NAV_LEADING_SLOT_CLASSES,
   SIDEBAR_RAIL_CLASSES,
@@ -109,8 +108,13 @@ const ProfileMode = () => {
 
   return (
     <SidebarSection label={t("common.profile")}>
-      <SidebarRow active={active === "memos"} icon={LayoutListIcon} label={t("common.memos")} onClick={() => setMode("memos")} />
-      <SidebarRow active={active === "map"} icon={MapIcon} label={t("common.map")} onClick={() => setMode("map")} />
+      <SidebarRow
+        state={active === "memos" ? "current" : "idle"}
+        icon={LayoutListIcon}
+        label={t("common.memos")}
+        onClick={() => setMode("memos")}
+      />
+      <SidebarRow state={active === "map" ? "current" : "idle"} icon={MapIcon} label={t("common.map")} onClick={() => setMode("map")} />
     </SidebarSection>
   );
 };
@@ -192,7 +196,7 @@ const AttachmentsSidebarContent = () => {
       {rows.map((row) => (
         <SidebarRow
           key={row.value}
-          active={attachmentSection === row.value}
+          state={attachmentSection === row.value ? "current" : "idle"}
           icon={row.icon}
           label={row.label}
           count={row.count}
@@ -230,7 +234,7 @@ const InboxSidebarContent = () => {
       {rows.map((row) => (
         <SidebarRow
           key={row.value}
-          active={inboxFilter === row.value}
+          state={inboxFilter === row.value ? "current" : "idle"}
           icon={row.icon}
           label={row.label}
           count={row.count}
@@ -259,7 +263,7 @@ const SettingsSidebarContent = () => {
         key={section.key}
         to={`${ROUTES.SETTING}#${section.key}`}
         onClick={() => setMobileOpen(false)}
-        className={cn(SIDEBAR_ROW_CLASSES, sidebarRowStateClasses(currentSection === section.key))}
+        className={cn(SIDEBAR_ROW_CLASSES, sidebarRowStateClasses(currentSection === section.key ? "current" : "idle"))}
       >
         <SidebarRowIconSlot icon={section.icon} />
         <span className="truncate">{t(section.labelKey)}</span>
@@ -274,15 +278,22 @@ const SettingsSidebarContent = () => {
 };
 
 const MemoDetailSidebarContent = () => {
-  const { memoDetail } = useAppSidebar();
+  const { memoDetail, closeMobileThen } = useAppSidebar();
   if (!memoDetail) return null;
+  const runAndClose = (action: (() => void) | undefined) => (action ? () => closeMobileThen(action) : undefined);
   return (
     <MemoDetailSidebar
       memo={memoDetail.memo}
+      parentMemo={memoDetail.parentMemo}
       parentPage={memoDetail.from}
       parentScope={memoDetail.fromScope}
+      hasExplicitOrigin={memoDetail.hasExplicitOrigin}
+      commentCount={memoDetail.commentCount}
       forceReadonly={memoDetail.readonly}
-      onShareImageOpen={memoDetail.onShareImageOpen}
+      onEdit={runAndClose(memoDetail.onEdit)}
+      onCommentsOpen={runAndClose(memoDetail.onCommentsOpen)}
+      onCommentCreate={runAndClose(memoDetail.onCommentCreate)}
+      onShareImageOpen={runAndClose(memoDetail.onShareImageOpen)}
       className="pb-2"
     />
   );
@@ -318,7 +329,7 @@ interface GlobalNavItem {
  * label only opens the text track, so the artwork and surface never jump.
  */
 const navPillClasses = (active: boolean) =>
-  cn(sidebarSurfaceVariants({ role: "navPill" }), SIDEBAR_ROW_FOCUS_CLASSES, sidebarRowStateClasses(active));
+  cn(sidebarSurfaceVariants({ role: "navPill" }), SIDEBAR_ROW_FOCUS_CLASSES, sidebarRowStateClasses(active ? "current" : "idle"));
 
 const NavPillLabel = ({ expanded, label, children }: { expanded: boolean; label: ReactNode; children?: ReactNode }) => (
   <span
@@ -431,7 +442,7 @@ const GlobalNavigation = () => {
 
   return (
     <TooltipProvider>
-      <nav className={cn("flex h-9 items-center gap-1", SIDEBAR_RAIL_CLASSES)} aria-label="Primary">
+      <nav className={cn("flex h-8 items-center gap-1", SIDEBAR_RAIL_CLASSES)} aria-label="Primary">
         {currentUser && (
           <DropdownMenu
             onOpenChange={(open, eventDetails) => {
@@ -499,7 +510,7 @@ const GlobalNavigation = () => {
                   <span
                     data-sidebar-trailing
                     className={cn(
-                      "absolute -end-0.5 -top-0.5 flex min-w-4 items-center justify-center rounded-full bg-primary px-1 text-[9px] font-semibold leading-4 text-primary-foreground transition-[opacity,scale] duration-200 ease-out motion-reduce:transition-none",
+                      "absolute -end-0.5 top-0 flex min-w-4 items-center justify-center rounded-full bg-primary px-1 text-[9px] font-semibold leading-4 text-primary-foreground transition-[opacity,scale] duration-200 ease-out motion-reduce:transition-none",
                       item.count > 0 ? "scale-100 opacity-100" : "scale-50 opacity-0",
                     )}
                   >
@@ -569,7 +580,7 @@ const AppSidebar = ({ className }: { className?: string }) => {
       <div className={cn("min-h-0 flex-1 overflow-y-auto overflow-x-hidden pt-2 pb-3 [scrollbar-width:thin]", SIDEBAR_RAIL_CLASSES)}>
         <RouteSidebarContent />
       </div>
-      <footer className={cn("shrink-0 border-t border-border/70", SIDEBAR_FOOTER_CLASSES)}>
+      <footer className="shrink-0 border-t border-border/70">
         {currentUser ? (
           <UserMenu />
         ) : (
@@ -620,9 +631,9 @@ export const MobileAppHeader = () => {
 
 export const MobileAppSidebar = () => {
   const direction = useDirection();
-  const { mobileOpen, setMobileOpen } = useAppSidebar();
+  const { mobileOpen, setMobileOpen, completeMobileClose } = useAppSidebar();
   return (
-    <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
+    <Sheet open={mobileOpen} onOpenChange={setMobileOpen} onOpenChangeComplete={completeMobileClose}>
       <SheetContent
         side={direction === "rtl" ? "right" : "left"}
         className="w-[min(18rem,calc(100vw-2rem))] gap-0 border-border p-0 shadow-2xl [&>[data-slot=sheet-close]]:sr-only"
