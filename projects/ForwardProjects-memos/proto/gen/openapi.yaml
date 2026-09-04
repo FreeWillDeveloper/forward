@@ -667,7 +667,8 @@ paths:
                        content (string), creator (string, e.g. "users/1"),
                        created_ts / updated_ts (timestamp), pinned (bool),
                        visibility (string: PRIVATE | PROTECTED | PUBLIC | SPACE),
-                       space (string resource name or null when the memo has no space),
+                       space (string resource name, or null when the memo has no space;
+                         supports == and comparisons against null, e.g. space != null),
                        tags (list<string>; match with `"work" in tags`, not `tag == "work"`),
                        has_task_list / has_link / has_code / has_incomplete_tasks (bool),
                        has_location (bool; true when the memo has a location attached).
@@ -4667,6 +4668,7 @@ components:
                         - TYPE_UNSPECIFIED
                         - MEMO_COMMENT
                         - MEMO_MENTION
+                        - SPACE_INVITATION
                     type: string
                     description: The type of the notification.
                     format: enum
@@ -4678,6 +4680,10 @@ components:
                     readOnly: true
                     allOf:
                         - $ref: '#/components/schemas/UserNotification_MemoMentionPayload'
+                spaceInvitation:
+                    readOnly: true
+                    allOf:
+                        - $ref: '#/components/schemas/UserNotification_SpaceInvitationPayload'
         UserNotification_MemoCommentPayload:
             type: object
             properties:
@@ -4716,6 +4722,34 @@ components:
                 relatedMemoSnippet:
                     type: string
                     description: Preview text of the related parent memo.
+        UserNotification_SpaceInvitationPayload:
+            type: object
+            properties:
+                spaceInvitation:
+                    type: string
+                    description: |-
+                        The invitation resource.
+                         Format: spaces/{space}/invitations/{username}
+                space:
+                    allOf:
+                        - $ref: '#/components/schemas/Space'
+                    description: The read-only Space summary carried by the invitation.
+                role:
+                    enum:
+                        - ROLE_UNSPECIFIED
+                        - ADMIN
+                        - USER
+                    type: string
+                    description: The role the invitation offers.
+                    format: enum
+                state:
+                    enum:
+                        - STATE_UNSPECIFIED
+                        - PENDING
+                        - ACCEPTED
+                    type: string
+                    description: The current state of the invitation for the receiver.
+                    format: enum
         UserSetting:
             type: object
             properties:
