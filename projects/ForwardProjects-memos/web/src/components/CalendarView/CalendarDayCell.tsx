@@ -1,10 +1,10 @@
 import { memo } from "react";
 import { type CalendarDayCell as CalendarDayCellData, getTooltipText } from "@/components/ActivityCalendar";
+import { FOCUS_VISIBLE_OUTLINE_CLASSES } from "@/components/ui/focus";
 import type { MemoTimeBasis } from "@/contexts/ViewContext";
 import { cn } from "@/lib/utils";
 import { useTranslate } from "@/utils/i18n";
 import { CalendarLink } from "./CalendarLink";
-import { CALENDAR_FOCUS_CLASSES } from "./controls";
 import type { CalendarDaySummary } from "./dayModel";
 import { buildCalendarPath, getMonthOfDate } from "./paths";
 
@@ -59,7 +59,7 @@ export const CalendarDayCell = memo(
           !isLastColumn && "border-e",
           !isLastRow && "border-b",
           corner && CORNER_CLASSES[corner],
-          CALENDAR_FOCUS_CLASSES,
+          FOCUS_VISIBLE_OUTLINE_CLASSES,
           // The open day is the place you are, so it takes the fill the sidebar gives a current row.
           day.isSelected ? "bg-accent" : day.isCurrentMonth ? "bg-card hover:bg-muted/40" : "bg-muted/25 hover:bg-muted/45",
         )}

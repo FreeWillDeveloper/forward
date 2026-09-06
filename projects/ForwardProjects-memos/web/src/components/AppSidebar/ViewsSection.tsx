@@ -26,7 +26,7 @@ import SidebarRow, {
   sidebarRowStateAttributes,
   sidebarRowStateClasses,
 } from "./SidebarRow";
-import SidebarSection, { SIDEBAR_SECTION_ACTION_BUTTON_CLASSES, SIDEBAR_SECTION_ACTION_ICON_CLASSES } from "./SidebarSection";
+import SidebarSection, { SIDEBAR_SECTION_ACTION_ICON_CLASSES } from "./SidebarSection";
 
 /** The row's ⋯ menu: a trailing slot control that stays hidden until the row is engaged. */
 const VIEW_MENU_TRIGGER_CLASSES = cn(
@@ -77,13 +77,7 @@ const ViewsSection = ({ manageActive = false }: { manageActive?: boolean }) => {
         !manageActive && (
           <div className="flex items-center gap-0.5">
             <MemoDisplaySettingMenu />
-            <Button
-              variant="ghost"
-              size="icon-sm"
-              className={SIDEBAR_SECTION_ACTION_BUTTON_CLASSES}
-              onClick={handleCreate}
-              aria-label={t("common.create")}
-            >
+            <Button variant="quiet" size="icon-sm" onClick={handleCreate} aria-label={t("common.create")}>
               <PlusIcon className={SIDEBAR_SECTION_ACTION_ICON_CLASSES} strokeWidth={1.8} />
             </Button>
           </div>

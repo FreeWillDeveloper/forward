@@ -25,7 +25,6 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { cn } from "@/lib/utils";
 import { State } from "@/types/proto/api/v1/common_pb";
 import { useTranslate } from "@/utils/i18n";
 import { useMemoActionHandlers } from "./hooks";
@@ -64,19 +63,7 @@ const MemoActionMenu = (props: MemoActionMenuProps) => {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger
-        render={
-          <Button
-            variant="ghost"
-            size="icon-sm"
-            aria-label={t("common.more")}
-            className={cn(
-              "text-muted-foreground/70 hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring/50 data-popup-open:bg-accent data-popup-open:text-accent-foreground",
-              props.className,
-            )}
-          />
-        }
-      >
+      <DropdownMenuTrigger render={<Button variant="quiet" size="icon-sm" aria-label={t("common.more")} />}>
         <MoreVerticalIcon className="size-4" strokeWidth={1.8} />
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" sideOffset={2}>

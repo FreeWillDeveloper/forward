@@ -65,27 +65,13 @@ import {
 import TagsSection from "./TagsSection";
 import ViewsSection from "./ViewsSection";
 
-const SIDEBAR_HEADER_PRIMARY_ACTION_CLASSES =
-  "size-7 shrink-0 text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring/50";
-
 const NewMemoAction = ({ onClick }: { onClick: () => void }) => {
   const t = useTranslate();
   const label = t("editor.new-memo");
 
   return (
     <Tooltip>
-      <TooltipTrigger
-        render={
-          <Button
-            variant="outline"
-            size="icon-sm"
-            className={SIDEBAR_HEADER_PRIMARY_ACTION_CLASSES}
-            onClick={onClick}
-            aria-label={label}
-            data-new-memo-trigger
-          />
-        }
-      >
+      <TooltipTrigger render={<Button variant="outline" size="icon-compact" onClick={onClick} aria-label={label} data-new-memo-trigger />}>
         <SquarePenIcon className="size-4" strokeWidth={1.8} />
       </TooltipTrigger>
       <TooltipContent side="bottom">{label}</TooltipContent>
@@ -628,14 +614,7 @@ export const MobileAppHeader = () => {
   const { setMobileOpen } = useAppSidebar();
   return (
     <header className="sticky top-0 z-20 flex h-12 w-full items-center justify-start gap-1 border-b border-border/70 bg-background/90 px-2 backdrop-blur-md md:hidden">
-      <Button
-        variant="ghost"
-        size="icon-sm"
-        className="size-8 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring/50"
-        onClick={() => setMobileOpen(true)}
-        aria-label="Open navigation"
-        data-mobile-navigation-trigger
-      >
+      <Button variant="ghost" size="icon" onClick={() => setMobileOpen(true)} aria-label="Open navigation" data-mobile-navigation-trigger>
         <MenuIcon className="size-[18px]" />
       </Button>
       <SidebarBrand className="max-w-[12rem]" size="md" />

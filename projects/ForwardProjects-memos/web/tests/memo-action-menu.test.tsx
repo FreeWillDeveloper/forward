@@ -30,12 +30,13 @@ vi.mock("@/utils/i18n", () => ({
 }));
 
 describe("MemoActionMenu", () => {
-  it("uses the standard compact action surface and preserves its open state", async () => {
+  it("is a quiet compact control that takes the accent fill while open", async () => {
     const memo = create(MemoSchema, { name: "memos/1", state: State.NORMAL, pinned: false });
     render(<MemoActionMenu memo={memo} parentScope="preserve" />);
 
     const trigger = screen.getByRole("button", { name: "common.more" });
-    expect(trigger).toHaveClass("size-6", "rounded-md", "hover:bg-accent", "focus-visible:ring-2", "data-popup-open:bg-accent");
+    expect(trigger).toHaveClass("size-6", "rounded-md", "text-muted-foreground/70", "hover:bg-muted/60", "data-popup-open:bg-accent");
+    expect(trigger.className).not.toMatch(/ring-/);
     expect(trigger).toHaveAttribute("aria-haspopup", "menu");
     expect(trigger).toHaveAttribute("aria-expanded", "false");
     expect(trigger.querySelector(".lucide-ellipsis-vertical")).toHaveClass("size-4");

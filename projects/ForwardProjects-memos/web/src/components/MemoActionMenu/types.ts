@@ -5,6 +5,5 @@ export interface MemoActionMenuProps {
   memo: Memo;
   parentScope: MemoOriginScope;
   readonly?: boolean;
-  className?: string;
   onEdit?: () => void;
 }
