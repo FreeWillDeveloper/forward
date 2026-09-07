@@ -29,15 +29,15 @@ const MemoHeader: React.FC<MemoHeaderProps> = ({ timeDisplay = "relative", showC
   const t = useTranslate();
   const [reactionSelectorOpen, setReactionSelectorOpen] = useState(false);
 
-  const { memo, creator, currentUser, parentPage, parentScope, isArchived, readonly, openEditor } = useMemoViewContext();
+  const { memo, creator, currentUser, parentPage, isArchived, readonly, openEditor } = useMemoViewContext();
   const { createTime, updateTime, displayTime: memoDisplayTime, isDisplayingUpdatedTime, relativeTimeFormat } = useMemoViewDerived();
   const { newMemoName } = useNewMemo();
   const visibilityOption = getVisibilityOption(memo.visibility);
 
   const navigateTo = useNavigateTo();
   const handleGotoMemoDetailPage = useCallback(() => {
-    navigateTo(`/${memo.name}`, { state: createMemoNavigationState(parentPage, parentScope) });
-  }, [memo.name, parentPage, parentScope, navigateTo]);
+    navigateTo(`/${memo.name}`, { state: createMemoNavigationState(parentPage) });
+  }, [memo.name, parentPage, navigateTo]);
 
   const { unpinMemo } = useMemoActions(memo);
 
@@ -130,7 +130,7 @@ const MemoHeader: React.FC<MemoHeaderProps> = ({ timeDisplay = "relative", showC
           </TooltipProvider>
         )}
 
-        <MemoActionMenu memo={memo} parentScope={parentScope} readonly={readonly} onEdit={openEditor} />
+        <MemoActionMenu memo={memo} parentPage={parentPage} readonly={readonly} onEdit={openEditor} />
       </div>
     </div>
   );
