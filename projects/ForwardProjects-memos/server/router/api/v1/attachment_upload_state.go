@@ -94,11 +94,10 @@ func (m *attachmentUploads) sweepLocked(now time.Time, ownerID int32) (owned, to
 			count(upload)
 			continue
 		}
-		switch {
-		case !now.Before(upload.expireTime):
+		if !now.Before(upload.expireTime) {
 			os.Remove(upload.path)
 			delete(m.entries, id)
-		case !upload.complete:
+		} else if !upload.complete {
 			count(upload)
 		}
 		upload.mu.Unlock()

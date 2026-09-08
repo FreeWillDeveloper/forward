@@ -1,13 +1,14 @@
 import { useQueryClient } from "@tanstack/react-query";
-import { MoreHorizontalIcon, ParenthesesIcon, PlusIcon, SquareCheckIcon } from "lucide-react";
+import { MoreHorizontalIcon, PlusIcon, SquareCheckIcon } from "lucide-react";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { useLocation, useNavigate } from "react-router-dom";
 import ConfirmDialog from "@/components/ConfirmDialog";
 import MemoDisplaySettingMenu from "@/components/MemoDisplaySettingMenu";
+import MemoViewIcon from "@/components/MemoViewIcon";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
-import { memoViewServiceClient } from "@/connect";
+import { userServiceClient } from "@/connect";
 import { useAppSidebar } from "@/contexts/AppSidebarContext";
 import { useMemoFilterContext } from "@/contexts/MemoFilterContext";
 import useCurrentUser from "@/hooks/useCurrentUser";
@@ -16,13 +17,14 @@ import { handleError } from "@/lib/error";
 import { BUILTIN_TASKS_VIEW_ID, getMemoViewId, isMemoCollectionRoute } from "@/lib/memo-views";
 import { cn } from "@/lib/utils";
 import { collectionPathForLocation, ROUTES } from "@/router/routes";
-import type { MemoView } from "@/types/proto/api/v1/memo_view_service_pb";
+import type { MemoView } from "@/types/proto/api/v1/user_service_pb";
 import { useTranslate } from "@/utils/i18n";
 import SidebarRow, {
   SIDEBAR_ROW_BOX_CLASSES,
+  SIDEBAR_ROW_ICON_CLASSES,
   SIDEBAR_ROW_LABEL_CLASSES,
   SIDEBAR_ROW_SLOT_BUTTON_CLASSES,
-  SidebarRowIconSlot,
+  SIDEBAR_ROW_SLOT_CLASSES,
   sidebarRowStateAttributes,
   sidebarRowStateClasses,
 } from "./SidebarRow";
@@ -60,7 +62,7 @@ const ViewsSection = ({ manageActive = false }: { manageActive?: boolean }) => {
   const handleDelete = async () => {
     if (!deleteTarget) return;
     try {
-      await memoViewServiceClient.deleteMemoView({ name: deleteTarget.name });
+      await userServiceClient.deleteMemoView({ name: deleteTarget.name });
       await queryClient.invalidateQueries({ queryKey: userKeys.memoViews(currentUser?.name) });
       if (selectedMemoView === getMemoViewId(deleteTarget.name)) setMemoView(undefined);
       toast.success(t("setting.memo-view.delete-success", { title: deleteTarget.title }));
@@ -102,7 +104,9 @@ const ViewsSection = ({ manageActive = false }: { manageActive?: boolean }) => {
             className={cn(SIDEBAR_ROW_BOX_CLASSES, "group/view", sidebarRowStateClasses(state))}
           >
             <button type="button" onClick={() => handleView(id)} aria-pressed={active || undefined} className={SIDEBAR_ROW_LABEL_CLASSES}>
-              <SidebarRowIconSlot icon={ParenthesesIcon} />
+              <span className={SIDEBAR_ROW_SLOT_CLASSES} aria-hidden="true">
+                <MemoViewIcon icon={memoView.icon} className={cn(SIDEBAR_ROW_ICON_CLASSES, "text-base")} />
+              </span>
               <span className="min-w-0 flex-1 truncate">{memoView.title}</span>
             </button>
             <DropdownMenu>
