@@ -1,4 +1,25 @@
 {
+  "map": {
+    "resize-panel": "Məkan panelinin enini dəyiş",
+    "collapse": "Paneli yığ",
+    "expand": "Paneli genişləndir",
+    "selection": "Seçilmiş qeydlər",
+    "loaded": "{{count}} qeyd yükləndi",
+    "fit-all": "Bütün nəticələri göstər",
+    "zoom-in": "Yaxınlaşdır",
+    "zoom-out": "Uzaqlaşdır",
+    "load-error": "Bütün qeydləri yükləmək mümkün olmadı.",
+    "tile-error": "Xəritə yüklənmədi. Qeydləriniz hələ də əlçatandır.",
+    "empty": "Hələ məkanı olan qeyd yoxdur",
+    "empty-hint": "Qeydi burada görmək üçün ona məkan əlavə edin.",
+    "no-results": "Uyğun qeyd yoxdur",
+    "no-results-hint": "Filtrləri təmizləməyi sınayın.",
+    "clear-filters": "Filtrləri təmizlə",
+    "loading": "Qeydlər yüklənir…",
+    "new-here": "Burada qeyd yaz",
+    "saved-outside-filter": "Saxlanıldı. Bu qeyd cari xəritə nəticələrinə daxil deyil.",
+    "open-memo": "Qeydi aç"
+  },
   "about": {
     "api-docs": "API sənədləri",
     "api-docs-note": "REST və gRPC arayışı",

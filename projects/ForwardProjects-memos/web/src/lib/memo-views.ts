@@ -1,3 +1,4 @@
+import { matchPath } from "react-router-dom";
 import { ROUTES, resolveCollectionRoute } from "@/router/routes";
 
 export type MemoScope = "home" | "explore" | "archived";
@@ -43,7 +44,10 @@ export const isCalendarRoute = (pathname: string): boolean => {
  * profile and the calendar. Views, calendar days and tags apply in place on all of them.
  */
 export const isMemoCollectionRoute = (pathname: string): boolean =>
-  isMemoScopeRoute(pathname) || getProfileUsername(pathname) !== undefined || isCalendarRoute(pathname);
+  isMemoScopeRoute(pathname) ||
+  getProfileUsername(pathname) !== undefined ||
+  isCalendarRoute(pathname) ||
+  matchPath(ROUTES.MAP, comparablePathname(pathname)) !== null;
 
 export const getMemoScopePath = (scope: PrimaryMemoScope): string => (scope === "explore" ? ROUTES.EXPLORE : ROUTES.HOME);
 

@@ -18,6 +18,7 @@ const AdminSignIn = lazyWithReload(() => import("@/pages/AdminSignIn"));
 const About = lazyWithReload(() => import("@/pages/About"));
 const Archived = lazyWithReload(() => import("@/pages/Archived"));
 const AuthCallback = lazyWithReload(() => import("@/pages/AuthCallback"));
+const MemoMap = lazyWithReload(() => import("@/pages/Map"));
 const Calendar = lazyWithReload(() => import("@/pages/Calendar"));
 const Explore = lazyWithReload(() => import("@/pages/Explore"));
 const Home = lazyWithReload(() => import("@/pages/Home"));
@@ -123,12 +124,14 @@ export const routeConfig: RouteObject[] = [
                             ],
                           },
                           { path: "attachments", element: <Attachments /> },
+                          { path: "map", element: <MemoMap /> },
                         ],
                       },
                       { path: "*", element: <NotFound /> },
                     ],
                   },
                   { path: Routes.ATTACHMENTS, element: <Attachments /> },
+                  { path: Routes.MAP, element: <MemoMap /> },
                   { path: Routes.INBOX, element: <Inboxes /> },
                   { path: Routes.SETTING, element: <Setting /> },
                 ],

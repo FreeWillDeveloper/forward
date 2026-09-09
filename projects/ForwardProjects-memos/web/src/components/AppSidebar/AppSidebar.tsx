@@ -23,7 +23,8 @@ import {
   UserRoundIcon,
 } from "lucide-react";
 import { type ReactNode, useEffect } from "react";
-import { Link, matchPath, useLocation, useNavigate, useSearchParams } from "react-router-dom";
+import { Link, matchPath, useLocation, useNavigate } from "react-router-dom";
+import { MAP_MEMO_FILTER } from "@/components/MapView/useMapMemos";
 import { MemoDetailSidebar } from "@/components/MemoDetailSidebar";
 import { DEFAULT_SETTING_SECTION, SETTINGS_SECTIONS } from "@/components/Settings/settingSections";
 import StatisticsView from "@/components/StatisticsView";
@@ -43,6 +44,7 @@ import useCurrentUser from "@/hooks/useCurrentUser";
 import { type MemoStatsContext, useFilteredMemoStats } from "@/hooks/useFilteredMemoStats";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { useNotifications, useUser } from "@/hooks/useUserQueries";
+import { combineCELFilters } from "@/lib/cel-filter";
 import { getMemoScopePath, getProfileUsername, type PrimaryMemoScope, resolveMemoScope } from "@/lib/memo-views";
 import { userNamePrefix } from "@/lib/resource-names";
 import { cn } from "@/lib/utils";
@@ -79,34 +81,28 @@ const NewMemoAction = ({ onClick }: { onClick: () => void }) => {
   );
 };
 
-const ProfileMode = () => {
+const ProfileNavigation = () => {
   const t = useTranslate();
-  const [searchParams, setSearchParams] = useSearchParams();
   const { setMobileOpen } = useAppSidebar();
-  const active = searchParams.get("view") === "map" ? "map" : "memos";
-  const setMode = (mode: "memos" | "map") => {
-    setSearchParams((params) => {
-      mode === "map" ? params.set("view", "map") : params.delete("view");
-      return params;
-    });
-    setMobileOpen(false);
-  };
 
   return (
     <SidebarSection label={t("common.profile")}>
-      <SidebarRow
-        state={active === "memos" ? "current" : "idle"}
-        icon={LayoutListIcon}
-        label={t("common.memos")}
-        onClick={() => setMode("memos")}
-      />
-      <SidebarRow state={active === "map" ? "current" : "idle"} icon={MapIcon} label={t("common.map")} onClick={() => setMode("map")} />
+      <SidebarRow state="current" icon={LayoutListIcon} label={t("common.memos")} onClick={() => setMobileOpen(false)} />
     </SidebarSection>
   );
 };
 
 /** The calendar is its own month view, so its sidebar narrows by view and tag but skips the heatmap. */
-const CollectionSidebarContent = ({ context, showStatistics = true }: { context: MemoStatsContext; showStatistics?: boolean }) => {
+const CollectionSidebarContent = ({
+  context,
+  showStatistics = true,
+  scopeFilter,
+}: {
+  context: MemoStatsContext;
+  showStatistics?: boolean;
+  /** A page that can only show part of the collection counts that part, so a tag never promises memos the page cannot show. */
+  scopeFilter?: string;
+}) => {
   const t = useTranslate();
   const location = useLocation();
   const currentUser = useCurrentUser();
@@ -122,7 +118,8 @@ const CollectionSidebarContent = ({ context, showStatistics = true }: { context:
   const statsUserName = context === "home" ? currentUser?.name : context === "profile" ? profileUser?.name : undefined;
   // User-level collections stay aligned with their unscoped feeds even when a Space is remembered.
   const isUserLevelCollection = context === "profile" || context === "archived";
-  const statsFilter = isUserLevelCollection ? undefined : memoFilter;
+  const collectionFilter = isUserLevelCollection ? undefined : memoFilter;
+  const statsFilter = scopeFilter ? combineCELFilters(collectionFilter, scopeFilter) : collectionFilter;
   const { statistics, tags } = useFilteredMemoStats({
     context,
     userName: statsUserName,
@@ -136,7 +133,7 @@ const CollectionSidebarContent = ({ context, showStatistics = true }: { context:
 
   return (
     <div className={SIDEBAR_SECTION_STACK_CLASSES}>
-      {context === "profile" && <ProfileMode />}
+      {context === "profile" && <ProfileNavigation />}
       {showStatistics && (
         <SidebarSection ariaLabel={t("common.statistics")}>
           <StatisticsView statisticsData={statistics} onDateSelect={() => setMobileOpen(false)} />
@@ -292,6 +289,7 @@ const RouteSidebarContent = () => {
   }
   if (kind === "views") return <ViewsSection manageActive />;
   if (kind === "calendar") return <CollectionSidebarContent context="home" showStatistics={false} />;
+  if (kind === "map") return <CollectionSidebarContent context="home" showStatistics={false} scopeFilter={MAP_MEMO_FILTER} />;
   if (kind === "attachments") return <AttachmentsSidebarContent />;
   if (kind === "inbox") return <InboxSidebarContent />;
   if (kind === "settings") return <SettingsSidebarContent />;
@@ -312,22 +310,28 @@ interface GlobalNavItem {
 /**
  * The compact navigator is intentionally horizontal. Its 16px glyph plus 6px padding
  * on each side makes the collapsed control an exact 28px square, the same box as the
- * header's compose control. Expanding the
- * label only opens the text track, so the artwork and surface never jump.
+ * header's compose control. Expanding the label only opens the text track, so the
+ * artwork and surface never jump.
+ *
+ * The label is a luxury the row affords by width, never by truncation. Five squares and
+ * their gaps cost 148px and the longest label 82px more, so below a 230px row (the default
+ * sidebar's content box) the current page stays a filled square with its tooltip.
  */
+const NAV_LABEL_QUERY = "@min-[230px]:";
 const navPillClasses = (active: boolean) =>
   cn(sidebarSurfaceVariants({ role: "navPill" }), SIDEBAR_ROW_FOCUS_CLASSES, sidebarRowStateClasses(active ? "current" : "idle"));
 
 const NavPillLabel = ({ expanded, label, children }: { expanded: boolean; label: ReactNode; children?: ReactNode }) => (
+  // The control carries its own aria-label; this text is decoration whether or not it is open.
   <span
-    aria-hidden={!expanded || undefined}
+    aria-hidden="true"
     className={cn(
-      "grid min-w-0 transition-[grid-template-columns,padding] duration-200 ease-out motion-reduce:transition-none",
-      expanded ? "grid-cols-[1fr] ps-2.5" : "grid-cols-[0fr] ps-0",
+      "grid min-w-0 grid-cols-[0fr] ps-0 transition-[grid-template-columns,padding] duration-200 ease-out motion-reduce:transition-none",
+      expanded && `${NAV_LABEL_QUERY}grid-cols-[1fr] ${NAV_LABEL_QUERY}ps-2`,
     )}
   >
     <span className="flex min-w-0 items-center gap-1.5 overflow-hidden">
-      <span data-sidebar-label className="max-w-[5.5rem] shrink-0 truncate text-[12px]">
+      <span data-sidebar-label className="shrink-0 truncate text-[12px]">
         {label}
       </span>
       {children}
@@ -383,6 +387,13 @@ const GlobalNavigation = () => {
           active: routeKind === "calendar",
         },
         {
+          id: "map",
+          label: t("common.map"),
+          path: collectionPathForLocation(ROUTES.MAP, location.pathname),
+          icon: MapIcon,
+          active: routeKind === "map",
+        },
+        {
           id: "attachments",
           label: t("common.attachments"),
           path: collectionPathForLocation(ROUTES.ATTACHMENTS, location.pathname),
@@ -435,7 +446,7 @@ const GlobalNavigation = () => {
 
   return (
     <TooltipProvider>
-      <nav className={cn("flex h-7 items-center gap-1", SIDEBAR_RAIL_CLASSES)} aria-label="Primary">
+      <nav className={cn("@container flex h-7 items-center gap-0.5", SIDEBAR_RAIL_CLASSES)} aria-label="Primary">
         {currentUser && (
           <DropdownMenu
             onOpenChange={(open, eventDetails) => {
@@ -613,7 +624,7 @@ const AppSidebar = ({ className }: { className?: string }) => {
 export const MobileAppHeader = () => {
   const { setMobileOpen } = useAppSidebar();
   return (
-    <header className="sticky top-0 z-20 flex h-12 w-full items-center justify-start gap-1 border-b border-border/70 bg-background/90 px-2 backdrop-blur-md md:hidden">
+    <header className="sticky top-0 z-20 flex h-12 w-full shrink-0 items-center justify-start gap-1 border-b border-border/70 bg-background/90 px-2 backdrop-blur-md md:hidden">
       <Button variant="ghost" size="icon" onClick={() => setMobileOpen(true)} aria-label="Open navigation" data-mobile-navigation-trigger>
         <MenuIcon className="size-[18px]" />
       </Button>

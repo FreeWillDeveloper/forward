@@ -142,6 +142,8 @@ const MemoDetailSidebar = ({
   const originLabel = useMemo(() => {
     const originPath = parentPage?.split(/[?#]/, 1)[0] || "/";
     switch (getSidebarRouteKind(originPath)) {
+      case "map":
+        return t("common.map");
       case "explore":
         return t("common.explore");
       case "archived":

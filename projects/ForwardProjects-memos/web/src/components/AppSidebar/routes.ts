@@ -2,7 +2,17 @@ import { matchPath } from "react-router-dom";
 import { getProfileUsername, isCalendarRoute, isMemoScopeRoute, type MemoScope, resolveMemoScope } from "@/lib/memo-views";
 import { collectionPathForLocation, ROUTES, resolveCollectionRoute } from "@/router/routes";
 
-export type SidebarRouteKind = MemoScope | "profile" | "views" | "calendar" | "attachments" | "inbox" | "settings" | "memo" | "common";
+export type SidebarRouteKind =
+  | MemoScope
+  | "profile"
+  | "views"
+  | "calendar"
+  | "map"
+  | "attachments"
+  | "inbox"
+  | "settings"
+  | "memo"
+  | "common";
 
 export type RouteSearchScope = "route-collection" | "user-collection" | "profile" | "all";
 
@@ -18,6 +28,7 @@ export const getSidebarRouteKind = (path: string): SidebarRouteKind => {
   if (getProfileUsername(normalizedPath) !== undefined) return "profile";
   if (matchPath(ROUTES.VIEWS, normalizedPath)) return "views";
   if (isCalendarRoute(normalizedPath)) return "calendar";
+  if (matchPath(ROUTES.MAP, normalizedPath)) return "map";
   if (matchPath(ROUTES.ATTACHMENTS, normalizedPath)) return "attachments";
   if (matchPath(ROUTES.INBOX, normalizedPath)) return "inbox";
   if (matchPath(ROUTES.SETTING, normalizedPath)) return "settings";
@@ -37,12 +48,12 @@ export const getRouteActionPolicy = (path: string): RouteActionPolicy => {
 
   // Calendar and attachments browse the route collection but are not memo lists
   // themselves, so a search leaves for the same collection's Home.
-  if (kind === "calendar" || kind === "attachments") {
+  if (kind === "calendar" || kind === "map" || kind === "attachments") {
     return { searchScope: "route-collection", searchDestination: collectionPathForLocation(ROUTES.HOME, path) };
   }
 
   if (kind === "profile") {
-    // Re-enter the memo list tab on the same profile (dropping ?view=map).
+    // Keep search within the same profile.
     return { searchScope: "profile", searchDestination: path.length > 1 ? path.replace(/\/+$/, "") : path };
   }
 

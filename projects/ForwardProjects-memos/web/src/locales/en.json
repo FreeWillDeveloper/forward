@@ -1,4 +1,25 @@
 {
+  "map": {
+    "resize-panel": "Resize location panel",
+    "collapse": "Collapse panel",
+    "expand": "Expand panel",
+    "selection": "Selected memos",
+    "loaded": "{{count}} loaded",
+    "fit-all": "Show all results",
+    "zoom-in": "Zoom in",
+    "zoom-out": "Zoom out",
+    "load-error": "Could not load all memos.",
+    "tile-error": "The map could not load. Your memos are still available.",
+    "empty": "No memos with a location yet",
+    "empty-hint": "Add a location to a memo to see it here.",
+    "no-results": "No matching memos",
+    "no-results-hint": "Try clearing your filters.",
+    "clear-filters": "Clear filters",
+    "loading": "Loading memos…",
+    "new-here": "Write here",
+    "saved-outside-filter": "Saved. This memo is outside the current map results.",
+    "open-memo": "Open memo"
+  },
   "about": {
     "api-docs": "API Docs",
     "api-docs-note": "REST and gRPC reference",

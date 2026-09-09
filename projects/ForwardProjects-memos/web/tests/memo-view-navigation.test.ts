@@ -30,8 +30,10 @@ describe("memo view navigation", () => {
     ).toBe("/explore?filter=contentSearch%3Aroadmap");
   });
 
-  it("keeps a Profile map origin intact", () => {
-    expect(resolveMemoParentPage({ pathname: "/u/alice", search: "?view=map", memoName: "memos/123" })).toBe("/u/alice?view=map");
+  it("keeps a filtered Profile origin intact", () => {
+    expect(resolveMemoParentPage({ pathname: "/u/alice", search: "?filter=tagSearch%3Awork", memoName: "memos/123" })).toBe(
+      "/u/alice?filter=tagSearch%3Awork",
+    );
   });
 
   it("uses Home for direct and shared resource entries", () => {
@@ -86,12 +88,12 @@ describe("memo view navigation", () => {
   });
 
   it("replaces the filter without dropping other origin query parameters", () => {
-    expect(withMemoFilter("/u/alice?view=memos&filter=old#section", "tagSearch:design")).toBe(
-      "/u/alice?view=memos&filter=tagSearch%3Adesign",
+    expect(withMemoFilter("/u/alice?sort=displayTime&filter=old#section", "tagSearch:design")).toBe(
+      "/u/alice?sort=displayTime&filter=tagSearch%3Adesign",
     );
   });
 
-  it("returns a Profile map origin to its memo list when applying a filter", () => {
-    expect(withMemoFilter("/u/alice?view=map", "tagSearch:design")).toBe("/u/alice?filter=tagSearch%3Adesign");
+  it("applies a filter within the originating Profile", () => {
+    expect(withMemoFilter("/u/alice", "tagSearch:design")).toBe("/u/alice?filter=tagSearch%3Adesign");
   });
 });

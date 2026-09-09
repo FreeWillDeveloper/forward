@@ -46,6 +46,13 @@ describe("MemoDetailSidebar", () => {
     currentUserState.value = { name: "users/alice" };
   });
 
+  it("returns to the scoped map with its filters, viewport, and selection", () => {
+    const parentPage = "/spaces/travel/map?filter=tagSearch%3Atravel&lat=35&lng=135&zoom=12&memo=memos%2Fdetail";
+    renderSidebar(<MemoDetailSidebar memo={create(MemoSchema, { name: "memos/detail" })} parentPage={parentPage} hasExplicitOrigin />);
+
+    expect(screen.getByRole("link", { name: "memo.back-to:common.map" })).toHaveAttribute("href", parentPage);
+  });
+
   it("organizes source, in-page navigation, connections, and frequent actions without repeating metadata", async () => {
     const memo = create(MemoSchema, {
       name: "memos/detail",

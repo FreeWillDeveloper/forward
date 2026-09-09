@@ -166,6 +166,7 @@ const expectCollapsedNavPill = (pill: HTMLElement, label: string) => {
   expect(pill.firstElementChild).toHaveClass("size-4");
   const labelTrack = pill.querySelector('span.grid[aria-hidden="true"]');
   expect(labelTrack).toHaveClass("grid-cols-[0fr]", "ps-0");
+  expect(labelTrack).not.toHaveClass("@min-[230px]:grid-cols-[1fr]");
   expect(labelTrack).toHaveTextContent(label);
 };
 
@@ -173,8 +174,9 @@ const expectExpandedNavPill = (pill: HTMLElement, label: string) => {
   expect(pill).toHaveClass("h-7", "rounded-md", "px-1.5");
   expect(pill.firstElementChild).toHaveClass("size-4");
   const labelTrack = pill.querySelector("span.grid");
-  expect(labelTrack).toHaveClass("grid-cols-[1fr]", "ps-2.5");
-  expect(labelTrack).not.toHaveAttribute("aria-hidden");
+  // The label opens only where the row can afford it; the control's aria-label names it regardless.
+  expect(labelTrack).toHaveClass("@min-[230px]:grid-cols-[1fr]", "@min-[230px]:ps-2");
+  expect(labelTrack).toHaveAttribute("aria-hidden", "true");
   expect(pill.querySelector("[data-sidebar-label]")).toHaveTextContent(label);
 };
 
@@ -416,7 +418,7 @@ describe("App sidebar logo", () => {
     expect(screen.getByRole("link", { name: "Memos logo" })).toHaveAttribute("href", "/explore");
     expect(screen.queryByRole("button", { name: /^space\.switch:/ })).not.toBeInTheDocument();
     const primaryNavigation = screen.getByRole("navigation", { name: "Primary" });
-    expect(primaryNavigation).toHaveClass("h-7", "items-center", "gap-1", "px-3");
+    expect(primaryNavigation).toHaveClass("h-7", "items-center", "gap-0.5", "px-3");
     expect(primaryNavigation).not.toHaveClass("flex-col");
     const navigation = within(primaryNavigation);
     expect(navigation.getByRole("button", { name: "common.search" })).toHaveClass("ms-auto", "h-7", "px-1.5");

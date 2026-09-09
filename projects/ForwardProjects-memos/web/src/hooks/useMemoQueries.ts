@@ -179,12 +179,13 @@ export function useMemos(request: Partial<ListMemosRequest> = {}) {
 export function useInfiniteMemos(request: Partial<ListMemosRequest> = {}, options?: { enabled?: boolean }) {
   return useInfiniteQuery({
     queryKey: memoKeys.list(request),
-    queryFn: async ({ pageParam }) => {
+    queryFn: async ({ pageParam, signal }) => {
       const response = await memoServiceClient.listMemos(
         create(ListMemosRequestSchema, {
           ...request,
           pageToken: pageParam || "",
         } as Record<string, unknown>),
+        { signal },
       );
       return response;
     },

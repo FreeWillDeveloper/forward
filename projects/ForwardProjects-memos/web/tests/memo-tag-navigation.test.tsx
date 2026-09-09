@@ -48,7 +48,7 @@ describe("Memo tag navigation", () => {
   });
 
   it("returns a Profile-origin tag to that profile's memo list", () => {
-    origin.parentPage = "/u/alice?view=map";
+    origin.parentPage = "/u/alice";
 
     render(
       <MemoryRouter initialEntries={["/memos/parent"]}>
