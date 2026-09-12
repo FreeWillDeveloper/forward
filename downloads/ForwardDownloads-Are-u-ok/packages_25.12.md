@@ -1,5 +1,4 @@
 #### iStore .run 软件包
-* **这是 iStoreOS 25.12分支测试版的 .run包，iStoreOS 25.12测试详见 https://github.com/istoreos/istoreos/discussions/3008**
 * 适用于KoolCenter iStoreOS 25.12.X的软件包
 * 必须是使用apk包管理器的固件
 * **如果你不确定系统架构，可以在终端里执行 `source /etc/os-release;echo $OPENWRT_ARCH`，也可以检查你当前使用的软件源地址里的架构信息。**
@@ -16,6 +15,21 @@
     <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/releases/download/iStoreOS_25.12/taskplan_3.0.0-r20260303_sdk_25.12.run">通用</a></td>
     <td align="center">(定时任务)luci-app-taskplan by sirpdboy</td>
     <td align="center">2026-08-08</td>
+</tr>
+<tr align="center">
+    <td rowspan="4"; align="center"><a href="https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic">unblockneteasemusic</a></td>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/releases/download/iStoreOS_25.12/unblockneteasemusic_3.4-r1_x86_64_sdk_25.12.run">x86_64</a></td>
+    <td rowspan="4"; align="center">(网易云音乐解锁)luci-app-unblockneteasemusic v3.4-r1 JavaScript Version</td>
+    <td rowspan="4"; align="center">2026-09-12</td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/releases/download/iStoreOS_25.12/unblockneteasemusic_3.4-r1_aarch64_generic_sdk_25.12.run">aarch64_generic</a></td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/releases/download/iStoreOS_25.12/unblockneteasemusic_3.4-r1_aarch64_a53_sdk_25.12.run">aarch64_a53</a></td>
+</tr>
+<tr>
+    <td align="center"><a href="https://github.com/bcseputetto/Are-u-ok/releases/download/iStoreOS_25.12/unblockneteasemusic_3.4-r1_aarch64_a72_sdk_25.12.run">aarch64_a72</a></td>
 </tr>
 <tr align="center">
     <td rowspan="4"; align="center"><a href="https://github.com/sbwml/luci-app-mosdns">mosdns</a></td>
