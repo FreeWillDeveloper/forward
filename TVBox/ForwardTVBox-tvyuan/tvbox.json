@@ -2,8 +2,17 @@
   "spider": "",
   "sites": [
     {
+      "key": "🦚360┃采集",
+      "name": "[280KB/s|2823ms|中] 🦚360┃采集",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod?",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "360资源",
-      "name": "[215KB/s|1894ms|中] 360资源",
+      "name": "[278KB/s|2244ms|中] 360资源",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
@@ -11,44 +20,17 @@
       "filterable": 0
     },
     {
-      "key": "新浪资源",
-      "name": "[2807KB/s|249ms|稳] 新浪资源",
-      "type": 0,
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "🍏无印",
-      "name": "[2652KB/s|900ms|稳] 🍏无印",
+      "key": "🍊鸡坤",
+      "name": "[2607KB/s|600ms|稳] 🍊鸡坤",
       "type": 1,
-      "api": "https://api.wsyzy.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "香奶儿资源(已修复)",
-      "name": "[2228KB/s|322ms|稳] 香奶儿资源(已修复)",
-      "type": 0,
-      "api": "https://www.gdlsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "美少女资源(已修复)",
-      "name": "[2174KB/s|554ms|稳] 美少女资源(已修复)",
-      "type": 0,
-      "api": "https://www.msnii.com/api/xml.php",
+      "api": "https://jkunzyapi.com/api.php/provide/vod/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
       "key": "iKun资源",
-      "name": "[1853KB/s|726ms|稳] iKun资源",
+      "name": "[2552KB/s|960ms|稳] iKun资源",
       "type": 0,
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
       "searchable": 1,
@@ -56,26 +38,8 @@
       "filterable": 0
     },
     {
-      "key": "淫水机资源(已修复)",
-      "name": "[1776KB/s|402ms|稳] 淫水机资源(已修复)",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "💥丨爱看2k丨微广",
-      "name": "[1718KB/s|689ms|稳] 💥丨爱看2k丨微广",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "🥣爱坤┃影视",
-      "name": "[1551KB/s|879ms|稳] 🥣爱坤┃影视",
+      "name": "[2403KB/s|665ms|稳] 🥣爱坤┃影视",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
       "searchable": 1,
@@ -83,10 +47,46 @@
       "filterable": 0
     },
     {
-      "key": "豆瓣采集2",
-      "name": "[1526KB/s|1024ms|稳] 豆瓣采集2",
+      "key": "🍏光速",
+      "name": "[2350KB/s|383ms|稳] 🍏光速",
       "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json/",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "IK",
+      "name": "[2109KB/s|885ms|稳] IK",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "采集视频3",
+      "name": "[1913KB/s|637ms|稳] 采集视频3",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "🆕非凡┃资源",
+      "name": "[1536KB/s|1234ms|稳] 🆕非凡┃资源",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "美少女资源(已修复)",
+      "name": "[1432KB/s|787ms|稳] 美少女资源(已修复)",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
