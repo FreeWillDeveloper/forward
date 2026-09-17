@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"strings"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -80,7 +81,7 @@ func TestRenderSpaceFilters(t *testing.T) {
 	for _, schema := range []Schema{NewSchema(), NewAttachmentSchema()} {
 		engine, err := NewEngine(schema)
 		require.NoError(t, err)
-		for _, dialect := range []DialectName{DialectSQLite, DialectD1, DialectMySQL, DialectPostgres} {
+		for _, dialect := range []DialectName{DialectSQLite, DialectMySQL, DialectPostgres} {
 			assigned, err := engine.CompileToStatement(
 				context.Background(),
 				`space == "spaces/team"`,
@@ -96,7 +97,7 @@ func TestRenderSpaceFilters(t *testing.T) {
 			require.Empty(t, unassigned.Args, schema.Name, dialect)
 		}
 
-		for _, dialect := range []DialectName{DialectSQLite, DialectD1, DialectMySQL, DialectPostgres} {
+		for _, dialect := range []DialectName{DialectSQLite, DialectMySQL, DialectPostgres} {
 			assigned, err := engine.CompileToStatement(context.Background(), `space != null`, RenderOptions{Dialect: dialect})
 			require.NoError(t, err, schema.Name, dialect)
 			require.Contains(t, assigned.SQL, "IS NOT NULL", schema.Name, dialect)
@@ -283,7 +284,7 @@ func TestRenderEmptyTagListIsFalse(t *testing.T) {
 
 	engine, err := NewEngine(NewSchema())
 	require.NoError(t, err)
-	for _, dialect := range []DialectName{DialectSQLite, DialectD1, DialectMySQL, DialectPostgres} {
+	for _, dialect := range []DialectName{DialectSQLite, DialectMySQL, DialectPostgres} {
 		stmt, err := engine.CompileToStatement(context.Background(), `tag in []`, RenderOptions{Dialect: dialect})
 		require.NoError(t, err, dialect)
 		require.Equal(t, "1 = 0", stmt.SQL, dialect)
@@ -412,7 +413,6 @@ func TestRenderStartsWithPerDialect(t *testing.T) {
 		fragments []string
 	}{
 		{DialectSQLite, []string{"memos_unicode_lower(", "`memo`.`content`", `ESCAPE '\'`}},
-		{DialectD1, []string{"LOWER(`memo`.`content`) LIKE LOWER(?)", `ESCAPE '\'`}},
 		{DialectPostgres, []string{"memo.content ILIKE $1"}},
 		{DialectMySQL, []string{"`memo`.`content` LIKE ?"}},
 	}
@@ -652,39 +652,19 @@ func TestHasLocationSQLiteBehavior(t *testing.T) {
 	}
 }
 
-func TestRenderRegexLiteralFallbackOnD1(t *testing.T) {
+func TestCompileRejectsOversizedExpression(t *testing.T) {
 	t.Parallel()
-
 	engine, err := NewEngine(NewSchema())
 	require.NoError(t, err)
 
-	cases := []struct {
-		expression string
-		sql        string
-		args       []any
-	}{
-		{`content.matches("^release")`, "instr(`memo`.`content`, ?) = 1", []any{"release"}},
-		{`content.matches("notes$")`, "substr(`memo`.`content`, -length(?)) = ?", []any{"notes", "notes"}},
-		{`content.matches("^done$")`, "`memo`.`content` = ?", []any{"done"}},
-		{`content.matches("v1\\.2")`, "instr(`memo`.`content`, ?) > 0", []any{"v1.2"}},
-		// An anchor alone matches everything and renders as no condition.
-		{`content.matches("^")`, "", []any{}},
+	var builder strings.Builder
+	builder.WriteString(`content.contains("a")`)
+	for builder.Len() < maxFilterExpressionSize+64 {
+		builder.WriteString(` || content.contains("a")`)
 	}
-	for _, tc := range cases {
-		stmt, err := engine.CompileToStatement(context.Background(), tc.expression, RenderOptions{Dialect: DialectD1})
-		require.NoError(t, err, tc.expression)
-		require.Equal(t, tc.sql, stmt.SQL, tc.expression)
-		require.Equal(t, tc.args, stmt.Args, tc.expression)
-	}
+	_, err = engine.Compile(context.Background(), builder.String())
+	require.Error(t, err)
 
-	for _, expression := range []string{
-		`content.matches("v[0-9]+")`,
-		`content.matches("cat|mouse")`,
-		`content.matches("a.b")`,
-		`content.matches("\\d+")`,
-		`content.matches("x*")`,
-	} {
-		_, err := engine.CompileToStatement(context.Background(), expression, RenderOptions{Dialect: DialectD1})
-		require.ErrorContains(t, err, "not supported on Cloudflare D1", expression)
-	}
+	_, err = engine.Compile(context.Background(), `content.contains("a") || content.contains("b")`)
+	require.NoError(t, err)
 }
