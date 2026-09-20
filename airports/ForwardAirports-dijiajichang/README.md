@@ -40,9 +40,9 @@
 官网地址2:[点击进入](https://edu.yuque.men/auth/register?code=1PhiI0Pi)
 
 
-机场特色:50G流量免费试用
+机场特色:5GB流量免费试用
 
-主观评价:开了好些年的一家机场，直连套餐1元100G，性价比不错。
+主观评价:开了好些年的一家机场，直连套餐1元100G，性价比不错。（可能存在流量虚标，1元套餐可能存在2-5倍消耗）
 
 使用方式: 🟢 支持官方客户端 🟢支持第三方客户端
 
@@ -228,7 +228,7 @@ iOS：apple store搜索clashmi、搜索sing-box、搜索Shadowrocket下载（更
 
 ## Coding Plan推荐 
 
-[OpenCode Go](https://opencode.ai/go?ref=TXE14SVQTV)，首月只需5美元，支持支付宝支付，非常推荐新上线的DeepSeekV4Flash和GPT5.6Luna模型性价比非常高。
+codex套餐或deepseek api
 
 ---
 
