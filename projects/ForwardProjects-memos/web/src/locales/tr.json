@@ -80,6 +80,7 @@
     "attachments": "Ekler",
     "avatar": "Profil Resmi",
     "basic": "Temel",
+    "browse": "Göz at",
     "calendar": "Takvim",
     "cancel": "İptal",
     "clear": "Temizle",
@@ -108,6 +109,7 @@
     "explore": "Keşfet",
     "filter": "Filtrele",
     "home": "Ana Sayfa",
+    "timeline": "Zaman çizelgesi",
     "inbox": "Gelen Kutusu",
     "language": "Dil",
     "last-updated-at": "Son güncelleme",
@@ -122,6 +124,7 @@
     "name": "İsim",
     "next-month": "Sonraki ay",
     "nickname": "Takma Ad",
+    "open": "Aç",
     "or": "veya",
     "password": "Şifre",
     "pin": "Sabitle",
@@ -282,7 +285,6 @@
     "compact-mode": "Kompakt mod",
     "connections": "Bağlantılar",
     "grid-compact-hint": "Izgara düzenleri her zaman kompakt kartlar kullanır.",
-    "go-to": "Git: {{source}}",
     "layout": "Düzen",
     "layout-auto": "Otomatik",
     "layout-auto-description": "Ekrana sığdığı kadar sütun",
@@ -341,7 +343,6 @@
     "on-this-memo": "Bu notta",
     "task-actions": {
       "check-all": "Tüm görevleri kontrol et",
-      "title": "Görevler",
       "uncheck-all": "Tüm görevlerin işaretini kaldırın",
       "updated": "Görevler güncellendi"
     }
@@ -360,11 +361,6 @@
     "succeed-copy-content": "İçerik başarıyla kopyalandı.",
     "succeed-copy-link": "Bağlantı başarıyla kopyalandı.",
     "update-succeed": "Güncelleme başarılı"
-  },
-  "profile": {
-    "no-shared-memos": "@{{username}} henüz hiç not paylaşmadı.",
-    "not-found-description": "Bu sunucuda @{{username}} adında bir Memos kullanıcısı yok.",
-    "not-found-title": "Burada kimse yok"
   },
   "reference": {
     "no-memos-found": "Not bulunamadı",
@@ -908,6 +904,7 @@
     }
   },
   "space": {
+    "all-spaces": "Tüm alanlar",
     "icon": {
       "change": "Alan simgesini değiştir",
       "kind": "Simge türü",

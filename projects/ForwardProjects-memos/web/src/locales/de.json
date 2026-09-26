@@ -54,6 +54,7 @@
     "attachments": "Anhänge",
     "avatar": "Avatar",
     "basic": "Allgemeines",
+    "browse": "Durchsuchen",
     "calendar": "Kalender",
     "cancel": "Abbrechen",
     "clear": "Leeren",
@@ -80,6 +81,7 @@
     "explore": "Erkunden",
     "filter": "Filter",
     "home": "Startseite",
+    "timeline": "Zeitleiste",
     "inbox": "Eingang",
     "language": "Sprache",
     "last-updated-at": "Zuletzt aktualisiert am",
@@ -92,6 +94,7 @@
     "more": "Mehr",
     "name": "Name",
     "nickname": "Spitzname",
+    "open": "Öffnen",
     "or": "oder",
     "password": "Passwort",
     "pin": "Anpinnen",
@@ -288,7 +291,6 @@
     "oldest-first": "Älteste zuerst",
     "task-actions": {
       "check-all": "Überprüfen Sie alle Aufgaben",
-      "title": "Aufgaben",
       "uncheck-all": "Deaktivieren Sie alle Aufgaben",
       "updated": "Aufgaben aktualisiert"
     },
@@ -309,7 +311,6 @@
     "back-to": "Zurück zu {{source}}",
     "connections": "Verbindungen",
     "grid-compact-hint": "Rasterlayouts verwenden immer kompakte Karten.",
-    "go-to": "Gehe zu {{source}}",
     "layout": "Layout",
     "layout-auto": "Automatisch",
     "layout-auto-description": "So viele Spalten, wie auf den Bildschirm passen",
@@ -977,12 +978,8 @@
     "previous-year": "Vorheriges Jahr",
     "select-month": "Monat auswählen"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} hat noch keine Memos geteilt.",
-    "not-found-description": "Es gibt keinen Benutzer Memos mit dem Namen @{{username}} in dieser Instanz.",
-    "not-found-title": "Niemand hier"
-  },
   "space": {
+    "all-spaces": "Alle Bereiche",
     "icon": {
       "change": "Bereichssymbol ändern",
       "kind": "Symboltyp",

@@ -151,6 +151,7 @@
     "attachments": "Qoşmalar",
     "avatar": "Avatar",
     "basic": "Əsas",
+    "browse": "Baxış",
     "calendar": "Təqvim",
     "cancel": "Ləğv et",
     "clear": "Təmizlə",
@@ -180,6 +181,7 @@
     "explore": "Kəşf et",
     "filter": "Süzgəc",
     "home": "Əsas səhifə",
+    "timeline": "Zaman xətti",
     "inbox": "Gələnlər",
     "language": "Dil",
     "last-updated-at": "Son yenilənmə",
@@ -194,6 +196,7 @@
     "name": "Ad",
     "next-month": "Növbəti ay",
     "nickname": "Ləqəb",
+    "open": "Aç",
     "or": "və ya",
     "password": "Parol",
     "pin": "Sancaqla",
@@ -354,7 +357,6 @@
     "compact-mode": "Yığcam rejim",
     "connections": "Bağlantılar",
     "grid-compact-hint": "Şəbəkə düzülüşləri həmişə yığcam kartlardan istifadə edir.",
-    "go-to": "{{source}} bölməsinə keç",
     "layout": "Düzülüş",
     "layout-auto": "Avtomatik",
     "layout-auto-description": "Ekrana sığdığı qədər sütun",
@@ -401,7 +403,6 @@
     "show-more": "Daha çox göstər",
     "task-actions": {
       "check-all": "Bütün tapşırıqları işarələ",
-      "title": "Tapşırıqlar",
       "uncheck-all": "Bütün tapşırıqların işarəsini götür",
       "updated": "Tapşırıqlar yeniləndi"
     },
@@ -431,11 +432,6 @@
     "succeed-copy-content": "Məzmun uğurla kopyalandı.",
     "succeed-copy-link": "Keçid uğurla kopyalandı.",
     "update-succeed": "Yeniləmə uğurlu oldu"
-  },
-  "profile": {
-    "no-shared-memos": "@{{username}} hələ heç bir qeyd paylaşmayıb.",
-    "not-found-description": "Bu instansda @{{username}} adlı Memos istifadəçisi yoxdur.",
-    "not-found-title": "Burada heç kim yoxdur"
   },
   "reference": {
     "no-memos-found": "Qeyd tapılmadı",
@@ -979,6 +975,7 @@
     }
   },
   "space": {
+    "all-spaces": "Bütün məkanlar",
     "icon": {
       "change": "Sahə ikonunu dəyiş",
       "kind": "İkon növü",

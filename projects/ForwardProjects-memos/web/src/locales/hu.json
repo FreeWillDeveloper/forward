@@ -54,6 +54,7 @@
     "attachments": "Mellékletek",
     "avatar": "Avatar",
     "basic": "Általános",
+    "browse": "Böngészés",
     "calendar": "Naptár",
     "cancel": "Mégsem",
     "clear": "Törlés",
@@ -80,6 +81,7 @@
     "explore": "Felfedezés",
     "filter": "Szűrő",
     "home": "Főoldal",
+    "timeline": "Idővonal",
     "inbox": "Értesítések",
     "language": "Nyelv",
     "last-updated-at": "Utoljára frissítve",
@@ -92,6 +94,7 @@
     "more": "Több",
     "name": "Név",
     "nickname": "Becenév",
+    "open": "Megnyitás",
     "or": "vagy",
     "password": "Jelszó",
     "pin": "Kitűzés",
@@ -288,7 +291,6 @@
     "oldest-first": "Először a legidősebb",
     "task-actions": {
       "check-all": "Ellenőrizze az összes feladatot",
-      "title": "Feladatok",
       "uncheck-all": "Törölje az összes feladat jelölését",
       "updated": "Feladatok frissítve"
     },
@@ -309,7 +311,6 @@
     "back-to": "Vissza a {{source}}-hez",
     "connections": "Kapcsolatok",
     "grid-compact-hint": "A rácsos elrendezések mindig kompakt kártyákat használnak.",
-    "go-to": "Ugrás a {{source}}-hez",
     "layout": "Elrendezés",
     "layout-auto": "Automatikus",
     "layout-auto-description": "Annyi oszlop, amennyi elfér a képernyőn",
@@ -977,12 +978,8 @@
     "previous-year": "Előző év.",
     "select-month": "Hónap kiválasztása."
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} még nem osztott meg feljegyzéseket.",
-    "not-found-description": "Nincs Memos @{{username}} nevű felhasználó ezen a példányon.",
-    "not-found-title": "Senki sincs itt"
-  },
   "space": {
+    "all-spaces": "Összes tér",
     "icon": {
       "change": "Tér ikonjának módosítása",
       "kind": "Ikontípus",

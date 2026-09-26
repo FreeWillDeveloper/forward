@@ -54,6 +54,7 @@
     "attachments": "संलग्नक",
     "avatar": "अवतार",
     "basic": "मूल",
+    "browse": "ब्राउज़ करें",
     "calendar": "कैलेंडर",
     "cancel": "रद्द करें",
     "clear": "साफ़ करें",
@@ -80,6 +81,7 @@
     "explore": "अन्वेषण करें",
     "filter": "फ़िल्टर",
     "home": "होम",
+    "timeline": "समयरेखा",
     "inbox": "इनबॉक्स",
     "language": "भाषा",
     "last-updated-at": "अंतिम अपडेट",
@@ -92,6 +94,7 @@
     "more": "अधिक",
     "name": "नाम",
     "nickname": "उपनाम",
+    "open": "खोलें",
     "or": "या",
     "password": "पासवर्ड",
     "pin": "पिन करें",
@@ -296,7 +299,6 @@
     "count-memos-updated-in-date": "{{count}} {{memos}} को {{date}} पर अपडेट किया गया",
     "connections": "कनेक्शन",
     "grid-compact-hint": "ग्रिड लेआउट हमेशा कॉम्पैक्ट कार्ड का इस्तेमाल करते हैं।",
-    "go-to": "{{source}} पर जाएं",
     "layout": "लेआउट",
     "layout-auto": "ऑटो",
     "layout-auto-description": "स्क्रीन में जितने कॉलम फिट हों",
@@ -310,7 +312,6 @@
     "parent-memo": "पैरेंट मेमो",
     "task-actions": {
       "check-all": "सभी टास्क चेक करें",
-      "title": "टास्क",
       "uncheck-all": "सभी टास्क अनचेक करें",
       "updated": "टास्क अपडेट किए गए"
     },
@@ -963,11 +964,6 @@
     "banner-title": "Memos डेमो",
     "deploy-link": "अपना खुद का डिप्लॉय करें Memos"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} ने अभी तक कोई मेमो शेयर नहीं किया है।",
-    "not-found-description": "इस इंस्टेंस पर @{{username}} नाम का कोई Memos यूज़र नहीं है.",
-    "not-found-title": "यहाँ कोई नहीं है"
-  },
   "search": {
     "access-error": "आपके पास इन मेमो का एक्सेस नहीं है.",
     "clear-query": "क्वेरी क्लियर करें",
@@ -983,6 +979,7 @@
     "text": "टेक्स्ट"
   },
   "space": {
+    "all-spaces": "सभी स्पेस",
     "icon": {
       "change": "स्पेस आइकन बदलें",
       "kind": "आइकन टाइप",

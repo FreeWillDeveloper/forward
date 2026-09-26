@@ -54,6 +54,7 @@
     "attachments": "Allegati",
     "avatar": "Avatar",
     "basic": "Base",
+    "browse": "Sfoglia",
     "calendar": "Calendario",
     "cancel": "Annulla",
     "clear": "Pulisci",
@@ -80,6 +81,7 @@
     "explore": "Esplora",
     "filter": "Filtro",
     "home": "Home",
+    "timeline": "Cronologia",
     "inbox": "Notifiche",
     "language": "Lingua",
     "last-updated-at": "Ultimo aggiornamento",
@@ -92,6 +94,7 @@
     "more": "Altro",
     "name": "Nome",
     "nickname": "Nickname",
+    "open": "Apri",
     "or": "oppure",
     "password": "Password",
     "pin": "Fissa",
@@ -288,7 +291,6 @@
     "oldest-first": "Prima il più vecchio",
     "task-actions": {
       "check-all": "Controlla tutte le attività",
-      "title": "Compiti",
       "uncheck-all": "Deseleziona tutte le attività",
       "updated": "Attività aggiornate"
     },
@@ -309,7 +311,6 @@
     "back-to": "Torna a {{source}}",
     "connections": "Connessioni",
     "grid-compact-hint": "I layout a griglia utilizzano sempre schede compatte.",
-    "go-to": "Vai a {{source}}",
     "layout": "Layout",
     "layout-auto": "Automatico",
     "layout-auto-description": "Tante colonne quante ne possono entrare nello schermo",
@@ -977,12 +978,8 @@
     "previous-year": "Anno precedente",
     "select-month": "Seleziona il mese"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} non ha ancora condiviso alcun memo.",
-    "not-found-description": "Non esiste un utente di nome @{{username}} con Memos colonne in questa istanza.",
-    "not-found-title": "Nessuno qui"
-  },
   "space": {
+    "all-spaces": "Tutti gli spazi",
     "icon": {
       "change": "Cambia icona dello spazio",
       "kind": "Tipo di icona",

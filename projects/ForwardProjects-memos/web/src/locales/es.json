@@ -54,6 +54,7 @@
     "attachments": "Adjuntos",
     "avatar": "Avatar",
     "basic": "Básico",
+    "browse": "Navegar",
     "calendar": "Calendario",
     "cancel": "Cancelar",
     "clear": "Borrar",
@@ -80,6 +81,7 @@
     "explore": "Explorar",
     "filter": "Filtro",
     "home": "Inicio",
+    "timeline": "Cronología",
     "inbox": "Bandeja de entrada",
     "language": "Idioma",
     "last-updated-at": "Última actualización en",
@@ -92,6 +94,7 @@
     "more": "Más",
     "name": "Nombre",
     "nickname": "Apodo",
+    "open": "Abrir",
     "or": "o",
     "password": "Contraseña",
     "pin": "Enganchar",
@@ -288,7 +291,6 @@
     "oldest-first": "El más viejo primero",
     "task-actions": {
       "check-all": "Verificar todas las tareas",
-      "title": "Tareas",
       "uncheck-all": "Desmarque todas las tareas",
       "updated": "Tareas actualizadas"
     },
@@ -309,7 +311,6 @@
     "back-to": "Volver a {{source}}",
     "connections": "Conexiones",
     "grid-compact-hint": "Los diseños de cuadrícula siempre utilizan tarjetas compactas.",
-    "go-to": "Ir a {{source}}",
     "layout": "Diseño",
     "layout-auto": "Automático",
     "layout-auto-description": "Tantas columnas como quepan en la pantalla",
@@ -977,12 +978,8 @@
     "previous-year": "Año anterior",
     "select-month": "Seleccionar mes"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} aún no ha compartido ningún memo.",
-    "not-found-description": "No existe ningún usuario Memos llamado @{{username}} en esta instancia.",
-    "not-found-title": "No hay nadie aquí"
-  },
   "space": {
+    "all-spaces": "Todos los espacios",
     "icon": {
       "change": "Cambiar icono del espacio",
       "kind": "Tipo de icono",

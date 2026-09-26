@@ -92,6 +92,7 @@
     "attachments": "Прилози",
     "avatar": "Аватар",
     "basic": "Басиц",
+    "browse": "Прегледај",
     "calendar": "Календар",
     "cancel": "Откажи",
     "clear": "Јасно",
@@ -119,6 +120,7 @@
     "explore": "Истражите",
     "filter": "Филтер",
     "home": "Хоме",
+    "timeline": "Временска линија",
     "inbox": "Инбок",
     "language": "Језик",
     "last-updated-at": "Последњи пут ажурирано у",
@@ -131,6 +133,7 @@
     "more": "Више",
     "name": "Име",
     "nickname": "Надимак",
+    "open": "Отвори",
     "or": "или",
     "password": "Лозинка",
     "pin": "Пин",
@@ -316,7 +319,6 @@
     "show-more": "Покажи више",
     "task-actions": {
       "check-all": "Проверите све задатке",
-      "title": "Задаци",
       "uncheck-all": "Поништите избор свих задатака",
       "updated": "Задаци су ажурирани"
     },
@@ -347,7 +349,6 @@
     "back-to": "Назад на {{source}}",
     "connections": "Везе",
     "grid-compact-hint": "Распореди мреже увек користе компактне картице.",
-    "go-to": "Иди на {{source}}",
     "layout": "Распоред",
     "layout-auto": "Аутоматски",
     "layout-auto-description": "Колико год колона стане на екран",
@@ -977,12 +978,8 @@
     "previous-year": "Претходна година",
     "select-month": "Изаберите месец"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} још није поделио ниједну поруку.",
-    "not-found-description": "Нема корисника Memos по имену @{{username}} на овој инстанци.",
-    "not-found-title": "Нико овде није доступан"
-  },
   "space": {
+    "all-spaces": "Сви простори",
     "icon": {
       "change": "Промени икону простора",
       "kind": "Тип иконе",

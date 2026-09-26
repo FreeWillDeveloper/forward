@@ -92,6 +92,7 @@
     "attachments": "Manused",
     "avatar": "Avatar",
     "basic": "Põhiline",
+    "browse": "Sirvi",
     "calendar": "Kalender",
     "cancel": "Tühista",
     "clear": "Selge",
@@ -119,6 +120,7 @@
     "explore": "Uurige",
     "filter": "Filter",
     "home": "Kodu",
+    "timeline": "Ajajoon",
     "inbox": "Postkast",
     "language": "Keel",
     "last-updated-at": "Viimati värskendatud kell",
@@ -131,6 +133,7 @@
     "more": "Rohkem",
     "name": "Nimi",
     "nickname": "Hüüdnimi",
+    "open": "Ava",
     "or": "või",
     "password": "Parool",
     "pin": "Pin",
@@ -316,7 +319,6 @@
     "show-more": "Näita rohkem",
     "task-actions": {
       "check-all": "Kontrollige kõiki ülesandeid",
-      "title": "Ülesanded",
       "uncheck-all": "Tühjendage kõigi ülesannete märge",
       "updated": "Ülesanded värskendatud"
     },
@@ -347,7 +349,6 @@
     "back-to": "Tagasi {{source}} juurde",
     "connections": "Ühendused",
     "grid-compact-hint": "Ruudustikupaigutused kasutavad alati kompaktseid kaarte.",
-    "go-to": "Mine {{source}} juurde",
     "layout": "Paigutus",
     "layout-auto": "Automaatne",
     "layout-auto-description": "Nii palju veerge kui ekraanile mahub",
@@ -977,12 +978,8 @@
     "previous-year": "Eelmisel aastal",
     "select-month": "Valige kuu"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} pole veel ühtegi memo jaganud.",
-    "not-found-description": "Sellel eksemplaril pole Memos kasutajat nimega @{{username}}.",
-    "not-found-title": "Siin pole kedagi"
-  },
   "space": {
+    "all-spaces": "Kõik ruumid",
     "icon": {
       "change": "Muuda ruumi ikooni",
       "kind": "Ikooni tüüp",

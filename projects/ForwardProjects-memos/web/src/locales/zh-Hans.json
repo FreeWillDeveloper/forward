@@ -85,6 +85,7 @@
     "attachments": "附件",
     "avatar": "头像",
     "basic": "基础",
+    "browse": "浏览",
     "calendar": "日历",
     "cancel": "取消",
     "clear": "清除",
@@ -114,6 +115,7 @@
     "explore": "发现",
     "filter": "过滤器",
     "home": "主页",
+    "timeline": "时间线",
     "inbox": "通知",
     "language": "语言",
     "last-updated-at": "最后更新时间",
@@ -128,6 +130,7 @@
     "name": "名称",
     "next-month": "下个月",
     "nickname": "昵称",
+    "open": "打开",
     "or": "或者",
     "password": "密码",
     "pin": "置顶",
@@ -269,7 +272,6 @@
     "compact-mode": "紧凑模式",
     "connections": "关联",
     "grid-compact-hint": "网格布局始终使用紧凑卡片。",
-    "go-to": "前往{{source}}",
     "layout": "布局",
     "layout-auto": "自动",
     "layout-auto-description": "根据屏幕宽度显示尽可能多的列",
@@ -328,7 +330,6 @@
     "count-memos-updated-in-date": "{{date}} 更新了 {{count}} 条{{memos}}",
     "task-actions": {
       "check-all": "全部完成",
-      "title": "任务",
       "uncheck-all": "全部取消完成",
       "updated": "任务已更新"
     },
@@ -964,6 +965,7 @@
     }
   },
   "space": {
+    "all-spaces": "所有空间",
     "icon": {
       "change": "更改空间图标",
       "kind": "图标类型",
@@ -1008,10 +1010,5 @@
     "mode": "搜索模式",
     "syntax-help": "搜索语法",
     "text": "文本"
-  },
-  "profile": {
-    "no-shared-memos": "@{{username}} 尚未分享任何备忘录。",
-    "not-found-description": "此实例中不存在名为 @{{username}} 的 Memos 用户。",
-    "not-found-title": "未找到用户"
   }
 }

@@ -54,6 +54,7 @@
     "attachments": "Bijlagen",
     "avatar": "Avatar",
     "basic": "Simpel",
+    "browse": "Bladeren",
     "calendar": "Kalender",
     "cancel": "Annuleren",
     "clear": "Leegmaken",
@@ -80,6 +81,7 @@
     "explore": "Verkennen",
     "filter": "Filter",
     "home": "Thuis",
+    "timeline": "Tijdlijn",
     "inbox": "Postvak",
     "language": "Taal",
     "last-updated-at": "Laatst bijgewerkt op",
@@ -92,6 +94,7 @@
     "more": "Meer",
     "name": "Naam",
     "nickname": "Bijnaam",
+    "open": "Openen",
     "or": "of",
     "password": "Wachtwoord",
     "pin": "Vastzetten",
@@ -288,7 +291,6 @@
     "oldest-first": "Oudste eerst",
     "task-actions": {
       "check-all": "Controleer alle taken",
-      "title": "Taken",
       "uncheck-all": "Schakel alle taken uit",
       "updated": "Taken bijgewerkt"
     },
@@ -309,7 +311,6 @@
     "back-to": "Terug naar {{source}}",
     "connections": "Verbindingen",
     "grid-compact-hint": "Rasterindelingen gebruiken altijd compacte kaarten.",
-    "go-to": "Ga naar {{source}}",
     "layout": "Indeling",
     "layout-auto": "Automatisch",
     "layout-auto-description": "Zoveel kolommen als er op het scherm passen",
@@ -977,12 +978,8 @@
     "previous-year": "Vorig jaar",
     "select-month": "Selecteer maand"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} heeft nog geen memo's gedeeld.",
-    "not-found-description": "Er is geen Memos gebruiker met de naam @{{username}} op deze instantie.",
-    "not-found-title": "Niemand hier"
-  },
   "space": {
+    "all-spaces": "Alle ruimtes",
     "icon": {
       "change": "Pictogram van de ruimte wijzigen",
       "kind": "Type pictogram",

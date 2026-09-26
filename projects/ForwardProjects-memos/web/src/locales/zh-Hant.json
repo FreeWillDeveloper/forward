@@ -133,6 +133,7 @@
     "attachments": "附件",
     "avatar": "頭像",
     "basic": "基礎",
+    "browse": "瀏覽",
     "calendar": "日曆",
     "cancel": "取消",
     "clear": "清除",
@@ -160,6 +161,7 @@
     "explore": "探索",
     "filter": "篩選",
     "home": "首頁",
+    "timeline": "時間軸",
     "inbox": "通知",
     "language": "語言",
     "last-updated-at": "最後更新於",
@@ -174,6 +176,7 @@
     "name": "名稱",
     "next-month": "下個月",
     "nickname": "暱稱",
+    "open": "開啟",
     "or": "或",
     "password": "密碼",
     "pin": "置頂",
@@ -365,7 +368,6 @@
     "show-more": "查看更多",
     "task-actions": {
       "check-all": "勾選所有待辦事項",
-      "title": "待辦事項",
       "uncheck-all": "取消勾選所有待辦事項",
       "updated": "待辦事項已更新"
     },
@@ -395,7 +397,6 @@
     },
     "back-to": "返回 {{source}}",
     "connections": "關聯",
-    "go-to": "轉到 {{source}}",
     "on-this-memo": "在此備忘錄中",
     "parent-memo": "原始備忘錄"
   },
@@ -942,6 +943,7 @@
     }
   },
   "space": {
+    "all-spaces": "所有空間",
     "unavailable": "空間不存在或你沒有存取權限。",
     "back-to-memos": "返回 Memos",
     "create": "建立空間",
@@ -1008,10 +1010,5 @@
     "new-here": "在此記錄",
     "saved-outside-filter": "已儲存。此備忘錄不在目前的地圖結果中。",
     "open-memo": "開啟備忘錄"
-  },
-  "profile": {
-    "no-shared-memos": "@{{username}} 尚未分享任何備忘錄。",
-    "not-found-description": "此實例中沒有名為 @{{username}} 的 Memos 使用者。",
-    "not-found-title": "找不到使用者"
   }
 }

@@ -54,6 +54,7 @@
     "attachments": "Tệp đính kèm",
     "avatar": "Ảnh đại diện",
     "basic": "Cơ bản",
+    "browse": "Duyệt xem",
     "calendar": "Lịch",
     "cancel": "Hủy",
     "clear": "Xóa",
@@ -80,6 +81,7 @@
     "explore": "Khám phá",
     "filter": "Lọc",
     "home": "Trang chủ",
+    "timeline": "Dòng thời gian",
     "inbox": "Hộp thư đến",
     "language": "Ngôn ngữ",
     "last-updated-at": "Cập nhật lần cuối",
@@ -92,6 +94,7 @@
     "more": "Thêm",
     "name": "Tên",
     "nickname": "Biệt danh",
+    "open": "Mở",
     "or": "hoặc",
     "password": "Mật khẩu",
     "pin": "Ghim",
@@ -296,7 +299,6 @@
     "count-memos-updated-in-date": "{{count}} {{memos}} được cập nhật vào {{date}}",
     "connections": "Kết nối",
     "grid-compact-hint": "Bố cục lưới luôn sử dụng thẻ nhỏ gọn.",
-    "go-to": "Chuyển đến {{source}}",
     "layout": "Bố cục",
     "layout-auto": "Tự động",
     "layout-auto-description": "Số cột tùy ý cho vừa màn hình",
@@ -310,7 +312,6 @@
     "parent-memo": "Ghi chú cha",
     "task-actions": {
       "check-all": "Chọn tất cả nhiệm vụ",
-      "title": "Nhiệm vụ",
       "uncheck-all": "Bỏ chọn tất cả nhiệm vụ",
       "updated": "Nhiệm vụ đã được cập nhật"
     },
@@ -963,11 +964,6 @@
     "banner-title": "Bản demo Memos",
     "deploy-link": "Triển khai Memos của riêng bạn"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} chưa chia sẻ bất kỳ ghi chú nào.",
-    "not-found-description": "Không có người dùng Memos nào có tên @{{username}} trên phiên bản này.",
-    "not-found-title": "Không có ai ở đây"
-  },
   "search": {
     "access-error": "Bạn không có quyền truy cập vào các bản ghi nhớ này.",
     "clear-query": "Xóa truy vấn",
@@ -983,6 +979,7 @@
     "text": "Văn bản"
   },
   "space": {
+    "all-spaces": "Tất cả không gian",
     "icon": {
       "change": "Thay đổi biểu tượng không gian",
       "kind": "Loại biểu tượng",

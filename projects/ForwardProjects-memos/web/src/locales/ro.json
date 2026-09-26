@@ -92,6 +92,7 @@
     "attachments": "Atasamente",
     "avatar": "Avatar",
     "basic": "De bază",
+    "browse": "Răsfoiește",
     "calendar": "Calendaristic",
     "cancel": "Anula",
     "clear": "Clar",
@@ -119,6 +120,7 @@
     "explore": "Explora",
     "filter": "Filtra",
     "home": "Acasă",
+    "timeline": "Cronologie",
     "inbox": "Inbox",
     "language": "Limbă",
     "last-updated-at": "Ultima actualizare la",
@@ -131,6 +133,7 @@
     "more": "Mai mult",
     "name": "Nume",
     "nickname": "Pseudonim",
+    "open": "Deschide",
     "or": "sau",
     "password": "Parolă",
     "pin": "Pin",
@@ -316,7 +319,6 @@
     "show-more": "Arată mai multe",
     "task-actions": {
       "check-all": "Verificați toate sarcinile",
-      "title": "Sarcini",
       "uncheck-all": "Debifați toate sarcinile",
       "updated": "Sarcini actualizate"
     },
@@ -347,7 +349,6 @@
     "back-to": "Înapoi la {{source}}",
     "connections": "Conexiuni",
     "grid-compact-hint": "Aspectele de tip grilă utilizează întotdeauna carduri compacte.",
-    "go-to": "Mergi la {{source}}",
     "layout": "Aspect",
     "layout-auto": "Automat",
     "layout-auto-description": "Atâtea coloane câte se potrivesc pe ecran",
@@ -977,12 +978,8 @@
     "previous-year": "Anul precedent",
     "select-month": "Selectați luna"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} nu a distribuit încă nicio notă.",
-    "not-found-description": "Nu există niciun utilizator Memos numit @{{username}} pe această instanță.",
-    "not-found-title": "Nu este nimeni aici"
-  },
   "space": {
+    "all-spaces": "Toate spațiile",
     "icon": {
       "change": "Schimbă pictograma spațiului",
       "kind": "Tip pictogramă",

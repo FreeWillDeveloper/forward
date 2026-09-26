@@ -54,6 +54,7 @@
     "attachments": "Pièces jointes",
     "avatar": "Avatar",
     "basic": "Basique",
+    "browse": "Parcourir",
     "calendar": "Calendrier",
     "cancel": "Annuler",
     "clear": "Effacer",
@@ -80,6 +81,7 @@
     "explore": "Explorer",
     "filter": "Filtrer",
     "home": "Accueil",
+    "timeline": "Chronologie",
     "inbox": "Boîte de réception",
     "language": "Langue",
     "last-updated-at": "Dernière mise à jour le",
@@ -92,6 +94,7 @@
     "more": "Plus",
     "name": "Nom",
     "nickname": "Surnom",
+    "open": "Ouvrir",
     "or": "ou",
     "password": "Mot de passe",
     "pin": "Épingler",
@@ -288,7 +291,6 @@
     "oldest-first": "Le plus ancien en premier",
     "task-actions": {
       "check-all": "Vérifiez toutes les tâches",
-      "title": "Tâches",
       "uncheck-all": "Décochez toutes les tâches",
       "updated": "Tâches mises à jour"
     },
@@ -309,7 +311,6 @@
     "back-to": "Retour à {{source}}",
     "connections": "Connexions",
     "grid-compact-hint": "Les mises en page en grille utilisent toujours des cartes compactes.",
-    "go-to": "Aller à {{source}}",
     "layout": "Mise en page",
     "layout-auto": "Automatique",
     "layout-auto-description": "Autant de colonnes que l'écran peut en afficher",
@@ -977,12 +978,8 @@
     "previous-year": "Année précédente",
     "select-month": "Sélectionner un mois"
   },
-  "profile": {
-    "no-shared-memos": "@{{username}} n'a encore partagé aucun mémo.",
-    "not-found-description": "Il n'y a pas d'utilisateur Memos nommé @{{username}} sur cette instance.",
-    "not-found-title": "Personne ici"
-  },
   "space": {
+    "all-spaces": "Tous les espaces",
     "icon": {
       "change": "Changer l'icône de l'espace",
       "kind": "Type d'icône",
