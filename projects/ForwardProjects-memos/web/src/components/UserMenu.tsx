@@ -55,7 +55,16 @@ const PreferenceSubmenu = ({ icon: Icon, label, value, options, onChange, classN
       <span className="max-w-28 truncate text-muted-foreground">{options.find((option) => option.value === value)?.label ?? value}</span>
       <ChevronRightIcon className={cn(iconClass, "rtl:rotate-180")} />
     </DropdownMenuTrigger>
-    <DropdownMenuContent side="inline-end" align="start" sideOffset={8} alignOffset={-4} size="sm" className={className}>
+    {/* Like a nested submenu: when neither side has room (narrow screens), drop below the row instead of overflowing. */}
+    <DropdownMenuContent
+      side="inline-end"
+      align="start"
+      sideOffset={8}
+      alignOffset={-4}
+      collisionAvoidance={{ fallbackAxisSide: "end" }}
+      size="sm"
+      className={className}
+    >
       <DropdownMenuRadioGroup value={value} onValueChange={onChange}>
         {options.map((option) => (
           <DropdownMenuRadioItem key={option.value} value={option.value} closeOnClick>
@@ -163,7 +172,7 @@ const UserMenu = ({ onClose }: { onClose: () => void }) => {
           <>
             <div className="flex h-8 items-center gap-2 px-2">
               <span className="relative flex size-5 shrink-0 items-center justify-center">
-                <UserAvatar avatarUrl={currentUser.avatarUrl} name={accountLabel} className="size-5 rounded-[5px]" />
+                <UserAvatar avatarUrl={currentUser.avatarUrl} name={accountLabel} className="size-5" />
                 {sseStatus !== "connected" && (
                   <span
                     role="img"
