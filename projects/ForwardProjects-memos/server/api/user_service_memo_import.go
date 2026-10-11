@@ -198,7 +198,7 @@ func (i *memoImporter) importMemo(record *memoexport.Memo) error {
 		return err
 	}
 	if len(content) > i.contentLengthLimit {
-		return errors.Errorf("content too long (max %d characters)", i.contentLengthLimit)
+		return errors.Errorf("content too long (max %d bytes)", i.contentLengthLimit)
 	}
 	targetUID := record.UID
 	if existing := i.existing[record.UID]; existing != nil {
@@ -501,7 +501,7 @@ func (i *memoImporter) storeAttachment(entry *memoexport.Attachment, uid, mimeTy
 		}
 		return AttachmentNamePrefix + attachment.UID, nil
 	}
-	if err := checkUploadSize(i.storageSetting, entry.Size); err != nil {
+	if err := i.service.checkFileSizeQuota(i.ctx, i.user.ID, entry.Size); err != nil {
 		return "", err
 	}
 	data, err := i.archive.ReadAttachment(entry)
