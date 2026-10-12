@@ -7,7 +7,7 @@ import { originCheck, registerAuthRoutes, requireUser, sessionMiddleware } from 
 import { buildSnapshot, crawlFavicons, crawlFeeds, repoStars, syncBlogs } from './crawl.js';
 import { announceNewBlogs, announceWeeklyTop, describeChat, telegramEnabled } from './telegram.js';
 import { hotPosts, registerDiscussRoutes, votedIds } from './discuss.js';
-import { blockedBlogsPage, blogFollowersPage, blogPage, categoryName, directoryPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
+import { blockedBlogsPage, blogFollowersPage, blogPage, categoryName, directoryPage, discussionsPage, errorPage, followingBlogsPage, followingOpml, followingPage, hotPage, notificationsPage, postPage, sitemap, timelinePage, userFollowingPage, userPage, userUpvotedPage } from './views.js';
 
 const FAVICONS_PER_RUN = 60;
 // Feeds per hourly run, and how long a cron run may keep starting new chunks
@@ -184,6 +184,47 @@ app.get('/page/:n{[0-9]+}', hot);
 app.get('/hot', (c) => c.redirect('/', 301));
 app.get('/hot/page/:n{[0-9]+}', (c) => c.redirect(`/page/${c.req.param('n')}`, 301));
 
+const DISCUSSION_PAGE_SIZE = 20;
+
+// Threads (a top-level comment and all its replies), most recently active first
+async function discussions(c) {
+  const page = pageParam(c);
+  const stats = await getMeta(c.env.DB, 'stats');
+  if (!page) return notFound(c, stats);
+  if (c.req.param('n') === '1') return c.redirect('/discussions', 301);
+  const { results } = await c.env.DB.prepare(`
+    WITH RECURSIVE tree(root_id, id) AS (
+      SELECT id, id FROM comments WHERE parent_id IS NULL
+      UNION ALL
+      SELECT t.root_id, c.id FROM comments c JOIN tree t ON c.parent_id = t.id
+    ), act AS (
+      SELECT t.root_id, MAX(CASE WHEN c.deleted = 0 AND u.banned = 0 THEN c.created_at END) AS last_at
+      FROM tree t JOIN comments c ON c.id = t.id JOIN users u ON u.id = c.user_id
+      JOIN posts p ON p.id = c.post_id JOIN blogs b ON b.id = p.blog_id
+      WHERE b.removed = 0
+      GROUP BY t.root_id HAVING last_at IS NOT NULL
+      ORDER BY last_at DESC, t.root_id DESC LIMIT ? OFFSET ?
+    )
+    SELECT act.root_id, act.last_at, c.id, c.parent_id, c.post_id, c.body, c.deleted, c.created_at,
+           u.username, u.avatar_url, p.title, p.comment_count
+    FROM act JOIN tree t ON t.root_id = act.root_id
+    JOIN comments c ON c.id = t.id JOIN users u ON u.id = c.user_id JOIN posts p ON p.id = c.post_id
+    ORDER BY act.last_at DESC, act.root_id DESC, c.created_at ASC, c.id ASC`)
+    .bind(DISCUSSION_PAGE_SIZE + 1, (page - 1) * DISCUSSION_PAGE_SIZE).all();
+  const threads = new Map();
+  for (const r of results) {
+    if (!threads.has(r.root_id)) {
+      threads.set(r.root_id, { rootId: r.root_id, post: { id: r.post_id, title: r.title, comment_count: r.comment_count }, comments: [] });
+    }
+    threads.get(r.root_id).comments.push(r);
+  }
+  const all = [...threads.values()];
+  if (page > 1 && !all.length) return notFound(c, stats);
+  return c.html(discussionsPage({ ...base(c, stats), items: all.slice(0, DISCUSSION_PAGE_SIZE), page, hasMore: all.length > DISCUSSION_PAGE_SIZE }));
+}
+app.get('/discussions', discussions);
+app.get('/discussions/page/:n{[0-9]+}', discussions);
+
 async function directory(c, view) {
   const [snapshot, stats] = await Promise.all([getMeta(c.env.DB, 'snapshot'), getMeta(c.env.DB, 'stats')]);
   const now = nowSec();
@@ -255,7 +296,7 @@ app.post('/b/:num{[0-9]+}/refresh', async (c) => {
   return c.redirect(`${path}?refresh=${refreshResult}`, 303);
 });
 
-app.get('/p/:id{[0-9]+}', async (c) => {
+async function postRoute(c) {
   const db = c.env.DB;
   const stats = await getMeta(db, 'stats');
   const row = await db.prepare(`
@@ -274,6 +315,8 @@ app.get('/p/:id{[0-9]+}', async (c) => {
       FROM comments c JOIN users u ON u.id = c.user_id
       WHERE c.post_id = ? ORDER BY c.score DESC, c.created_at ASC`).bind(row.id),
   ]);
+  const focus = c.req.param('cid') ? parseInt(c.req.param('cid'), 10) : null;
+  if (focus && !comments.some((cm) => cm.id === focus && !cm.deleted)) return notFound(c, stats);
   const userId = c.get('user')?.id;
   return c.html(postPage({
     ...base(c, stats), morePosts, comments,
@@ -282,8 +325,11 @@ app.get('/p/:id{[0-9]+}', async (c) => {
     voted: await votedIds(db, 'votes', 'post_id', userId, [row.id]),
     commentVoted: await votedIds(db, 'comment_votes', 'comment_id', userId, comments.map((cm) => cm.id)),
     error: c.req.query('error')?.slice(0, 100),
+    focus,
   }));
-});
+}
+app.get('/p/:id{[0-9]+}', postRoute);
+app.get('/p/:id{[0-9]+}/c/:cid{[0-9]+}', postRoute);
 
 // ---------- user pages: comments, upvoted posts, followed blogs (all public) ----------
 
@@ -464,8 +510,8 @@ Sitemap: ${siteUrl(c)}/sitemap.xml
 
 // ---------- favicons and API ----------
 
-// Crawl status of every blog, in the shape of the repo's data/blogs.json.
-// scripts/sync-status.mjs downloads this daily so README.md uses the same
+// Crawl status of every blog, including latest-post metadata.
+// scripts/render-readme.mjs fetches this daily so README.md uses the same
 // data as the website.
 app.get('/api/blogs.json', async (c) => {
   const db = c.env.DB;
