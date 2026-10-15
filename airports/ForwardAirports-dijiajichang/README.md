@@ -2,11 +2,6 @@
 <h1 align="center">低价机场推荐</h1>
 
 
-<p align="center">
-  <strong>简体中文</strong>
-  &nbsp;·&nbsp;
-  <a href="./README_EN.md">English</a>
-</p>
 🚀推荐月10以下的优质低价机场
 
 
@@ -14,6 +9,8 @@
 本文主要推荐几款价格低廉的机场,性价比超高,月均都不足10元. 温馨提醒：请多备用几个机场，以防止失联。**任何机场都有跑路的风险，推荐购买月付**，以降低风险（本消息不针对任何机场）。本人的电报频道:[低价机场推荐](https://t.me/dijiajichangtuijian)
 
 如果对于节点稳定性或性能上有更高的需求，请参考我的另一篇文档[性价比机场推荐](https://github.com/KaWaIDeSuNe/xingjiabijichang)
+
+📊 节点在线状态实时监控（每 10 分钟自动探测）:[节点状态页](https://proxy.20261917.xyz/probe/)
 
 
 如果本项目对您有所帮助，欢迎 [Star](https://github.com/KaWaIDeSuNe/dijiajichang)，您的支持是我更新的动力！
@@ -178,7 +175,7 @@
 - 热门节点 1Gbps
 
 
-[动力港测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/%E5%8A%A8%E5%8A%9B%E6%B8%AF.md)
+[动力港测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/%E5%8A%A8%E5%8A%9B%E6%B8%AF.md) · [📊 节点状态](https://proxy.20261917.xyz/probe/#动力港)
 
 
 
