@@ -49,7 +49,7 @@
 <img width="1533" height="459" alt="image" src="https://github.com/user-attachments/assets/afb93ac3-b2b7-41ee-8775-4de7d611f9cf" />
 
 
-[NanoCloud测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/NanoCloud.md) · [📊 节点状态](https://proxy.20261917.xyz/probe/#nano云)
+[NanoCloud测速、解锁、线路分析详情](https://github.com/KaWaIDeSuNe/xingjiabijichang/blob/main/%E6%B5%8B%E8%AF%84/NanoCloud.md) · [📊 节点状态](https://proxy.20261917.xyz/probe/#NanoCloud)
 
 ---
 
@@ -63,7 +63,7 @@
 
 长期优惠码：牛逼机场666
 
-主观评价: ~~国际中转+直连，价格低，节点多，推荐需要大流量的用户购买月付套餐。~~（官网当前无法访问）
+主观评价: 国际中转+直连，价格低，节点多，推荐需要大流量的用户购买月付套餐。
 
 使用方式: 🔴不支持官方客户端 🟢支持第三方客户端
 
