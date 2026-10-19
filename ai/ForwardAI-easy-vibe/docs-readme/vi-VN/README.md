@@ -1,13 +1,12 @@
 <!-- trigger vercel build -->
 <div align="center">
 
-<img src="../../assets/easy-vibe-logo-hd.svg" alt="Easy-Vibe Logo" width="300">
-
 <img src="../../assets/banner.png" alt="Easy-Vibe — Nghĩ ra. Xây nên. Từ ý tưởng đầu tiên đến sản phẩm thực tế." width="100%">
 
 <p align="center" style="font-size: 1.2em; color: #666; margin: 20px 0;">
-  Học lập trình với AI từ con số 0 bằng cách xây dựng và ra mắt những sản phẩm thực tế.<br>
-  <span style="font-size: 0.9em; color: #888;">Learn AI coding from scratch by shipping real products.</span>
+  <strong>Từ Vibe Coding đến sản phẩm thực tế. Được hàng chục nghìn người học lựa chọn.</strong><br>
+  Liên tục hoàn thiện qua giảng dạy thực tế và phản hồi của người học. Lộ trình đầy đủ, giải thích tận tình và demo tương tác đồng hành cùng bạn từ con số không đến khi ra mắt sản phẩm.<br>
+  <span style="font-size: 0.9em; color: #888;">A hands-on Vibe Coding guide chosen by tens of thousands of learners.<br>Refined through real teaching and learner feedback. A complete roadmap, step-by-step explanations, and interactive demos guide you from zero to launch.</span>
 </p>
 
 <a href="https://trendshift.io/repositories/22079" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22079" alt="datawhalechina/easy-vibe | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -55,6 +54,13 @@
 </p>
 
 </div>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/appendix/">
+    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="Học tương tác: thử nghiệm câu lệnh, khám phá RAG và nguyên lý terminal" width="100%">
+  </a>
+</p>
+
 <table align="center">
   <tr>
     <td width="50%" valign="top" align="center">
@@ -110,18 +116,23 @@
 </div>
 
 <div align="center" style="margin: 30px 0;">
-  <a href="https://github.com/datawhalechina/easy-vibe/issues/new?template=story_submission.md">
-    <img src="https://raw.githubusercontent.com/datawhalechina/easy-vibe/main/assets/stories_image.png" alt="Chia se cau chuyen Vibe cua ban" width="80%" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <a href="../../CONTRIBUTING.md#share-your-case">
+    <img src="../../assets/readme-panels/04-vibe-stories-contribute.png" alt="Bản xem trước dự án từ các trường hợp thực tế cùng nhân vật minh họa; chia sẻ qua Pull Request" width="100%">
   </a>
-  <p style="margin-top: 15px; font-size: 1.1em; color: #666;">
-    📝 <strong>Ban co cau chuyen vibe coding rieng?</strong>
-    Gui tai day va truyen cam hung cho nguoi khac!
+  <p><strong>Dự án tiếp theo xuất hiện ở đây có thể là của bạn.</strong><br>Chào đón công cụ lớp học, đồ án sinh viên, website cá nhân và bản demo đầu tiên.</p>
+  <p>Thêm câu chuyện, ảnh chụp hoặc GIF thực tế và liên kết demo hay kho mã nếu có. Điền theo mẫu và gửi Pull Request.</p>
+  <p>
+    <strong><a href="../../CONTRIBUTING.md#share-your-case">Gửi dự án của bạn →</a></strong> ·
+    <a href="../../user-cases/TEMPLATE.md">Mẫu chia sẻ</a> ·
+    <a href="https://github.com/datawhalechina/easy-vibe/compare?expand=1&amp;template=user_case.md">Mở Pull Request</a>
   </p>
+  <p><a href="../../user-cases/README.md">Xem các dự án thực tế →</a></p>
 </div>
 
 ## Muc luc
 
 - [Tai sao can Easy-Vibe](#tai-sao-can-easy-vibe)
+- [Bạn có thể xây dựng gì](#bạn-có-thể-xây-dựng-gì)
 - [Tin tuc](#-tin-tuc)
 - [Danh cho ai](#danh-cho-ai)
 - [Lo trinh hoc cua ban](#lo-trinh-hoc-cua-ban)
@@ -149,11 +160,21 @@ Trong thoi dai AI, lap trinh bat dau tu viec mo ta dieu ban muon.
 Easy-Vibe giup ban bien dieu do thanh mot san pham that.
 
 
+## Bạn có thể xây dựng gì
+
+<p align="center">
+  <img src="../../assets/readme-panels/02-project-gallery.png" alt="Trợ lý viết nội dung AI, Lập kế hoạch du lịch, Blog cá nhân, Trợ lý AI trên trình duyệt" width="100%">
+</p>
+
+Hình minh họa ý tưởng dự án. Khám phá các bài hướng dẫn tương ứng:
+
+[Trợ lý viết nội dung AI](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/copywriting-platform-supabase/) · [Lập kế hoạch du lịch](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/travel-planning-agent-platform/) · [Blog cá nhân](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/personal-brand/personal-website-blog/) · [Trợ lý AI trên trình duyệt](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/browser-ai-extension/)
+
 ## 🔥 Tin tuc
 
 - **[2026-05-20]** 🌍 **Da phu toan bo da ngon ngu cho Stage 1**: Stage 1 hien da co day du tren tat ca cac ngon ngu ho tro (zh-cn, en, zh-tw, ja-jp, ko-kr, es-es, fr-fr, de-de, ar-sa, vi-vn). Da kiem tra dieu huong/build de tranh 404.
 - **[2026-03-29]** ✨ **Ra mat muc cau chuyen nguoi dung va nang cap voi nhung hanh trinh nguoi dung that**: Da them phan Vibe Stories moi tren trang chu voi carousel tuong tac va cac trang story rieng, sau do thay the noi dung tam bang bon cau chuyen that tu mot giao vien tieu hoc vung que, mot sinh vien dai hoc, mot giao vien CNTT trung hoc va mot tai xe xe tai da xay dung san pham that voi AI. [👉 Xem cau chuyen](https://datawhalechina.github.io/easy-vibe/zh-cn/vibe-stories/story-1.html)
-- **[2026-03-26]** 🚀 **Cap nhat thuc hanh Giai doan 2 lon**: Hoan thanh du an SaaS tot nghiep "[Ung dung Full-stack SaaS dau tien: Trang web tao noi dung](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/fullstack-app/)" va mo rang dang ke phan "[Cach tich hop Stripe va he thong thanh toan](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/)", cung nhu noi dung quan trong ve UI da san pham va quy trinh backend WeChat Mini Program.
+- **[2026-03-26]** 🚀 **Cap nhat thuc hanh Giai doan 2 lon**: Hoan thanh du an SaaS tot nghiep "[Ung dung Full-stack SaaS dau tien: Trang web tao noi dung](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/copywriting-platform-supabase/)" va mo rang dang ke phan "[Cach tich hop Stripe va he thong thanh toan](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/)", cung nhu noi dung quan trong ve UI da san pham va quy trinh backend WeChat Mini Program.
 - **[2026-03-25]** 📚 **Phu luc moi: Nghien cuu nguoi dung va Xac thuc yeu cau**: Them bon bai viet moi ve tim kiem y tuong, mo hinh Double Diamond, Jobs to Be Done va The Mom Test giup nguoi moi bat dau kham pha va xac thuc y tuong san pham. [👉 Doc phu luc](https://datawhalechina.github.io/easy-vibe/en/appendix/)
 - **[2026-03-25]** 📚 **Tai lieu tieng Anh duoc cap nhat day du**: Giai doan 2 (Phat trien full-stack) va Giai doan 3 (Phat trien nang cao) hien da co day du bang tieng Anh. [👉 Bat dau hoc](https://datawhalechina.github.io/easy-vibe/en/stage-2/)
 <details>
@@ -227,44 +248,49 @@ Easy-Vibe giup ban bien dieu do thanh mot san pham that.
 ### 📖 Dieu huong noi dung
 
 <div align="center">
-  <img src="../../assets/readme-image1.png" alt="Lo trinh hoc" width="70%" style="border-radius: 10px; box-shadow: 0 8px 20px rgba(45,55,72,0.3); margin: 15px 0;"/>
+  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Lo trinh hoc" width="100%">
 </div>
 
 ### I. Nhap mon nguoi moi
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Ban do hoc tap](https://datawhalechina.github.io/easy-vibe/en/stage-1/learning-map/) | Tong quan huong dan toan bo hanh trinh hoc |
-| [Thoi dai AI: Biet noi la biet code](https://datawhalechina.github.io/easy-vibe/en/stage-1/ai-capabilities-through-games/) | Cam nhan dau tien ve AI coding qua cac vi du nhu Snake |
-| [Lam chu cong cu lap trinh AI](https://datawhalechina.github.io/easy-vibe/en/stage-1/introduction-to-ai-ide/) | Hoc cach hoat dong cua cac cong cu AI IDE va xay dung du an cuc bo don gian |
-| [Tim y tuong hay](https://datawhalechina.github.io/easy-vibe/en/stage-1/finding-great-idea/) | Hoc cach kham pha va xac thuc y tuong san pham dang lam |
-| [Xay dung nguyen mau san pham](https://datawhalechina.github.io/easy-vibe/en/stage-1/building-prototype/) | Di tu yeu cau den nguyen mau san pham mot trang va nhieu trang |
-| [Tich hop kha nang AI](https://datawhalechina.github.io/easy-vibe/en/stage-1/integrating-ai-capabilities/) | Tich hop tinh nang AI van ban, hinh anh va video |
-| [Thuc hanh du an hoan chinh](https://datawhalechina.github.io/easy-vibe/en/stage-1/complete-project-practice/) | Mo phong tinh huong that, thu thap phan hoi nguoi dung va lap du an hoan chinh |
+| [Ban do hoc tap](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/learning-map/) | Tong quan huong dan toan bo hanh trinh hoc |
+| [Thoi dai AI: Biet noi la biet code](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/ai-capabilities-through-games/) | Cam nhan dau tien ve AI coding qua cac vi du nhu Snake |
+| [Lam chu cong cu lap trinh AI](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/introduction-to-ai-ide/) | Hoc cach hoat dong cua cac cong cu AI IDE va xay dung du an cuc bo don gian |
+| [Tim y tuong hay](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/finding-great-idea/) | Hoc cach kham pha va xac thuc y tuong san pham dang lam |
+| [Xay dung nguyen mau san pham](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/building-prototype/) | Di tu yeu cau den nguyen mau san pham mot trang va nhieu trang |
+| [Tich hop kha nang AI](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/integrating-ai-capabilities/) | Tich hop tinh nang AI van ban, hinh anh va video |
+| [Thuc hanh du an hoan chinh](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/complete-project-practice/) | Mo phong tinh huong that, thu thap phan hoi nguoi dung va lap du an hoan chinh |
 
 #### Phu luc: Tu duy san pham va kinh doanh
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Tu duy san pham va thiet ke phuong an](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-a-product-thinking/) | Khung tu duy co ban tu khong den mot voi san pham |
-| [Tham chieu kich ban ung dung AI (B2B & B2C)](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-industry-scenarios/) | Kich ban ung dung AI cong nghiep B2B va tieu dung B2C |
+| [Tu duy san pham va thiet ke phuong an](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-a-product-thinking/) | Khung tu duy co ban tu khong den mot voi san pham |
+| [Tham chieu kich ban ung dung AI (B2B & B2C)](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-industry-scenarios/) | Kich ban ung dung AI cong nghiep B2B va tieu dung B2C |
 
 #### Phu luc: Nghien cuu nguoi dung va Xac thuc yeu cau
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Tim y tuong o dau: 3 nguon tham khao tot nhat cho nguoi moi](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-idea-sources/) | Xay dung luong thong tin tin cay de tim co hoi san pham cu the |
-| [Double Diamond: Lam dung truoc, roi lam tot](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-double-diamond/) | Su dung quy trinh co cau truc de di tu cam hung lac long den huong kha thi |
-| [Dung Jobs to Be Done de tim dieu nguoi dung thuc su muon](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-jobs-to-be-done/) | Phan tich muc tieu nguoi dung qua nhiem vu that thay vi yeu cau tinh nang be mat |
-| [The Mom Test: Phuong phong phong van de xac thuc nhu cau](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-mom-test/) | Hoc cach hoi cau hoi tot hon va tranh phan hoi sai tich cuc |
+| [Tim y tuong o dau: 3 nguon tham khao tot nhat cho nguoi moi](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-idea-sources/) | Xay dung luong thong tin tin cay de tim co hoi san pham cu the |
+| [Double Diamond: Lam dung truoc, roi lam tot](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-double-diamond/) | Su dung quy trinh co cau truc de di tu cam hung lac long den huong kha thi |
+| [Dung Jobs to Be Done de tim dieu nguoi dung thuc su muon](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-jobs-to-be-done/) | Phan tich muc tieu nguoi dung qua nhiem vu that thay vi yeu cau tinh nang be mat |
+| [The Mom Test: Phuong phong phong van de xac thuc nhu cau](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-mom-test/) | Hoc cach hoi cau hoi tot hon va tranh phan hoi sai tich cuc |
 
 #### Phu luc: Giai phap ky thuat
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Lam gi khi gap loi](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-b-common-errors/) | Cac van de vibe coding thuong gap va cach khac phuc |
-| [So sanh bay cong cu lap trinh AI](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial) | So sanh cac nen tang AI coding chinh qua thu nghiem thuc hanh |
-| [Thiet ke website voi Agents](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | Hoc hop tac da agent trong thuc hanh |
+| [Lam gi khi gap loi](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-b-common-errors/) | Cac van de vibe coding thuong gap va cach khac phuc |
+| [So sanh bay cong cu lap trinh AI](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial) | So sanh cac nen tang AI coding chinh qua thu nghiem thuc hanh |
+| [Thiet ke website voi Agents](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | Hoc hop tac da agent trong thuc hanh |
+
+#### Thêm bài tập nhập môn
+
+- [Làm theo ảnh chụp: bài tập mô phỏng đầu tiên](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/clone-your-favorite-app/)
+- [Đăng sản phẩm Vibe Coding lên ModelScope](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/appendix-modelscope-static-site/)
 
 ### II. Lap trinh vien trung cap
 
@@ -272,38 +298,53 @@ Easy-Vibe giup ban bien dieu do thanh mot san pham that.
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Frontend 0: Xay dung Agent san xuat tai san cua rieng ban voi Lovart](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/lovart-assets/) | Su dung Nanobanana va Lovart de tao hang loat tai san truc quan va xay dung agent ve voi nhan dien y dich |
-| [Frontend 1: Co ban Figma & MasterGo](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/figma-mastergo/) | Hoc quy trinh tu ban thiet ke den tu duy UI chuan bi trien khai |
-| [Frontend 2: Xay dung ung dung hien dai dau tien - Thiet ke UI](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/ui-design/) | Hoc nen tang thiet ke UI phia sau giao dien ung dung hien dai |
-| [Frontend 3: Huong dan UI va Thiet ke da san pham](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/multi-product-ui/) | Cai thien tinh nhat quan va tham my tren nhieu san pham voi quy tac UI chung |
-| [Frontend 4: Lam giao dien dep voi LLM va Skills](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/llm-skills-beautiful/) | Su dung prompt va plugin de AI tao giao dien tinh te va doc dao hon |
-| [Frontend 4: Cung xay dung Chân dung Hogwarts](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/hogwarts-portraits/) | Xay dung du an frontend AI-hinh anh tuong tac tu dau |
-| [Frontend 6: Tu nguyen mau thiet ke den ma du an](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/design-to-code/) | Bien nguyen mau thiet ke thanh ma frontend co the chay that trong trinh duyet |
-| [Frontend 7: Nang cap UI voi thu vien thanh phan hien dai](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/modern-component-library/) | Su dung thu vien thanh phan de xay dung giao dien chuyen nghiep nhanh hon |
+| [Frontend 0: Xay dung Agent san xuat tai san cua rieng ban voi Lovart](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/lovart-assets/) | Su dung Nanobanana va Lovart de tao hang loat tai san truc quan va xay dung agent ve voi nhan dien y dich |
+| [Frontend 1: Co ban Figma & MasterGo](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/figma-mastergo/) | Hoc quy trinh tu ban thiet ke den tu duy UI chuan bi trien khai |
+| [Frontend 2: Xay dung ung dung hien dai dau tien - Thiet ke UI](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/ui-design/) | Hoc nen tang thiet ke UI phia sau giao dien ung dung hien dai |
+| [Frontend 3: Huong dan UI va Thiet ke da san pham](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/multi-product-ui/) | Cai thien tinh nhat quan va tham my tren nhieu san pham voi quy tac UI chung |
+| [Frontend 4: Lam giao dien dep voi LLM va Skills](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/llm-skills-beautiful/) | Su dung prompt va plugin de AI tao giao dien tinh te va doc dao hon |
+| [Frontend 4: Cung xay dung Chân dung Hogwarts](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/hogwarts-portraits/) | Xay dung du an frontend AI-hinh anh tuong tac tu dau |
+| [Frontend 6: Tu nguyen mau thiet ke den ma du an](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/design-to-code/) | Bien nguyen mau thiet ke thanh ma frontend co the chay that trong trinh duyet |
+| [Frontend 7: Nang cap UI voi thu vien thanh phan hien dai](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/frontend/modern-component-library/) | Su dung thu vien thanh phan de xay dung giao dien chuyen nghiep nhanh hon |
 
 #### Backend
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Backend 1: Hoc Git va GitHub](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/git-workflow/) | Lam chu cac thao tac dieu khien phien ban va quy trinh hop tac voi Git |
-| [Backend 2: Tu Co so du lieu den Supabase](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/database-supabase/) | Hoc co ban co so du lieu quan he va su dung Supabase nhu nen tang BaaS hien dai |
-| [Backend 3: Thiet ke va Phat trien Backend API](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/ai-interface-code/) | Su dung AI ho tro thiet ke API, tao ma backend va tai lieu API |
-| [Backend 4: Trien khai nguyen mau san pham cua ban](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/zeabur-deployment/) | Trien khai nhanh ung dung full-stack len may chu voi Zeabur |
-| [Backend 5: Tu IDE den Cong cu AI Coding CLI](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/modern-cli/) | Kham pha quy trinh AI coding dau tien terminal cho phat trien hien dai |
-| [Backend 6: Tich hop Stripe va cac He thong Thanh toan khac](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/) | Them kha nang thanh toan voi tinh nang thanh toan va hoa don |
+| [Backend 1: Hoc Git va GitHub](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/backend/git-workflow/) | Lam chu cac thao tac dieu khien phien ban va quy trinh hop tac voi Git |
+| [Backend 2: Tu Co so du lieu den Supabase](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/backend/database-supabase/) | Hoc co ban co so du lieu quan he va su dung Supabase nhu nen tang BaaS hien dai |
+| [Backend 3: Thiet ke va Phat trien Backend API](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/backend/ai-interface-code/) | Su dung AI ho tro thiet ke API, tao ma backend va tai lieu API |
+| [Backend 4: Trien khai nguyen mau san pham cua ban](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/backend/zeabur-deployment/) | Trien khai nhanh ung dung full-stack len may chu voi Zeabur |
+| [Backend 5: Tu IDE den Cong cu AI Coding CLI](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/backend/modern-cli/) | Kham pha quy trinh AI coding dau tien terminal cho phat trien hien dai |
+| [Backend 6: Tich hop Stripe va cac He thong Thanh toan khac](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/backend/stripe-payment/) | Them kha nang thanh toan voi tinh nang thanh toan va hoa don |
 
 #### Du an lon
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Du an lon 1: Ung dung Full-stack SaaS dau tien - Trang web tao noi dung AI](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/fullstack-app/) | Xay dung khong gian lam viec AI marketing copy voi dang nhap, tao, thanh toan va quan ly admin |
-| [Du an lon 2: He thong Ky thi va Quan ly truc tuyen](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/modern-frontend-trae/) | Xay dung he thong ky thi truc tuyen voi tao cau hoi, quy trinh lam bai va cong cu admin |
+| [Du an lon 1: Ung dung Full-stack SaaS dau tien - Trang web tao noi dung AI](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/copywriting-platform-supabase/) | Xay dung khong gian lam viec AI marketing copy voi dang nhap, tao, thanh toan va quan ly admin |
+| [Du an lon 2: He thong Ky thi va Quan ly truc tuyen](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/exam-management-express/) | Xay dung he thong ky thi truc tuyen voi tao cau hoi, quy trinh lam bai va cong cu admin |
+
+#### Thêm dự án thực hành
+
+| Phan |
+| :------ |
+| [Thực hành phát triển SaaS tạo ảnh AI hiện đại](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/modern-landing-page/) |
+| [Thực hành phát triển nền tảng Agent thông minh kiểu Dify](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/custom-dify-agent-platform/) |
+| [Thực hành phát triển nền tảng Agent lập kế hoạch du lịch thông minh](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/travel-planning-agent-platform/) |
+| [Thực hành phát triển hệ thống đề xuất phim bằng Spring Boot](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/movie-recommendation-springboot/) |
+| [Thực hành phát triển hệ thống microservices thương mại điện tử thực phẩm tươi sống](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/simple-grocery-microservices/) |
+| [Thực hành phát triển nền tảng phân tích dữ liệu giao thông bằng Go](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/traffic-data-visualization-go/) |
 
 #### Phu luc Kha nang AI
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [AI 1: Co ban Dify & Tich hop Co so kien thuc](https://datawhalechina.github.io/easy-vibe/en/stage-2/ai-capabilities/dify-knowledge-base/) | Hoc xay dung ung dung AI voi Dify va tich hop co so kien thuc rieng |
+| [AI 1: Co ban Dify & Tich hop Co so kien thuc](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/ai-capabilities/dify-knowledge-base/) | Hoc xay dung ung dung AI voi Dify va tich hop co so kien thuc rieng |
+
+#### Thêm hướng dẫn full-stack
+
+- [Đưa website lên mạng (nâng cao): tự chuẩn bị VPS để triển khai](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/backend/cloud-server-deployment/)
 
 ### III. Lap trinh vien cao cap
 
@@ -311,39 +352,48 @@ Easy-Vibe giup ban bien dieu do thanh mot san pham that.
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Bat dau voi Claude Code](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/basics/) | Cai dat, thiet lap, co ban va lenh huu ich |
-| [Huong dan Claude Code MCP](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/mcp/) | Ket noi Claude Code voi GitHub, co so du lieu, API va cac dich vu khac thong qua MCP |
-| [Huong dan Claude Code Skills](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/skills/) | Dong goi chuyen mon thanh ky nang tai su dung dung lai nhieu lan |
-| [Cach giu Claude Code lam viec voi tac vu chay dai](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/long-running-tasks/) | Thiet ke tac vu chay dai de cong cu coding co the tiep tuc lam viec cho den khi xong |
-| [Huong dan Claude Agent Teams](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/agent-teams/) | Phoi hop nhieu instance AI nhu mot doi ngu phat trien that |
-| [Claude Code Superpowers cho phat trien cap ky thuat](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/superpowers/) | Giup AI tao ma cap ky thuat voi TDD va best practices |
-| [Best practices quy trinh Claude Code](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/workflow/) | Best practices cho refactor, code review va phat trien hang ngay |
-| [Phat trien tu xa Claude Code tren di dong](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/mobile-development/) | Su dung Claude Code vuot ra ngoai desktop va xay dung quy trinh lam viec tu xa hieu qua tren thiet bi di dong |
-| [Huong dan day du Claude Agent SDK](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/claude-agent-sdk/) | Xay dung quy trinh agent tuy chinh va tich hop Claude vao cong cu cua rieng ban voi SDK |
-| [Tu vibe coding den spec coding](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/spec-coding/) | Chuyen tu prompt ad-hoc sang quy trinh phat trien AI co cau truc va huong quy cach hon |
+| [Bat dau voi Claude Code](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/basics/) | Cai dat, thiet lap, co ban va lenh huu ich |
+| [Huong dan Claude Code MCP](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/mcp/) | Ket noi Claude Code voi GitHub, co so du lieu, API va cac dich vu khac thong qua MCP |
+| [Huong dan Claude Code Skills](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/skills/) | Dong goi chuyen mon thanh ky nang tai su dung dung lai nhieu lan |
+| [Cach giu Claude Code lam viec voi tac vu chay dai](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/long-running-tasks/) | Thiet ke tac vu chay dai de cong cu coding co the tiep tuc lam viec cho den khi xong |
+| [Huong dan Claude Agent Teams](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/agent-teams/) | Phoi hop nhieu instance AI nhu mot doi ngu phat trien that |
+| [Claude Code Superpowers cho phat trien cap ky thuat](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/superpowers/) | Giup AI tao ma cap ky thuat voi TDD va best practices |
+| [Best practices quy trinh Claude Code](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/workflow/) | Best practices cho refactor, code review va phat trien hang ngay |
+| [Phát triển phần mềm trọn quy trình với GitHub Issues: từ trao đổi yêu cầu đến ứng dụng macOS hoàn chỉnh](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/github-iterative-development/) | Từ đặc tả đến Issues, triển khai, kiểm thử và đánh giá |
+| [Phat trien tu xa Claude Code tren di dong](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/mobile-development/) | Su dung Claude Code vuot ra ngoai desktop va xay dung quy trinh lam viec tu xa hieu qua tren thiet bi di dong |
+| [Huong dan day du Claude Agent SDK](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/claude-agent-sdk/) | Xay dung quy trinh agent tuy chinh va tich hop Claude vao cong cu cua rieng ban voi SDK |
+| [Tu vibe coding den spec coding](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/spec-coding/) | Chuyen tu prompt ad-hoc sang quy trinh phat trien AI co cau truc va huong quy cach hon |
 
 #### Phat trien da nen tang
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [Cach chon nen tang phu hop cho ung dung cua ban](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/choose-platform/) | So sanh cac hinh thuc ung dung va chon nen tang phu hop dua tren nguoi dung, tinh huong va muc tieu giao pho |
-| [Xay dung WeChat Mini Program](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/wechat-miniprogram/) | Hieu he sinh thai va giao pho mini program frontend tu template den ra mat |
-| [Xay dung WeChat Mini Program voi backend](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/wechat-miniprogram-backend/) | Them logic backend va co so du lieu de hoan thanh vong lap kinh doanh day du |
-| [Xay dung ung dung Android](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/android-app/) | Hoc phat trien ung dung Android voi quy trinh native hien dai |
-| [Xay dung ung dung iOS](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/ios-app/) | Hoc phat trien ung dung iOS va cac quy uoc cua he sinh thai Apple |
-| [Xay dung ung dung PWA cuc bo](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/pwa-local-app/) | Bien website thanh ung dung that voi ho tro offline, push va cai dat |
-| [Xay dung tien ich tro ly AI trinh duyet](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/browser-ai-extension/) | Tao tien ich Chrome tom tat bat ky trang nao voi cloud API hoac AI tich hop |
-| [Xay dung ung dung desktop Electron](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/electron-voice-to-text/) | Xay dung ung dung chuyen giong noi thanh van ban bang Electron cho ba nen tang |
-| [Nhanh chong xay dung va dap NFT](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/nft-minting/) | Viet smart contract tu dau, trien khai va dap NFT rieng cua ban |
-| [Xay dung tien ich mo rong VS Code](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/vscode-extension/) | Xay dung tro ly du an AI voi template, code chat va hoi dap da file |
-| [Xay dung ung dung desktop Qt cap cong nghiep](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/qt-industrial-hmi/) | Tao he thong Qt HMI thoi gian that voi xu huong, canh bao va giam sat |
+| [Cach chon nen tang phu hop cho ung dung cua ban](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/choose-platform/) | So sanh cac hinh thuc ung dung va chon nen tang phu hop dua tren nguoi dung, tinh huong va muc tieu giao pho |
+| [Xay dung WeChat Mini Program](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/wechat-miniprogram/) | Hieu he sinh thai va giao pho mini program frontend tu template den ra mat |
+| [Xay dung WeChat Mini Program voi backend](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/wechat-miniprogram-backend/) | Them logic backend va co so du lieu de hoan thanh vong lap kinh doanh day du |
+| [Xay dung ung dung Android](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/android-app/) | Hoc phat trien ung dung Android voi quy trinh native hien dai |
+| [Xay dung ung dung iOS](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/ios-app/) | Hoc phat trien ung dung iOS va cac quy uoc cua he sinh thai Apple |
+| [Xay dung ung dung PWA cuc bo](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/pwa-local-app/) | Bien website thanh ung dung that voi ho tro offline, push va cai dat |
+| [Xay dung tien ich tro ly AI trinh duyet](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/browser-ai-extension/) | Tao tien ich Chrome tom tat bat ky trang nao voi cloud API hoac AI tich hop |
+| [Xay dung ung dung desktop Electron](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/electron-voice-to-text/) | Xay dung ung dung chuyen giong noi thanh van ban bang Electron cho ba nen tang |
+| [Nhanh chong xay dung va dap NFT](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/nft-minting/) | Viet smart contract tu dau, trien khai va dap NFT rieng cua ban |
+| [Xay dung tien ich mo rong VS Code](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/vscode-extension/) | Xay dung tro ly du an AI voi template, code chat va hoi dap da file |
+| [Xay dung ung dung desktop Qt cap cong nghiep](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/qt-industrial-hmi/) | Tao he thong Qt HMI thoi gian that voi xu huong, canh bao va giam sat |
 
 #### Phu luc Kha nang AI
 
 | Phan | Noi dung chinh |
 | :------ | :---------- |
-| [RAG la gi va no hoat dong nhu the nao](https://datawhalechina.github.io/easy-vibe/en/stage-3/ai-advanced/rag-introduction/) | Xay dung hieu biet he thong ve nguyen ly RAG va cac kien truc thuong gap |
-| [Quy trinh RAG trung va cao cap voi LangGraph](https://datawhalechina.github.io/easy-vibe/en/stage-3/ai-advanced/langgraph-advanced-rag/) | Thiet ke quy trinh da buoc va he thong RAG nang cao hon |
+| [RAG la gi va no hoat dong nhu the nao](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/ai-advanced/rag-introduction/) | Xay dung hieu biet he thong ve nguyen ly RAG va cac kien truc thuong gap |
+| [Quy trinh RAG trung va cao cap voi LangGraph](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/ai-advanced/langgraph-advanced-rag/) | Thiet ke quy trinh da buoc va he thong RAG nang cao hon |
+
+#### Thêm hướng dẫn nâng cao
+
+- [Từ trang web đến phần mềm thực sự, rồi sản phẩm AI-native](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/ai-native-creator/)
+- [Xây dựng ứng dụng kiểm tra cửa hàng bằng React Native và Expo](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/react-native-expo/)
+- [Phát triển ứng dụng đa nền tảng với Flutter](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/flutter-app/)
+- [Làm game platform, pixel art và 3D bằng Godot](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/godot-game-development/)
+- [Phát hành ứng dụng đã hoàn thành lên các kênh phân phối](https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/cross-platform/app-publishing/)
 
 ### 📚 Phu luc Co so kien thuc
 

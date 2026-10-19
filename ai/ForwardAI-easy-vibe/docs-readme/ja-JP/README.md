@@ -1,13 +1,12 @@
 <!-- trigger vercel build -->
 <div align="center">
 
-<img src="../../assets/easy-vibe-logo-hd.svg" alt="Easy-Vibe Logo" width="300">
-
 <img src="../../assets/banner.png" alt="Easy-Vibe — 考える。つくる。最初のアイデアから本物のプロダクトへ。" width="100%">
 
 <p align="center" style="font-size: 1.2em; color: #666; margin: 20px 0;">
-  AI コーディングを基礎から学び、実際に使われるプロダクトを世に送り出そう。<br>
-  <span style="font-size: 0.9em; color: #888;">Learn AI coding from scratch by shipping real products.</span>
+  <strong>数万人の学習者が選ぶ、Vibe Coding でプロダクトを作る実践ガイド。</strong><br>
+  実際の授業と学習者のフィードバックを通じて改善を重ねています。体系的なロードマップ、丁寧な解説、対話型デモで、初めての一歩から公開まで伴走します。<br>
+  <span style="font-size: 0.9em; color: #888;">A hands-on Vibe Coding guide chosen by tens of thousands of learners.<br>Refined through real teaching and learner feedback. A complete roadmap, step-by-step explanations, and interactive demos guide you from zero to launch.</span>
 </p>
 
 <a href="https://trendshift.io/repositories/22079" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22079" alt="datawhalechina/easy-vibe | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -55,6 +54,13 @@
 </p>
 
 </div>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/appendix/">
+    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="対話型学習：プロンプト実験、RAG の探索、ターミナルの仕組み" width="100%">
+  </a>
+</p>
+
 <table align="center">
   <tr>
     <td width="50%" valign="top" align="center">
@@ -110,18 +116,23 @@
 </div>
 
 <div align="center" style="margin: 30px 0;">
-  <a href="https://github.com/datawhalechina/easy-vibe/issues/new?template=story_submission.md">
-    <img src="https://raw.githubusercontent.com/datawhalechina/easy-vibe/main/assets/stories_image.png" alt="あなたの Vibe ストーリーをシェア" width="80%" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <a href="../../CONTRIBUTING.md#share-your-case">
+    <img src="../../assets/readme-panels/04-vibe-stories-contribute.png" alt="実際の事例を基にした作品プレビューと制作者のイメージ。Pull Request で投稿できます" width="100%">
   </a>
-  <p style="margin-top: 15px; font-size: 1.1em; color: #666;">
-    📝 <strong>あなたの vibe coding ストーリーがありますか？</strong> 
-    こちらから投稿して、他の人にインスピレーションを与えましょう！
+  <p><strong>次に紹介されるのは、あなたの作品かもしれません。</strong><br>授業用ツール、学生プロジェクト、個人サイト、初めてのデモも歓迎します。</p>
+  <p>制作の話、実際のスクリーンショットや GIF、公開できるデモやリポジトリのリンクを添え、テンプレートに沿って Pull Request を送ってください。</p>
+  <p>
+    <strong><a href="../../CONTRIBUTING.md#share-your-case">事例を投稿する →</a></strong> ·
+    <a href="../../user-cases/TEMPLATE.md">事例テンプレート</a> ·
+    <a href="https://github.com/datawhalechina/easy-vibe/compare?expand=1&amp;template=user_case.md">Pull Request を作成</a>
   </p>
+  <p><a href="../../user-cases/README.md">実際の事例を見る →</a></p>
 </div>
 
 ## 目次
 
 - [なぜ Easy-Vibe なのか](#なぜ-easy-vibe-なのか)
+- [作れるもの](#作れるもの)
 - [ニュース](#-news)
 - [こんな人におすすめ](#こんな人におすすめ)
 - [あなたの学習パス](#あなたの学習パス)
@@ -149,11 +160,21 @@ AI 時代のプログラミングは、欲しいものを言葉で伝えるこ�
 Easy-Vibe は、それを本物のプロダクトにする方法を教えます。
 
 
+## 作れるもの
+
+<p align="center">
+  <img src="../../assets/readme-panels/02-project-gallery.png" alt="AI コピーライター, 旅行プランナー, 個人ブログ, ブラウザ AI アシスタント" width="100%">
+</p>
+
+プロジェクトのコンセプト例です。対応するチュートリアルで作ってみましょう：
+
+[AI コピーライター](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/copywriting-platform-supabase/) · [旅行プランナー](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/travel-planning-agent-platform/) · [個人ブログ](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/personal-brand/personal-website-blog/) · [ブラウザ AI アシスタント](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/browser-ai-extension/)
+
 ## 🔥 ニュース
 
 - **[2026-05-20]** 🌍 **Stage 1 の多言語カバーが完了**：Stage 1 はサポート対象の全言語（zh-cn, en, zh-tw, ja-jp, ko-kr, es-es, fr-fr, de-de, ar-sa, vi-vn）で利用可能になりました。ナビゲーション/ビルドの確認を行い、404 を避けています。
 - **[2026-03-29]** ✨ **Vibe ストーリーズを公開し、実ユーザーの体験談にアップグレード**：ホームページにインタラクティブなカルーセルと専用ストーリーページを追加し、仮の内容を農村の小学校教師、大学生、高校の情報技術教師、トラック運転手による 4 つの実話に差し替えました。[👉 ストーリーを見る](https://datawhalechina.github.io/easy-vibe/zh-cn/vibe-stories/story-1.html)
-- **[2026-03-26]** 🚀 **ステージ 2 実践コンテンツの大幅更新**：SaaS キャップストーンプロジェクト「[最初の SaaS フルスタックアプリ：コピー生成サイト](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/fullstack-app/)」を完成し、「[Stripe などの決済システムの統合方法](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/)」セクションを大幅に拡充し、マルチプロダクト UI や WeChat ミニプログラムのバックエンドワークフローに関する重要コンテンツも追加。
+- **[2026-03-26]** 🚀 **ステージ 2 実践コンテンツの大幅更新**：SaaS キャップストーンプロジェクト「[最初の SaaS フルスタックアプリ：コピー生成サイト](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/copywriting-platform-supabase/)」を完成し、「[Stripe などの決済システムの統合方法](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/)」セクションを大幅に拡充し、マルチプロダクト UI や WeChat ミニプログラムのバックエンドワークフローに関する重要コンテンツも追加。
 - **[2026-03-25]** 📚 **新規附録：ユーザー調査と要件検証**：アイデアの探し方、ダブルダイヤモンドモデル、Jobs to Be Done、The Mom Test の 4 つの新記事を追加し、初心者が製品アイデアを発見・検証できるよう支援。[👉 附録を読む](https://datawhalechina.github.io/easy-vibe/en/appendix/)
 - **[2026-03-25]** 📚 **英語ドキュメント全面更新**：ステージ 2（フルスタック開発）とステージ 3（高度開発）が完全に英語で利用可能になりました。[👉 学習を始める](https://datawhalechina.github.io/easy-vibe/en/stage-2/)
 <details>
@@ -227,44 +248,49 @@ Easy-Vibe は、それを本物のプロダクトにする方法を教えます�
 ### 📖 コンテンツナビゲーション
 
 <div align="center">
-  <img src="../../assets/readme-image1.png" alt="学習マップ" width="70%" style="border-radius: 10px; box-shadow: 0 8px 20px rgba(45,55,72,0.3); margin: 15px 0;"/>
+  <img src="../../assets/readme-panels/01-learning-path.svg" alt="学習マップ" width="100%">
 </div>
 
 ### I. 初心者入門
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [学習マップ](https://datawhalechina.github.io/easy-vibe/en/stage-1/learning-map/) | 学習全体のガイド付き概覧 |
-| [AI 時代：話せればプログラミングできる](https://datawhalechina.github.io/easy-vibe/en/stage-1/ai-capabilities-through-games/) | スネークゲームなどの例で AI コーディングを初体験 |
-| [AI プログラミングツールをマスターする](https://datawhalechina.github.io/easy-vibe/en/stage-1/introduction-to-ai-ide/) | AI IDE ツールの使い方を学び、シンプルなローカルプロジェクトを構築 |
-| [良いアイデアを見つける](https://datawhalechina.github.io/easy-vibe/en/stage-1/finding-great-idea/) | 作る価値のあるプロダクトアイデアを見つけ検証する方法を学ぶ |
-| [プロダクトプロトタイプを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-1/building-prototype/) | 要件から単一ページ・複数ページのプロダクトプロトタイプへ |
-| [AI 機能を統合する](https://datawhalechina.github.io/easy-vibe/en/stage-1/integrating-ai-capabilities/) | テキスト、画像、動画の AI 機能を統合 |
-| [完全プロジェクト実践](https://datawhalechina.github.io/easy-vibe/en/stage-1/complete-project-practice/) | 実際のシナリオをシミュレーションし、ユーザーフィードバックを集めてプロジェクトを反復開発 |
+| [学習マップ](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/learning-map/) | 学習全体のガイド付き概覧 |
+| [AI 時代：話せればプログラミングできる](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/ai-capabilities-through-games/) | スネークゲームなどの例で AI コーディングを初体験 |
+| [AI プログラミングツールをマスターする](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/introduction-to-ai-ide/) | AI IDE ツールの使い方を学び、シンプルなローカルプロジェクトを構築 |
+| [良いアイデアを見つける](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/finding-great-idea/) | 作る価値のあるプロダクトアイデアを見つけ検証する方法を学ぶ |
+| [プロダクトプロトタイプを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/building-prototype/) | 要件から単一ページ・複数ページのプロダクトプロトタイプへ |
+| [AI 機能を統合する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/integrating-ai-capabilities/) | テキスト、画像、動画の AI 機能を統合 |
+| [完全プロジェクト実践](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/complete-project-practice/) | 実際のシナリオをシミュレーションし、ユーザーフィードバックを集めてプロジェクトを反復開発 |
 
 #### 附録：プロダクトとビジネス思考
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [プロダクト思考とソリューション設計](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-a-product-thinking/) | ゼロからイチのプロダクトを作るための核心フレームワーク |
-| [AI アプリケーションシナリオ参考（BtoB・BtoC）](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-industry-scenarios/) | BtoB 業界と BtoC 消費者向け AI アプリケーションシナリオ |
+| [プロダクト思考とソリューション設計](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-a-product-thinking/) | ゼロからイチのプロダクトを作るための核心フレームワーク |
+| [AI アプリケーションシナリオ参考（BtoB・BtoC）](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-industry-scenarios/) | BtoB 業界と BtoC 消費者向け AI アプリケーションシナリオ |
 
 #### 附録：ユーザー調査と要件検証
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [アイデアの探し方：初心者に最適な 3 つの参考ソース](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-idea-sources/) | 具体的なプロダクト機会を見つけるための信頼できるパイプラインを構築 |
-| [ダブルダイヤモンド：まず正しいことをして、それから正しくやる](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-double-diamond/) | 構造化されたプロセスで散在するインスピレーションから実行可能な方向へ |
-| [Jobs to Be Done でユーザーが本当に望むことを見つける](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-jobs-to-be-done/) | 表面的な機能要望ではなく、実際のタスクを通じてユーザーの目標を分析 |
-| [The Mom Test：需要を検証するためのユーザーインタビュー法](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-mom-test/) | より良い質問の仕方を学び、誤検出フィードバックを回避する |
+| [アイデアの探し方：初心者に最適な 3 つの参考ソース](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-idea-sources/) | 具体的なプロダクト機会を見つけるための信頼できるパイプラインを構築 |
+| [ダブルダイヤモンド：まず正しいことをして、それから正しくやる](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-double-diamond/) | 構造化されたプロセスで散在するインスピレーションから実行可能な方向へ |
+| [Jobs to Be Done でユーザーが本当に望むことを見つける](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-jobs-to-be-done/) | 表面的な機能要望ではなく、実際のタスクを通じてユーザーの目標を分析 |
+| [The Mom Test：需要を検証するためのユーザーインタビュー法](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-mom-test/) | より良い質問の仕方を学び、誤検出フィードバックを回避する |
 
 #### 附録：技術ソリューション
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [エラーに遭遇したらどうするか](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-b-common-errors/) | vibe coding でのよくある問題とトラブルシューティング方法 |
-| [7 つの AI プログラミングツールの比較](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial) | 実際のテストを通じて主要 AI コーディングプラットフォームを比較 |
-| [エージェントでウェブサイトをデザインする](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | 実践的なマルチエージェントコラボレーションを学ぶ |
+| [エラーに遭遇したらどうするか](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-b-common-errors/) | vibe coding でのよくある問題とトラブルシューティング方法 |
+| [7 つの AI プログラミングツールの比較](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial) | 実際のテストを通じて主要 AI コーディングプラットフォームを比較 |
+| [エージェントでウェブサイトをデザインする](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | 実践的なマルチエージェントコラボレーションを学ぶ |
+
+#### その他の入門演習
+
+- [スクリーンショットから複製：初めての模倣練習](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/clone-your-favorite-app/)
+- [Vibe Codingの成果物をModelScopeで公開する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/appendix-modelscope-static-site/)
 
 ### II. ジュニア・ミッドレベル開発者
 
@@ -272,38 +298,53 @@ Easy-Vibe は、それを本物のプロダクトにする方法を教えます�
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [フロントエンド 0：Lovart で自分専用の素材制作エージェントを構築](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/lovart-assets/) | Nanobanana と Lovart を使ってビジュアル素材を一括生成し、意図認識付きの描画エージェントを構築 |
-| [フロントエンド 1：Figma と MasterGo の基礎](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/figma-mastergo/) | デザインカンプから実装可能な UI 設計思考までのワークフローを学ぶ |
-| [フロントエンド 2：最初のモダンアプリを構築 - UI デザイン](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/ui-design/) | モダンアプリケーションインターフェースの背後にある UI デザインの基礎を学ぶ |
-| [フロントエンド 3：UI ガイドラインとマルチプロダクトデザイン](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/multi-product-ui/) | 共通の UI ルールで複数プロダクト間の一貫性と美しさを向上 |
-| [フロントエンド 4：LLM と Skills でインターフェースを美しく](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/llm-skills-beautiful/) | プロンプトとプラグインを使って AI により洗練された独自のインターフェースを生成 |
-| [フロントエンド 4：ホグワーツの肖像画を作ろう](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/hogwarts-portraits/) | ゼロからインタラクティブな AI 画像フロントエンドプロジェクトを構築 |
-| [フロントエンド 6：デザインプロトタイプからプロジェクトコードへ](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/design-to-code/) | デザインプロトタイプをブラウザで実際に動くフロントエンドコードに変換 |
-| [フロントエンド 7：モダンコンポーネントライブラリで UI をアップグレード](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/modern-component-library/) | コンポーネントライブラリでプロフェッショナルなインターフェースを素早く構築 |
+| [フロントエンド 0：Lovart で自分専用の素材制作エージェントを構築](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/lovart-assets/) | Nanobanana と Lovart を使ってビジュアル素材を一括生成し、意図認識付きの描画エージェントを構築 |
+| [フロントエンド 1：Figma と MasterGo の基礎](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/figma-mastergo/) | デザインカンプから実装可能な UI 設計思考までのワークフローを学ぶ |
+| [フロントエンド 2：最初のモダンアプリを構築 - UI デザイン](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/ui-design/) | モダンアプリケーションインターフェースの背後にある UI デザインの基礎を学ぶ |
+| [フロントエンド 3：UI ガイドラインとマルチプロダクトデザイン](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/multi-product-ui/) | 共通の UI ルールで複数プロダクト間の一貫性と美しさを向上 |
+| [フロントエンド 4：LLM と Skills でインターフェースを美しく](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/llm-skills-beautiful/) | プロンプトとプラグインを使って AI により洗練された独自のインターフェースを生成 |
+| [フロントエンド 4：ホグワーツの肖像画を作ろう](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/hogwarts-portraits/) | ゼロからインタラクティブな AI 画像フロントエンドプロジェクトを構築 |
+| [フロントエンド 6：デザインプロトタイプからプロジェクトコードへ](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/design-to-code/) | デザインプロトタイプをブラウザで実際に動くフロントエンドコードに変換 |
+| [フロントエンド 7：モダンコンポーネントライブラリで UI をアップグレード](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/frontend/modern-component-library/) | コンポーネントライブラリでプロフェッショナルなインターフェースを素早く構築 |
 
 #### バックエンド
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [バックエンド 1：Git と GitHub を学ぶ](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/git-workflow/) | Git のコアバージョン管理操作とコラボレーションワークフローをマスター |
-| [バックエンド 2：データベースから Supabase まで](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/database-supabase/) | リレーショナルデータベースの基礎を学び、Supabase をモダン BaaS プラットフォームとして活用 |
-| [バックエンド 3：バックエンド API 設計と開発](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/ai-interface-code/) | AI を活用した API 設計、バックエンドコード生成、API ドキュメント |
-| [バックエンド 4：プロダクトプロトタイプをリリースする](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/zeabur-deployment/) | フルスタックアプリケーションを Zeabur で素早くクラウドにデプロイ |
-| [バックエンド 5：IDE から CLI AI コーディングツールへ](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/modern-cli/) | ターミナルファーストの AI コーディングワークフローを探索 |
-| [バックエンド 6：Stripe やその他の決済システムを統合する](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/) | 支払いと決済機能でマネタイズを追加 |
+| [バックエンド 1：Git と GitHub を学ぶ](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/backend/git-workflow/) | Git のコアバージョン管理操作とコラボレーションワークフローをマスター |
+| [バックエンド 2：データベースから Supabase まで](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/backend/database-supabase/) | リレーショナルデータベースの基礎を学び、Supabase をモダン BaaS プラットフォームとして活用 |
+| [バックエンド 3：バックエンド API 設計と開発](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/backend/ai-interface-code/) | AI を活用した API 設計、バックエンドコード生成、API ドキュメント |
+| [バックエンド 4：プロダクトプロトタイプをリリースする](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/backend/zeabur-deployment/) | フルスタックアプリケーションを Zeabur で素早くクラウドにデプロイ |
+| [バックエンド 5：IDE から CLI AI コーディングツールへ](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/backend/modern-cli/) | ターミナルファーストの AI コーディングワークフローを探索 |
+| [バックエンド 6：Stripe やその他の決済システムを統合する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/backend/stripe-payment/) | 支払いと決済機能でマネタイズを追加 |
 
 #### 大型プロジェクト
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [大型プロジェクト 1：最初の SaaS フルスタックアプリ - AI コピー生成サイト](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/fullstack-app/) | ログイン、生成、決済、管理機能付きの AI マーケティングコピー作成ワークスペースを構築 |
-| [大型プロジェクト 2：オンライン試験・管理システム](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/modern-frontend-trae/) | 問題生成、受験フロー、管理ツール付きのオンライン試験システムを構築 |
+| [大型プロジェクト 1：最初の SaaS フルスタックアプリ - AI コピー生成サイト](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/copywriting-platform-supabase/) | ログイン、生成、決済、管理機能付きの AI マーケティングコピー作成ワークスペースを構築 |
+| [大型プロジェクト 2：オンライン試験・管理システム](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/exam-management-express/) | 問題生成、受験フロー、管理ツール付きのオンライン試験システムを構築 |
+
+#### さらに挑戦できるプロジェクト
+
+| セクション |
+| :------ |
+| [モダン AI 画像生成 SaaS 開発実践](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/modern-landing-page/) |
+| [Dify 型エージェントプラットフォーム開発実践](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/custom-dify-agent-platform/) |
+| [スマート旅行計画 Agent プラットフォーム開発実践](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/travel-planning-agent-platform/) |
+| [Spring Boot 映画レコメンドシステム開発実践](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/movie-recommendation-springboot/) |
+| [生鮮 EC マイクロサービスシステム開発実践](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/simple-grocery-microservices/) |
+| [Go 交通データ分析プラットフォーム開発実践](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/traffic-data-visualization-go/) |
 
 #### AI 機能 附録
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [AI 1：Dify 基礎とナレッジベース統合](https://datawhalechina.github.io/easy-vibe/en/stage-2/ai-capabilities/dify-knowledge-base/) | Dify で AI アプリケーションを構築し、プライベートナレッジベースを統合する方法を学ぶ |
+| [AI 1：Dify 基礎とナレッジベース統合](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/ai-capabilities/dify-knowledge-base/) | Dify で AI アプリケーションを構築し、プライベートナレッジベースを統合する方法を学ぶ |
+
+#### その他のフルスタックチュートリアル
+
+- [ウェブサイトを公開する（上級編）：VPS サーバーを自分で用意して公開](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/backend/cloud-server-deployment/)
 
 ### III. 上級開発者
 
@@ -311,39 +352,48 @@ Easy-Vibe は、それを本物のプロダクトにする方法を教えます�
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [Claude Code 入門](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/basics/) | インストール、セットアップ、基礎、便利なコマンド |
-| [Claude Code MCP ガイド](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/mcp/) | MCP を通じて Claude Code を GitHub、データベース、API などのサービスに接続 |
-| [Claude Code Skills ガイド](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/skills/) | 専門知識を再利用可能なスキルとしてパッケージ化 |
-| [長時間タスクで Claude Code を働かせ続ける方法](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/long-running-tasks/) | コーディングツールが完了まで働き続けられるよう長時間タスクを設計 |
-| [Claude Agent Teams ガイド](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/agent-teams/) | 複数の AI インスタンスを本当の開発チームのように連携 |
-| [エンジニアリング級開発のための Claude Code Superpowers](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/superpowers/) | TDD とベストプラクティスで AI にエンジニアリング級のコードを書かせる |
-| [Claude Code ワークフローベストプラクティス](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/workflow/) | リファクタリング、コードレビュー、日常開発のベストプラクティス |
-| [モバイルでの Claude Code リモート開発](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/mobile-development/) | デスクトップを超えて Claude Code を活用し、モバイルデバイスで生産的なリモートワークフローを構築 |
-| [Claude Agent SDK 完全ガイド](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/claude-agent-sdk/) | カスタムエージェントワークフローを構築し、SDK で Claude を独自のツールに統合 |
-| [vibe coding から spec coding へ](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/spec-coding/) | アドホックなプロンプトから、より構造化された仕様駆動の AI 開発ワークフローへ移行 |
+| [Claude Code 入門](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/basics/) | インストール、セットアップ、基礎、便利なコマンド |
+| [Claude Code MCP ガイド](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/mcp/) | MCP を通じて Claude Code を GitHub、データベース、API などのサービスに接続 |
+| [Claude Code Skills ガイド](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/skills/) | 専門知識を再利用可能なスキルとしてパッケージ化 |
+| [長時間タスクで Claude Code を働かせ続ける方法](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/long-running-tasks/) | コーディングツールが完了まで働き続けられるよう長時間タスクを設計 |
+| [Claude Agent Teams ガイド](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/agent-teams/) | 複数の AI インスタンスを本当の開発チームのように連携 |
+| [エンジニアリング級開発のための Claude Code Superpowers](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/superpowers/) | TDD とベストプラクティスで AI にエンジニアリング級のコードを書かせる |
+| [Claude Code ワークフローベストプラクティス](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/workflow/) | リファクタリング、コードレビュー、日常開発のベストプラクティス |
+| [GitHub Issues で AI 開発を最後まで進める：要件対話から macOS アプリ完成まで](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/github-iterative-development/) | 仕様から Issues、実装、テスト、レビューまで |
+| [モバイルでの Claude Code リモート開発](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/mobile-development/) | デスクトップを超えて Claude Code を活用し、モバイルデバイスで生産的なリモートワークフローを構築 |
+| [Claude Agent SDK 完全ガイド](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/claude-agent-sdk/) | カスタムエージェントワークフローを構築し、SDK で Claude を独自のツールに統合 |
+| [vibe coding から spec coding へ](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/spec-coding/) | アドホックなプロンプトから、より構造化された仕様駆動の AI 開発ワークフローへ移行 |
 
 #### クロスプラットフォーム開発
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [アプリに適したプラットフォームの選び方](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/choose-platform/) | アプリ形態を比較し、ユーザー、シナリオ、配信目標に基づいて適切なプラットフォームを選択 |
-| [WeChat ミニプログラムを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/wechat-miniprogram/) | エコシステムを理解し、テンプレートからリリースまでフロントエンドミニプログラムを完成 |
-| [バックエンド付き WeChat ミニプログラムを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/wechat-miniprogram-backend/) | バックエンドロジックとデータベースを追加して完全なビジネスループを完成 |
-| [Android アプリを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/android-app/) | モダンなネイティブワークフローで Android アプリ開発を学ぶ |
-| [iOS アプリを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/ios-app/) | iOS アプリ開発と Apple エコシステムの規約を学ぶ |
-| [ローカル PWA アプリを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/pwa-local-app/) | オフラインサポート、プッシュ通知、インストール機能でウェブサイトを本当のアプリに変換 |
-| [ブラウザ AI アシスタント拡張機能を構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/browser-ai-extension/) | クラウド API または内蔵 AI で任意のページを要約する Chrome 拡張機能を作成 |
-| [Electron デスクトップアプリを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/electron-voice-to-text/) | Electron で 3 プラットフォーム対応の音声テキスト変換デスクトップアプリを構築 |
-| [NFT を迅速に構築してミントする](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/nft-minting/) | スマートコントラクトをゼロから作成し、デプロイして自分の NFT をミント |
-| [VS Code 拡張機能を構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/vscode-extension/) | テンプレート、コードチャット、複数ファイル Q&A を備えた AI プロジェクトアシスタントを構築 |
-| [産業グレードの Qt デスクトップアプリを構築する](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/qt-industrial-hmi/) | トレンド、アラート、監視機能を備えたリアルタイム Qt HMI システムを作成 |
+| [アプリに適したプラットフォームの選び方](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/choose-platform/) | アプリ形態を比較し、ユーザー、シナリオ、配信目標に基づいて適切なプラットフォームを選択 |
+| [WeChat ミニプログラムを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/wechat-miniprogram/) | エコシステムを理解し、テンプレートからリリースまでフロントエンドミニプログラムを完成 |
+| [バックエンド付き WeChat ミニプログラムを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/wechat-miniprogram-backend/) | バックエンドロジックとデータベースを追加して完全なビジネスループを完成 |
+| [Android アプリを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/android-app/) | モダンなネイティブワークフローで Android アプリ開発を学ぶ |
+| [iOS アプリを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/ios-app/) | iOS アプリ開発と Apple エコシステムの規約を学ぶ |
+| [ローカル PWA アプリを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/pwa-local-app/) | オフラインサポート、プッシュ通知、インストール機能でウェブサイトを本当のアプリに変換 |
+| [ブラウザ AI アシスタント拡張機能を構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/browser-ai-extension/) | クラウド API または内蔵 AI で任意のページを要約する Chrome 拡張機能を作成 |
+| [Electron デスクトップアプリを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/electron-voice-to-text/) | Electron で 3 プラットフォーム対応の音声テキスト変換デスクトップアプリを構築 |
+| [NFT を迅速に構築してミントする](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/nft-minting/) | スマートコントラクトをゼロから作成し、デプロイして自分の NFT をミント |
+| [VS Code 拡張機能を構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/vscode-extension/) | テンプレート、コードチャット、複数ファイル Q&A を備えた AI プロジェクトアシスタントを構築 |
+| [産業グレードの Qt デスクトップアプリを構築する](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/qt-industrial-hmi/) | トレンド、アラート、監視機能を備えたリアルタイム Qt HMI システムを作成 |
 
 #### AI 機能 附録
 
 | セクション | 主要コンテンツ |
 | :------ | :---------- |
-| [RAG とは何か、どのように機能するのか](https://datawhalechina.github.io/easy-vibe/en/stage-3/ai-advanced/rag-introduction/) | RAG の原理と一般的なアーキテクチャの体系的な理解を構築 |
-| [LangGraph による中級・上級 RAG ワークフロー](https://datawhalechina.github.io/easy-vibe/en/stage-3/ai-advanced/langgraph-advanced-rag/) | マルチステップのワークフローとより高度な RAG システムを設計 |
+| [RAG とは何か、どのように機能するのか](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/ai-advanced/rag-introduction/) | RAG の原理と一般的なアーキテクチャの体系的な理解を構築 |
+| [LangGraph による中級・上級 RAG ワークフロー](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/ai-advanced/langgraph-advanced-rag/) | マルチステップのワークフローとより高度な RAG システムを設計 |
+
+#### その他の上級チュートリアル
+
+- [Web ページから実用ソフトウェア、そして AI ネイティブ製品へ](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/ai-native-creator/)
+- [React Native + Expo で店舗点検アプリをゼロから作る](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/react-native-expo/)
+- [Flutter でクロスプラットフォームアプリを作る](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/flutter-app/)
+- [Godot で横スクロール・ピクセル・3D ゲームを作る](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/godot-game-development/)
+- [完成したアプリを公開・ストア配信する方法](https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/cross-platform/app-publishing/)
 
 ### 📚 附録 ナレッジベース
 

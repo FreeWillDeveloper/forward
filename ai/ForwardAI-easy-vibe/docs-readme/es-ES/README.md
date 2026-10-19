@@ -1,13 +1,12 @@
 <!-- trigger vercel build -->
 <div align="center">
 
-<img src="../../assets/easy-vibe-logo-hd.svg" alt="Easy-Vibe Logo" width="300">
-
 <img src="../../assets/banner.png" alt="Easy-Vibe — Piénsalo. Constrúyelo. De la primera idea a un producto real." width="100%">
 
 <p align="center" style="font-size: 1.2em; color: #666; margin: 20px 0;">
-  Aprende a programar con IA desde cero creando y lanzando productos reales.<br>
-  <span style="font-size: 0.9em; color: #888;">Learn AI coding from scratch by shipping real products.</span>
+  <strong>De Vibe Coding a productos reales. Elegido por decenas de miles de estudiantes.</strong><br>
+  Mejorado con la enseñanza real y los comentarios de los estudiantes. Una ruta completa, explicaciones cuidadas y demos interactivas te acompañan desde cero hasta el lanzamiento.<br>
+  <span style="font-size: 0.9em; color: #888;">A hands-on Vibe Coding guide chosen by tens of thousands of learners.<br>Refined through real teaching and learner feedback. A complete roadmap, step-by-step explanations, and interactive demos guide you from zero to launch.</span>
 </p>
 
 <a href="https://trendshift.io/repositories/22079" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22079" alt="datawhalechina/easy-vibe | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -55,6 +54,13 @@
 </p>
 
 </div>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/appendix/">
+    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="Aprendizaje interactivo: experimentos con prompts, exploración de RAG y conceptos de terminal" width="100%">
+  </a>
+</p>
+
 <table align="center">
   <tr>
     <td width="50%" valign="top" align="center">
@@ -110,18 +116,23 @@
 </div>
 
 <div align="center" style="margin: 30px 0;">
-  <a href="https://github.com/datawhalechina/easy-vibe/issues/new?template=story_submission.md">
-    <img src="https://raw.githubusercontent.com/datawhalechina/easy-vibe/main/assets/stories_image.png" alt="Comparte tu historia Vibe" width="80%" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <a href="../../CONTRIBUTING.md#share-your-case">
+    <img src="../../assets/readme-panels/04-vibe-stories-contribute.png" alt="Vistas de proyectos basados en casos reales con creadores ilustrativos; envía tu caso mediante Pull Request" width="100%">
   </a>
-  <p style="margin-top: 15px; font-size: 1.1em; color: #666;">
-    📝 <strong>¿Tienes tu propia historia de vibe coding?</strong>
-    ¡Envíala aquí e inspira a otros!
+  <p><strong>Tu proyecto podría ser el próximo en aparecer aquí.</strong><br>Comparte herramientas para clase, proyectos de estudiantes, webs personales o tu primera demo.</p>
+  <p>Incluye tu historia, una captura real o GIF y un enlace a la demo o al repositorio si está disponible. Usa la plantilla y abre un Pull Request.</p>
+  <p>
+    <strong><a href="../../CONTRIBUTING.md#share-your-case">Envía tu caso →</a></strong> ·
+    <a href="../../user-cases/TEMPLATE.md">Plantilla de caso</a> ·
+    <a href="https://github.com/datawhalechina/easy-vibe/compare?expand=1&amp;template=user_case.md">Abrir un Pull Request</a>
   </p>
+  <p><a href="../../user-cases/README.md">Ver casos reales →</a></p>
 </div>
 
 ## Tabla de contenidos
 
 - [Por qué Easy-Vibe](#por-qué-easy-vibe)
+- [Qué puedes crear](#qué-puedes-crear)
 - [Noticias](#-news)
 - [Para quién es esto](#para-quién-es-esto)
 - [Tus rutas de aprendizaje](#tus-rutas-de-aprendizaje)
@@ -149,11 +160,21 @@ En la era de la IA, programar empieza por describir lo que quieres.
 Easy-Vibe te enseña a convertir eso en un producto real.
 
 
+## Qué puedes crear
+
+<p align="center">
+  <img src="../../assets/readme-panels/02-project-gallery.png" alt="Redactor con IA, Planificador de viajes, Blog personal, Asistente de IA para el navegador" width="100%">
+</p>
+
+Ejemplos conceptuales de proyectos. Explora los tutoriales correspondientes:
+
+[Redactor con IA](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/copywriting-platform-supabase/) · [Planificador de viajes](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/travel-planning-agent-platform/) · [Blog personal](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/personal-brand/personal-website-blog/) · [Asistente de IA para el navegador](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/browser-ai-extension/)
+
 ## 🔥 News
 
 - **[2026-05-20]** 🌍 **Cobertura multilingue completa de la Etapa 1**: La Etapa 1 ya esta disponible en todos los idiomas soportados (zh-cn, en, zh-tw, ja-jp, ko-kr, es-es, fr-fr, de-de, ar-sa, vi-vn). Se verifico la navegacion/compilacion para evitar 404.
 - **[2026-03-29]** ✨ **Lanzamos la sección de historias de usuarios y la actualizamos con casos reales**: Añadimos un carrusel interactivo y páginas dedicadas en la portada, y sustituimos el contenido provisional por cuatro historias reales de una maestra rural, una estudiante universitaria, un profesor de informática de secundaria y un camionero que construyeron productos reales con IA. [👉 View the stories](https://datawhalechina.github.io/easy-vibe/zh-cn/vibe-stories/story-1.html)
-- **[2026-03-26]** 🚀 **Actualización masiva de contenido práctico de la Etapa 2**: Se completó el proyecto final SaaS "[Tu primera aplicación full-stack SaaS: Generador de copywriting](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/fullstack-app/)" y se amplió sustancialmente la sección "[Cómo integrar Stripe y sistemas de pago](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/)".
+- **[2026-03-26]** 🚀 **Actualización masiva de contenido práctico de la Etapa 2**: Se completó el proyecto final SaaS "[Tu primera aplicación full-stack SaaS: Generador de copywriting](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/copywriting-platform-supabase/)" y se amplió sustancialmente la sección "[Cómo integrar Stripe y sistemas de pago](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/)".
 - **[2026-03-25]** 📚 **Nuevo apéndice: Investigación de usuarios y validación de requisitos**: Se agregaron cuatro nuevos artículos que cubren la búsqueda de ideas, el modelo Double Diamond, Jobs to Be Done y The Mom Test para ayudar a los principiantes a descubrir y validar ideas de productos. [👉 Leer el apéndice](https://datawhalechina.github.io/easy-vibe/en/appendix/)
 - **[2026-03-25]** 📚 **Documentación en inglés completamente actualizada**: La Etapa 2 (Desarrollo full-stack) y la Etapa 3 (Desarrollo avanzado) ya están disponibles completamente en inglés. [👉 Empezar a aprender](https://datawhalechina.github.io/easy-vibe/en/stage-2/)
 <details>
@@ -227,44 +248,49 @@ Easy-Vibe te enseña a convertir eso en un producto real.
 ### 📖 Navegación de contenidos
 
 <div align="center">
-  <img src="../../assets/readme-image1.png" alt="Mapa de aprendizaje" width="70%" style="border-radius: 10px; box-shadow: 0 8px 20px rgba(45,55,72,0.3); margin: 15px 0;"/>
+  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Mapa de aprendizaje" width="100%">
 </div>
 
 ### I. Entrada para principiantes
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Mapa de aprendizaje](https://datawhalechina.github.io/easy-vibe/en/stage-1/learning-map/) | Una visión general guiada de todo el recorrido de aprendizaje |
-| [La era de la IA: Si puedes hablar, puedes programar](https://datawhalechina.github.io/easy-vibe/en/stage-1/ai-capabilities-through-games/) | Ten tu primer contacto con la programación con IA a través de ejemplos como Snake |
-| [Domina las herramientas de programación con IA](https://datawhalechina.github.io/easy-vibe/en/stage-1/introduction-to-ai-ide/) | Aprende cómo funcionan las herramientas AI IDE y construye proyectos locales simples con ellas |
-| [Encuentra grandes ideas](https://datawhalechina.github.io/easy-vibe/en/stage-1/finding-great-idea/) | Aprende a descubrir y validar ideas de productos que valgan la pena construir |
-| [Construye prototipos de producto](https://datawhalechina.github.io/easy-vibe/en/stage-1/building-prototype/) | Avanza desde los requisitos hasta prototipos de producto de una o múltiples páginas |
-| [Integra capacidades de IA](https://datawhalechina.github.io/easy-vibe/en/stage-1/integrating-ai-capabilities/) | Integra funciones de IA de texto, imagen y video |
-| [Práctica de proyecto completo](https://datawhalechina.github.io/easy-vibe/en/stage-1/complete-project-practice/) | Simula escenarios reales, recopila comentarios de usuarios e itera en un proyecto completo |
+| [Mapa de aprendizaje](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/learning-map/) | Una visión general guiada de todo el recorrido de aprendizaje |
+| [La era de la IA: Si puedes hablar, puedes programar](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/ai-capabilities-through-games/) | Ten tu primer contacto con la programación con IA a través de ejemplos como Snake |
+| [Domina las herramientas de programación con IA](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/introduction-to-ai-ide/) | Aprende cómo funcionan las herramientas AI IDE y construye proyectos locales simples con ellas |
+| [Encuentra grandes ideas](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/finding-great-idea/) | Aprende a descubrir y validar ideas de productos que valgan la pena construir |
+| [Construye prototipos de producto](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/building-prototype/) | Avanza desde los requisitos hasta prototipos de producto de una o múltiples páginas |
+| [Integra capacidades de IA](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/integrating-ai-capabilities/) | Integra funciones de IA de texto, imagen y video |
+| [Práctica de proyecto completo](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/complete-project-practice/) | Simula escenarios reales, recopila comentarios de usuarios e itera en un proyecto completo |
 
 #### Apéndice: Pensamiento de producto y negocio
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Pensamiento de producto y diseño de soluciones](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-a-product-thinking/) | Marcos fundamentales para ir de cero a uno con un producto |
-| [Referencia de escenarios de aplicación de IA (B2B y B2C)](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-industry-scenarios/) | Escenarios de aplicaciones de IA B2B industrial y B2C de consumo |
+| [Pensamiento de producto y diseño de soluciones](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-a-product-thinking/) | Marcos fundamentales para ir de cero a uno con un producto |
+| [Referencia de escenarios de aplicación de IA (B2B y B2C)](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-industry-scenarios/) | Escenarios de aplicaciones de IA B2B industrial y B2C de consumo |
 
 #### Apéndice: Investigación de usuarios y validación de requisitos
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Dónde encontrar ideas: 3 fuentes de referencia que funcionan mejor para principiantes](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-idea-sources/) | Construye un flujo confiable para encontrar oportunidades de productos concretas |
-| [Double Diamond: primero haz lo correcto, luego hazlo bien](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-double-diamond/) | Usa un proceso estructurado para pasar de la inspiración dispersa a una dirección viable |
-| [Usa Jobs to Be Done para descubrir lo que los usuarios realmente quieren](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-jobs-to-be-done/) | Analiza los objetivos de los usuarios a través de tareas reales en lugar de solicitudes de funciones superficiales |
-| [The Mom Test: un método de entrevista a usuarios para validar la demanda](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-mom-test/) | Aprende a hacer mejores preguntas y evitar comentarios falsos positivos |
+| [Dónde encontrar ideas: 3 fuentes de referencia que funcionan mejor para principiantes](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-idea-sources/) | Construye un flujo confiable para encontrar oportunidades de productos concretas |
+| [Double Diamond: primero haz lo correcto, luego hazlo bien](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-double-diamond/) | Usa un proceso estructurado para pasar de la inspiración dispersa a una dirección viable |
+| [Usa Jobs to Be Done para descubrir lo que los usuarios realmente quieren](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-jobs-to-be-done/) | Analiza los objetivos de los usuarios a través de tareas reales en lugar de solicitudes de funciones superficiales |
+| [The Mom Test: un método de entrevista a usuarios para validar la demanda](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-mom-test/) | Aprende a hacer mejores preguntas y evitar comentarios falsos positivos |
 
 #### Apéndice: Soluciones técnicas
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Qué hacer si encuentras errores](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-b-common-errors/) | Problemas comunes de vibe coding y cómo solucionarlos |
-| [Comparación de siete herramientas de programación con IA](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial) | Compara las principales plataformas de programación con IA mediante pruebas prácticas |
-| [Diseña sitios web con agentes](https://datawhalechina.github.io/easy-vibe/en/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | Aprende la colaboración multi-agente en la práctica |
+| [Qué hacer si encuentras errores](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-b-common-errors/) | Problemas comunes de vibe coding y cómo solucionarlos |
+| [Comparación de siete herramientas de programación con IA](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial) | Compara las principales plataformas de programación con IA mediante pruebas prácticas |
+| [Diseña sitios web con agentes](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | Aprende la colaboración multi-agente en la práctica |
+
+#### Más prácticas para principiantes
+
+- [Clonar desde una captura: tu primer ejercicio de imitación](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/clone-your-favorite-app/)
+- [Publica tu proyecto de Vibe Coding en ModelScope](https://datawhalechina.github.io/easy-vibe/es-es/stage-1/appendix-modelscope-static-site/)
 
 ### II. Desarrolladores junior e intermedios
 
@@ -272,38 +298,53 @@ Easy-Vibe te enseña a convertir eso en un producto real.
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Frontend 0: Construye tu propio agente de producción de recursos con Lovart](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/lovart-assets/) | Usa Nanobanana y Lovart para generar recursos visuales por lotes y construir un agente de dibujo con reconocimiento de intenciones |
-| [Frontend 1: Conceptos básicos de Figma y MasterGo](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/figma-mastergo/) | Aprende el flujo de trabajo desde borradores de diseño hasta un pensamiento UI listo para implementar |
-| [Frontend 2: Construye tu primera aplicación moderna - Diseño UI](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/ui-design/) | Aprende los fundamentos de diseño UI detrás de las interfaces de aplicaciones modernas |
-| [Frontend 3: Guías de UI y diseño multi-producto](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/multi-product-ui/) | Mejora la consistencia y estética de múltiples productos con reglas UI compartidas |
-| [Frontend 4: Haz interfaces hermosas con LLMs y Skills](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/llm-skills-beautiful/) | Usa prompts y plugins para que la IA genere interfaces más pulidas y distintivas |
-| [Frontend 4: Construyamos retratos de Hogwarts](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/hogwarts-portraits/) | Construye un proyecto frontend interactivo de imágenes con IA desde cero |
-| [Frontend 6: De prototipo de diseño a código de proyecto](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/design-to-code/) | Convierte prototipos de diseño en código frontend que realmente funciona en el navegador |
-| [Frontend 7: Actualiza tu UI con bibliotecas de componentes modernas](https://datawhalechina.github.io/easy-vibe/en/stage-2/frontend/modern-component-library/) | Usa bibliotecas de componentes para construir interfaces profesionales más rápido |
+| [Frontend 0: Construye tu propio agente de producción de recursos con Lovart](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/lovart-assets/) | Usa Nanobanana y Lovart para generar recursos visuales por lotes y construir un agente de dibujo con reconocimiento de intenciones |
+| [Frontend 1: Conceptos básicos de Figma y MasterGo](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/figma-mastergo/) | Aprende el flujo de trabajo desde borradores de diseño hasta un pensamiento UI listo para implementar |
+| [Frontend 2: Construye tu primera aplicación moderna - Diseño UI](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/ui-design/) | Aprende los fundamentos de diseño UI detrás de las interfaces de aplicaciones modernas |
+| [Frontend 3: Guías de UI y diseño multi-producto](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/multi-product-ui/) | Mejora la consistencia y estética de múltiples productos con reglas UI compartidas |
+| [Frontend 4: Haz interfaces hermosas con LLMs y Skills](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/llm-skills-beautiful/) | Usa prompts y plugins para que la IA genere interfaces más pulidas y distintivas |
+| [Frontend 4: Construyamos retratos de Hogwarts](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/hogwarts-portraits/) | Construye un proyecto frontend interactivo de imágenes con IA desde cero |
+| [Frontend 6: De prototipo de diseño a código de proyecto](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/design-to-code/) | Convierte prototipos de diseño en código frontend que realmente funciona en el navegador |
+| [Frontend 7: Actualiza tu UI con bibliotecas de componentes modernas](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/frontend/modern-component-library/) | Usa bibliotecas de componentes para construir interfaces profesionales más rápido |
 
 #### Backend
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Backend 1: Aprende Git y GitHub](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/git-workflow/) | Domina las operaciones de control de versiones y los flujos de colaboración con Git |
-| [Backend 2: De base de datos a Supabase](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/database-supabase/) | Aprende los fundamentos de bases de datos relacionales y usa Supabase como plataforma BaaS moderna |
-| [Backend 3: Diseño y desarrollo de APIs backend](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/ai-interface-code/) | Usa IA para asistir en el diseño de APIs, generación de código backend y documentación de APIs |
-| [Backend 4: Lanza tu prototipo de producto](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/zeabur-deployment/) | Despliega rápidamente aplicaciones full-stack en la nube con Zeabur |
-| [Backend 5: De IDEs a herramientas de programación con IA por CLI](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/modern-cli/) | Explora flujos de trabajo de programación con IA desde la terminal para desarrollo moderno |
-| [Backend 6: Integra Stripe y otros sistemas de facturación](https://datawhalechina.github.io/easy-vibe/en/stage-2/backend/stripe-payment/) | Agrega monetización con capacidades de pago y facturación |
+| [Backend 1: Aprende Git y GitHub](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/backend/git-workflow/) | Domina las operaciones de control de versiones y los flujos de colaboración con Git |
+| [Backend 2: De base de datos a Supabase](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/backend/database-supabase/) | Aprende los fundamentos de bases de datos relacionales y usa Supabase como plataforma BaaS moderna |
+| [Backend 3: Diseño y desarrollo de APIs backend](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/backend/ai-interface-code/) | Usa IA para asistir en el diseño de APIs, generación de código backend y documentación de APIs |
+| [Backend 4: Lanza tu prototipo de producto](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/backend/zeabur-deployment/) | Despliega rápidamente aplicaciones full-stack en la nube con Zeabur |
+| [Backend 5: De IDEs a herramientas de programación con IA por CLI](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/backend/modern-cli/) | Explora flujos de trabajo de programación con IA desde la terminal para desarrollo moderno |
+| [Backend 6: Integra Stripe y otros sistemas de facturación](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/backend/stripe-payment/) | Agrega monetización con capacidades de pago y facturación |
 
 #### Proyectos principales
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Proyecto principal 1: Tu primera aplicación SaaS full-stack - Sitio web de copywriting con IA](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/fullstack-app/) | Construye un espacio de trabajo de marketing con IA con inicio de sesión, generación, facturación y gestión de administración |
-| [Proyecto principal 2: Sistema de exámenes y gestión en línea](https://datawhalechina.github.io/easy-vibe/en/stage-2/assignments/modern-frontend-trae/) | Construye un sistema de exámenes en línea con generación de preguntas, flujos de examen y herramientas de administración |
+| [Proyecto principal 1: Tu primera aplicación SaaS full-stack - Sitio web de copywriting con IA](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/copywriting-platform-supabase/) | Construye un espacio de trabajo de marketing con IA con inicio de sesión, generación, facturación y gestión de administración |
+| [Proyecto principal 2: Sistema de exámenes y gestión en línea](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/exam-management-express/) | Construye un sistema de exámenes en línea con generación de preguntas, flujos de examen y herramientas de administración |
+
+#### Más proyectos prácticos
+
+| Sección |
+| :------ |
+| [Desarrollo Practico: SaaS de Generacion de Imagenes con IA Moderna](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/modern-landing-page/) |
+| [Desarrollo Practico: Plataforma de Agentes Inteligentes tipo Dify](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/custom-dify-agent-platform/) |
+| [Desarrollo Practico: Plataforma de Agentes para Planificacion de Viajes Inteligentes](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/travel-planning-agent-platform/) |
+| [Desarrollo Practico: Sistema de Recomendacion de Peliculas con Spring Boot](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/movie-recommendation-springboot/) |
+| [生鲜电商微服务系统开发实战](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/simple-grocery-microservices/) |
+| [Desarrollo Practico: Plataforma de Analisis de Datos de Trafico con Go](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/traffic-data-visualization-go/) |
 
 #### Apéndice de capacidades de IA
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [IA 1: Conceptos básicos de Dify e integración de base de conocimiento](https://datawhalechina.github.io/easy-vibe/en/stage-2/ai-capabilities/dify-knowledge-base/) | Aprende a construir aplicaciones de IA con Dify e integrar bases de conocimiento privadas |
+| [IA 1: Conceptos básicos de Dify e integración de base de conocimiento](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/ai-capabilities/dify-knowledge-base/) | Aprende a construir aplicaciones de IA con Dify e integrar bases de conocimiento privadas |
+
+#### Más tutoriales de desarrollo full-stack
+
+- [Publica tu sitio web (avanzado): prepara tu propio VPS y despliega](https://datawhalechina.github.io/easy-vibe/es-es/stage-2/backend/cloud-server-deployment/)
 
 ### III. Desarrolladores avanzados
 
@@ -311,39 +352,48 @@ Easy-Vibe te enseña a convertir eso en un producto real.
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Comenzando con Claude Code](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/basics/) | Instalación, configuración, fundamentos y comandos útiles |
-| [Guía de Claude Code MCP](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/mcp/) | Conecta Claude Code a GitHub, bases de datos, APIs y otros servicios a través de MCP |
-| [Guía de Claude Code Skills](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/skills/) | Empaqueta experiencia en habilidades reutilizables que puedes usar una y otra vez |
-| [Cómo mantener a Claude Code trabajando en tareas de larga duración](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/long-running-tasks/) | Diseña tareas de larga duración para que las herramientas de codificación sigan trabajando hasta terminar |
-| [Guía de Claude Agent Teams](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/agent-teams/) | Coordina múltiples instancias de IA como un equipo de desarrollo real |
-| [Superpoderes de Claude Code para desarrollo de grado empresarial](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/superpowers/) | Ayuda a la IA a producir código de grado empresarial con TDD y mejores prácticas |
-| [Mejores prácticas de flujo de trabajo de Claude Code](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/workflow/) | Mejores prácticas para refactorización, revisión de código y desarrollo diario |
-| [Desarrollo remoto con Claude Code en móvil](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/mobile-development/) | Usa Claude Code más allá del escritorio y construye un flujo de trabajo remoto productivo en dispositivos móviles |
-| [Guía completa del SDK de Claude Agent](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/claude-agent-sdk/) | Construye flujos de trabajo de agentes personalizados e integra Claude en tus propias herramientas con el SDK |
-| [De vibe coding a spec coding](https://datawhalechina.github.io/easy-vibe/en/stage-3/core-skills/spec-coding/) | Pasa de prompts ad-hoc a un flujo de desarrollo con IA más estructurado y basado en especificaciones |
+| [Comenzando con Claude Code](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/basics/) | Instalación, configuración, fundamentos y comandos útiles |
+| [Guía de Claude Code MCP](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/mcp/) | Conecta Claude Code a GitHub, bases de datos, APIs y otros servicios a través de MCP |
+| [Guía de Claude Code Skills](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/skills/) | Empaqueta experiencia en habilidades reutilizables que puedes usar una y otra vez |
+| [Cómo mantener a Claude Code trabajando en tareas de larga duración](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/long-running-tasks/) | Diseña tareas de larga duración para que las herramientas de codificación sigan trabajando hasta terminar |
+| [Guía de Claude Agent Teams](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/agent-teams/) | Coordina múltiples instancias de IA como un equipo de desarrollo real |
+| [Superpoderes de Claude Code para desarrollo de grado empresarial](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/superpowers/) | Ayuda a la IA a producir código de grado empresarial con TDD y mejores prácticas |
+| [Mejores prácticas de flujo de trabajo de Claude Code](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/workflow/) | Mejores prácticas para refactorización, revisión de código y desarrollo diario |
+| [Desarrollo integral con IA y GitHub Issues: de la conversación de requisitos a una app macOS terminada](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/github-iterative-development/) | De la especificación a Issues, implementación, pruebas y revisión |
+| [Desarrollo remoto con Claude Code en móvil](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/mobile-development/) | Usa Claude Code más allá del escritorio y construye un flujo de trabajo remoto productivo en dispositivos móviles |
+| [Guía completa del SDK de Claude Agent](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/claude-agent-sdk/) | Construye flujos de trabajo de agentes personalizados e integra Claude en tus propias herramientas con el SDK |
+| [De vibe coding a spec coding](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/spec-coding/) | Pasa de prompts ad-hoc a un flujo de desarrollo con IA más estructurado y basado en especificaciones |
 
 #### Desarrollo multiplataforma
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Cómo elegir la plataforma adecuada para tu aplicación](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/choose-platform/) | Compara formatos de aplicaciones y elige la plataforma adecuada según usuarios, escenarios y objetivos de entrega |
-| [Construye un Mini Programa de WeChat](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/wechat-miniprogram/) | Comprende el ecosistema y lanza un mini programa frontend desde plantilla hasta producción |
-| [Construye un Mini Programa de WeChat con backend](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/wechat-miniprogram-backend/) | Agrega lógica backend y bases de datos para completar el ciclo de negocio completo |
-| [Construye una aplicación Android](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/android-app/) | Aprende desarrollo de aplicaciones Android con un flujo de trabajo nativo moderno |
-| [Construye una aplicación iOS](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/ios-app/) | Aprende desarrollo de aplicaciones iOS y las convenciones del ecosistema Apple |
-| [Construye una aplicación PWA local](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/pwa-local-app/) | Convierte un sitio web en una aplicación real con soporte offline, push e instalación |
-| [Construye una extensión de asistente de IA para navegador](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/browser-ai-extension/) | Crea una extensión de Chrome que resume cualquier página con APIs en la nube o IA integrada |
-| [Construye una aplicación de escritorio con Electron](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/electron-voice-to-text/) | Construye una aplicación de escritorio de voz a texto con Electron para tres plataformas |
-| [Construye y acuña un NFT rápidamente](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/nft-minting/) | Escribe un contrato inteligente desde cero, despliégalo y acuña tu propio NFT |
-| [Construye una extensión para VS Code](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/vscode-extension/) | Construye un asistente de proyecto de IA con plantillas, chat de código y preguntas/respuestas multi-archivo |
-| [Construye una aplicación de escritorio Qt de grado industrial](https://datawhalechina.github.io/easy-vibe/en/stage-3/cross-platform/qt-industrial-hmi/) | Crea un sistema HMI Qt en tiempo real con tendencias, alertas y monitoreo |
+| [Cómo elegir la plataforma adecuada para tu aplicación](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/choose-platform/) | Compara formatos de aplicaciones y elige la plataforma adecuada según usuarios, escenarios y objetivos de entrega |
+| [Construye un Mini Programa de WeChat](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/wechat-miniprogram/) | Comprende el ecosistema y lanza un mini programa frontend desde plantilla hasta producción |
+| [Construye un Mini Programa de WeChat con backend](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/wechat-miniprogram-backend/) | Agrega lógica backend y bases de datos para completar el ciclo de negocio completo |
+| [Construye una aplicación Android](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/android-app/) | Aprende desarrollo de aplicaciones Android con un flujo de trabajo nativo moderno |
+| [Construye una aplicación iOS](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/ios-app/) | Aprende desarrollo de aplicaciones iOS y las convenciones del ecosistema Apple |
+| [Construye una aplicación PWA local](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/pwa-local-app/) | Convierte un sitio web en una aplicación real con soporte offline, push e instalación |
+| [Construye una extensión de asistente de IA para navegador](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/browser-ai-extension/) | Crea una extensión de Chrome que resume cualquier página con APIs en la nube o IA integrada |
+| [Construye una aplicación de escritorio con Electron](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/electron-voice-to-text/) | Construye una aplicación de escritorio de voz a texto con Electron para tres plataformas |
+| [Construye y acuña un NFT rápidamente](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/nft-minting/) | Escribe un contrato inteligente desde cero, despliégalo y acuña tu propio NFT |
+| [Construye una extensión para VS Code](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/vscode-extension/) | Construye un asistente de proyecto de IA con plantillas, chat de código y preguntas/respuestas multi-archivo |
+| [Construye una aplicación de escritorio Qt de grado industrial](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/qt-industrial-hmi/) | Crea un sistema HMI Qt en tiempo real con tendencias, alertas y monitoreo |
 
 #### Apéndice de capacidades de IA
 
 | Sección | Contenido clave |
 | :------ | :---------- |
-| [Qué es RAG y cómo funciona](https://datawhalechina.github.io/easy-vibe/en/stage-3/ai-advanced/rag-introduction/) | Construye una comprensión sistemática de los principios de RAG y arquitecturas comunes |
-| [Flujos de trabajo RAG intermedios y avanzados con LangGraph](https://datawhalechina.github.io/easy-vibe/en/stage-3/ai-advanced/langgraph-advanced-rag/) | Diseña flujos de trabajo de múltiples pasos y sistemas RAG más avanzados |
+| [Qué es RAG y cómo funciona](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/ai-advanced/rag-introduction/) | Construye una comprensión sistemática de los principios de RAG y arquitecturas comunes |
+| [Flujos de trabajo RAG intermedios y avanzados con LangGraph](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/ai-advanced/langgraph-advanced-rag/) | Diseña flujos de trabajo de múltiples pasos y sistemas RAG más avanzados |
+
+#### Más tutoriales avanzados
+
+- [De una página web a un programa real y después a un producto nativo de IA](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/ai-native-creator/)
+- [Crear una app de inspección de tiendas con React Native y Expo](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/react-native-expo/)
+- [Cómo desarrollar una aplicación multiplataforma con Flutter](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/flutter-app/)
+- [Cómo crear juegos de plataformas, pixel art y 3D con Godot](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/godot-game-development/)
+- [Cómo publicar la aplicación que has creado](https://datawhalechina.github.io/easy-vibe/es-es/stage-3/cross-platform/app-publishing/)
 
 ### 📚 Base de conocimiento del apéndice
 

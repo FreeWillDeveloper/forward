@@ -1,13 +1,12 @@
 <!-- trigger vercel build -->
 <div align="center">
 
-<img src="../../assets/easy-vibe-logo-hd.svg" alt="Easy-Vibe Logo" width="300">
-
 <img src="../../assets/banner.png" alt="Easy-Vibe — 想到，就做到。從第一個想法到真正可用的產品。" width="100%">
 
 <p align="center" style="font-size: 1.2em; color: #666; margin: 20px 0;">
-  從零開始學習 AI 程式開發，在真實交付中把想法做成產品。<br>
-  <span style="font-size: 0.9em; color: #888;">Learn AI coding from scratch by shipping real products.</span>
+  <strong>數萬名學習者選擇的 Vibe Coding 產品實作教學。</strong><br>
+  在真實教學與實作回饋中持續打磨，用完整路線、細緻講解和互動演示，陪你從零基礎走到產品上線。<br>
+  <span style="font-size: 0.9em; color: #888;">A hands-on Vibe Coding guide chosen by tens of thousands of learners.<br>Refined through real teaching and learner feedback. A complete roadmap, step-by-step explanations, and interactive demos guide you from zero to launch.</span>
 </p>
 
 <a href="https://trendshift.io/repositories/22079" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22079" alt="datawhalechina/easy-vibe | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -55,6 +54,13 @@
 </p>
 
 </div>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/appendix/">
+    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="互動式學習：提示詞實驗、RAG 探索與終端原理" width="100%">
+  </a>
+</p>
+
 <table align="center">
   <tr>
     <td width="50%" valign="top" align="center">
@@ -110,18 +116,23 @@
 </div>
 
 <div align="center" style="margin: 30px 0;">
-  <a href="https://github.com/datawhalechina/easy-vibe/issues/new?template=story_submission.md">
-    <img src="https://raw.githubusercontent.com/datawhalechina/easy-vibe/main/assets/stories_image.png" alt="分享你的 Vibe 故事" width="80%" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <a href="../../CONTRIBUTING.md#share-your-case">
+    <img src="../../assets/readme-panels/04-vibe-stories-contribute.png" alt="真實案例作品展示與創作者示意，歡迎透過 Pull Request 投稿" width="100%">
   </a>
-  <p style="margin-top: 15px; font-size: 1.1em; color: #666;">
-    📝 <strong>有自己的 vibe coding 故事？</strong>
-    在這裡提交，激勵更多人！
+  <p><strong>下一個被看見的作品，可以是你的。</strong><br>課堂工具、課程作品、個人網站、第一個 demo，都歡迎分享。</p>
+  <p>準備你的故事、真實截圖或 GIF，以及展示或儲存庫連結（如有），依模板整理後提交 Pull Request。</p>
+  <p>
+    <strong><a href="../../CONTRIBUTING.md#share-your-case">提交你的案例 →</a></strong> ·
+    <a href="../../user-cases/TEMPLATE.md">案例模板</a> ·
+    <a href="https://github.com/datawhalechina/easy-vibe/compare?expand=1&amp;template=user_case.md">發起 Pull Request</a>
   </p>
+  <p><a href="../../user-cases/README.md">看看真實案例 →</a></p>
 </div>
 
 ## 目錄 / Table of Contents
 
 - [為什麼需要 Easy-Vibe](#為什麼需要-easy-vibe)
+- [你能做出什麼](#你能做出什麼)
 - [News](#-news)
 - [適合誰](#適合誰)
 - [你的學習路徑](#你的學習路徑)
@@ -147,6 +158,16 @@
 在 AI 時代，程式設計先從描述你想要什麼開始。
 
 Easy-Vibe 教你的，就是怎樣把它一步步做成真正的產品。
+
+## 你能做出什麼
+
+<p align="center">
+  <img src="../../assets/readme-panels/02-project-gallery.png" alt="AI 文案產生器, 旅行規劃助手, 個人部落格, 瀏覽器 AI 助手" width="100%">
+</p>
+
+這些是專案概念展示，跟著對應教學動手實現：
+
+[AI 文案產生器](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/copywriting-platform-supabase/) · [旅行規劃助手](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/travel-planning-agent-platform/) · [個人部落格](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/personal-brand/personal-website-blog/) · [瀏覽器 AI 助手](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/browser-ai-extension/)
 
 ## 🔥 News
 
@@ -191,7 +212,7 @@ Easy-Vibe 教你的，就是怎樣把它一步步做成真正的產品。
 
 ### 💡 我有個想法要實現
 **適合人群**：零基礎/產品經理/創業者
-**學什麼**：AI IDE 工具、需求拆解、頁面設計、功能規劃、提示詞寫法、原型迭代
+**學什麼**：發現問題、驗證需求、AI IDE、製作原型、接入 AI、使用者回饋與迭代
 **你會得到**：一個可展示的產品原型
 
 [開始學習](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/learning-map/)
@@ -229,44 +250,49 @@ Easy-Vibe 教你的，就是怎樣把它一步步做成真正的產品。
 ### 📖 內容導航
 
 <div align="center">
-  <img src="../../assets/readme-image1.png" alt="Learning Map" width="70%" style="border-radius: 10px; box-shadow: 0 8px 20px rgba(45,55,72,0.3); margin: 15px 0;"/>
+  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Learning Map" width="100%">
 </div>
 
 ### 一、零基礎入門
 
 | 章節                                                                                 | 關鍵內容                                          |
 | :----------------------------------------------------------------------------------- | :------------------------------------------------ |
-| [學習地圖](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/learning-map/)                             | 整體學習路徑導覽                                  |
-| [AI 時代，會說話就會程式設計](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/ai-capabilities-through-games/) | 透過貪吃蛇等案例初步感受 AI 程式設計的能力        |
-| [尋找好想法](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/finding-great-idea/)                     | 學會尋找和驗證產品想法，找到值得做的專案          |
-| [認識 AI IDE 工具](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/introduction-to-ai-ide/)           | 學會使用 IDE，在本機製作小遊戲                    |
-| [動手做出原型](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/building-prototype/)                   | 從需求分析、AI 產生單頁面，再到產生多頁面產品原型 |
-| [給原型加上 AI 能力](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/integrating-ai-capabilities/)    | 學會接入常見 AI 能力（文字、圖片、影片）          |
-| [完整專案實戰](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/complete-project-practice/)            | 模擬真實場景、接受使用者回饋迭代，完整化專案      |
+| [學習地圖](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/learning-map/)                             | 整體學習路徑導覽                                  |
+| [AI 時代，會說話就會程式設計](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/ai-capabilities-through-games/) | 透過貪吃蛇等案例初步感受 AI 程式設計的能力        |
+| [尋找好想法](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/finding-great-idea/)                     | 學會尋找和驗證產品想法，找到值得做的專案          |
+| [認識 AI IDE 工具](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/introduction-to-ai-ide/)           | 學會使用 IDE，在本機製作小遊戲                    |
+| [動手做出原型](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/building-prototype/)                   | 從需求分析、AI 產生單頁面，再到產生多頁面產品原型 |
+| [給原型加上 AI 能力](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/integrating-ai-capabilities/)    | 學會接入常見 AI 能力（文字、圖片、影片）          |
+| [完整專案實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/complete-project-practice/)            | 模擬真實場景、接受使用者回饋迭代，完整化專案      |
 
 #### 附錄：產品與業務思維
 
 | 章節                                                                                 | 關鍵內容                                   |
 | :----------------------------------------------------------------------------------- | :----------------------------------------- |
-| [產品思維與方案設計](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-a-product-thinking/)        | 從零到一做產品需要考慮的思維框架           |
-| [AI 應用場景參考（B 端與 C 端）](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-industry-scenarios/) | B 端產業應用與 C 端消費場景參考             |
+| [產品思維與方案設計](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-a-product-thinking/)        | 從零到一做產品需要考慮的思維框架           |
+| [AI 應用場景參考（B 端與 C 端）](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-industry-scenarios/) | B 端產業應用與 C 端消費場景參考             |
 
 #### 附錄：使用者研究與需求驗證
 
 | 章節                                                                                 | 關鍵內容                                   |
 | :----------------------------------------------------------------------------------- | :----------------------------------------- |
-| [從哪裡找點子：最適合新手的 3 個參考來源](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-idea-sources/) | 建立可靠的管道來尋找具體的產品機會         |
-| [雙鑽模型：先做對的事，再把事做對](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-double-diamond/) | 用結構化流程從零散靈感到可執行方向         |
-| [用 Jobs to Be Done 找出使用者真正想完成的事](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-jobs-to-be-done/) | 透過真實任務分析使用者目標而非表面功能需求 |
-| [The Mom Test：驗證需求的使用者訪談方法](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-mom-test/) | 學會問更好的問題，避免假陽性回饋           |
+| [從哪裡找點子：最適合新手的 3 個參考來源](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-idea-sources/) | 建立可靠的管道來尋找具體的產品機會         |
+| [雙鑽模型：先做對的事，再把事做對](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-double-diamond/) | 用結構化流程從零散靈感到可執行方向         |
+| [用 Jobs to Be Done 找出使用者真正想完成的事](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-jobs-to-be-done/) | 透過真實任務分析使用者目標而非表面功能需求 |
+| [The Mom Test：驗證需求的使用者訪談方法](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-mom-test/) | 學會問更好的問題，避免假陽性回饋           |
 
 #### 附錄：技術方案
 
 | 章節                                                                                                                    | 關鍵內容                                   |
 | :---------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
-| [寫程式時遇到錯誤怎麼辦](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-b-common-errors/)                                         | vibe coding 中的常見錯誤及排查方法         |
-| [七款 AI 程式設計工具對比](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial)       | 對比測試主流 AI 程式設計平台               |
-| [用設計和程式設計 Agent 設計網站](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | 學習如何使用 AI 智慧體協同工作             |
+| [寫程式時遇到錯誤怎麼辦](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-b-common-errors/)                                         | vibe coding 中的常見錯誤及排查方法         |
+| [七款 AI 程式設計工具對比](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial)       | 對比測試主流 AI 程式設計平台               |
+| [用設計和程式設計 Agent 設計網站](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents) | 學習如何使用 AI 智慧體協同工作             |
+
+#### 更多入門練習
+
+- [從截圖復刻：第一次模仿練習](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/clone-your-favorite-app/)
+- [在魔搭社群發布你的 Vibe Coding 作品](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/appendix-modelscope-static-site/)
 
 ### 二、初中級開發工程師
 
@@ -274,32 +300,53 @@ Easy-Vibe 教你的，就是怎樣把它一步步做成真正的產品。
 
 | 章節                                                                                                       | 關鍵內容                                                                     |
 | :--------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| [從 Lovart 出發，搭建自己的素材生產 Agent](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/lovart-assets/)                             | 從零開始，利用 Nanobanana 和 Lovart 批次產生高品質的設計素材，並動手建構一個能意圖識別的繪圖 Agent |
-| [Figma 與 MasterGo 入門](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/figma-mastergo/)                          | 用設計工具梳理資訊架構和頁面結構，為前端實作打基礎                           |
-| [建構第一個現代應用程式 - UI 設計](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/ui-design/)                       | 基於設計稿完成元件化介面，實現從設計到程式碼的第一條鏈路                     |
-| [參考 UI 設計規範與多產品 UI 設計](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/multi-product-ui/)              | 圍繞統一主視覺擴展多產品介面，練習系統化設計能力                             |
-| [用 LLM 和 Skills 讓介面變好看](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/llm-skills-beautiful/)             | 用提示詞和 Skills 外掛讓 AI 產生美觀獨特的介面                               |
-| [一起做霍格華茲畫像](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/hogwarts-portraits/)                          | 從 0 到 1 做出接入 AI 能力的前端應用，串聯設計與開發                         |
-| [從設計原型到專案程式碼](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/design-to-code/)                            | 三種路徑將設計工具中的原型轉化為前端程式碼                                   |
-| [使用現代元件庫更新你的介面](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/frontend/modern-component-library/)            | 用元件庫快速建構專業級介面，統一風格、提升開發效率                           |
+| [從 Lovart 出發，搭建自己的素材生產 Agent](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/lovart-assets/)                             | 從零開始，利用 Nanobanana 和 Lovart 批次產生高品質的設計素材，並動手建構一個能意圖識別的繪圖 Agent |
+| [Figma 與 MasterGo 入門](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/figma-mastergo/)                          | 用設計工具梳理資訊架構和頁面結構，為前端實作打基礎                           |
+| [建構第一個現代應用程式 - UI 設計](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/ui-design/)                       | 基於設計稿完成元件化介面，實現從設計到程式碼的第一條鏈路                     |
+| [參考 UI 設計規範與多產品 UI 設計](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/multi-product-ui/)              | 圍繞統一主視覺擴展多產品介面，練習系統化設計能力                             |
+| [用 LLM 和 Skills 讓介面變好看](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/llm-skills-beautiful/)             | 用提示詞和 Skills 外掛讓 AI 產生美觀獨特的介面                               |
+| [一起做霍格華茲畫像](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/hogwarts-portraits/)                          | 從 0 到 1 做出接入 AI 能力的前端應用，串聯設計與開發                         |
+| [從設計原型到專案程式碼](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/design-to-code/)                            | 三種路徑將設計工具中的原型轉化為前端程式碼                                   |
+| [使用現代元件庫更新你的介面](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/frontend/modern-component-library/)            | 用元件庫快速建構專業級介面，統一風格、提升開發效率                           |
 
 #### 後端開發部分
 
 | 章節                                                                                               | 關鍵內容                                                    |
 | :------------------------------------------------------------------------------------------------- | :---------------------------------------------------------- |
-| [從資料庫到 Supabase](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/database-supabase/)                   | 在 Supabase 上落地資料庫和 API，打通資料模型與前端頁面      |
-| [大模型輔助編寫介面程式碼與介面文件](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/ai-interface-code/)       | 用大模型協助產生介面與資料庫文件及程式碼，實現可讀可測的後端  |
-| [Git 和 GitHub 工作流](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/git-workflow/)                        | 在 Git 工作流中管理程式碼，進行版本控制和協作               |
-| [如何部署 Web 應用](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/zeabur-deployment/)                     | 使用 CloudBase、Vercel、Zeabur 等平台部署應用上線           |
-| [CLI AI 程式設計工具](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/modern-cli/)                              | 使用 CLI 類 AI 程式設計工具加速開發與除錯，形成個人工程化工作流 |
-| [如何整合 Stripe 等收費系統](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/stripe-payment/)               | 接入支付系統，完成收費鏈路與基礎結算流程                    |
-| [大作業：建構第一個現代應用程式 - 全端應用](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/assignments/copywriting-platform-supabase/) | 綜合前端、後端與支付模組，完成可上線的全端 Web 應用         |
+| [從資料庫到 Supabase](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/backend/database-supabase/)                   | 在 Supabase 上落地資料庫和 API，打通資料模型與前端頁面      |
+| [大模型輔助編寫介面程式碼與介面文件](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/backend/ai-interface-code/)       | 用大模型協助產生介面與資料庫文件及程式碼，實現可讀可測的後端  |
+| [Git 和 GitHub 工作流](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/backend/git-workflow/)                        | 在 Git 工作流中管理程式碼，進行版本控制和協作               |
+| [如何部署 Web 應用](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/backend/zeabur-deployment/)                     | 使用 CloudBase、Vercel、Zeabur 等平台部署應用上線           |
+| [CLI AI 程式設計工具](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/backend/modern-cli/)                              | 使用 CLI 類 AI 程式設計工具加速開發與除錯，形成個人工程化工作流 |
+| [如何整合 Stripe 等收費系統](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/backend/stripe-payment/)               | 接入支付系統，完成收費鏈路與基礎結算流程                    |
+
+#### 大作業
+
+| 章節 | 關鍵內容 |
+| :------ | :---------- |
+| [大作業：建構第一個現代應用程式 - 全端應用](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/copywriting-platform-supabase/) | 綜合前端、後端與支付模組，完成可上線的全端 Web 應用         |
+| [在線考試與管理系統開發實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/exam-management-express/) | 角色權限、題庫、考試、提交記錄、批改與管理後台 |
+
+#### 更多專案實戰
+
+| 專案 |
+| :------ |
+| [現代 AI 生圖 SaaS 開發實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/modern-landing-page/) | |
+| [類 Dify 智能體平臺開發實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/custom-dify-agent-platform/) | |
+| [智能旅遊規劃 Agent 平臺開發實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/travel-planning-agent-platform/) | |
+| [Spring Boot 電影推薦系統開發實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/movie-recommendation-springboot/) | |
+| [生鮮電商微服務系統開發實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/simple-grocery-microservices/) | |
+| [Go 交通資料分析平臺開發實戰](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/traffic-data-visualization-go/) | |
 
 #### AI 能力附錄
 
 | 章節                                                                                                     | 關鍵內容                                                       |
 | :------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
-| [Dify 入門與知識庫整合](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/ai-capabilities/dify-knowledge-base/) | 用 Dify Workflow 與基礎 RAG 搭建工具類產品，為後續應用升級打樣 |
+| [Dify 入門與知識庫整合](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/ai-capabilities/dify-knowledge-base/) | 用 Dify Workflow 與基礎 RAG 搭建工具類產品，為後續應用升級打樣 |
+
+#### 更多全端教學
+
+- [把網站發到網上（進階方式）：自己買臺 VPS 伺服器搭建發佈](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/backend/cloud-server-deployment/)
 
 ### 三、高級開發工程師
 
@@ -307,39 +354,48 @@ Easy-Vibe 教你的，就是怎樣把它一步步做成真正的產品。
 
 | 章節                                                                                                    | 關鍵內容                                                     |
 | :------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------- |
-| [Claude Code 快速上手](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/basics/)                                  | 安裝設定、基礎操作、實用技巧和常用指令                       |
-| [Claude Code MCP 完全指南](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/mcp/)                                 | 透過 MCP 讓 Claude Code 連接 GitHub、資料庫、API 等外部服務  |
-| [Claude Code Skills 完全指南](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/skills/)                           | 將專業知識打包成可複用技能包，一次設定反覆使用               |
-| [如何讓 Claude Code 長時間工作](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/long-running-tasks/)             | 設計長時間執行的任務，讓 Coding Tools 持續工作直到完成        |
-| [Claude Agent Teams 完全指南](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/agent-teams/)                      | 多 AI 實例協同工作，像真正的開發團隊一樣並行協作             |
-| [Claude Code Superpowers 工程級開發](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/superpowers/)               | 讓 AI 寫出工程級程式碼，遵循 TDD 和最佳實踐                  |
-| [Claude Code 工作流最佳實踐](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/workflow/)                          | 日常開發、程式碼重構、Code Review 等場景的最佳實踐           |
-| [Claude Code 行動端遠端開發](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/mobile-development/)                          | 在行動裝置上使用 Claude Code，打造高效的遠端開發工作流       |
-| [Claude Agent SDK 完全指南](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/claude-agent-sdk/)                          | 使用 SDK 建構自訂 Agent 工作流，將 Claude 整合到你的工具中   |
-| [從 Vibe Coding 到 Spec Coding](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/core-skills/spec-coding/)                          | 從即興提示轉向更結構化、規格驅動的 AI 開發工作流             |
+| [Claude Code 快速上手](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/basics/)                                  | 安裝設定、基礎操作、實用技巧和常用指令                       |
+| [Claude Code MCP 完全指南](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/mcp/)                                 | 透過 MCP 讓 Claude Code 連接 GitHub、資料庫、API 等外部服務  |
+| [Claude Code Skills 完全指南](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/skills/)                           | 將專業知識打包成可複用技能包，一次設定反覆使用               |
+| [如何讓 Claude Code 長時間工作](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/long-running-tasks/)             | 設計長時間執行的任務，讓 Coding Tools 持續工作直到完成        |
+| [Claude Agent Teams 完全指南](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/agent-teams/)                      | 多 AI 實例協同工作，像真正的開發團隊一樣並行協作             |
+| [Claude Code Superpowers 工程級開發](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/superpowers/)               | 讓 AI 寫出工程級程式碼，遵循 TDD 和最佳實踐                  |
+| [Claude Code 工作流最佳實踐](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/workflow/)                          | 日常開發、程式碼重構、Code Review 等場景的最佳實踐           |
+| [用 GitHub Issues 驅動 AI 全流程開發：從需求討論到 macOS 成品](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/github-iterative-development/) | 從需求規格、Issues 拆解到實作、測試與審查 |
+| [Claude Code 行動端遠端開發](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/mobile-development/)                          | 在行動裝置上使用 Claude Code，打造高效的遠端開發工作流       |
+| [Claude Agent SDK 完全指南](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/claude-agent-sdk/)                          | 使用 SDK 建構自訂 Agent 工作流，將 Claude 整合到你的工具中   |
+| [從 Vibe Coding 到 Spec Coding](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/spec-coding/)                          | 從即興提示轉向更結構化、規格驅動的 AI 開發工作流             |
 
 #### 跨平台開發
 
 | 章節                                                                                                           | 關鍵內容                                                     |
 | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
-| [如何選擇適合你的應用平台](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/choose-platform/)                       | 比較應用形態，根據使用者、場景和交付目標選擇合適的平台       |
-| [如何建構微信小程式](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/wechat-miniprogram/)                       | 了解微信小程式生態，從官方範本到上線完成一個前端小程式       |
-| [如何建構微信小程式 - 包含後端](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/)      | 在小程式中接入資料庫與後端邏輯，打通完整業務閉環             |
-| [如何建構安卓程式](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/android-app/)                                | 使用 Expo 等工具，完成 Web/原生一體化的安卓應用開發          |
-| [如何建構 iOS 程式](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/ios-app/)                                   | 使用 Expo 等工具，完成 Web/原生一體化的 iOS 應用開發         |
-| [如何開發 PWA 本機應用](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/pwa-local-app/)                         | 讓網頁變成「真正的 App」，支援離線、推送、桌面安裝          |
-| [如何開發瀏覽器 AI 助手外掛](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/browser-ai-extension/)             | 開發 Chrome 外掛，一鍵總結任意網頁，支援雲端 API 和內建 AI   |
-| [如何開發 Electron 桌面程式](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/electron-voice-to-text/)          | 用 Electron 建構語音轉文字桌面應用，支援三平台安裝執行       |
-| [如何快速開發並鑄造 NFT](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/nft-minting/)                         | 從零編寫智慧合約，部署到以太坊測試網，鑄造自己的 NFT         |
-| [如何開發 VS Code 外掛](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/vscode-extension/)                     | 開發 AI 專案助手外掛，支援範本產生、程式碼對話、多檔案問答   |
-| [如何開發工業級 Qt 桌面應用](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/cross-platform/qt-industrial-hmi/)               | 用 Qt 建構工業級水泵監控 HMI 系統，即時資料、趨勢圖、警報    |
+| [如何選擇適合你的應用平台](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/choose-platform/)                       | 比較應用形態，根據使用者、場景和交付目標選擇合適的平台       |
+| [如何建構微信小程式](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/wechat-miniprogram/)                       | 了解微信小程式生態，從官方範本到上線完成一個前端小程式       |
+| [如何建構微信小程式 - 包含後端](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/wechat-miniprogram-backend/)      | 在小程式中接入資料庫與後端邏輯，打通完整業務閉環             |
+| [如何建構安卓程式](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/android-app/)                                | 使用 Expo 等工具，完成 Web/原生一體化的安卓應用開發          |
+| [如何建構 iOS 程式](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/ios-app/)                                   | 使用 Expo 等工具，完成 Web/原生一體化的 iOS 應用開發         |
+| [如何開發 PWA 本機應用](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/pwa-local-app/)                         | 讓網頁變成「真正的 App」，支援離線、推送、桌面安裝          |
+| [如何開發瀏覽器 AI 助手外掛](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/browser-ai-extension/)             | 開發 Chrome 外掛，一鍵總結任意網頁，支援雲端 API 和內建 AI   |
+| [如何開發 Electron 桌面程式](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/electron-voice-to-text/)          | 用 Electron 建構語音轉文字桌面應用，支援三平台安裝執行       |
+| [如何快速開發並鑄造 NFT](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/nft-minting/)                         | 從零編寫智慧合約，部署到以太坊測試網，鑄造自己的 NFT         |
+| [如何開發 VS Code 外掛](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/vscode-extension/)                     | 開發 AI 專案助手外掛，支援範本產生、程式碼對話、多檔案問答   |
+| [如何開發工業級 Qt 桌面應用](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/qt-industrial-hmi/)               | 用 Qt 建構工業級水泵監控 HMI 系統，即時資料、趨勢圖、警報    |
 
 #### AI 能力附錄
 
 | 章節                                                                                                                                      | 關鍵內容                                                |
 | :---------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------ |
-| [什麼是 RAG 以及它如何運作](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/ai-advanced/rag-introduction/)                | 系統理解 RAG 原理與常見架構，為複雜應用提供知識檢索基礎 |
-| [中高級 RAG 與工作流編排：以 LangGraph 為例](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-3/ai-advanced/langgraph-advanced-rag/) | 使用 LangGraph 等工具設計多步工作流與中高級 RAG 系統    |
+| [什麼是 RAG 以及它如何運作](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/ai-advanced/rag-introduction/)                | 系統理解 RAG 原理與常見架構，為複雜應用提供知識檢索基礎 |
+| [中高級 RAG 與工作流編排：以 LangGraph 為例](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/ai-advanced/langgraph-advanced-rag/) | 使用 LangGraph 等工具設計多步工作流與中高級 RAG 系統    |
+
+#### 更多進階內容
+
+- [從做出網頁，到完整程式，再到 AI 原生產品](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/ai-native-creator/)
+- [從零開始用 React Native + Expo 做門市巡檢 App](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/react-native-expo/)
+- [如何用 Flutter 開發跨平台 App](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/flutter-app/)
+- [如何用 Godot 開發橫向、像素與 3D 遊戲](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/godot-game-development/)
+- [如何把做好的程式發布上架](https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/cross-platform/app-publishing/)
 
 ### 📚 附錄知識庫
 
