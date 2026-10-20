@@ -364,7 +364,7 @@ export const zhCnStage2Sidebar = [
         link: '/zh-cn/stage-2/backend/git-workflow/'
       },
       {
-        text: '把网站发到网上（简单方式）：Vercel/Zeabur/CloudBase 一键发布',
+        text: '把网站发到网上（简单方式）：Vercel/Cloudflare/CloudBase 一键发布',
         link: '/zh-cn/stage-2/backend/zeabur-deployment/'
       },
       {
@@ -2617,7 +2617,7 @@ export const zhCnSidebar = {
           link: '/zh-cn/stage-3/ai-advanced/rag-introduction/'
         },
         {
-          text: 'Extra 6: Zeabur Deployment',
+          text: 'Extra 6: Web App Deployment',
           link: '/zh-cn/stage-2/backend/zeabur-deployment/'
         },
         {

@@ -1,0 +1,65 @@
+[
+  {
+    "file": "render-new-service.jpg",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://render.com/docs/your-first-deploy",
+    "source_image": "https://render.com/docs-assets/c4cbdccdf8b0a5f3724025f376c7280844d889698f0bae7b5a3182ddd79cfd1f/new-dropdown.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "render-select-repository.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://render.com/docs/your-first-deploy",
+    "source_image": "https://render.com/docs-assets/f189d38f12392bf8abc0bf5521960467f0a8213b652c746d9e612539eb9d175a/repo-list.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "render-free-plan.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://render.com/docs/your-first-deploy",
+    "source_image": "https://render.com/docs-assets/c43d3bc379ea67b2439291980c5bfa78573a97774c8209039d6a4ab8b10b933c/free-instance-select.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "render-deploy-logs.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://render.com/docs/your-first-deploy",
+    "source_image": "https://render.com/docs-assets/6aa330511f718bd38326c7f6c0fd8697807e4c3ae18257449d156ae353ca1a09/first-deploy-logs.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "render-public-url.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://render.com/docs/your-first-deploy",
+    "source_image": "https://render.com/docs-assets/5d7762df3c1e4fa7b01539a138b138e5673751c2663cdf4f40f9a109eb2e5151/onrender-url.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cloudflare-project-settings.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://developers.cloudflare.com/pages/get-started/git-integration/",
+    "source_image": "https://developers.cloudflare.com/_astro/configuration.C_N8MiKW.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cloudflare-build-settings.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://developers.cloudflare.com/pages/get-started/git-integration/",
+    "source_image": "https://developers.cloudflare.com/_astro/build-settings.BREiHFn0.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cloudflare-deploy-log.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://developers.cloudflare.com/pages/get-started/git-integration/",
+    "source_image": "https://developers.cloudflare.com/_astro/deploy-log.D8BQ4nzJ.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cloudflare-site-dashboard.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://developers.cloudflare.com/pages/get-started/git-integration/",
+    "source_image": "https://developers.cloudflare.com/_astro/site-dashboard.Ct8X8ZRP.png",
+    "retrieved_on": "2026-10-19"
+  }
+]

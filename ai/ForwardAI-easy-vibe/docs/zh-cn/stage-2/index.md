@@ -74,7 +74,7 @@
   <NavCard
     href="/zh-cn/stage-2/backend/zeabur-deployment/"
     title="发布你的产品原型"
-    description="学习使用 Zeabur 快速部署你的全栈应用到云端"
+    description="使用 Cloudflare Pages、Vercel、Render 发布前后端，并了解 Dify 官方云的免费方案"
   />
   <NavCard
     href="/zh-cn/stage-2/backend/modern-cli/"

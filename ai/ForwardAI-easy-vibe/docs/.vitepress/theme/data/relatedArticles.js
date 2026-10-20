@@ -329,7 +329,7 @@ const rawRelatedArticlesMap = {
   'zh-cn/stage-2/backend/cloud-server-deployment': [
     {
       href: '/zh-cn/stage-2/backend/zeabur-deployment/',
-      title: '把网站发到网上（简单方式）：Vercel/Zeabur/CloudBase 一键发布',
+      title: '把网站发到网上（简单方式）：Vercel/Cloudflare/CloudBase 一键发布',
       description: '最简单的发站方式，连仓库即上线，不用买服务器也不用懂运维。',
       icon: '🚀'
     },
@@ -437,7 +437,7 @@ const rawRelatedArticlesMap = {
       href: '/zh-cn/stage-2/backend/zeabur-deployment/',
       title: '把网站发到网上（简单方式）：一键 PaaS 部署',
       description:
-        '学会把代码一键发布到 Vercel / Zeabur / CloudBase 等平台，让全世界都能访问。',
+        '使用 Cloudflare Pages / Vercel 发布前端、Render 托管后端，并了解 Dify 官方云。',
       icon: '🚀'
     },
     {
@@ -458,7 +458,7 @@ const rawRelatedArticlesMap = {
       href: '/zh-cn/stage-2/backend/zeabur-deployment/',
       title: '把网站发到网上（简单方式）：一键 PaaS 部署',
       description:
-        '学会把代码一键发布到 Vercel / Zeabur / CloudBase 等平台，让全世界都能访问。',
+        '使用 Cloudflare Pages / Vercel 发布前端、Render 托管后端，并了解 Dify 官方云。',
       icon: '🚀'
     },
     {

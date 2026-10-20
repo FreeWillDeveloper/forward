@@ -1,0 +1,127 @@
+[
+  {
+    "file": "oss-upload.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://help.aliyun.com/zh/oss/user-guide/simple-upload",
+    "source_image": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3093288371/p908168.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cos-create-bucket.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://cloud.tencent.com/document/product/436/14106",
+    "source_image": "https://qcloudimg.tencent-cloud.cn/image/document/7a08f776aa3708c25412723b8e57efc5.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cos-upload.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://cloud.tencent.com/document/product/436/14113",
+    "source_image": "https://qcloudimg.tencent-cloud.cn/image/document/973474980973199d638d787b5c2637b1.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "s3-create-bucket.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/hands-on/latest/backup-files-to-amazon-s3/backup-files-to-amazon-s3.html",
+    "source_image": "https://docs.aws.amazon.com/images/hands-on/latest/backup-files-to-amazon-s3/images/configuration-settings-interface.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "s3-private-access.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/hands-on/latest/backup-files-to-amazon-s3/backup-files-to-amazon-s3.html",
+    "source_image": "https://docs.aws.amazon.com/images/hands-on/latest/backup-files-to-amazon-s3/images/ifztho-object-ownership-bucket-settings.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "s3-upload.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/hands-on/latest/backup-files-to-amazon-s3/backup-files-to-amazon-s3.html",
+    "source_image": "https://docs.aws.amazon.com/images/hands-on/latest/backup-files-to-amazon-s3/images/upload-file-bucket-interface-empty-named.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "s3-object-list.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/hands-on/latest/backup-files-to-amazon-s3/backup-files-to-amazon-s3.html",
+    "source_image": "https://docs.aws.amazon.com/images/hands-on/latest/backup-files-to-amazon-s3/images/bucket-named-mysuperawsbucket-single-file.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "rds-create-mysql.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html",
+    "source_image": "https://docs.aws.amazon.com/images/AmazonRDS/latest/UserGuide/images/easy-create-mysql.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "dnspod-domain-list.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.dnspod.cn/dns/help-a/",
+    "source_image": "https://main.qcloudimg.com/raw/3888e10fc99f01d0cbb0058411f0e662.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "rds-connect-ec2.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html",
+    "source_image": "https://docs.aws.amazon.com/images/AmazonRDS/latest/UserGuide/images/EC2_RDS_Setup_Conn-EasyCreate.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "ec2-network-settings.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html",
+    "source_image": "https://docs.aws.amazon.com/images/AmazonRDS/latest/UserGuide/images/EC2_RDS_Connect_NtwkSettings.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "dnspod-a-record.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.dnspod.cn/dns/help-a/",
+    "source_image": "https://main.qcloudimg.com/raw/ab3587486181600c4145c0914b7b30aa.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "lighthouse-firewall.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://cloud.tencent.com/document/product/1207/44577",
+    "source_image": "https://qcloudimg.tencent-cloud.cn/image/document/cdc262f565bfb43338166706aff76d93.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "lighthouse-firewall-rule.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://cloud.tencent.com/document/product/1207/44577",
+    "source_image": "https://qcloudimg.tencent-cloud.cn/image/document/7d85cc27f60ea5675da9ae65bbe2adcd.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cdn-domain.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://cloud.tencent.com/document/product/228/3149",
+    "source_image": "https://qcloudimg.tencent-cloud.cn/image/document/70d289406b3302c2866465d3f4887e7b.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cdn-origin.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://cloud.tencent.com/document/product/228/3149",
+    "source_image": "https://qcloudimg.tencent-cloud.cn/image/document/94b6962e5ae6fb472b9f4378c3fccbba.png",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "r2-official-guide.png",
+    "kind": "official-guide-page-screenshot",
+    "source_page": "https://developers.cloudflare.com/r2/get-started/",
+    "retrieved_on": "2026-10-19"
+  },
+  {
+    "file": "cloudwatch-dashboard.png",
+    "kind": "official-documentation-screenshot",
+    "source_page": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GettingStarted.html",
+    "source_image": "https://docs.aws.amazon.com/images/AmazonCloudWatch/latest/monitoring/images/CW-default-dashboard-update.png",
+    "retrieved_on": "2026-10-19"
+  }
+]

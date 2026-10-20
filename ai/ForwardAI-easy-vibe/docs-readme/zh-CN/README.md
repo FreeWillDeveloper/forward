@@ -312,7 +312,7 @@ Easy-Vibe 教你的，就是怎样把它一步步做成真正的产品。
 | [从数据库到 Supabase](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/database-supabase/)                   | 在 Supabase 上落地数据库和 API，打通数据模型与前端页面      |
 | [大模型辅助编写接口代码与接口文档](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/ai-interface-code/)       | 用大模型协助生成接口与数据库文档及代码，实现可读可测的后端  |
 | [Git 和 GitHub 工作流](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/git-workflow/)                        | 在 Git 工作流中管理代码，进行版本控制和协作                 |
-| [如何部署 Web 应用](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/zeabur-deployment/)                     | 使用 CloudBase、Vercel、Zeabur 等平台部署应用上线           |
+| [如何部署 Web 应用](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/zeabur-deployment/)                     | 使用 Cloudflare Pages、Vercel、Render 发布应用，并了解 Dify 官方云           |
 | [CLI AI 编程工具](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/modern-cli/)                              | 使用 CLI 类 AI 编程工具加速开发与调试，形成个人工程化工作流 |
 | [如何集成 Stripe 等收费系统](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-2/backend/stripe-payment/)               | 接入支付系统，完成收费链路与基础结算流程                    |
 

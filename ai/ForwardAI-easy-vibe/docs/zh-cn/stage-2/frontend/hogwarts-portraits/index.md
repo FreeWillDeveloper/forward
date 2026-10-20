@@ -31,7 +31,7 @@
 2. 认识 Figma 和 MasterGo，掌握它们的基础操作，并学会使用前端代码导出插件。
 3. 利用 Figma AI 和 MasterGo AI 生成网页设计，并导出可用的页面代码。
 4. 理解什么是 GitHub，学会配置 SSH 连接、创建代码仓库并完成代码推送。
-5. 弄清"部署"这一概念，学习如何使用 Zeabur，将代码从 GitHub 或本地环境部署到互联网上。
+5. 弄清"部署"这一概念，学习如何使用 Cloudflare Pages 或 Vercel，将网页从 GitHub 或本地环境部署到互联网上。
 
 属于自己的 Hogwarts Portraits，一个用于展示 **某位明星、历史人物或动画人物** 的网页界面。
 
@@ -316,7 +316,7 @@ curl -X POST 'http://xxxxxxxx/v1/chat-messages' \
 
 你需要参考该教程，对如何使用 Github 进行研究，将自己的项目上传至 Github：[什么是 Github](/zh-cn/stage-2/backend/git-workflow/)
 
-此外，你还需要学会如何使用 Zeabur，将其连接到 Github，并成功部署你的项目：[什么是 Zeabur](/zh-cn/stage-2/backend/zeabur-deployment/)
+接下来，选择 Cloudflare Pages 或 Vercel 发布前端网页；如果项目包含独立后端，可使用 Render，并将模型密钥保存在后端。具体步骤见 [如何部署 Web 应用](/zh-cn/stage-2/backend/zeabur-deployment/)。
 
 如果你觉得自己开发一套 Hogwarts Portraits 项目很困难，你可以先从参考别的项目开始进行修改，本节课的官方代码地址为：https://github.com/THU-SIGS-AIID/Project4-Hogwarts-Portraits
 

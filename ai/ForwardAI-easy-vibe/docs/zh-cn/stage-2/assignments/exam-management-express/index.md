@@ -245,8 +245,9 @@ flowchart TD
 
 ### 4.2 部署
 
-- 前端部署到 Vercel / Zeabur
-- Express API 部署到 Zeabur / Railway / Render
+- 前端部署到 Cloudflare Pages 或 Vercel，按项目填写构建命令与输出目录
+- Express API 部署到 Render，使用平台提供的 `PORT` 并监听 `0.0.0.0`
+- 如果使用 Render 免费服务，说明闲置休眠的影响；数据库单独选择持久化方案，不依赖服务本地文件或短期试用数据库
 - 数据库用 Supabase Postgres 或托管 PostgreSQL
 
 部署前检查：

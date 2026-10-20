@@ -206,17 +206,15 @@ Dify 是一个用于开发 LLM 应用的开源平台。它提供了直观的界�
 
 这是一个比较简单的工作流示例，但要完全掌握这些能力，对现在的你来说可能还有点难。因此在本节课中，我们从更加基础的知识库智能体开始，后面再逐步学习更复杂的工作流技巧。
 
-### 2.1.1 部署属于自己的 Dify（可选）
+### 2.1.1 先使用官方云，自部署作为可选路径
 
-本部分内容原本安排在后续课程中详细介绍，但考虑到当前部分学习者可能因网络限制暂时无法访问 Dify 官方网站或云端服务，我们决定提前提供这一可选的学习路径，帮助你顺利推进课程进度。
+本节可以直接使用 [Dify 官方云](https://cloud.dify.ai/apps) 的 Sandbox 免费方案。注册、登录并进入工作区后，就可以继续跟随教程创建知识库和应用，不需要先购买服务器或部署 Dify。
 
-你需要参考该教程入门 web 部署平台的基本使用方式：[如何部署 Web 应用](/zh-cn/stage-2/backend/zeabur-deployment/)
+Sandbox 的应用、文档、知识库容量和消息额度以 [官方价格页](https://www.dify.ai/pricing) 为准；使用自己的模型 API Key 时，还需要核对模型供应商的可用额度。
 
-![](images/image13.png)
+如果确实需要控制实例和运行环境，可以先参考 [如何部署 Web 应用](/zh-cn/stage-2/backend/zeabur-deployment/)，再按 [Dify 官方 Docker Compose 指南](https://docs.dify.ai/en/self-host/deploy/quick-start/docker-compose) 自部署。自部署会占用本地或云服务器资源，不是本节实验的必做前置条件，也不代表云服务器长期免费。
 
-你需要学习如何在 Zeabur 上部署一个自己的 Dify，部署后进入到对应链接注册并登录后继续跟随下列教程操作即可。
-
-注意，不同版本的 Dify 的操作方面和前端界面可能有些许差别，但总体上差别不大，当你发现不同的时候不要慌张，找到类似的接口和入口进行操作即可。
+注意，不同版本的 Dify 的操作和前端界面可能有些许差别，当发现不同的时候，可以找到相同功能的入口继续操作。
 
 ## 2.2 创建第一个 Dify Chatbot 应用
 
@@ -754,17 +752,17 @@ Builder with MCP 模式则为 Agent 提供了更多工具（例如让大模型�
 
 ![](images/image88.png)
 
-现在一切准备就绪。我们会把刚才拿到的 API Key、Request 示例和 Response 示例一起交给 Trae Builder。
+现在一切准备就绪。我们会把 Request、Response 示例和密钥变量名称交给 Trae Builder，让它同时生成前端页面与后端调用接口。真实 API Key 存放在后端环境变量 `DIFY_API_KEY` 中，不写入前端源码或 Git 仓库。
 
-注意：请将 `{DIFY_API_URL}` 替换为实际的 Dify API 地址。
+注意：请将 `{DIFY_API_URL}` 替换为实际 Dify API 的主机名。Dify Cloud 对应 `api.dify.ai`；自部署实例需要先配置有效的 HTTPS 地址。
 
-```json
-key:
-app-zKdCHUXXXXXXXX
+```text
+Read the API key from the backend environment variable DIFY_API_KEY.
 
-Please write me a front-end based on the following reference:
+Please write a front-end with a backend API based on the following reference.
+Only the backend calls Dify; never expose the API key in the browser:
 
-curl -X POST 'http://{DIFY_API_URL}/v1/chat-messages' \
+curl -X POST 'https://{DIFY_API_URL}/v1/chat-messages' \
 --header 'Authorization: Bearer {api_key}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -956,8 +954,8 @@ curl -X POST 'http://{DIFY_API_URL}/v1/chat-messages' \
 
 为了测试你真正掌握了 Dify 的 API 调用知识，你需要完成以下任务：
 
-1. 部署 Dify 并创建一个简单的知识库（选取你喜欢的资料)。
-2. 使用 Trae IDE 构建一个对话前端，与 Dify 知识库进行 API 交互。
+1. 使用 Dify 官方云或自部署实例创建一个简单的知识库（选取你喜欢的资料）。
+2. 使用 Trae IDE 构建对话前端与配套后端，由后端读取密钥并调用 Dify 知识库应用。
 3. 测试多轮对话的效果，确保程序正常运行。
 
 你需要提交最终运行截图和知识库的处理过程截图。
@@ -983,62 +981,73 @@ curl -X POST 'http://{DIFY_API_URL}/v1/chat-messages' \
 - 使用其他程序转发请求（例如在有证书的 nginx 上做反向代理），或者
 - 绑定域名后为该域名申请证书。
 
-但这些操作都比较复杂，在这里我们使用 Zeabur 作为网络转发网关来解决问题。
+使用 Dify 官方云时，可以直接让自己的后端请求 `https://api.dify.ai/v1`，不需要额外部署 Dify 转发服务。前端只访问自己的 HTTPS 后端接口，密钥由后端读取。
 
-Zeabur 的网页默认是通过 HTTPS 访问的，因此我们只需要把原来请求的域名转发到 Zeabur 提供的域名，就可以修复这个问题。
+如果使用自部署的 Dify，也可以在 Render 部署下面的转发程序，由 Render 提供 HTTPS 入口。先连接代码仓库、配置启动命令和环境变量并完成实际部署，再把前端请求改到自己的后端；只替换 URL 字符串不会自动建立转发关系。
 
 - 原始地址：`http://{DIFY_API_URL}/v1/chat-messages`
-- 现在地址：`https://{DIFY_NEW_API_URL}.zeabur.app/v1/chat-messages`
+- 现在地址：`https://{RENDER_SERVICE_NAME}.onrender.com/v1/chat-messages`
 
-你只需要简单地把 URL 中的域名部分（公网 IP 或域名）替换为已经在 Zeabur 上部署好的域名即可，我们已经提前在服务里配置好了转发功能。
+上面的新地址只是格式示例，需要先部署服务才能访问。Render 免费实例闲置 15 分钟会休眠，首次请求可能较慢；如果后端与前端不同域，还需要为实际前端来源配置 CORS。
 
-如果你感兴趣，也可以自己在 Zeabur 上部署一个转发服务。在 Zeabur 中创建服务时，选择 Python，然后填入下面的 Python 代码，部署后即可得到一个 https 的地址，https 即可正常使用。
+可以让 AI 将下面的程序保存为 `app.py`，补上包含 `flask`、`requests`、`gunicorn` 的 `requirements.txt`，再按 [Render 部署步骤](../../backend/zeabur-deployment/) 创建 Python Web Service。构建命令为 `pip install -r requirements.txt`，启动命令为 `gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120`。
 
-部署完成后，在网络设置中把程序监听端口设置为本地 8080，并对外暴露该端口。
+在 Render 的 Environment 中设置 `DIFY_API_URL`（例如 `https://api.dify.ai`，不包含末尾 `/v1`）、`DIFY_API_KEY`（应用密钥）与 `FRONTEND_ORIGIN`（前端实际来源，不含末尾斜杠）。下面的示例只转发聊天接口，并在后端添加 Dify 密钥。公开使用前还应增加用户身份验证与用量控制。
 
-注意：请将 `{DIFY_API_URL}` 替换为实际的 Dify API 地址。
+使用公网服务时，Dify 上游也应配置有效的 HTTPS，不通过关闭证书校验来解决连接问题。
 
 ```python
-from flask import Flask, request, Response
+import os
+from flask import Flask, request, Response, stream_with_context
 import requests
 
 app = Flask(__name__)
+TARGET_BASE_URL = os.environ["DIFY_API_URL"].rstrip("/")
+DIFY_API_KEY = os.environ["DIFY_API_KEY"]
+FRONTEND_ORIGIN = os.environ["FRONTEND_ORIGIN"].rstrip("/")
 
-TARGET_BASE_URL = "{DIFY_API_URL}"
-LISTEN_PORT = 8080
+@app.after_request
+def cors(response):
+    if request.headers.get("Origin") == FRONTEND_ORIGIN:
+        response.headers["Access-Control-Allow-Origin"] = FRONTEND_ORIGIN
+        response.headers["Access-Control-Allow-Methods"] = "POST, OPTIONS"
+        response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+        response.headers["Vary"] = "Origin"
+    return response
 
-@app.route('/', defaults={'path': ''}, methods=['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD'])
-@app.route('/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD'])
-def proxy_request(path):
-    target_url = f"{TARGET_BASE_URL}/{path}"
-    if request.query_string:
-        target_url += f"?{request.query_string.decode('utf-8')}"
-
-    headers = {key: value for key, value in request.headers if key.lower() not in ['host', 'connection', 'content-length', 'accept-encoding']}
-
+@app.route("/v1/chat-messages", methods=["POST", "OPTIONS"])
+def chat():
+    if request.method == "OPTIONS":
+        return Response(status=204)
+    payload = request.get_json(silent=True)
+    if not isinstance(payload, dict):
+        return {"error": "Request body must be a JSON object"}, 400
     try:
-        resp = requests.request(
-            method=request.method,
-            url=target_url,
-            headers=headers,
-            data=request.get_data(),
-            cookies=request.cookies,
-            allow_redirects=False,
-            timeout=30
+        upstream = requests.post(
+            f"{TARGET_BASE_URL}/v1/chat-messages",
+            headers={"Authorization": f"Bearer {DIFY_API_KEY}"},
+            json=payload,
+            stream=True,
+            timeout=(10, 90)
         )
+    except requests.RequestException:
+        return {"error": "Could not connect to Dify"}, 502
 
-        excluded_headers = ['content-encoding', 'content-length', 'transfer-encoding', 'connection']
-        response_headers = [(name, value) for name, value in resp.raw.headers.items() if name.lower() not in excluded_headers]
+    @stream_with_context
+    def generate():
+        try:
+            yield from upstream.iter_content(chunk_size=1024)
+        finally:
+            upstream.close()
 
-        return Response(resp.content, resp.status_code, response_headers)
+    return Response(
+        generate(),
+        status=upstream.status_code,
+        content_type=upstream.headers.get("Content-Type", "application/json")
+    )
 
-    except requests.exceptions.RequestException as e:
-        print(f"Error forwarding request to {target_url}: {e}")
-        return Response(f"Proxy Error: Could not reach target server or invalid response: {e}", status=502)
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-        return Response(f"Internal Proxy Error: {e}", status=500)
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=LISTEN_PORT, debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "3000")))
 ```
+
+如果浏览器提示 Mixed Content，应先修正 HTTP / HTTPS；如果提示 CORS，应检查前端来源与预检请求；如果返回 401 或额度错误，则检查 Dify 应用密钥和可用额度。这几类问题需要分别处理。

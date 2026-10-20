@@ -2,7 +2,7 @@ import stage2LovartCover from '../../assets/home/cards/stage2-asset-generation.w
 import stage2FigmaCover from '../../assets/home/cards/stage2-interface-design.webp'
 import stage2DesignToCodeCover from '../../assets/home/cards/stage2-design-to-code.webp'
 import stage2SupabaseCover from '../../assets/home/cards/stage2-database.webp'
-import stage2ZeaburCover from '../../assets/home/cards/stage2-deployment.webp'
+import stage2DeploymentCover from '../../assets/home/cards/stage2-deployment.webp'
 import stage2DifyCover from '../../assets/home/cards/stage2-knowledge-base.webp'
 import stage3ElectronCover from '../../assets/home/cards/stage3-desktop-voice.webp'
 import stage3AgentTeamsCover from '../../assets/home/cards/stage3-agent-team.webp'
@@ -76,7 +76,7 @@ export const stage2Cards = [
   },
   {
     imageColor: '#96E6A1',
-    image: stage2ZeaburCover,
+    image: stage2DeploymentCover,
     imageAlt: '应用部署上线概念插画',
     link: '/zh-cn/stage-2/backend/zeabur-deployment/'
   },

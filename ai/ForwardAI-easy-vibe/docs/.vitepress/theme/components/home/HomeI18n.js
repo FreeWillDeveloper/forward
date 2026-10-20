@@ -97,7 +97,7 @@ export const i18n = {
         {
           title: '部署上线',
           headline: '让世界看到你的作品。',
-          desc: '使用 CloudBase、Vercel、Zeabur 等平台，一口气打通从代码到公网访问的完整流程。',
+          desc: '使用 Cloudflare Pages、Vercel、Render 发布前后端，并了解 Dify 官方云的免费方案。',
           link: '/zh-cn/stage-2/backend/zeabur-deployment/'
         },
         {
