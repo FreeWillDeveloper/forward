@@ -8,7 +8,7 @@ Vous vous souvenez du CLI que nous avons présenté précédemment ? Le CLI (Com
 
 > Sous Windows, les terminaux les plus courants sont l'« Invite de commandes (cmd) » et « PowerShell ». Vous pouvez lancer ces programmes en tapant « cmd » ou « powershell » dans la barre de recherche ou la boîte de dialogue Exécuter.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image1.png)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image1.webp)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
 
 Le CLI est naturellement adapté aux opérations par commandes textuelles. Parmi une petite minorité de geeks (passionnés de programmation en quête de performances extrêmes), le CLI est même plus populaire que le GUI -- ils souhaitent réaliser toutes les opérations au clavier, estimant que l'utilisation de la souris ralentit leur efficacité de codage.
 
@@ -96,11 +96,11 @@ Une autre approche consiste à utiliser le projet « Claude Code Route ». Il s'
 
 GLM (General Language Model) est une série de grands modèles de langage développée de manière autonome par Zhipu AI. GLM-4.6 est la version la plus récente de la série GLM, dont l'atout majeur réside dans ses excellentes performances en matière de code (comparable à Claude Sonnet 4 sur les benchmarks publics et les tâches réelles, se positionnant dans le premier rang en Chine).
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image12.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image12.webp)
 
 Il a également étendu sa fenêtre de contexte à 200K, permettant de traiter plus sereinement les textes longs et les bases de code volumineuses, tout en renforçant les capacités de raisonnement et d'appel d'outils, atteignant un bon équilibre entre performances et coûts.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image13.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image13.webp)
 
 Avant de connecter GLM, nous devons d'abord installer Claude Code.
 
@@ -161,7 +161,7 @@ please help me configure and start Claude Code
 
 Vous verrez une sortie de processus similaire à celle-ci :
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image14.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image14.webp)
 
 > 💡 Qu'est-ce qu'une variable d'environnement ?
 >
@@ -435,7 +435,7 @@ Plusieurs caractéristiques clés méritent d'être notées :
 
 ### Codex
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image26.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image26.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image27.png)
 
@@ -453,7 +453,7 @@ npm i -g @openai/codex
 
 Si vous utilisez directement l'entrée officielle OpenAI de Codex, la configuration est très simple : une fois que vous avez souscrit à l'abonnement OpenAI ou obtenu le quota d'API correspondant, il suffit de taper `codex` dans la ligne de commande pour lancer le programme et suivre les instructions pour vous connecter.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image28.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image28.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image29.png)
 
@@ -565,7 +565,7 @@ Ici, nous choisissons OpenAI comme exemple, appuyez sur Entrée pour sélectionn
 
 Choisissez celle que vous préférez, seule la méthode d'authentification diffère. Ici, nous sélectionnons la première option pour une connexion par navigateur.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image38.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image38.webp)
 
 Copiez ce lien dans votre navigateur et procédez à une connexion OpenAI normale. Lorsque le navigateur affiche « Authorization Successful », le client OpenCode basculera automatiquement vers l'interface de sélection du modèle OpenAI.
 
@@ -779,7 +779,7 @@ Si je veux faire tourner mon propre Dify localement, il me suffit de donner ce l
 
 Après avoir reçu votre demande, Claude Code effectuera automatiquement une série d'opérations, dont le clonage du code depuis GitHub, la configuration de l'environnement d'exécution, le lancement du projet, etc. Si une étape échoue ou si le projet ne se lance pas correctement, vous n'aurez qu'à procéder à quelques ajustements manuels selon les indications. Outre Dify, vous pouvez aussi utiliser Claude Code pour déployer la plupart des projets open source courants sur GitHub -- il vous suffit d'une boîte de dialogue et du temps d'un café.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image31.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image31.webp)
 
 ### Expliquer du code et rédiger de la documentation
 

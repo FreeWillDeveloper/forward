@@ -135,7 +135,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ## 1.4 Railway — 部署後端的最佳體驗（常駐服務）
 
-![Railway 首頁](/zh-cn/stage-2/backend/cloud-server-deployment/images/railway.png)
+![Railway 首頁](/zh-cn/stage-2/backend/cloud-server-deployment/images/railway.webp)
 
 **官網**：https://railway.app
 
@@ -162,7 +162,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ## 1.5 Zeabur — 國內開發者友善的 PaaS
 
-![Zeabur 首頁](/zh-cn/stage-2/backend/cloud-server-deployment/images/zeabur.png)
+![Zeabur 首頁](/zh-cn/stage-2/backend/cloud-server-deployment/images/zeabur.webp)
 
 **官網**：https://zeabur.com
 
@@ -197,7 +197,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ## 1.7 Fly.io — 真正 7×24 線上的免費容器
 
-![Fly.io 首頁](/zh-cn/stage-2/backend/cloud-server-deployment/images/flyio.png)
+![Fly.io 首頁](/zh-cn/stage-2/backend/cloud-server-deployment/images/flyio.webp)
 
 **官網**：https://fly.io
 
@@ -250,7 +250,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ### 騰訊雲輕量應用伺服器（推薦新手）
 
-![騰訊雲輕量應用伺服器](/zh-cn/stage-2/backend/cloud-server-deployment/images/tencent-lighthouse.png)
+![騰訊雲輕量應用伺服器](/zh-cn/stage-2/backend/cloud-server-deployment/images/tencent-lighthouse.webp)
 
 **官網**：https://cloud.tencent.com/product/lighthouse
 
@@ -282,7 +282,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ### 阿里雲輕量應用伺服器
 
-![阿里雲輕量應用伺服器](/zh-cn/stage-2/backend/cloud-server-deployment/images/aliyun-lighthouse.png)
+![阿里雲輕量應用伺服器](/zh-cn/stage-2/backend/cloud-server-deployment/images/aliyun-lighthouse.webp)
 
 **官網**：https://www.aliyun.com/product/swas
 
@@ -331,8 +331,6 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 | **AWS Lightsail** | $3.5／月（首年免費） | 亞馬遜旗下，免費 1 年 | 想用 AWS 生態的人 |
 | **RackNerd** | ~$10／年（年付） | 超低價，適合非核心專案練手 | 純練手、預算極低 |
 | **雨雲** | ¥10／月起 | 國內廠商營運的海外 VPS，支付寶付款方便 | 國內使用者圖方便 |
-
-![Vultr 首頁](/zh-cn/stage-2/backend/cloud-server-deployment/images/vultr.png)
 
 **Vultr 購買流程（其他海外廠商類似）：**
 1. 前往 https://www.vultr.com/ 註冊帳號（需要信箱+信用卡/PayPal）

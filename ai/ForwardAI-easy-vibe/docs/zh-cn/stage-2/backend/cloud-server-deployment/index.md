@@ -129,7 +129,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ## 1.4 Railway — 组合部署后端与数据库
 
-![Railway 首页](./images/railway.png)
+![Railway 首页](./images/railway.webp)
 
 **官网**：https://railway.com
 
@@ -181,7 +181,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ## 1.7 Fly.io — 容器部署与限时试用
 
-![Fly.io 首页](./images/flyio.png)
+![Fly.io 首页](./images/flyio.webp)
 
 **官网**：https://fly.io
 
@@ -222,7 +222,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ### 腾讯云轻量应用服务器（推荐新手）
 
-![腾讯云轻量应用服务器](./images/tencent-lighthouse.png)
+![腾讯云轻量应用服务器](./images/tencent-lighthouse.webp)
 
 **官网**：https://cloud.tencent.com/product/lighthouse
 
@@ -254,7 +254,7 @@ import { relatedArticlesMap } from '../../../../.vitepress/theme/data/relatedArt
 
 ### 阿里云轻量应用服务器
 
-![阿里云轻量应用服务器](./images/aliyun-lighthouse.png)
+![阿里云轻量应用服务器](./images/aliyun-lighthouse.webp)
 
 **官网**：https://www.aliyun.com/product/swas
 

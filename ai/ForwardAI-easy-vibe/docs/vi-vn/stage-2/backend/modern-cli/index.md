@@ -8,7 +8,7 @@ Bạn còn nhớ CLI mà chúng tôi đã giới thiệu trước đó không? C
 
 > Trên Windows, các terminal phổ biến bao gồm "Command Prompt (cmd)" và "PowerShell". Bạn có thể nhập "cmd" hoặc "powershell" trong hộp chạy/tìm kiếm trên máy tính để khởi động các chương trình dòng lệnh này.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image1.png)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image1.webp)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
 
 CLI thiên về thao tác lệnh văn bản, trong một nhóm nhỏ những người đam mê lập trình theo đuổi sự hoàn hảo (geek), CLI thậm chí còn phổ biến hơn GUI -- họ hy vọng tất cả thao tác đều hoàn thành qua bàn phím, thấy việc dùng chuột lại làm chậm hiệu suất lập trình của mình.
 
@@ -96,11 +96,11 @@ Một cách khác là sử dụng dự án "Claude Code Route". Đây là một 
 
 GLM (General Language Model) là một loạt mô hình ngôn ngữ lớn do Zhipu AI tự nghiên cứu và phát triển. GLM-4.6 là phiên bản mới nhất của dòng GLM hiện tại, điểm nổi bật cốt lõi là hiệu suất xuất sắc trong khả năng mã (đối sánh với Claude Sonnet 4 trong benchmark công khai và tác vụ thực tế, nằm ở top đầu trong nước).
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image12.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image12.webp)
 
 Nó còn mở rộng cửa sổ ngữ cảnh lên 200K, có thể xử lý văn bản dài và mã quy mô lớn thoải mái hơn, đồng thời tăng cường khả năng suy luận và gọi công cụ, đạt được cân bằng tốt giữa hiệu suất và chi phí.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image13.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image13.webp)
 
 Trước khi kết nối GLM, chúng ta cần cài đặt Claude Code trước.
 
@@ -161,7 +161,7 @@ please help me configure and start Claude Code
 
 Bạn sẽ thấy đầu ra quy trình tương tự như dưới:
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image14.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image14.webp)
 
 > 💡 Biến môi trường là gì?
 >
@@ -437,7 +437,7 @@ Trong đó có một số đặc tính chính đáng chú ý:
 
 ### Codex
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image26.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image26.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image27.png)
 
@@ -455,7 +455,7 @@ npm i -g @openai/codex
 
 Nếu trực tiếp sử dụng cổng Codex chính thức của OpenAI, cấu hình sẽ rất đơn giản: sau khi bạn đã đăng ký gói đăng ký OpenAI hoặc được cấp hạn mức API tương ứng, chỉ cần nhập `codex` trong dòng lệnh để khởi động chương trình, và hoàn thành đăng nhập theo hướng dẫn.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image28.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image28.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image29.png)
 
@@ -567,7 +567,7 @@ Nhập lệnh `/connect` trong cửa sổ trò chuyện của OpenCode, chọn c
 
 Chọn loại nào cũng được, chỉ là phương thức xác thực khác nhau. Ở đây chọn loại đầu tiên để đăng nhập qua trình duyệt.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image38.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image38.webp)
 
 Sao chép liên kết này vào trình duyệt để thực hiện đăng nhập OpenAI bình thường, sau khi trình duyệt hiển thị Authorization Successful, client OpenCode sẽ tự động chuyển đến giao diện chọn mô hình OpenAI.
 
@@ -780,7 +780,7 @@ Nếu tôi muốn chạy Dify riêng trên máy cục bộ, chỉ cần ném li�
 
 Sau khi nhận yêu cầu của bạn, Claude Code sẽ tự động hoàn thành một loạt thao tác, bao gồm lấy mã từ GitHub, cấu hình môi trường chạy, khởi động dự án, v.v. Nếu có lỗi ở bước nào hoặc trạng thái khởi động dự án không bình thường, bạn chỉ cần xử lý thủ công ít theo hướng dẫn. Ngoài Dify, bạn cũng có thể dùng Claude Code giúp bạn triển khai phần lớn dự án mã nguồn mở GitHub phổ biến -- bạn chỉ cần một ô hội thoại, cộng thêm thời gian uống một tách cà phê.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image31.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image31.webp)
 
 ### Giải thích mã và viết tài liệu
 

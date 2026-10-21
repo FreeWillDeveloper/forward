@@ -8,7 +8,7 @@
 
 > 在 Windows 上，常見的終端有“命令提示符（cmd）”和 “PowerShell”。你可以在電腦的運行/搜索框中輸入 “cmd” 或 “powershell” 來啟動這些命令行程序。
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image1.png)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image1.webp)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
 
 CLI 天生適合文本命令操作，在一小部分極客（追求極致的程式設計愛好者）群體中，CLI 甚至比 GUI 更受歡迎——他們希望所有操作都通過鍵盤完成，覺得動鼠標反而會拖慢自己的編碼效率。
 
@@ -96,11 +96,11 @@ Claude Code 的優勢主要體現在：極長的上下文窗口（可以處理�
 
 GLM（General Language Model）是智譜 AI 自主研發的一系列大型語言模型。GLM-4.6 是當前 GLM 系列的最新版本，其核心亮點是在程式碼能力上的優異表現（在公開基準和真實任務中對標 Claude Sonnet 4，在國內處於第一梯隊）。
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image12.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image12.webp)
 
 它還將上下文窗口擴展到 200K，可以更加從容地處理長文本和大體量程式碼，同時加強了推理與工具調用能力，在性能和成本之間取得了不錯的平衡。
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image13.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image13.webp)
 
 在接入 GLM 之前，我們需要先安裝 Claude Code。
 
@@ -161,7 +161,7 @@ please help me configure and start Claude Code
 
 你會看到類似下面的過程輸出：
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image14.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image14.webp)
 
 > 💡 什麼是環境變量？
 >
@@ -437,7 +437,7 @@ Claude Code 會把程式設計任務拆解成一個持續的“感知—思考�
 
 ### Codex
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image26.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image26.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image27.png)
 
@@ -455,7 +455,7 @@ npm i -g @openai/codex
 
 如果直接使用 OpenAI 官方的 Codex 入口，配置會非常簡單：當你已經開通 OpenAI 訂閱或申請到了相應 API 配額之後，只需要在命令行中輸入 `codex` 啟動程序，並按提示完成登錄即可。
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image28.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image28.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image29.png)
 
@@ -567,7 +567,7 @@ npm i -g opencode-ai
 
 選哪種都可以,只是認證方式不同。這裡選擇第一種進行瀏覽器登錄。
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image38.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image38.webp)
 
 複製此鏈接到瀏覽器上進行正常的 OpenAI 登錄操作，瀏覽器上出現 Authorization Successful 後 OpenCode 客戶端會自動跳轉至選擇 OpenAI 的模型界面。
 
@@ -780,7 +780,7 @@ Features: Add “Templates,” “Themes & Personalization,” and start develop
 
 收到你的請求後，Claude Code 會自動完成一系列操作，包括從 GitHub 拉取程式碼、配置運行環境、啟動項目等。如果中間某一步出錯或項目啟動狀態不正常，你再根據提示進行少量人工處理即可。除了 Dify，你也可以用 Claude Code 幫你部署大部分常見的 GitHub 開源項目——你只需要一個對話框，再加上喝一杯咖啡的時間 ☕️。
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image31.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image31.webp)
 
 ### 講解程式碼與撰寫文檔
 

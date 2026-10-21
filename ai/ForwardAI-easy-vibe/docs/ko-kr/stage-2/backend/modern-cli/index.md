@@ -8,7 +8,7 @@
 
 > Windows에서는 "명령 프롬프트(cmd)"와 "PowerShell"이 일반적인 터미널입니다. 컴퓨터의 실행/검색창에 "cmd" 또는 "powershell"을 입력하여 이 명령행 프로그램을 시작할 수 있습니다.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image1.png)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image1.webp)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
 
 CLI는 텍스트 명령 조작에 태생적으로 적합합니다. 일부 극소수의 얼리어답터(극한의 프로그래밍 애호가) 그룹에서 CLI는 GUI보다 더 인기가 있습니다. 이들은 모든 조작을 키보드로 완료하기를 원하며, 마우스를 사용하는 것이 오히려 코딩 효율을 떨어뜨린다고 생각합니다.
 
@@ -96,11 +96,11 @@ Claude Code를 체계적으로 학습하고 싶다면 Andrew Ng과 Anthropic이 
 
 GLM(General Language Model)은 지푸 AI(Zhipu AI)가 자체 개발한 대형 언어 모델 시리즈입니다. GLM-4.6은 현재 GLM 시리즈의 최신 버전으로, 핵심 하이라이트는 코드 능력에서의 우수한 성능입니다(공개 벤치마크와 실제 작업에서 Claude Sonnet 4와 대등하며, 중국 내에서 1티어에 위치).
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image12.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image12.webp)
 
 또한 컨텍스트 윈도우를 200K로 확장하여 장문과 대규모 코드를 더 여유 있게 처리할 수 있으며, 추론 및 도구 호출 능력도 강화되어 성능과 비용 사이에서 좋은 균형을 이루고 있습니다.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image13.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image13.webp)
 
 GLM에 연결하기 전에 먼저 Claude Code를 설치해야 합니다.
 
@@ -161,7 +161,7 @@ please help me configure and start Claude Code
 
 다음과 유사한 과정 출력이 보일 것입니다.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image14.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image14.webp)
 
 > 💡 환경 변수란 무엇인가요?
 >
@@ -437,7 +437,7 @@ Claude Code는 프로그래밍 작업을 지속적인 "인식-사고-행동-검�
 
 ### Codex
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image26.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image26.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image27.png)
 
@@ -455,7 +455,7 @@ npm i -g @openai/codex
 
 OpenAI 공식 Codex 입구를 직접 사용하면 설정이 매우 간단합니다. 이미 OpenAI 구독을 개통했거나 해당 API 할당량을 신청한 경우, 명령행에서 `codex`를 입력하여 프로그램을 시작하고 안내에 따라 로그인을 완료하기만 하면 됩니다.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image28.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image28.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image29.png)
 
@@ -567,7 +567,7 @@ OpenCode의 채팅 창에서 `/connect` 명령을 입력한 후, 첫 번째로 �
 
 어느 것을 선택해도 되며, 인증 방식만 다를 뿐입니다. 여기서는 첫 번째 방식인 브라우저 로그인을 선택합니다.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image38.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image38.webp)
 
 이 링크를 복사하여 브라우저에서 정상적인 OpenAI 로그인 작업을 수행합니다. 브라우저에 Authorization Successful이 표시되면 OpenCode 클라이언트가 자동으로 OpenAI 모델 선택 인터페이스로 전환됩니다.
 
@@ -898,7 +898,7 @@ CLI AI 프로그래밍 도구를 사용하여 현재 폴더의 다양한 파일�
 
 요청을 받은 Claude Code는 GitHub에서 코드를 가져오고, 실행 환경을 설정하고, 프로젝트를 시작하는 등 일련의 작업을 자동으로 완료합니다. 중간에 특정 단계에서 오류가 발생하거나 프로젝트 시작 상태가 비정상인 경우, 안내에 따라 약간의 수동 처리만 하면 됩니다. Dify뿐만 아니라 Claude Code를 사용하여 대부분의 일반적인 GitHub 오픈소스 프로젝트를 배포할 수 있습니다. 대화 상자 하나와 커피 한 잔의 시간만 있으면 됩니다 ☕️.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image31.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image31.webp)
 
 ### 코드 설명 및 문서 작성
 

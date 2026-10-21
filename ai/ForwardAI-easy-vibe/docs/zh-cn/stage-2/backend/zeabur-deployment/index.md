@@ -297,7 +297,7 @@ Cloudflare Pages 是一个用于发布网页的平台。它特别适合纯 HTML 
 
 ### 使用 HTML 框架实现
 
-![](images/image23.png)
+![](images/image23.webp)
 
 对于 Trae 来说，生成一个基于 HTML 的贪吃蛇网页游戏非常简单。游戏生成后，我们需要找到包含 `index.html`、CSS、JavaScript 等文件的文件夹。可以先让 Trae 检查：这个文件夹是否包含运行游戏所需的全部资源，是否还依赖只在本机存在的文件路径。
 
@@ -318,13 +318,13 @@ Cloudflare Pages 是一个用于发布网页的平台。它特别适合纯 HTML 
 
 前面我们学习了如何部署基于 HTML 的 Web 应用。接下来，我们再尝试部署一个目前更常用的前端框架：React 应用。相比纯 HTML，React 通过组件化的方式组织页面结构，能够帮助我们管理更复杂的交互界面。
 
-![](images/image31.png)
+![](images/image31.webp)
 
 #### 重构为 React 架构
 
 在 Trae 中，可以向 Agent 说明：“帮我把这份代码重构成 React 架构，使用 Vite 构建，并保留现有的游戏功能。”
 
-![](images/image32.png)
+![](images/image32.webp)
 
 重构完成后，先在本地运行并测试。然后让 Trae 执行构建命令：
 
@@ -515,7 +515,7 @@ TypeScript 项目通常还需要编译；Python 项目则需要填写自己的�
 
 先在应用的预览区域完成一次对话，确认模型能回答，知识库能检索到预期资料。再打开右上角 **Publish**，发布当前配置，并通过 **Run App** 打开应用页面。
 
-![Dify 发布与运行应用入口](../../ai-capabilities/dify-knowledge-base/images/image83.png)
+![Dify 发布与运行应用入口](../../ai-capabilities/dify-knowledge-base/images/image83.webp)
 
 复制实际的 WebApp 地址，用另一个浏览器窗口测试应用的访问设置。需要登录才能访问的应用，应按当前设置完成登录，不要把自己的 Studio 管理地址当成分享地址。
 

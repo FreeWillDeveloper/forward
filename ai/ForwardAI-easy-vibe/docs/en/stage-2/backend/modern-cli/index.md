@@ -8,7 +8,7 @@ Do you still remember the CLI we introduced before? CLI means using pure text co
 
 > On Windows, common terminals include Command Prompt (`cmd`) and PowerShell. You can type `cmd` or `powershell` in the Run/Search box to launch them.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image1.png)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image1.webp)![](/zh-cn/stage-2/backend/modern-cli/images/image2.png)
 
 The CLI is naturally good for text-command workflows. Among a small group of geeks (programming enthusiasts pursuing extreme efficiency), CLI is even more popular than GUI. They want to complete everything with the keyboard and feel that moving the mouse can slow down coding efficiency.
 
@@ -96,11 +96,11 @@ Another approach is using the "Claude Code Route" project. It is an open-source 
 
 GLM (General Language Model) is a series of large language models independently developed by Zhipu AI. GLM-4.6 is currently the latest version in the GLM family. Its core highlight is strong coding performance (benchmarking Claude Sonnet 4 in public benchmarks and real tasks, and considered top-tier domestically).
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image12.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image12.webp)
 
 It also extends the context window to 200K, allowing easier handling of long text and large codebases, while strengthening reasoning and tool-calling capabilities, achieving a good balance between performance and cost.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image13.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image13.webp)
 
 Before connecting GLM, we first need to install Claude Code.
 
@@ -161,7 +161,7 @@ please help me configure and start Claude Code
 
 You will see output similar to the following:
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image14.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image14.webp)
 
 > 💡 What is an environment variable?
 >
@@ -433,7 +433,7 @@ Several key characteristics are worth noting:
 
 ### Codex
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image26.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image26.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image27.png)
 
@@ -451,7 +451,7 @@ npm i -g @openai/codex
 
 If you directly use the official OpenAI entry for Codex, setup is very simple. Once you have OpenAI subscription access or corresponding API quota, you only need to run `codex` in command line and follow the prompts to complete login.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image28.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image28.webp)
 
 ![](/zh-cn/stage-2/backend/modern-cli/images/image29.png)
 
@@ -563,7 +563,7 @@ Here we use OpenAI as an example and press Enter to choose an authentication met
 
 Either option works; the only difference is the auth flow. Here we choose browser login.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image38.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image38.webp)
 
 Copy the link to your browser and complete normal OpenAI login. After "Authorization Successful" appears in the browser, OpenCode will automatically move to the OpenAI model selection screen.
 
@@ -894,7 +894,7 @@ If I want to run my own local Dify, I only need to throw this link to Claude Cod
 
 After receiving your request, Claude Code will automatically complete a series of operations, including pulling code from GitHub, configuring runtime environments, and starting the project. If any step fails or startup status is abnormal, you only need minor manual handling based on prompts. Beyond Dify, you can also ask Claude Code to deploy most common open-source GitHub projects for you. You just need one chat box and the time to drink a cup of coffee ☕️.
 
-![](/zh-cn/stage-2/backend/modern-cli/images/image31.png)
+![](/zh-cn/stage-2/backend/modern-cli/images/image31.webp)
 
 ### Explain Code and Write Documentation
 
