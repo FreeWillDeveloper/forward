@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950" role="img" aria-labelledby="title desc" lang="fr-fr">
+<title id="title">Du premier jeu aux projets complexes</title><desc id="desc">À chaque étape, vérifiez vos progrès avec un résultat concret. Continuez selon vos objectifs. PREMIER ESSAI / Créer par le dialogue / Un jeu qui fonctionne; ÉTAPE 1 · PROTOTYPE / Valider une idée / Un prototype à montrer; ÉTAPE 2 · FULL STACK / Publier en autonomie / Une application en ligne; ÉTAPE 3 · AVANCÉ / Gérer plus de complexité / Un projet qui évolue</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="1198" height="948" rx="22" fill="#FFFFFF" stroke="#DCE8F6"/>
+<text x="40" y="43" font-size="22" fill="#0982E6" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">easy-vibe</text>
+<text x="1160" y="43" font-size="15" fill="#6985A6" font-weight="600" text-anchor="end" data-fit-width="600" data-fit-base-size="15">02 / VOIR SA PROGRESSION</text>
+<text x="40" y="102" font-size="38" fill="#132B49" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="38">Du premier jeu aux projets complexes</text>
+<text x="40" y="143" font-size="21" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="21">À chaque étape, vérifiez vos progrès avec un résultat concret. Continuez selon vos objectifs.</text>
+<path d="M40 778H315V718H605V658H895V598H1160" stroke="#B8CEE9" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="40" y="365" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="40" y="365" width="250" height="7" rx="3" fill="#1674DB"/>
+<rect x="58" y="387" width="42" height="37" rx="9" fill="#EDF5FF"/>
+<text x="79" y="413" font-size="23" fill="#1674DB" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">00</text>
+<text x="58" y="453" font-size="13" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="13">PREMIER ESSAI</text>
+<text x="58" y="493" font-size="21" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="21">Créer par le dialogue</text>
+<text x="58" y="529" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="12">Décrire → lancer → voir → ajuster</text>
+<text x="58" y="559" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="12">Faites fonctionner, puis modifiez.</text>
+<path d="M58 581h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="58" y="609" font-size="12" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="12">OBJECTIF ATTEINT SI</text>
+<text x="58" y="643" font-size="18" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="18">Un jeu qui fonctionne</text>
+<path d="M60 675l4 4 7-9" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="79" y="680" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Expliquez les entrées et sorties.</text>
+<path d="M60 703l4 4 7-9" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="79" y="708" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Vérifiez après une modification.</text>
+<path d="M301 462l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="330" y="305" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="330" y="305" width="250" height="7" rx="3" fill="#6755C9"/>
+<rect x="348" y="327" width="42" height="37" rx="9" fill="#F1EEFF"/>
+<text x="369" y="353" font-size="23" fill="#6755C9" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">01</text>
+<text x="348" y="393" font-size="13" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="13">ÉTAPE 1 · PROTOTYPE</text>
+<text x="348" y="433" font-size="21" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="21">Valider une idée</text>
+<text x="348" y="469" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="12">Besoin → prototype → IA</text>
+<text x="348" y="499" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="12">Recueillez l’avis de vrais utilisateurs.</text>
+<path d="M348 521h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="348" y="549" font-size="12" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="12">OBJECTIF ATTEINT SI</text>
+<text x="348" y="583" font-size="18" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="18">Un prototype à montrer</text>
+<path d="M350 615l4 4 7-9" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="369" y="620" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Expliquez pour qui et pourquoi.</text>
+<path d="M350 643l4 4 7-9" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="369" y="648" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Améliorez selon les retours.</text>
+<path d="M591 402l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="620" y="245" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="620" y="245" width="250" height="7" rx="3" fill="#088878"/>
+<rect x="638" y="267" width="42" height="37" rx="9" fill="#EAF8F4"/>
+<text x="659" y="293" font-size="23" fill="#088878" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">02</text>
+<text x="638" y="333" font-size="13" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="13">ÉTAPE 2 · FULL STACK</text>
+<text x="638" y="373" font-size="21" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="21">Publier en autonomie</text>
+<text x="638" y="409" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="12">UI → API → données → publication</text>
+<text x="638" y="439" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="12">Reliez les éléments d’un projet complet.</text>
+<path d="M638 461h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="638" y="489" font-size="12" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="12">OBJECTIF ATTEINT SI</text>
+<text x="638" y="523" font-size="18" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="18">Une application en ligne</text>
+<path d="M640 555l4 4 7-9" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="659" y="560" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Enregistrez et testez le parcours.</text>
+<path d="M640 583l4 4 7-9" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="659" y="588" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Une autre personne peut l’utiliser.</text>
+<path d="M881 342l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="910" y="185" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="910" y="185" width="250" height="7" rx="3" fill="#B66B1B"/>
+<rect x="928" y="207" width="42" height="37" rx="9" fill="#FFF4E6"/>
+<text x="949" y="233" font-size="23" fill="#B66B1B" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">03</text>
+<text x="928" y="273" font-size="13" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="13">ÉTAPE 3 · AVANCÉ</text>
+<text x="928" y="313" font-size="17.6" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="21">Gérer plus de complexité</text>
+<text x="928" y="349" font-size="11" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="11">Tâches → outils → plateforme</text>
+<text x="928" y="379" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="12">Choisissez selon les besoins du projet.</text>
+<path d="M928 401h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="928" y="429" font-size="12" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="12">OBJECTIF ATTEINT SI</text>
+<text x="928" y="463" font-size="18" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="18">Un projet qui évolue</text>
+<path d="M930 495l4 4 7-9" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="949" y="500" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Fixez le périmètre et les critères.</text>
+<path d="M930 523l4 4 7-9" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="949" y="528" font-size="12" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="12">Vérifiez après chaque changement.</text>
+<rect x="355" y="725" width="805" height="85" rx="12" fill="#F2F7FD"/>
+<text x="378" y="759" font-size="22" fill="#24486D" font-weight="600" text-anchor="start" data-fit-width="760" data-fit-base-size="22">Gardez vos réalisations et une trace des améliorations</text>
+<text x="378" y="792" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="760" data-fit-base-size="16">Reprenez votre projet : repérez un problème, cherchez la cause, modifiez et vérifiez.</text>
+<rect x="40" y="848" width="1120" height="62" rx="12" fill="#F6F9FD"/>
+<text x="62" y="887" font-size="17" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="17">Inutile de tout lire avant de commencer</text>
+<text x="428" y="887" font-size="17" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="17">Consultez l’annexe au besoin</text>
+<text x="794" y="887" font-size="16.6" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="17">Choisissez un parcours avancé utile au projet</text>
+</g></svg>

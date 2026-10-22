@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="890" viewBox="0 0 1200 890" role="img" aria-labelledby="title desc" lang="ja-jp">
+<title id="title">どこから始める？</title><desc id="desc">今できることと作りたいものに合わせて、読む順番を選びましょう。 プログラミング未経験 / 初体験 → ステージ 1 / 動くミニゲーム; アイデアを検証したい / ステージ 1 · 試作 / 試せるプロトタイプ; コードを書いて公開したい / ステージ 2 · フルスタック / オンラインで使えるアプリ; 公開経験があり、次に進みたい / ステージ 3 · 応用 / 継続して改善できる作品</desc>
+<g font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans CJK JP, sans-serif">
+<rect x="1" y="1" width="1198" height="888" rx="22" fill="#FFFFFF" stroke="#DCE8F6"/>
+<text x="40" y="43" font-size="22" fill="#0982E6" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">easy-vibe</text>
+<text x="1160" y="43" font-size="15" fill="#6985A6" font-weight="600" text-anchor="end" data-fit-width="600" data-fit-base-size="15">01 / 出発点を選ぶ</text>
+<text x="40" y="103" font-size="38" fill="#132B49" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="38">どこから始める？</text>
+<text x="40" y="144" font-size="22" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">今できることと作りたいものに合わせて、読む順番を選びましょう。</text>
+<rect x="40" y="176" width="1120" height="46" rx="10" fill="#F2F7FD"/>
+<text x="62" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="288" data-fit-base-size="20">現在の出発点</text>
+<text x="370" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="20">学ぶ内容と進め方</text>
+<text x="905" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">まず完成させるもの</text>
+<rect x="40" y="238" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="238" width="6" height="126" rx="3" fill="#1674DB"/>
+<text x="64" y="278" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">プログラミング未経験</text>
+<text x="64" y="311" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">学生 / 教員 / 社会人</text>
+<text x="370" y="265" font-size="15" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">初体験 → ステージ 1</text>
+<rect x="370" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="444" y="300" font-size="17.5" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="18">AI コーディング</text>
+<path d="M524 294h13m-4-4 4 4-4 4" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="548" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="622" y="300" font-size="18" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="18">AI ツール</text>
+<text x="370" y="341" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">例を動かしてから、機能を一つ変更する</text>
+<path d="M875 263v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="288" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">動くミニゲーム</text>
+<text x="905" y="322" font-size="16.5" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">「書けない」から「作れる」へ</text>
+<rect x="40" y="380" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="380" width="6" height="126" rx="3" fill="#6755C9"/>
+<text x="64" y="420" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">アイデアを検証したい</text>
+<text x="64" y="453" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">プロダクト / デザイン / 起業</text>
+<text x="370" y="407" font-size="15" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">ステージ 1 · 試作</text>
+<rect x="370" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="439" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">ニーズを探す</text>
+<path d="M514 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="607" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">試作する</text>
+<path d="M682 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="775" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">AI を接続</text>
+<text x="370" y="483" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">対象ユーザーに試してもらい、改善する</text>
+<path d="M875 405v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="430" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">試せるプロトタイプ</text>
+<text x="905" y="464" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">必要とされるか確かめる</text>
+<rect x="40" y="522" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="522" width="6" height="126" rx="3" fill="#088878"/>
+<text x="64" y="562" font-size="23.5" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">コードを書いて公開したい</text>
+<text x="64" y="595" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">フロントエンド / バックエンド</text>
+<text x="370" y="549" font-size="15" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">ステージ 2 · フルスタック</text>
+<rect x="370" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="439" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">画面と API</text>
+<path d="M514 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="607" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">データベース</text>
+<path d="M682 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="775" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">デプロイ</text>
+<text x="370" y="625" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">一つの実践課題で全体をつなげる</text>
+<path d="M875 547v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="572" font-size="19.3" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">オンラインで使えるアプリ</text>
+<text x="905" y="606" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">開発から公開まで経験する</text>
+<rect x="40" y="664" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="664" width="6" height="126" rx="3" fill="#B66B1B"/>
+<text x="64" y="704" font-size="20.1" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">公開経験があり、次に進みたい</text>
+<text x="64" y="737" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">開発者 / 技術リーダー</text>
+<text x="370" y="691" font-size="15" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">ステージ 3 · 応用</text>
+<rect x="370" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="439" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">AI 作業手順</text>
+<path d="M514 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="607" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">ツール拡張</text>
+<path d="M682 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="775" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">複数環境</text>
+<text x="370" y="767" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">一つの制作ルートを選び、分割と検証を練習</text>
+<path d="M875 689v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="714" font-size="21.1" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">継続して改善できる作品</text>
+<text x="905" y="748" font-size="17.3" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">AI との協働を安定した手順に</text>
+<text x="40" y="854" font-size="19" fill="#607B99" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="19">まず学習ガイドへ。分かる部分は飛ばして構いません。肩書きより、今のスキルと目的で選びましょう。</text>
+</g></svg>

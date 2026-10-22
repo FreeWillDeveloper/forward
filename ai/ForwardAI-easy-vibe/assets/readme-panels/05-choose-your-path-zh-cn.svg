@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="890" viewBox="0 0 1200 890" role="img" aria-labelledby="title desc" lang="zh-cn">
+<title id="title">我们从哪里开始？</title><desc id="desc">按当前基础和想做的事选一行，就能找到自己的阅读起点。 完全零基础 / 新手体验 → 阶段 1 / 能运行的小游戏; 有想法，想验证 / 阶段 1 · 产品原型 / 可试用的产品原型; 会写代码，想上线 / 阶段 2 · 全栈开发 / 别人能访问的在线应用; 有交付经验，想进阶 / 阶段 3 · 进阶开发 / 能持续迭代的复杂项目</desc>
+<g font-family="Hiragino Sans GB, Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif">
+<rect x="1" y="1" width="1198" height="888" rx="22" fill="#FFFFFF" stroke="#DCE8F6"/>
+<text x="40" y="43" font-size="22" fill="#0982E6" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">easy-vibe</text>
+<text x="1160" y="43" font-size="15" fill="#6985A6" font-weight="600" text-anchor="end" data-fit-width="600" data-fit-base-size="15">01 / 选学习起点</text>
+<text x="40" y="103" font-size="38" fill="#132B49" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="38">我们从哪里开始？</text>
+<text x="40" y="144" font-size="22" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">按当前基础和想做的事选一行，就能找到自己的阅读起点。</text>
+<rect x="40" y="176" width="1120" height="46" rx="10" fill="#F2F7FD"/>
+<text x="62" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="288" data-fit-base-size="20">我们的起点</text>
+<text x="370" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="20">建议怎么学</text>
+<text x="905" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">先完成一个什么作品</text>
+<rect x="40" y="238" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="238" width="6" height="126" rx="3" fill="#1674DB"/>
+<text x="64" y="278" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">完全零基础</text>
+<text x="64" y="311" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">学生 / 教师 / 职场人</text>
+<text x="370" y="265" font-size="15" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">新手体验 → 阶段 1</text>
+<rect x="370" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="444" y="300" font-size="18" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="18">编程初体验</text>
+<path d="M524 294h13m-4-4 4 4-4 4" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="548" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="622" y="300" font-size="18" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="18">认识 AI 工具</text>
+<text x="370" y="341" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">跟着示例跑通，再自己改一个功能</text>
+<path d="M875 263v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="288" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">能运行的小游戏</text>
+<text x="905" y="322" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">从“不会写”到“做出来”</text>
+<rect x="40" y="380" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="380" width="6" height="126" rx="3" fill="#6755C9"/>
+<text x="64" y="420" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">有想法，想验证</text>
+<text x="64" y="453" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">产品 / 设计 / 创业</text>
+<text x="370" y="407" font-size="15" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">阶段 1 · 产品原型</text>
+<rect x="370" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="439" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">找真实需求</text>
+<path d="M514 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="607" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">做原型</text>
+<path d="M682 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="775" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">接入 AI</text>
+<text x="370" y="483" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">先让目标用户试用，再根据反馈改</text>
+<path d="M875 405v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="430" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">可试用的产品原型</text>
+<text x="905" y="464" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">确认有人需要，再继续做</text>
+<rect x="40" y="522" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="522" width="6" height="126" rx="3" fill="#088878"/>
+<text x="64" y="562" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">会写代码，想上线</text>
+<text x="64" y="595" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">前端 / 后端 / 初级开发</text>
+<text x="370" y="549" font-size="15" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">阶段 2 · 全栈开发</text>
+<rect x="370" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="439" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">界面与接口</text>
+<path d="M514 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="607" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">数据库</text>
+<path d="M682 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="775" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">部署</text>
+<text x="370" y="625" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">选一个完整项目，把前后端接起来</text>
+<path d="M875 547v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="572" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">别人能访问的在线应用</text>
+<text x="905" y="606" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">走通从开发到上线的过程</text>
+<rect x="40" y="664" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="664" width="6" height="126" rx="3" fill="#B66B1B"/>
+<text x="64" y="704" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">有交付经验，想进阶</text>
+<text x="64" y="737" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">开发者 / 技术负责人</text>
+<text x="370" y="691" font-size="15" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">阶段 3 · 进阶开发</text>
+<rect x="370" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="439" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">AI 工作流</text>
+<path d="M514 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="607" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">工具扩展</text>
+<path d="M682 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="775" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">跨平台</text>
+<text x="370" y="767" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">选一条项目路线，练拆任务与验收</text>
+<path d="M875 689v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="714" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">能持续迭代的复杂项目</text>
+<text x="905" y="748" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">把 AI 协作变成稳定的流程</text>
+<text x="40" y="854" font-size="19" fill="#607B99" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="19">先看学习指南；已掌握的部分可以跳过。身份只是参考，以当前能力和目标选路。</text>
+</g></svg>

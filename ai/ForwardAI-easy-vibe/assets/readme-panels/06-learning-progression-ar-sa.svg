@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950" role="img" aria-labelledby="title desc" lang="ar-sa">
+<title id="title">من أول لعبة إلى مشاريع معقدة</title><desc id="desc">أثبت تقدمك بنتيجة عملية في كل خطوة، وتابع عندما يتطلب هدفك ذلك. التجربة الأولى / أنشئ برنامجًا بالحوار / لعبة تعمل; المرحلة 1 · النموذج الأولي / اختبر فكرتك / نموذج يمكن عرضه; المرحلة 2 · التطوير المتكامل / انشر التطبيق بنفسك / تطبيق عبر الإنترنت; المرحلة 3 · التطوير المتقدم / أدر مشاريع أكبر / مشروع يتطور باستمرار</desc>
+<g font-family="Arial, Helvetica, sans-serif" transform="translate(1200 0) scale(-1 1)">
+<rect x="1" y="1" width="1198" height="948" rx="22" fill="#FFFFFF" stroke="#DCE8F6"/>
+<text x="40" y="43" font-size="22" fill="#0982E6" font-weight="700" text-anchor="end" data-fit-width="1120" data-fit-base-size="22" direction="ltr" style="unicode-bidi:plaintext" transform="translate(80 0) scale(-1 1)">easy-vibe</text>
+<text x="1160" y="43" font-size="15" fill="#6985A6" font-weight="600" text-anchor="end" data-fit-width="600" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(2320 0) scale(-1 1)">02 / شاهد مسار التقدم</text>
+<text x="40" y="102" font-size="36" fill="#132B49" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="36" direction="rtl" style="unicode-bidi:plaintext" transform="translate(80 0) scale(-1 1)">من أول لعبة إلى مشاريع معقدة</text>
+<text x="40" y="143" font-size="21" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="21" direction="rtl" style="unicode-bidi:plaintext" transform="translate(80 0) scale(-1 1)">أثبت تقدمك بنتيجة عملية في كل خطوة، وتابع عندما يتطلب هدفك ذلك.</text>
+<path d="M40 778H315V718H605V658H895V598H1160" stroke="#B8CEE9" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="40" y="365" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="40" y="365" width="250" height="7" rx="3" fill="#1674DB"/>
+<rect x="58" y="387" width="42" height="37" rx="9" fill="#EDF5FF"/>
+<text x="79" y="413" font-size="23" fill="#1674DB" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23" direction="rtl" style="unicode-bidi:plaintext" transform="translate(158 0) scale(-1 1)">00</text>
+<text x="58" y="453" font-size="17" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17" direction="rtl" style="unicode-bidi:plaintext" transform="translate(116 0) scale(-1 1)">التجربة الأولى</text>
+<text x="58" y="493" font-size="25" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25" direction="rtl" style="unicode-bidi:plaintext" transform="translate(116 0) scale(-1 1)">أنشئ برنامجًا بالحوار</text>
+<text x="58" y="529" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(116 0) scale(-1 1)">وصف ← تشغيل ← ملاحظة ← تعديل</text>
+<text x="58" y="559" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(116 0) scale(-1 1)">شغّله، ثم غيّر ميزة صغيرة.</text>
+<path d="M58 581h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="58" y="609" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(116 0) scale(-1 1)">معيار الإنجاز</text>
+<text x="58" y="643" font-size="21" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21" direction="rtl" style="unicode-bidi:plaintext" transform="translate(116 0) scale(-1 1)">لعبة تعمل</text>
+<path d="M60 675l4 4 7-9" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="79" y="680" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(158 0) scale(-1 1)">اشرح المدخلات والمخرجات.</text>
+<path d="M60 703l4 4 7-9" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="79" y="708" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(158 0) scale(-1 1)">تحقق من العمل بعد التعديل.</text>
+<path d="M301 462l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="330" y="305" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="330" y="305" width="250" height="7" rx="3" fill="#6755C9"/>
+<rect x="348" y="327" width="42" height="37" rx="9" fill="#F1EEFF"/>
+<text x="369" y="353" font-size="23" fill="#6755C9" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23" direction="rtl" style="unicode-bidi:plaintext" transform="translate(738 0) scale(-1 1)">01</text>
+<text x="348" y="393" font-size="17" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17" direction="rtl" style="unicode-bidi:plaintext" transform="translate(696 0) scale(-1 1)">المرحلة 1 · النموذج الأولي</text>
+<text x="348" y="433" font-size="25" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25" direction="rtl" style="unicode-bidi:plaintext" transform="translate(696 0) scale(-1 1)">اختبر فكرتك</text>
+<text x="348" y="469" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(696 0) scale(-1 1)">حاجة ← نموذج أولي ← ذكاء اصطناعي</text>
+<text x="348" y="499" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(696 0) scale(-1 1)">اجمع آراء مستخدمين حقيقيين.</text>
+<path d="M348 521h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="348" y="549" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(696 0) scale(-1 1)">معيار الإنجاز</text>
+<text x="348" y="583" font-size="21" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21" direction="rtl" style="unicode-bidi:plaintext" transform="translate(696 0) scale(-1 1)">نموذج يمكن عرضه</text>
+<path d="M350 615l4 4 7-9" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="369" y="620" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(738 0) scale(-1 1)">اشرح لمن يحل أي مشكلة.</text>
+<path d="M350 643l4 4 7-9" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="369" y="648" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(738 0) scale(-1 1)">حسّن شيئًا بناءً على الملاحظات.</text>
+<path d="M591 402l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="620" y="245" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="620" y="245" width="250" height="7" rx="3" fill="#088878"/>
+<rect x="638" y="267" width="42" height="37" rx="9" fill="#EAF8F4"/>
+<text x="659" y="293" font-size="23" fill="#088878" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1318 0) scale(-1 1)">02</text>
+<text x="638" y="333" font-size="17" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1276 0) scale(-1 1)">المرحلة 2 · التطوير المتكامل</text>
+<text x="638" y="373" font-size="25" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1276 0) scale(-1 1)">انشر التطبيق بنفسك</text>
+<text x="638" y="409" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1276 0) scale(-1 1)">واجهة ← خدمات ← بيانات ← نشر</text>
+<text x="638" y="439" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1276 0) scale(-1 1)">اربط الأجزاء في مشروع متكامل.</text>
+<path d="M638 461h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="638" y="489" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1276 0) scale(-1 1)">معيار الإنجاز</text>
+<text x="638" y="523" font-size="21" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1276 0) scale(-1 1)">تطبيق عبر الإنترنت</text>
+<path d="M640 555l4 4 7-9" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="659" y="560" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1318 0) scale(-1 1)">احفظ البيانات واختبر المسار.</text>
+<path d="M640 583l4 4 7-9" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="659" y="588" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1318 0) scale(-1 1)">يمكن للآخرين فتحه واستخدامه.</text>
+<path d="M881 342l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="910" y="185" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="910" y="185" width="250" height="7" rx="3" fill="#B66B1B"/>
+<rect x="928" y="207" width="42" height="37" rx="9" fill="#FFF4E6"/>
+<text x="949" y="233" font-size="23" fill="#B66B1B" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1898 0) scale(-1 1)">03</text>
+<text x="928" y="273" font-size="17" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1856 0) scale(-1 1)">المرحلة 3 · التطوير المتقدم</text>
+<text x="928" y="313" font-size="25" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1856 0) scale(-1 1)">أدر مشاريع أكبر</text>
+<text x="928" y="349" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1856 0) scale(-1 1)">مهام ← أدوات ← منصة</text>
+<text x="928" y="379" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1856 0) scale(-1 1)">اختر الأدوات حسب حاجة المشروع.</text>
+<path d="M928 401h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="928" y="429" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1856 0) scale(-1 1)">معيار الإنجاز</text>
+<text x="928" y="463" font-size="21" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1856 0) scale(-1 1)">مشروع يتطور باستمرار</text>
+<path d="M930 495l4 4 7-9" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="949" y="500" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1898 0) scale(-1 1)">حدّد نطاق المهام ومعايير الإنجاز.</text>
+<path d="M930 523l4 4 7-9" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="949" y="528" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1898 0) scale(-1 1)">اختبر المسارات بعد التغييرات.</text>
+<rect x="355" y="725" width="805" height="85" rx="12" fill="#F2F7FD"/>
+<text x="378" y="759" font-size="24" fill="#24486D" font-weight="600" text-anchor="start" data-fit-width="760" data-fit-base-size="24" direction="rtl" style="unicode-bidi:plaintext" transform="translate(756 0) scale(-1 1)">احتفظ بعملك وسجّل التحسينات</text>
+<text x="378" y="792" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="760" data-fit-base-size="18" direction="rtl" style="unicode-bidi:plaintext" transform="translate(756 0) scale(-1 1)">أعد استخدام مشروعك: اكتشف المشكلة، وابحث عن السبب، ثم عدّل وتحقق.</text>
+<rect x="40" y="848" width="1120" height="62" rx="12" fill="#F6F9FD"/>
+<text x="62" y="887" font-size="20" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="20" direction="rtl" style="unicode-bidi:plaintext" transform="translate(124 0) scale(-1 1)">لا يلزم قراءة كل شيء أولًا</text>
+<text x="428" y="887" font-size="20" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="20" direction="rtl" style="unicode-bidi:plaintext" transform="translate(856 0) scale(-1 1)">راجع الملحق عند الحاجة إلى الأساسيات</text>
+<text x="794" y="887" font-size="20" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="20" direction="rtl" style="unicode-bidi:plaintext" transform="translate(1588 0) scale(-1 1)">اختر مسارًا متقدمًا يناسب مشروعك</text>
+</g></svg>

@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="تعلم تفاعلي: تجارب الأوامر واستكشاف RAG ومفاهيم الطرفية" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-ar-sa.svg" alt="من أين نبدأ؟ اختر المسار حسب مهاراتك الحالية وما تريد بناءه." width="100%">
+</p>
+
+<p align="center" dir="rtl">
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-1/learning-map/">دليل التعلم</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-1/ai-capabilities-through-games/">تجربة البرمجة بالذكاء الاصطناعي</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-1/finding-great-idea/">اختبار الفكرة</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-2/">نشر تطبيق</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-3/">مشاريع متقدمة</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-ar-sa.svg" alt="من أول لعبة إلى مشاريع معقدة أثبت تقدمك بنتيجة عملية في كل خطوة، وتابع عندما يتطلب هدفك ذلك." width="100%">
+</p>
+
+<p align="center" dir="rtl">
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-1/ai-capabilities-through-games/">التجربة الأولى</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-1/complete-project-practice/">مشروع المرحلة 1</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-2/assignments/copywriting-platform-supabase/">مشروع متكامل للمرحلة 2</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/stage-3/core-skills/workflow/">سير العمل في المرحلة 3</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ar-sa/appendix/">الملحق</a>
 </p>
 
 <table align="center">
@@ -247,9 +267,7 @@ Easy-Vibe يعلمك كيف تحول ذلك إلى منتج حقيقي.
 
 ### 📖 التنقل في المحتوى
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="خريطة التعلّم" width="100%">
-</div>
+<p dir="rtl"><a href="#learning-progression">↑ راجع مسار التقدم أعلاه، ثم اختر من الفصول التالية.</a></p>
 
 ### أولاً: دخول المبتدئين
 

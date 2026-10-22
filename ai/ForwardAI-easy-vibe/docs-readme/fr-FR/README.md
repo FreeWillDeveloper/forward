@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="Apprentissage interactif : expériences de prompts, exploration du RAG et principes du terminal" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-fr-fr.svg" alt="Par où commencer ? Choisissez selon vos compétences actuelles et ce que vous voulez créer." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-1/learning-map/">Guide d’apprentissage</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-1/ai-capabilities-through-games/">Débuter avec l’IA</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-1/finding-great-idea/">Valider une idée</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-2/">Publier une application</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-3/">Projets avancés</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-fr-fr.svg" alt="Du premier jeu aux projets complexes À chaque étape, vérifiez vos progrès avec un résultat concret. Continuez selon vos objectifs." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-1/ai-capabilities-through-games/">Premier essai</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-1/complete-project-practice/">Projet de l’étape 1</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-2/assignments/copywriting-platform-supabase/">Projet full stack de l’étape 2</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/stage-3/core-skills/workflow/">Méthodes de l’étape 3</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/fr-fr/appendix/">Annexe</a>
 </p>
 
 <table align="center">
@@ -247,9 +267,7 @@ Aperçus conceptuels de projets. Explorez les tutoriels correspondants :
 
 ### 📖 Navigation du contenu
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Carte d'apprentissage" width="100%">
-</div>
+<p><a href="#learning-progression">↑ Consultez la progression ci-dessus, puis choisissez parmi les chapitres suivants.</a></p>
 
 ### I. Entrée debutant
 

@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="Học tương tác: thử nghiệm câu lệnh, khám phá RAG và nguyên lý terminal" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-vi-vn.svg" alt="Chúng ta nên bắt đầu từ đâu? Chọn theo kỹ năng hiện tại và sản phẩm bạn muốn tạo ra." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/learning-map/">Hướng dẫn học</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/ai-capabilities-through-games/">Trải nghiệm lập trình AI</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/finding-great-idea/">Kiểm chứng ý tưởng</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/">Ra mắt ứng dụng</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/">Dự án nâng cao</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-vi-vn.svg" alt="Từ trò chơi đầu tiên đến dự án phức tạp Mỗi bước có một sản phẩm chạy được để xác nhận tiến bộ. Học tiếp khi mục tiêu cần đến." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/ai-capabilities-through-games/">Trải nghiệm đầu</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-1/complete-project-practice/">Dự án giai đoạn 1</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-2/assignments/copywriting-platform-supabase/">Dự án full stack giai đoạn 2</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/stage-3/core-skills/workflow/">Quy trình giai đoạn 3</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/vi-vn/appendix/">Phụ lục</a>
 </p>
 
 <table align="center">
@@ -247,9 +267,7 @@ Hình minh họa ý tưởng dự án. Khám phá các bài hướng dẫn tươ
 
 ### 📖 Dieu huong noi dung
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Lo trinh hoc" width="100%">
-</div>
+<p><a href="#learning-progression">↑ Xem lộ trình tiến bộ ở trên, rồi chọn các chương bên dưới.</a></p>
 
 ### I. Nhap mon nguoi moi
 

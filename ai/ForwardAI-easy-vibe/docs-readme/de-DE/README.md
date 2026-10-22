@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/de-de/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="Interaktives Lernen: Prompt-Experimente, RAG erkunden und Terminal-Grundlagen" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-de-de.svg" alt="Wo fangen wir an? Wähle nach deinem aktuellen Können und dem, was du entwickeln möchtest." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-1/learning-map/">Lernleitfaden</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-1/ai-capabilities-through-games/">Erste KI-Coding-Erfahrung</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-1/finding-great-idea/">Eine Idee validieren</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-2/">Eine App veröffentlichen</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-3/">Fortgeschrittene Projekte</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-de-de.svg" alt="Vom ersten Spiel zu komplexen Projekten Zeige jeden Fortschritt an einem funktionierenden Ergebnis. Gehe nach Bedarf weiter." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-1/ai-capabilities-through-games/">Erste Schritte</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-1/complete-project-practice/">Projekt der Stufe 1</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-2/assignments/copywriting-platform-supabase/">Full-Stack-Projekt der Stufe 2</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/stage-3/core-skills/workflow/">Arbeitsabläufe der Stufe 3</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/de-de/appendix/">Anhang</a>
 </p>
 
 <table align="center">
@@ -247,9 +267,7 @@ Konzeptansichten der Projekte. Entdecke die passenden Tutorials:
 
 ### 📖 Inhaltliche Navigation
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Lernkarte" width="100%">
-</div>
+<p><a href="#learning-progression">↑ Sieh dir den Lernfortschritt oben an und wähle dann aus den folgenden Kapiteln.</a></p>
 
 ### I. Einsteiger-Einstieg
 

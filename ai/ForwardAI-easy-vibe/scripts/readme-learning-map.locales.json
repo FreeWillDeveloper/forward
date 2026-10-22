@@ -1,0 +1,1129 @@
+{
+  "zh-cn": {
+    "pick_title": "我们从哪里开始？",
+    "pick_sub": "按当前基础和想做的事选一行，就能找到自己的阅读起点。",
+    "heads": ["我们的起点", "建议怎么学", "先完成一个什么作品"],
+    "rows": [
+      [
+        "完全零基础",
+        "学生 / 教师 / 职场人",
+        "新手体验 → 阶段 1",
+        ["编程初体验", "认识 AI 工具"],
+        "跟着示例跑通，再自己改一个功能",
+        ["能运行的小游戏", "从“不会写”到“做出来”"]
+      ],
+      [
+        "有想法，想验证",
+        "产品 / 设计 / 创业",
+        "阶段 1 · 产品原型",
+        ["找真实需求", "做原型", "接入 AI"],
+        "先让目标用户试用，再根据反馈改",
+        ["可试用的产品原型", "确认有人需要，再继续做"]
+      ],
+      [
+        "会写代码，想上线",
+        "前端 / 后端 / 初级开发",
+        "阶段 2 · 全栈开发",
+        ["界面与接口", "数据库", "部署"],
+        "选一个完整项目，把前后端接起来",
+        ["别人能访问的在线应用", "走通从开发到上线的过程"]
+      ],
+      [
+        "有交付经验，想进阶",
+        "开发者 / 技术负责人",
+        "阶段 3 · 进阶开发",
+        ["AI 工作流", "工具扩展", "跨平台"],
+        "选一条项目路线，练拆任务与验收",
+        ["能持续迭代的复杂项目", "把 AI 协作变成稳定的流程"]
+      ]
+    ],
+    "pick_footer": "先看学习指南；已掌握的部分可以跳过。身份只是参考，以当前能力和目标选路。",
+    "grow_title": "从第一个小游戏，到能交付复杂项目",
+    "grow_sub": "每走一步，都用一个实际作品确认进步；能完成当前目标，再按需要继续。",
+    "steps": [
+      [
+        "新手体验",
+        "会用对话做程序",
+        "描述 → 运行 → 观察 → 修改",
+        "先跑通，再改一个小功能",
+        "能运行的小游戏",
+        ["说清输入和输出", "改完还能正常运行"]
+      ],
+      [
+        "阶段 1 · 产品原型",
+        "会验证一个想法",
+        "找需求 → 做原型 → 接 AI",
+        "让真实用户试用并收集反馈",
+        "可演示的产品原型",
+        ["说清为谁解决什么问题", "根据反馈完成一次修改"]
+      ],
+      [
+        "阶段 2 · 全栈开发",
+        "能独立部署上线",
+        "界面 → 接口 → 数据 → 部署",
+        "在综合项目里把前后端接起来",
+        "可在线使用的应用",
+        ["数据能保存、流程能跑通", "其他人能打开并使用"]
+      ],
+      [
+        "阶段 3 · 进阶开发",
+        "能推进复杂项目",
+        "拆任务 → 扩工具 → 选平台",
+        "按需选择工作流、工具和平台",
+        "可持续迭代的项目",
+        ["任务有边界、结果能验收", "修改后检查关键流程"]
+      ]
+    ],
+    "practice": "每一步，都留下作品和改进记录",
+    "practice_sub": "遇到问题 → 找原因 → 修改 → 验证，把改进带进下一个版本。",
+    "bottom": [
+      "不必一次学完整个仓库",
+      "缺基础时，再查附录",
+      "进阶按项目需要选一条路线"
+    ],
+    "proof": "完成标志",
+    "map_label": "01 / 选学习起点",
+    "growth_label": "02 / 看成长路线",
+    "nav": [
+      "学习指南",
+      "零基础：编程初体验",
+      "验证想法：需求与原型",
+      "上线应用：全栈开发",
+      "复杂项目：进阶开发"
+    ],
+    "subnav": [
+      "新手体验",
+      "阶段 1 综合实战",
+      "阶段 2 全栈实战",
+      "阶段 3 工作流",
+      "附录随查"
+    ],
+    "back": "↑ 查看前面的能力成长路线图，再按下面的章节选择阅读。"
+  },
+  "en": {
+    "pick_title": "Choose your starting point.",
+    "pick_sub": "Pick the row that matches what you can do now and what you want to build.",
+    "heads": [
+      "Where we start",
+      "What to study, and how",
+      "A first concrete result"
+    ],
+    "rows": [
+      [
+        "New to coding",
+        "Students, teachers, professionals",
+        "FIRST EXPERIENCE → STAGE 1",
+        ["Try AI coding", "Use an AI IDE"],
+        "Run an example, then change one feature.",
+        ["A runnable game", "Turn an idea into a working result."]
+      ],
+      [
+        "An idea to validate",
+        "Product, design, entrepreneurship",
+        "STAGE 1 · PRODUCT PROTOTYPING",
+        ["Find a need", "Prototype", "Add AI"],
+        "Let target users try it, then improve it.",
+        ["A product prototype", "Validate the need before building."]
+      ],
+      [
+        "Can code, want to ship",
+        "Frontend / backend developers",
+        "STAGE 2 · FULL-STACK DEVELOPMENT",
+        ["UI & APIs", "Database", "Deploy"],
+        "Pick a full project and connect the pieces.",
+        ["An app available online", "From development to deployment."]
+      ],
+      [
+        "Have shipped, want more",
+        "Developers and technical leads",
+        "STAGE 3 · ADVANCED DEVELOPMENT",
+        ["AI workflow", "Extend tools", "Platforms"],
+        "Choose one project; plan tasks and verify.",
+        ["An evolving project", "Make collaboration repeatable."]
+      ]
+    ],
+    "pick_footer": "Start with the learning guide. Skip what you already know; choose by your skills and goal, not just your job title.",
+    "grow_title": "From a first game to complex projects.",
+    "grow_sub": "Make progress visible with a working result at each step. Continue when your goal calls for it.",
+    "steps": [
+      [
+        "FIRST EXPERIENCE",
+        "Build with dialogue",
+        "Describe → run → observe → revise",
+        "Get it running, then change a feature.",
+        "A runnable game",
+        ["Explain its inputs and outputs.", "Keep it working after a change."]
+      ],
+      [
+        "STAGE 1 · PROTOTYPING",
+        "Validate an idea",
+        "Find a need → prototype → add AI",
+        "Let real users try it and give feedback.",
+        "A product demo",
+        ["Explain who needs it and why.", "Make one change from feedback."]
+      ],
+      [
+        "STAGE 2 · FULL STACK",
+        "Ship independently",
+        "UI → API → data → deployment",
+        "Connect the pieces in a full project.",
+        "An app available online",
+        ["Save data; run the main flow.", "Let someone else open and use it."]
+      ],
+      [
+        "STAGE 3 · ADVANCED",
+        "Lead bigger projects",
+        "Tasks → tools → platform",
+        "Pick tools for the project’s needs.",
+        "An evolving project",
+        ["Set task boundaries and checks.", "Verify key flows after changes."]
+      ]
+    ],
+    "practice": "Keep the work, and a record of what improved.",
+    "practice_sub": "Reuse your project: find a problem, investigate, change it, then verify.",
+    "bottom": [
+      "No need to read everything first",
+      "Use the appendix when you need it",
+      "Choose one advanced project path"
+    ],
+    "proof": "READY WHEN",
+    "map_label": "01 / FIND YOUR START",
+    "growth_label": "02 / SEE YOUR PROGRESS",
+    "nav": [
+      "Learning guide",
+      "New to coding",
+      "Validate an idea",
+      "Ship an application",
+      "Advanced projects"
+    ],
+    "subnav": [
+      "First experience",
+      "Stage 1 project",
+      "Stage 2 full-stack project",
+      "Stage 3 workflows",
+      "Appendix"
+    ],
+    "back": "↑ See the learning progression above, then choose from the chapters below."
+  },
+  "zh-tw": {
+    "pick_title": "我們從哪裡開始？",
+    "pick_sub": "按目前基礎和想做的事選一列，就能找到自己的閱讀起點。",
+    "heads": ["我們的起點", "建議怎麼學", "先完成什麼作品"],
+    "rows": [
+      [
+        "完全零基礎",
+        "學生 / 教師 / 上班族",
+        "新手體驗 → 階段 1",
+        ["程式設計初體驗", "認識 AI 工具"],
+        "跟著範例跑通，再自己改一個功能",
+        ["能執行的小遊戲", "從「不會寫」到「做出來」"]
+      ],
+      [
+        "有想法，想驗證",
+        "產品 / 設計 / 創業",
+        "階段 1 · 產品原型",
+        ["找真實需求", "做原型", "接入 AI"],
+        "先讓目標使用者試用，再依回饋修改",
+        ["可試用的產品原型", "確認有人需要，再繼續做"]
+      ],
+      [
+        "會寫程式，想上線",
+        "前端 / 後端 / 初階開發",
+        "階段 2 · 全端開發",
+        ["介面與 API", "資料庫", "部署"],
+        "選一個完整專案，把前後端接起來",
+        ["他人能存取的線上應用", "走通從開發到上線的過程"]
+      ],
+      [
+        "有交付經驗，想進階",
+        "開發者 / 技術負責人",
+        "階段 3 · 進階開發",
+        ["AI 工作流程", "工具擴充", "跨平台"],
+        "選一條專案路線，練習拆解任務與驗收",
+        ["能持續迭代的複雜專案", "讓 AI 協作成為穩定的流程"]
+      ]
+    ],
+    "pick_footer": "先看學習指南；已掌握的部分可以跳過。身分只是參考，以目前能力和目標選路。",
+    "grow_title": "從第一個小遊戲，到能交付複雜專案",
+    "grow_sub": "每走一步，都用實際作品確認進步；能完成目前目標，再按需要繼續。",
+    "steps": [
+      [
+        "新手體驗",
+        "用對話做出程式",
+        "描述 → 執行 → 觀察 → 修改",
+        "先跑通，再改一個小功能",
+        "能執行的小遊戲",
+        ["說清輸入和輸出", "改完仍能正常執行"]
+      ],
+      [
+        "階段 1 · 產品原型",
+        "能驗證一個想法",
+        "找需求 → 做原型 → 接 AI",
+        "讓真實使用者試用並收集回饋",
+        "可展示的產品原型",
+        ["說清為誰解決什麼問題", "依回饋完成一次修改"]
+      ],
+      [
+        "階段 2 · 全端開發",
+        "能獨立部署上線",
+        "介面 → API → 資料 → 部署",
+        "在綜合專案裡把前後端接起來",
+        "可線上使用的應用",
+        ["資料能儲存、流程能跑通", "其他人能開啟並使用"]
+      ],
+      [
+        "階段 3 · 進階開發",
+        "能推進複雜專案",
+        "拆任務 → 擴充工具 → 選平台",
+        "按需選擇工作流程、工具和平台",
+        "可持續迭代的專案",
+        ["任務有邊界、結果能驗收", "修改後檢查關鍵流程"]
+      ]
+    ],
+    "practice": "每一步，都留下作品和改進紀錄",
+    "practice_sub": "遇到問題 → 找原因 → 修改 → 驗證，把改進帶進下一個版本。",
+    "bottom": [
+      "不必一次學完整個儲存庫",
+      "缺基礎時，再查附錄",
+      "進階按專案需要選一條路線"
+    ],
+    "proof": "完成標準",
+    "map_label": "01 / 選學習起點",
+    "growth_label": "02 / 看成長路線",
+    "nav": [
+      "學習指南",
+      "零基礎：程式設計初體驗",
+      "驗證想法：需求與原型",
+      "上線應用：全端開發",
+      "複雜專案：進階開發"
+    ],
+    "subnav": [
+      "新手體驗",
+      "階段 1 綜合實作",
+      "階段 2 全端實作",
+      "階段 3 工作流程",
+      "附錄隨查"
+    ],
+    "back": "↑ 查看前面的能力成長路線圖，再按下面的章節選擇閱讀。"
+  },
+  "ja-jp": {
+    "pick_title": "どこから始める？",
+    "pick_sub": "今できることと作りたいものに合わせて、読む順番を選びましょう。",
+    "heads": ["現在の出発点", "学ぶ内容と進め方", "まず完成させるもの"],
+    "rows": [
+      [
+        "プログラミング未経験",
+        "学生 / 教員 / 社会人",
+        "初体験 → ステージ 1",
+        ["AI コーディング", "AI ツール"],
+        "例を動かしてから、機能を一つ変更する",
+        ["動くミニゲーム", "「書けない」から「作れる」へ"]
+      ],
+      [
+        "アイデアを検証したい",
+        "プロダクト / デザイン / 起業",
+        "ステージ 1 · 試作",
+        ["ニーズを探す", "試作する", "AI を接続"],
+        "対象ユーザーに試してもらい、改善する",
+        ["試せるプロトタイプ", "必要とされるか確かめる"]
+      ],
+      [
+        "コードを書いて公開したい",
+        "フロントエンド / バックエンド",
+        "ステージ 2 · フルスタック",
+        ["画面と API", "データベース", "デプロイ"],
+        "一つの実践課題で全体をつなげる",
+        ["オンラインで使えるアプリ", "開発から公開まで経験する"]
+      ],
+      [
+        "公開経験があり、次に進みたい",
+        "開発者 / 技術リーダー",
+        "ステージ 3 · 応用",
+        ["AI 作業手順", "ツール拡張", "複数環境"],
+        "一つの制作ルートを選び、分割と検証を練習",
+        ["継続して改善できる作品", "AI との協働を安定した手順に"]
+      ]
+    ],
+    "pick_footer": "まず学習ガイドへ。分かる部分は飛ばして構いません。肩書きより、今のスキルと目的で選びましょう。",
+    "grow_title": "初めてのゲームから、複雑な制作へ",
+    "grow_sub": "各段階で動く成果物を作り、できることを確かめてから必要に応じて進みます。",
+    "steps": [
+      [
+        "初めての体験",
+        "対話でプログラムを作る",
+        "説明 → 実行 → 観察 → 修正",
+        "動かしてから小さな機能を変更",
+        "動くミニゲーム",
+        ["入力と出力を説明できる", "変更後も正しく動く"]
+      ],
+      [
+        "ステージ 1 · 試作",
+        "アイデアを検証する",
+        "ニーズ → 試作 → AI 接続",
+        "実際のユーザーに試してもらう",
+        "実演できる試作品",
+        ["誰の何を解決するか説明する", "意見を基に一度改善する"]
+      ],
+      [
+        "ステージ 2 · フルスタック",
+        "自分で公開する",
+        "画面 → API → データ → 公開",
+        "実践課題で全体をつなげる",
+        "オンラインのアプリ",
+        ["データ保存と基本操作が動く", "他の人が開いて使える"]
+      ],
+      [
+        "ステージ 3 · 応用",
+        "複雑な制作を進める",
+        "タスク分割 → 拡張 → 環境選択",
+        "目的に合う手順や環境を選ぶ",
+        "改善を続けられる作品",
+        ["範囲と完了条件を決める", "変更後に主要な操作を確認"]
+      ]
+    ],
+    "practice": "作品と改善の記録を残しましょう",
+    "practice_sub": "問題を見つける → 原因を探る → 修正 → 確認し、次の版につなげます。",
+    "bottom": [
+      "すべてを先に読む必要はありません",
+      "基礎で困ったら付録を参照",
+      "応用は目的に合うルートを一つ選ぶ"
+    ],
+    "proof": "完了の目安",
+    "map_label": "01 / 出発点を選ぶ",
+    "growth_label": "02 / 成長の道筋を見る",
+    "nav": [
+      "学習ガイド",
+      "未経験：AI コーディング",
+      "アイデアの検証と試作",
+      "アプリの公開",
+      "応用プロジェクト"
+    ],
+    "subnav": [
+      "初めての体験",
+      "ステージ 1 実践",
+      "ステージ 2 実践",
+      "ステージ 3 作業手順",
+      "付録"
+    ],
+    "back": "↑ 上の成長ルートを確認し、以下の章から読む内容を選びましょう。",
+    "font_sizes": {
+      "AI コーディング": 17.5,
+      "「書けない」から「作れる」へ": 16.5,
+      "コードを書いて公開したい": 23.5,
+      "オンラインで使えるアプリ": 19.3,
+      "公開経験があり、次に進みたい": 20.1,
+      "継続して改善できる作品": 21.1,
+      "AI との協働を安定した手順に": 17.3,
+      "対話でプログラムを作る": 19.2,
+      "アイデアを検証する": 23.5,
+      "誰の何を解決するか説明する": 14.6,
+      "データ保存と基本操作が動く": 14.6,
+      "複雑な制作を進める": 23.4,
+      "タスク分割 → 拡張 → 環境選択": 14.7
+    }
+  },
+  "ko-kr": {
+    "pick_title": "어디서 시작하면 될까요?",
+    "pick_sub": "지금 할 수 있는 일과 만들고 싶은 결과에 맞춰 학습 경로를 고르세요.",
+    "heads": ["현재 출발점", "무엇을 어떻게 배울까", "먼저 완성할 결과물"],
+    "rows": [
+      [
+        "코딩이 처음이라면",
+        "학생 / 교사 / 직장인",
+        "첫 체험 → 1단계",
+        ["AI 코딩 체험", "AI 도구 익히기"],
+        "예제를 실행한 뒤 기능 하나를 바꿔 보세요.",
+        ["실행되는 작은 게임", "처음으로 직접 만들어 보는 경험"]
+      ],
+      [
+        "아이디어를 검증하려면",
+        "기획 / 디자인 / 창업",
+        "1단계 · 제품 프로토타입",
+        ["실제 요구 찾기", "프로토타입", "AI 연결"],
+        "대상 사용자에게 써 보게 하고 개선하세요.",
+        ["시험해 볼 수 있는 시제품", "필요한 제품인지 먼저 확인"]
+      ],
+      [
+        "코딩을 알고 출시하려면",
+        "프런트엔드 / 백엔드 개발자",
+        "2단계 · 풀스택 개발",
+        ["화면과 API", "데이터베이스", "배포"],
+        "실습 프로젝트 하나로 전체를 연결하세요.",
+        ["온라인으로 쓸 수 있는 앱", "개발부터 출시까지 경험"]
+      ],
+      [
+        "출시 경험이 있다면",
+        "개발자 / 기술 리더",
+        "3단계 · 심화 개발",
+        ["AI 작업 흐름", "도구 확장", "여러 플랫폼"],
+        "한 경로를 골라 작업 분할과 검증을 연습하세요.",
+        ["계속 개선할 수 있는 프로젝트", "AI 협업을 안정적인 절차로"]
+      ]
+    ],
+    "pick_footer": "학습 가이드부터 살펴보세요. 아는 부분은 건너뛰고, 직함보다 현재 실력과 목표를 기준으로 고르세요.",
+    "grow_title": "첫 게임에서 복잡한 프로젝트까지",
+    "grow_sub": "각 단계의 실제 결과물로 성장을 확인하고, 목표에 따라 다음 단계로 나아가세요.",
+    "steps": [
+      [
+        "첫 체험",
+        "대화로 프로그램 만들기",
+        "설명 → 실행 → 관찰 → 수정",
+        "실행한 뒤 작은 기능 하나 바꾸기",
+        "실행되는 작은 게임",
+        ["입력과 출력을 설명할 수 있다", "수정 후에도 정상 작동한다"]
+      ],
+      [
+        "1단계 · 프로토타입",
+        "아이디어 검증하기",
+        "요구 찾기 → 시제품 → AI 연결",
+        "실제 사용자의 의견을 수집하기",
+        "시연 가능한 프로토타입",
+        ["누구의 어떤 문제인지 설명한다", "의견에 따라 한 번 개선한다"]
+      ],
+      [
+        "2단계 · 풀스택 개발",
+        "직접 배포하고 출시하기",
+        "화면 → API → 데이터 → 배포",
+        "종합 프로젝트로 전체 연결하기",
+        "온라인에서 쓸 수 있는 앱",
+        ["데이터 저장과 핵심 흐름이 된다", "다른 사람도 열어서 쓸 수 있다"]
+      ],
+      [
+        "3단계 · 심화 개발",
+        "복잡한 프로젝트 이끌기",
+        "작업 분할 → 도구 확장 → 플랫폼",
+        "목표에 맞는 흐름과 도구 선택",
+        "꾸준히 개선하는 프로젝트",
+        ["작업 범위와 완료 기준을 정한다", "변경 뒤 핵심 흐름을 확인한다"]
+      ]
+    ],
+    "practice": "작품과 개선 기록을 함께 남기세요",
+    "practice_sub": "문제 발견 → 원인 파악 → 수정 → 검증을 거쳐 다음 버전에 반영하세요.",
+    "bottom": [
+      "처음부터 전부 읽을 필요는 없어요",
+      "기초가 부족할 때는 부록 참고",
+      "심화는 목표에 맞는 경로 하나 선택"
+    ],
+    "proof": "완료 기준",
+    "map_label": "01 / 출발점 고르기",
+    "growth_label": "02 / 성장 경로 보기",
+    "nav": [
+      "학습 가이드",
+      "입문: AI 코딩 체험",
+      "아이디어 검증과 시제품",
+      "앱 개발과 출시",
+      "심화 프로젝트"
+    ],
+    "subnav": [
+      "첫 체험",
+      "1단계 종합 실습",
+      "2단계 풀스택 실습",
+      "3단계 작업 흐름",
+      "부록"
+    ],
+    "back": "↑ 위의 성장 경로를 확인한 뒤 아래에서 읽을 장을 고르세요.",
+    "font_sizes": {
+      "계속 개선할 수 있는 프로젝트": 20.2,
+      "대화로 프로그램 만들기": 22.9,
+      "직접 배포하고 출시하기": 22.9,
+      "데이터 저장과 핵심 흐름이 된다": 15.4,
+      "복잡한 프로젝트 이끌기": 22.9,
+      "작업 범위와 완료 기준을 정한다": 15.4
+    }
+  },
+  "es-es": {
+    "pick_title": "¿Por dónde empezamos?",
+    "pick_sub": "Elige según lo que ya sabes y lo que quieres construir.",
+    "heads": ["Punto de partida", "Qué aprender y cómo", "Un primer resultado"],
+    "rows": [
+      [
+        "Sin experiencia en código",
+        "Estudiantes, docentes y profesionales",
+        "PRIMER CONTACTO → ETAPA 1",
+        ["Probar IA", "IDE con IA"],
+        "Ejecuta un ejemplo y cambia una función.",
+        ["Un pequeño juego funcional", "De la idea a algo que funciona."]
+      ],
+      [
+        "Una idea por validar",
+        "Producto, diseño y emprendimiento",
+        "ETAPA 1 · PROTOTIPOS",
+        ["Necesidad real", "Prototipar", "Integrar IA"],
+        "Deja que usuarios lo prueben y mejóralo.",
+        ["Un prototipo de producto", "Valida la necesidad antes de seguir."]
+      ],
+      [
+        "Sé programar, quiero publicar",
+        "Desarrollo frontend y backend",
+        "ETAPA 2 · DESARROLLO FULL STACK",
+        ["Interfaz y API", "Base de datos", "Despliegue"],
+        "Elige un proyecto y conecta todas las piezas.",
+        ["Una aplicación en línea", "Del desarrollo a la publicación."]
+      ],
+      [
+        "Ya he publicado proyectos",
+        "Desarrollo y liderazgo técnico",
+        "ETAPA 3 · DESARROLLO AVANZADO",
+        ["Flujo con IA", "Extensiones", "Plataformas"],
+        "Elige una ruta; divide tareas y verifica.",
+        ["Un proyecto que evoluciona", "Haz que colaborar con IA sea fiable."]
+      ]
+    ],
+    "pick_footer": "Empieza por la guía. Puedes saltar lo que ya dominas: elige por tus habilidades y objetivos, no solo por tu profesión.",
+    "grow_title": "Del primer juego a proyectos complejos",
+    "grow_sub": "Demuestra cada avance con un resultado funcional y continúa cuando tu objetivo lo requiera.",
+    "steps": [
+      [
+        "PRIMER CONTACTO",
+        "Crear conversando",
+        "Describir → ejecutar → ver → ajustar",
+        "Hazlo funcionar y cambia una función.",
+        "Un juego funcional",
+        ["Explica las entradas y salidas.", "Comprueba que sigue funcionando."]
+      ],
+      [
+        "ETAPA 1 · PROTOTIPOS",
+        "Validar una idea",
+        "Necesidad → prototipo → IA",
+        "Recoge opiniones de usuarios reales.",
+        "Un prototipo demostrable",
+        ["Explica para quién y para qué.", "Mejora algo a partir de opiniones."]
+      ],
+      [
+        "ETAPA 2 · FULL STACK",
+        "Publicar por tu cuenta",
+        "Interfaz → API → datos → despliegue",
+        "Conecta las piezas de un proyecto.",
+        "Una aplicación en línea",
+        ["Guarda datos y prueba el flujo.", "Otra persona puede usarla."]
+      ],
+      [
+        "ETAPA 3 · AVANZADO",
+        "Llevar proyectos mayores",
+        "Tareas → herramientas → plataforma",
+        "Elige herramientas según el proyecto.",
+        "Un proyecto que evoluciona",
+        [
+          "Define el alcance y los criterios.",
+          "Verifica los flujos tras cada cambio."
+        ]
+      ]
+    ],
+    "practice": "Conserva tu trabajo y un registro de mejoras",
+    "practice_sub": "Reutiliza tu proyecto: detecta un problema, investiga, modifica y verifica.",
+    "bottom": [
+      "No hace falta leerlo todo primero",
+      "Consulta el apéndice cuando lo necesites",
+      "Elige una ruta avanzada según tu proyecto"
+    ],
+    "proof": "META DE LA ETAPA",
+    "map_label": "01 / ELIGE TU INICIO",
+    "growth_label": "02 / OBSERVA TU PROGRESO",
+    "nav": [
+      "Guía de aprendizaje",
+      "Primer contacto con IA",
+      "Validar una idea",
+      "Publicar una aplicación",
+      "Proyectos avanzados"
+    ],
+    "subnav": [
+      "Primera experiencia",
+      "Proyecto de etapa 1",
+      "Proyecto full stack de etapa 2",
+      "Flujos de etapa 3",
+      "Apéndice"
+    ],
+    "back": "↑ Consulta la ruta de progreso anterior y elige entre los capítulos siguientes.",
+    "font_sizes": {
+      "Un pequeño juego funcional": 17.2,
+      "Un prototipo de producto": 19.2,
+      "Valida la necesidad antes de seguir.": 14.5,
+      "Sé programar, quiero publicar": 19.7,
+      "Un proyecto que evoluciona": 15.7,
+      "Haz que colaborar con IA sea fiable.": 14.4,
+      "Un prototipo demostrable": 17.2,
+      "Publicar por tu cuenta": 19.9,
+      "Llevar proyectos mayores": 17
+    }
+  },
+  "fr-fr": {
+    "pick_title": "Par où commencer ?",
+    "pick_sub": "Choisissez selon vos compétences actuelles et ce que vous voulez créer.",
+    "heads": [
+      "Votre point de départ",
+      "Quoi apprendre, et comment",
+      "Un premier résultat concret"
+    ],
+    "rows": [
+      [
+        "Je débute en programmation",
+        "Étudiants, enseignants, professionnels",
+        "PREMIER ESSAI → ÉTAPE 1",
+        ["Coder avec l’IA", "Utiliser un IDE IA"],
+        "Lancez un exemple, puis changez une fonction.",
+        ["Un petit jeu qui fonctionne", "Passer de l’idée à un résultat réel."]
+      ],
+      [
+        "J’ai une idée à valider",
+        "Produit, design, entrepreneuriat",
+        "ÉTAPE 1 · PROTOTYPE",
+        ["Besoin réel", "Prototyper", "Ajouter l’IA"],
+        "Faites essayer le prototype, puis améliorez-le.",
+        ["Un prototype à tester", "Valider le besoin avant d’aller plus loin."]
+      ],
+      [
+        "Je sais coder, je veux publier",
+        "Développement frontend et backend",
+        "ÉTAPE 2 · DÉVELOPPEMENT FULL STACK",
+        ["Interface et API", "Base de données", "Déployer"],
+        "Choisissez un projet et reliez les éléments.",
+        ["Une application en ligne", "Du développement à la mise en ligne."]
+      ],
+      [
+        "J’ai déjà livré des projets",
+        "Développeurs et responsables techniques",
+        "ÉTAPE 3 · DÉVELOPPEMENT AVANCÉ",
+        ["Flux avec l’IA", "Étendre les outils", "Plateformes"],
+        "Choisissez un parcours, découpez et vérifiez.",
+        ["Un projet qui évolue", "Fiabiliser la collaboration avec l’IA."]
+      ]
+    ],
+    "pick_footer": "Commencez par le guide. Passez ce que vous maîtrisez : choisissez selon vos capacités et votre objectif, pas seulement votre métier.",
+    "grow_title": "Du premier jeu aux projets complexes",
+    "grow_sub": "À chaque étape, vérifiez vos progrès avec un résultat concret. Continuez selon vos objectifs.",
+    "steps": [
+      [
+        "PREMIER ESSAI",
+        "Créer par le dialogue",
+        "Décrire → lancer → voir → ajuster",
+        "Faites fonctionner, puis modifiez.",
+        "Un jeu qui fonctionne",
+        [
+          "Expliquez les entrées et sorties.",
+          "Vérifiez après une modification."
+        ]
+      ],
+      [
+        "ÉTAPE 1 · PROTOTYPE",
+        "Valider une idée",
+        "Besoin → prototype → IA",
+        "Recueillez l’avis de vrais utilisateurs.",
+        "Un prototype à montrer",
+        ["Expliquez pour qui et pourquoi.", "Améliorez selon les retours."]
+      ],
+      [
+        "ÉTAPE 2 · FULL STACK",
+        "Publier en autonomie",
+        "UI → API → données → publication",
+        "Reliez les éléments d’un projet complet.",
+        "Une application en ligne",
+        [
+          "Enregistrez et testez le parcours.",
+          "Une autre personne peut l’utiliser."
+        ]
+      ],
+      [
+        "ÉTAPE 3 · AVANCÉ",
+        "Gérer plus de complexité",
+        "Tâches → outils → plateforme",
+        "Choisissez selon les besoins du projet.",
+        "Un projet qui évolue",
+        [
+          "Fixez le périmètre et les critères.",
+          "Vérifiez après chaque changement."
+        ]
+      ]
+    ],
+    "practice": "Gardez vos réalisations et une trace des améliorations",
+    "practice_sub": "Reprenez votre projet : repérez un problème, cherchez la cause, modifiez et vérifiez.",
+    "bottom": [
+      "Inutile de tout lire avant de commencer",
+      "Consultez l’annexe au besoin",
+      "Choisissez un parcours avancé utile au projet"
+    ],
+    "proof": "OBJECTIF ATTEINT SI",
+    "map_label": "01 / CHOISIR SON DÉPART",
+    "growth_label": "02 / VOIR SA PROGRESSION",
+    "nav": [
+      "Guide d’apprentissage",
+      "Débuter avec l’IA",
+      "Valider une idée",
+      "Publier une application",
+      "Projets avancés"
+    ],
+    "subnav": [
+      "Premier essai",
+      "Projet de l’étape 1",
+      "Projet full stack de l’étape 2",
+      "Méthodes de l’étape 3",
+      "Annexe"
+    ],
+    "back": "↑ Consultez la progression ci-dessus, puis choisissez parmi les chapitres suivants.",
+    "font_sizes": {
+      "Un premier résultat concret": 17.7,
+      "Je débute en programmation": 20.5,
+      "Étudiants, enseignants, professionnels": 16.4,
+      "Un petit jeu qui fonctionne": 18.3,
+      "Valider le besoin avant d’aller plus loin.": 13.4,
+      "Je sais coder, je veux publier": 20.3,
+      "Base de données": 14.6,
+      "Du développement à la mise en ligne.": 13.8,
+      "Développeurs et responsables techniques": 15.1,
+      "Étendre les outils": 14.4,
+      "Gérer plus de complexité": 17.6,
+      "Choisissez un parcours avancé utile au projet": 16.6
+    }
+  },
+  "de-de": {
+    "pick_title": "Wo fangen wir an?",
+    "pick_sub": "Wähle nach deinem aktuellen Können und dem, was du entwickeln möchtest.",
+    "heads": [
+      "Dein Ausgangspunkt",
+      "Was und wie du lernst",
+      "Ein erstes konkretes Ergebnis"
+    ],
+    "rows": [
+      [
+        "Neu beim Programmieren",
+        "Studierende, Lehrkräfte, Berufstätige",
+        "ERSTE SCHRITTE → STUFE 1",
+        ["KI-Coding testen", "KI-IDE nutzen"],
+        "Starte ein Beispiel und ändere eine Funktion.",
+        [
+          "Ein lauffähiges kleines Spiel",
+          "Aus einer Idee wird etwas Greifbares."
+        ]
+      ],
+      [
+        "Eine Idee prüfen",
+        "Produkt, Design, Gründung",
+        "STUFE 1 · PROTOTYPEN",
+        ["Bedarf finden", "Prototyp bauen", "KI einbinden"],
+        "Lass Zielnutzer testen und verbessere danach.",
+        ["Ein testbarer Prototyp", "Erst den Bedarf prüfen, dann ausbauen."]
+      ],
+      [
+        "Programmieren, dann liefern",
+        "Frontend- und Backend-Entwicklung",
+        "STUFE 2 · FULL-STACK-ENTWICKLUNG",
+        ["Oberfläche & API", "Datenbank", "Bereitstellen"],
+        "Verbinde alle Teile in einem ganzen Projekt.",
+        ["Eine online nutzbare App", "Von der Entwicklung bis zum Betrieb."]
+      ],
+      [
+        "Bereits Projekte ausgeliefert",
+        "Entwicklung und technische Leitung",
+        "STUFE 3 · FORTGESCHRITTEN",
+        ["KI-Arbeitsablauf", "Tools erweitern", "Plattformen"],
+        "Wähle einen Weg; zerlege und prüfe Aufgaben.",
+        ["Ein erweiterbares Projekt", "KI-Zusammenarbeit verlässlich machen."]
+      ]
+    ],
+    "pick_footer": "Lies zuerst den Lernleitfaden. Bekanntes darfst du überspringen: Wähle nach Können und Ziel, nicht nur nach Berufsbezeichnung.",
+    "grow_title": "Vom ersten Spiel zu komplexen Projekten",
+    "grow_sub": "Zeige jeden Fortschritt an einem funktionierenden Ergebnis. Gehe nach Bedarf weiter.",
+    "steps": [
+      [
+        "ERSTE SCHRITTE",
+        "Im Dialog entwickeln",
+        "Planen → starten → prüfen → ändern",
+        "Erst starten, dann eine Funktion ändern.",
+        "Ein lauffähiges Spiel",
+        ["Ein- und Ausgaben erklären.", "Nach Änderungen erneut prüfen."]
+      ],
+      [
+        "STUFE 1 · PROTOTYPEN",
+        "Eine Idee validieren",
+        "Bedarf → Prototyp → KI",
+        "Feedback echter Nutzer sammeln.",
+        "Ein vorführbarer Prototyp",
+        ["Für wen löst er welches Problem?", "Einmal nach Feedback verbessern."]
+      ],
+      [
+        "STUFE 2 · FULL STACK",
+        "Selbstständig ausliefern",
+        "Oberfläche → API → Daten → Betrieb",
+        "Die Teile im Gesamtprojekt verbinden.",
+        "Eine online nutzbare App",
+        ["Daten speichern, Ablauf testen.", "Andere können sie öffnen."]
+      ],
+      [
+        "STUFE 3 · VERTIEFUNG",
+        "Größere Projekte steuern",
+        "Aufgaben → Tools → Plattform",
+        "Arbeitsweise passend zum Ziel wählen.",
+        "Ein erweiterbares Projekt",
+        ["Umfang und Prüfkriterien setzen.", "Kernabläufe danach testen."]
+      ]
+    ],
+    "practice": "Bewahre dein Werk und deine Verbesserungen auf",
+    "practice_sub": "Nutze dein Projekt weiter: Problem finden, Ursache klären, ändern und prüfen.",
+    "bottom": [
+      "Du musst nicht alles vorher lesen",
+      "Grundlagen bei Bedarf im Anhang nachsehen",
+      "Wähle einen passenden Vertiefungsweg"
+    ],
+    "proof": "ABSCHLUSS ERKENNEN",
+    "map_label": "01 / EINSTIEG WÄHLEN",
+    "growth_label": "02 / FORTSCHRITT SEHEN",
+    "nav": [
+      "Lernleitfaden",
+      "Erste KI-Coding-Erfahrung",
+      "Eine Idee validieren",
+      "Eine App veröffentlichen",
+      "Fortgeschrittene Projekte"
+    ],
+    "subnav": [
+      "Erste Schritte",
+      "Projekt der Stufe 1",
+      "Full-Stack-Projekt der Stufe 2",
+      "Arbeitsabläufe der Stufe 3",
+      "Anhang"
+    ],
+    "back": "↑ Sieh dir den Lernfortschritt oben an und wähle dann aus den folgenden Kapiteln.",
+    "font_sizes": {
+      "Ein erstes konkretes Ergebnis": 16.1,
+      "Ein lauffähiges kleines Spiel": 17.2,
+      "Aus einer Idee wird etwas Greifbares.": 13.8,
+      "Erst den Bedarf prüfen, dann ausbauen.": 13,
+      "Oberfläche & API": 14.7,
+      "Eine online nutzbare App": 17.6,
+      "Von der Entwicklung bis zum Betrieb.": 14,
+      "Bereits Projekte ausgeliefert": 20.8,
+      "KI-Arbeitsablauf": 15.5,
+      "Ein erweiterbares Projekt": 17.5,
+      "KI-Zusammenarbeit verlässlich machen.": 12.9,
+      "Ein vorführbarer Prototyp": 17.2,
+      "Selbstständig ausliefern": 18.2,
+      "Größere Projekte steuern": 17.5,
+      "Grundlagen bei Bedarf im Anhang nachsehen": 16.6,
+      "Programmieren, dann liefern": 20.6
+    }
+  },
+  "vi-vn": {
+    "pick_title": "Chúng ta nên bắt đầu từ đâu?",
+    "pick_sub": "Chọn theo kỹ năng hiện tại và sản phẩm bạn muốn tạo ra.",
+    "heads": ["Điểm xuất phát", "Học gì và học thế nào", "Kết quả đầu tiên"],
+    "rows": [
+      [
+        "Chưa biết lập trình",
+        "Học sinh, sinh viên, giáo viên, người đi làm",
+        "TRẢI NGHIỆM ĐẦU → GIAI ĐOẠN 1",
+        ["Thử lập trình AI", "Dùng IDE AI"],
+        "Chạy ví dụ, rồi tự sửa một tính năng.",
+        ["Một trò chơi chạy được", "Từ ý tưởng đến sản phẩm thực tế."]
+      ],
+      [
+        "Có ý tưởng cần kiểm chứng",
+        "Sản phẩm, thiết kế, khởi nghiệp",
+        "GIAI ĐOẠN 1 · NGUYÊN MẪU",
+        ["Tìm nhu cầu", "Tạo mẫu", "Tích hợp AI"],
+        "Mời người dùng mục tiêu thử và góp ý.",
+        ["Nguyên mẫu có thể dùng thử", "Xác nhận nhu cầu trước khi làm tiếp."]
+      ],
+      [
+        "Biết viết mã, muốn ra mắt",
+        "Lập trình frontend và backend",
+        "GIAI ĐOẠN 2 · FULL STACK",
+        ["Giao diện & API", "Cơ sở dữ liệu", "Triển khai"],
+        "Chọn một dự án và kết nối các phần.",
+        ["Ứng dụng dùng trực tuyến", "Đi từ phát triển đến ra mắt."]
+      ],
+      [
+        "Đã ra mắt, muốn tiến xa hơn",
+        "Lập trình viên, trưởng nhóm kỹ thuật",
+        "GIAI ĐOẠN 3 · NÂNG CAO",
+        ["Quy trình AI", "Mở rộng công cụ", "Đa nền tảng"],
+        "Chọn một hướng; chia việc và kiểm tra.",
+        [
+          "Dự án có thể cải tiến lâu dài",
+          "Cộng tác với AI theo quy trình ổn định."
+        ]
+      ]
+    ],
+    "pick_footer": "Xem hướng dẫn học trước. Có thể bỏ qua phần đã biết; chọn theo năng lực và mục tiêu, không chỉ theo nghề nghiệp.",
+    "grow_title": "Từ trò chơi đầu tiên đến dự án phức tạp",
+    "grow_sub": "Mỗi bước có một sản phẩm chạy được để xác nhận tiến bộ. Học tiếp khi mục tiêu cần đến.",
+    "steps": [
+      [
+        "TRẢI NGHIỆM ĐẦU",
+        "Tạo mã qua đối thoại",
+        "Mô tả → chạy → quan sát → sửa",
+        "Chạy trước, rồi sửa một tính năng.",
+        "Trò chơi chạy được",
+        ["Giải thích đầu vào và đầu ra.", "Sau khi sửa vẫn hoạt động đúng."]
+      ],
+      [
+        "GIAI ĐOẠN 1 · TẠO MẪU",
+        "Kiểm chứng ý tưởng",
+        "Nhu cầu → nguyên mẫu → AI",
+        "Mời người dùng thật thử và góp ý.",
+        "Nguyên mẫu trình diễn được",
+        ["Giải quyết việc gì, cho ai?", "Cải tiến một lần theo phản hồi."]
+      ],
+      [
+        "GIAI ĐOẠN 2 · FULL STACK",
+        "Tự triển khai ứng dụng",
+        "Giao diện → API → dữ liệu → triển khai",
+        "Kết nối các phần trong dự án đầy đủ.",
+        "Ứng dụng trực tuyến",
+        ["Lưu dữ liệu và chạy luồng chính.", "Người khác mở và sử dụng được."]
+      ],
+      [
+        "GIAI ĐOẠN 3 · NÂNG CAO",
+        "Làm dự án phức tạp",
+        "Chia việc → công cụ → nền tảng",
+        "Chọn quy trình và công cụ theo dự án.",
+        "Dự án cải tiến liên tục",
+        [
+          "Xác định phạm vi và tiêu chí xong.",
+          "Kiểm tra luồng chính sau khi sửa."
+        ]
+      ]
+    ],
+    "practice": "Giữ lại sản phẩm và nhật ký cải tiến",
+    "practice_sub": "Dùng lại dự án: tìm vấn đề, tìm nguyên nhân, sửa và kiểm chứng.",
+    "bottom": [
+      "Không cần đọc hết trước khi làm",
+      "Tra phụ lục khi thiếu kiến thức nền",
+      "Chọn một hướng nâng cao theo dự án"
+    ],
+    "proof": "TIÊU CHÍ HOÀN THÀNH",
+    "map_label": "01 / CHỌN ĐIỂM BẮT ĐẦU",
+    "growth_label": "02 / XEM LỘ TRÌNH TIẾN BỘ",
+    "nav": [
+      "Hướng dẫn học",
+      "Trải nghiệm lập trình AI",
+      "Kiểm chứng ý tưởng",
+      "Ra mắt ứng dụng",
+      "Dự án nâng cao"
+    ],
+    "subnav": [
+      "Trải nghiệm đầu",
+      "Dự án giai đoạn 1",
+      "Dự án full stack giai đoạn 2",
+      "Quy trình giai đoạn 3",
+      "Phụ lục"
+    ],
+    "back": "↑ Xem lộ trình tiến bộ ở trên, rồi chọn các chương bên dưới.",
+    "font_sizes": {
+      "Học sinh, sinh viên, giáo viên, người đi làm": 14.7,
+      "Có ý tưởng cần kiểm chứng": 21,
+      "Nguyên mẫu có thể dùng thử": 16.6,
+      "Xác nhận nhu cầu trước khi làm tiếp.": 14.1,
+      "Ứng dụng dùng trực tuyến": 18.1,
+      "Đã ra mắt, muốn tiến xa hơn": 20.8,
+      "Mở rộng công cụ": 14.7,
+      "Dự án có thể cải tiến lâu dài": 17.4,
+      "Cộng tác với AI theo quy trình ổn định.": 13.5,
+      "Nguyên mẫu trình diễn được": 15.3,
+      "Tự triển khai ứng dụng": 19.1
+    }
+  },
+  "ar-sa": {
+    "dir": "rtl",
+    "pick_title": "من أين نبدأ؟",
+    "pick_sub": "اختر المسار حسب مهاراتك الحالية وما تريد بناءه.",
+    "heads": ["نقطة البداية", "ماذا نتعلم وكيف؟", "أول نتيجة ملموسة"],
+    "rows": [
+      [
+        "مبتدئ في البرمجة",
+        "طلاب ومعلمون وموظفون",
+        "التجربة الأولى ← المرحلة 1",
+        ["تجربة البرمجة", "أدوات الذكاء الاصطناعي"],
+        "شغّل المثال، ثم عدّل ميزة واحدة.",
+        ["لعبة صغيرة تعمل", "من الفكرة إلى نتيجة عملية."]
+      ],
+      [
+        "لديك فكرة تريد اختبارها",
+        "المنتج والتصميم وريادة الأعمال",
+        "المرحلة 1 · النموذج الأولي",
+        ["حاجة حقيقية", "نموذج أولي", "دمج الذكاء الاصطناعي"],
+        "دع المستخدمين يجربونه، ثم حسّنه.",
+        ["نموذج منتج قابل للتجربة", "تحقق من الحاجة قبل التوسع."]
+      ],
+      [
+        "تكتب الشيفرة وتريد النشر",
+        "تطوير الواجهات والخدمات الخلفية",
+        "المرحلة 2 · التطوير المتكامل",
+        ["الواجهة و API", "قاعدة بيانات", "النشر"],
+        "اختر مشروعًا كاملًا واربط أجزاءه.",
+        ["تطبيق متاح عبر الإنترنت", "من التطوير إلى النشر."]
+      ],
+      [
+        "أنجزت مشاريع وتريد التقدم",
+        "المطورون والقادة التقنيون",
+        "المرحلة 3 · التطوير المتقدم",
+        ["سير العمل", "توسيع الأدوات", "المنصات"],
+        "اختر مسارًا، وقسّم المهام وتحقق منها.",
+        ["مشروع قابل للتحسين المستمر", "تعاون موثوق مع الذكاء الاصطناعي."]
+      ]
+    ],
+    "pick_footer": "ابدأ بدليل التعلم. تجاوز ما تتقنه، واختر حسب مهاراتك وهدفك، لا حسب المسمى الوظيفي وحده.",
+    "grow_title": "من أول لعبة إلى مشاريع معقدة",
+    "grow_sub": "أثبت تقدمك بنتيجة عملية في كل خطوة، وتابع عندما يتطلب هدفك ذلك.",
+    "steps": [
+      [
+        "التجربة الأولى",
+        "أنشئ برنامجًا بالحوار",
+        "وصف ← تشغيل ← ملاحظة ← تعديل",
+        "شغّله، ثم غيّر ميزة صغيرة.",
+        "لعبة تعمل",
+        ["اشرح المدخلات والمخرجات.", "تحقق من العمل بعد التعديل."]
+      ],
+      [
+        "المرحلة 1 · النموذج الأولي",
+        "اختبر فكرتك",
+        "حاجة ← نموذج أولي ← ذكاء اصطناعي",
+        "اجمع آراء مستخدمين حقيقيين.",
+        "نموذج يمكن عرضه",
+        ["اشرح لمن يحل أي مشكلة.", "حسّن شيئًا بناءً على الملاحظات."]
+      ],
+      [
+        "المرحلة 2 · التطوير المتكامل",
+        "انشر التطبيق بنفسك",
+        "واجهة ← خدمات ← بيانات ← نشر",
+        "اربط الأجزاء في مشروع متكامل.",
+        "تطبيق عبر الإنترنت",
+        ["احفظ البيانات واختبر المسار.", "يمكن للآخرين فتحه واستخدامه."]
+      ],
+      [
+        "المرحلة 3 · التطوير المتقدم",
+        "أدر مشاريع أكبر",
+        "مهام ← أدوات ← منصة",
+        "اختر الأدوات حسب حاجة المشروع.",
+        "مشروع يتطور باستمرار",
+        ["حدّد نطاق المهام ومعايير الإنجاز.", "اختبر المسارات بعد التغييرات."]
+      ]
+    ],
+    "practice": "احتفظ بعملك وسجّل التحسينات",
+    "practice_sub": "أعد استخدام مشروعك: اكتشف المشكلة، وابحث عن السبب، ثم عدّل وتحقق.",
+    "bottom": [
+      "لا يلزم قراءة كل شيء أولًا",
+      "راجع الملحق عند الحاجة إلى الأساسيات",
+      "اختر مسارًا متقدمًا يناسب مشروعك"
+    ],
+    "proof": "معيار الإنجاز",
+    "map_label": "01 / اختر نقطة البداية",
+    "growth_label": "02 / شاهد مسار التقدم",
+    "nav": [
+      "دليل التعلم",
+      "تجربة البرمجة بالذكاء الاصطناعي",
+      "اختبار الفكرة",
+      "نشر تطبيق",
+      "مشاريع متقدمة"
+    ],
+    "subnav": [
+      "التجربة الأولى",
+      "مشروع المرحلة 1",
+      "مشروع متكامل للمرحلة 2",
+      "سير العمل في المرحلة 3",
+      "الملحق"
+    ],
+    "back": "↑ راجع مسار التقدم أعلاه، ثم اختر من الفصول التالية.",
+    "font_sizes": {
+      "أدوات الذكاء الاصطناعي": 16.4,
+      "دمج الذكاء الاصطناعي": 16.3
+    }
+  }
+}

@@ -8,6 +8,7 @@
 |---|---|---|
 | `build-locales.mjs` | `npm run build` / `npm run build:locales` / `npm run build:force` | 多 locale 并行构建（5 组 locale，每组 2 种语言），并调用下方的 sitemap 脚本 |
 | `generate-sitemap.mjs` | `npm run sitemap` / 被 `build-locales.mjs` 自动调用 | 生成 `sitemap.xml` 与 `robots.txt` |
+| `generate-readme-learning-map.mjs` | `node scripts/generate-readme-learning-map.mjs` / 加 `--check` 校验 | 从 `readme-learning-map.locales.json` 生成 10 种语言的选路图、成长图和 README 教程入口；阿拉伯语使用从右到左布局 |
 | `scan-appendix-component-i18n.md`（引用见文档） | `node scripts/scan-appendix-component-i18n.mjs <locale1> <locale2>` | 附录组件的 i18n 翻译缺失扫描（对比两个 locale 的 `<template>` 文案） |
 
 ## 其它

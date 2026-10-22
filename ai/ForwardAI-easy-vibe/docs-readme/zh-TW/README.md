@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="互動式學習：提示詞實驗、RAG 探索與終端原理" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-zh-tw.svg" alt="我們從哪裡開始？ 按目前基礎和想做的事選一列，就能找到自己的閱讀起點。" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/learning-map/">學習指南</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/ai-capabilities-through-games/">零基礎：程式設計初體驗</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/finding-great-idea/">驗證想法：需求與原型</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/">上線應用：全端開發</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/">複雜專案：進階開發</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-zh-tw.svg" alt="從第一個小遊戲，到能交付複雜專案 每走一步，都用實際作品確認進步；能完成目前目標，再按需要繼續。" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/ai-capabilities-through-games/">新手體驗</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-1/complete-project-practice/">階段 1 綜合實作</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-2/assignments/copywriting-platform-supabase/">階段 2 全端實作</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/stage-3/core-skills/workflow/">階段 3 工作流程</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/zh-tw/appendix/">附錄隨查</a>
 </p>
 
 <table align="center">
@@ -249,9 +269,7 @@ Easy-Vibe 教你的，就是怎樣把它一步步做成真正的產品。
 
 ### 📖 內容導航
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Learning Map" width="100%">
-</div>
+<p><a href="#learning-progression">↑ 查看前面的能力成長路線圖，再按下面的章節選擇閱讀。</a></p>
 
 ### 一、零基礎入門
 

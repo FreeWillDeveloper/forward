@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/es-es/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="Aprendizaje interactivo: experimentos con prompts, exploración de RAG y conceptos de terminal" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-es-es.svg" alt="¿Por dónde empezamos? Elige según lo que ya sabes y lo que quieres construir." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-1/learning-map/">Guía de aprendizaje</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-1/ai-capabilities-through-games/">Primer contacto con IA</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-1/finding-great-idea/">Validar una idea</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-2/">Publicar una aplicación</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-3/">Proyectos avanzados</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-es-es.svg" alt="Del primer juego a proyectos complejos Demuestra cada avance con un resultado funcional y continúa cuando tu objetivo lo requiera." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-1/ai-capabilities-through-games/">Primera experiencia</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-1/complete-project-practice/">Proyecto de etapa 1</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-2/assignments/copywriting-platform-supabase/">Proyecto full stack de etapa 2</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/stage-3/core-skills/workflow/">Flujos de etapa 3</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/es-es/appendix/">Apéndice</a>
 </p>
 
 <table align="center">
@@ -247,9 +267,7 @@ Ejemplos conceptuales de proyectos. Explora los tutoriales correspondientes:
 
 ### 📖 Navegación de contenidos
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="Mapa de aprendizaje" width="100%">
-</div>
+<p><a href="#learning-progression">↑ Consulta la ruta de progreso anterior y elige entre los capítulos siguientes.</a></p>
 
 ### I. Entrada para principiantes
 

@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="対話型学習：プロンプト実験、RAG の探索、ターミナルの仕組み" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-ja-jp.svg" alt="どこから始める？ 今できることと作りたいものに合わせて、読む順番を選びましょう。" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/learning-map/">学習ガイド</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/ai-capabilities-through-games/">未経験：AI コーディング</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/finding-great-idea/">アイデアの検証と試作</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/">アプリの公開</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/">応用プロジェクト</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-ja-jp.svg" alt="初めてのゲームから、複雑な制作へ 各段階で動く成果物を作り、できることを確かめてから必要に応じて進みます。" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/ai-capabilities-through-games/">初めての体験</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-1/complete-project-practice/">ステージ 1 実践</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-2/assignments/copywriting-platform-supabase/">ステージ 2 実践</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/stage-3/core-skills/workflow/">ステージ 3 作業手順</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ja-jp/appendix/">付録</a>
 </p>
 
 <table align="center">
@@ -247,9 +267,7 @@ Easy-Vibe は、それを本物のプロダクトにする方法を教えます�
 
 ### 📖 コンテンツナビゲーション
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="学習マップ" width="100%">
-</div>
+<p><a href="#learning-progression">↑ 上の成長ルートを確認し、以下の章から読む内容を選びましょう。</a></p>
 
 ### I. 初心者入門
 

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="890" viewBox="0 0 1200 890" role="img" aria-labelledby="title desc" lang="de-de">
+<title id="title">Wo fangen wir an?</title><desc id="desc">Wähle nach deinem aktuellen Können und dem, was du entwickeln möchtest. Neu beim Programmieren / ERSTE SCHRITTE → STUFE 1 / Ein lauffähiges kleines Spiel; Eine Idee prüfen / STUFE 1 · PROTOTYPEN / Ein testbarer Prototyp; Programmieren, dann liefern / STUFE 2 · FULL-STACK-ENTWICKLUNG / Eine online nutzbare App; Bereits Projekte ausgeliefert / STUFE 3 · FORTGESCHRITTEN / Ein erweiterbares Projekt</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="1198" height="888" rx="22" fill="#FFFFFF" stroke="#DCE8F6"/>
+<text x="40" y="43" font-size="22" fill="#0982E6" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">easy-vibe</text>
+<text x="1160" y="43" font-size="15" fill="#6985A6" font-weight="600" text-anchor="end" data-fit-width="600" data-fit-base-size="15">01 / EINSTIEG WÄHLEN</text>
+<text x="40" y="103" font-size="38" fill="#132B49" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="38">Wo fangen wir an?</text>
+<text x="40" y="144" font-size="22" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">Wähle nach deinem aktuellen Können und dem, was du entwickeln möchtest.</text>
+<rect x="40" y="176" width="1120" height="46" rx="10" fill="#F2F7FD"/>
+<text x="62" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="288" data-fit-base-size="20">Dein Ausgangspunkt</text>
+<text x="370" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="20">Was und wie du lernst</text>
+<text x="905" y="206" font-size="16.1" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">Ein erstes konkretes Ergebnis</text>
+<rect x="40" y="238" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="238" width="6" height="126" rx="3" fill="#1674DB"/>
+<text x="64" y="278" font-size="22" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="22">Neu beim Programmieren</text>
+<text x="64" y="311" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="17">Studierende, Lehrkräfte, Berufstätige</text>
+<text x="370" y="265" font-size="12" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="12">ERSTE SCHRITTE → STUFE 1</text>
+<rect x="370" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="444" y="300" font-size="16" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="16">KI-Coding testen</text>
+<path d="M524 294h13m-4-4 4 4-4 4" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="548" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="622" y="300" font-size="16" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="16">KI-IDE nutzen</text>
+<text x="370" y="341" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="17">Starte ein Beispiel und ändere eine Funktion.</text>
+<path d="M875 263v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="288" font-size="17.2" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">Ein lauffähiges kleines Spiel</text>
+<text x="905" y="322" font-size="13.8" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="15">Aus einer Idee wird etwas Greifbares.</text>
+<rect x="40" y="380" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="380" width="6" height="126" rx="3" fill="#6755C9"/>
+<text x="64" y="420" font-size="22" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="22">Eine Idee prüfen</text>
+<text x="64" y="453" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="17">Produkt, Design, Gründung</text>
+<text x="370" y="407" font-size="12" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="12">STUFE 1 · PROTOTYPEN</text>
+<rect x="370" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="439" y="442" font-size="16" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">Bedarf finden</text>
+<path d="M514 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="607" y="442" font-size="16" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">Prototyp bauen</text>
+<path d="M682 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="775" y="442" font-size="16" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">KI einbinden</text>
+<text x="370" y="483" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="17">Lass Zielnutzer testen und verbessere danach.</text>
+<path d="M875 405v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="430" font-size="20" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">Ein testbarer Prototyp</text>
+<text x="905" y="464" font-size="13" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="15">Erst den Bedarf prüfen, dann ausbauen.</text>
+<rect x="40" y="522" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="522" width="6" height="126" rx="3" fill="#088878"/>
+<text x="64" y="562" font-size="20.6" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="22">Programmieren, dann liefern</text>
+<text x="64" y="595" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="17">Frontend- und Backend-Entwicklung</text>
+<text x="370" y="549" font-size="12" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="12">STUFE 2 · FULL-STACK-ENTWICKLUNG</text>
+<rect x="370" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="439" y="584" font-size="14.7" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">Oberfläche &amp; API</text>
+<path d="M514 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="607" y="584" font-size="16" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">Datenbank</text>
+<path d="M682 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="775" y="584" font-size="16" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">Bereitstellen</text>
+<text x="370" y="625" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="17">Verbinde alle Teile in einem ganzen Projekt.</text>
+<path d="M875 547v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="572" font-size="17.6" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">Eine online nutzbare App</text>
+<text x="905" y="606" font-size="14" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="15">Von der Entwicklung bis zum Betrieb.</text>
+<rect x="40" y="664" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="664" width="6" height="126" rx="3" fill="#B66B1B"/>
+<text x="64" y="704" font-size="20.8" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="22">Bereits Projekte ausgeliefert</text>
+<text x="64" y="737" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="17">Entwicklung und technische Leitung</text>
+<text x="370" y="691" font-size="12" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="12">STUFE 3 · FORTGESCHRITTEN</text>
+<rect x="370" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="439" y="726" font-size="15.5" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">KI-Arbeitsablauf</text>
+<path d="M514 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="607" y="726" font-size="16" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">Tools erweitern</text>
+<path d="M682 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="775" y="726" font-size="16" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="16">Plattformen</text>
+<text x="370" y="767" font-size="17" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="17">Wähle einen Weg; zerlege und prüfe Aufgaben.</text>
+<path d="M875 689v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="714" font-size="17.5" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">Ein erweiterbares Projekt</text>
+<text x="905" y="748" font-size="12.9" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="15">KI-Zusammenarbeit verlässlich machen.</text>
+<text x="40" y="854" font-size="17" fill="#607B99" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="17">Lies zuerst den Lernleitfaden. Bekanntes darfst du überspringen: Wähle nach Können und Ziel, nicht nur nach Berufsbezeichnung.</text>
+</g></svg>

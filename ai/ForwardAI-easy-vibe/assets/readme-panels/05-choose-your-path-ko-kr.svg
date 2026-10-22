@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="890" viewBox="0 0 1200 890" role="img" aria-labelledby="title desc" lang="ko-kr">
+<title id="title">어디서 시작하면 될까요?</title><desc id="desc">지금 할 수 있는 일과 만들고 싶은 결과에 맞춰 학습 경로를 고르세요. 코딩이 처음이라면 / 첫 체험 → 1단계 / 실행되는 작은 게임; 아이디어를 검증하려면 / 1단계 · 제품 프로토타입 / 시험해 볼 수 있는 시제품; 코딩을 알고 출시하려면 / 2단계 · 풀스택 개발 / 온라인으로 쓸 수 있는 앱; 출시 경험이 있다면 / 3단계 · 심화 개발 / 계속 개선할 수 있는 프로젝트</desc>
+<g font-family="Apple SD Gothic Neo, Malgun Gothic, Noto Sans CJK KR, sans-serif">
+<rect x="1" y="1" width="1198" height="888" rx="22" fill="#FFFFFF" stroke="#DCE8F6"/>
+<text x="40" y="43" font-size="22" fill="#0982E6" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">easy-vibe</text>
+<text x="1160" y="43" font-size="15" fill="#6985A6" font-weight="600" text-anchor="end" data-fit-width="600" data-fit-base-size="15">01 / 출발점 고르기</text>
+<text x="40" y="103" font-size="38" fill="#132B49" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="38">어디서 시작하면 될까요?</text>
+<text x="40" y="144" font-size="22" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">지금 할 수 있는 일과 만들고 싶은 결과에 맞춰 학습 경로를 고르세요.</text>
+<rect x="40" y="176" width="1120" height="46" rx="10" fill="#F2F7FD"/>
+<text x="62" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="288" data-fit-base-size="20">현재 출발점</text>
+<text x="370" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="20">무엇을 어떻게 배울까</text>
+<text x="905" y="206" font-size="20" fill="#527295" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="20">먼저 완성할 결과물</text>
+<rect x="40" y="238" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="238" width="6" height="126" rx="3" fill="#1674DB"/>
+<text x="64" y="278" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">코딩이 처음이라면</text>
+<text x="64" y="311" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">학생 / 교사 / 직장인</text>
+<text x="370" y="265" font-size="15" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">첫 체험 → 1단계</text>
+<rect x="370" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="444" y="300" font-size="18" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="18">AI 코딩 체험</text>
+<path d="M524 294h13m-4-4 4 4-4 4" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="548" y="278" width="148" height="32" rx="7" fill="#EDF5FF"/>
+<text x="622" y="300" font-size="18" fill="#1674DB" font-weight="550" text-anchor="middle" data-fit-width="132" data-fit-base-size="18">AI 도구 익히기</text>
+<text x="370" y="341" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">예제를 실행한 뒤 기능 하나를 바꿔 보세요.</text>
+<path d="M875 263v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="288" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">실행되는 작은 게임</text>
+<text x="905" y="322" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">처음으로 직접 만들어 보는 경험</text>
+<rect x="40" y="380" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="380" width="6" height="126" rx="3" fill="#6755C9"/>
+<text x="64" y="420" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">아이디어를 검증하려면</text>
+<text x="64" y="453" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">기획 / 디자인 / 창업</text>
+<text x="370" y="407" font-size="15" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">1단계 · 제품 프로토타입</text>
+<rect x="370" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="439" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">실제 요구 찾기</text>
+<path d="M514 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="607" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">프로토타입</text>
+<path d="M682 436h13m-4-4 4 4-4 4" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="420" width="138" height="32" rx="7" fill="#F1EEFF"/>
+<text x="775" y="442" font-size="18" fill="#6755C9" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">AI 연결</text>
+<text x="370" y="483" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">대상 사용자에게 써 보게 하고 개선하세요.</text>
+<path d="M875 405v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="430" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">시험해 볼 수 있는 시제품</text>
+<text x="905" y="464" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">필요한 제품인지 먼저 확인</text>
+<rect x="40" y="522" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="522" width="6" height="126" rx="3" fill="#088878"/>
+<text x="64" y="562" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">코딩을 알고 출시하려면</text>
+<text x="64" y="595" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">프런트엔드 / 백엔드 개발자</text>
+<text x="370" y="549" font-size="15" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">2단계 · 풀스택 개발</text>
+<rect x="370" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="439" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">화면과 API</text>
+<path d="M514 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="607" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">데이터베이스</text>
+<path d="M682 578h13m-4-4 4 4-4 4" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="562" width="138" height="32" rx="7" fill="#EAF8F4"/>
+<text x="775" y="584" font-size="18" fill="#088878" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">배포</text>
+<text x="370" y="625" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">실습 프로젝트 하나로 전체를 연결하세요.</text>
+<path d="M875 547v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="572" font-size="22" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">온라인으로 쓸 수 있는 앱</text>
+<text x="905" y="606" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">개발부터 출시까지 경험</text>
+<rect x="40" y="664" width="1120" height="126" rx="12" fill="#FFFFFF" stroke="#DFEAF7"/>
+<rect x="40" y="664" width="6" height="126" rx="3" fill="#B66B1B"/>
+<text x="64" y="704" font-size="25" fill="#173654" font-weight="650" text-anchor="start" data-fit-width="286" data-fit-base-size="25">출시 경험이 있다면</text>
+<text x="64" y="737" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="286" data-fit-base-size="19">개발자 / 기술 리더</text>
+<text x="370" y="691" font-size="15" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="480" data-fit-base-size="15">3단계 · 심화 개발</text>
+<rect x="370" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="439" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">AI 작업 흐름</text>
+<path d="M514 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="538" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="607" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">도구 확장</text>
+<path d="M682 720h13m-4-4 4 4-4 4" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="706" y="704" width="138" height="32" rx="7" fill="#FFF4E6"/>
+<text x="775" y="726" font-size="18" fill="#B66B1B" font-weight="550" text-anchor="middle" data-fit-width="122" data-fit-base-size="18">여러 플랫폼</text>
+<text x="370" y="767" font-size="19" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="480" data-fit-base-size="19">한 경로를 골라 작업 분할과 검증을 연습하세요.</text>
+<path d="M875 689v76" stroke="#E0EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="905" y="714" font-size="20.2" fill="#173654" font-weight="600" text-anchor="start" data-fit-width="235" data-fit-base-size="22">계속 개선할 수 있는 프로젝트</text>
+<text x="905" y="748" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="235" data-fit-base-size="18">AI 협업을 안정적인 절차로</text>
+<text x="40" y="854" font-size="19" fill="#607B99" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="19">학습 가이드부터 살펴보세요. 아는 부분은 건너뛰고, 직함보다 현재 실력과 목표를 기준으로 고르세요.</text>
+</g></svg>

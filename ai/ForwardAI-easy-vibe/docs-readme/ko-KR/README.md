@@ -55,10 +55,30 @@
 
 </div>
 
+<a id="learning-start"></a>
 <p align="center">
-  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/appendix/">
-    <img src="../../assets/readme-panels/03-interactive-learning.png" alt="인터랙티브 학습: 프롬프트 실험, RAG 탐색, 터미널 원리" width="100%">
-  </a>
+  <img src="../../assets/readme-panels/05-choose-your-path-ko-kr.svg" alt="어디서 시작하면 될까요? 지금 할 수 있는 일과 만들고 싶은 결과에 맞춰 학습 경로를 고르세요." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-1/learning-map/">학습 가이드</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-1/ai-capabilities-through-games/">입문: AI 코딩 체험</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-1/finding-great-idea/">아이디어 검증과 시제품</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-2/">앱 개발과 출시</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-3/">심화 프로젝트</a>
+</p>
+
+<a id="learning-progression"></a>
+<p align="center">
+  <img src="../../assets/readme-panels/06-learning-progression-ko-kr.svg" alt="첫 게임에서 복잡한 프로젝트까지 각 단계의 실제 결과물로 성장을 확인하고, 목표에 따라 다음 단계로 나아가세요." width="100%">
+</p>
+
+<p align="center">
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-1/ai-capabilities-through-games/">첫 체험</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-1/complete-project-practice/">1단계 종합 실습</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-2/assignments/copywriting-platform-supabase/">2단계 풀스택 실습</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/stage-3/core-skills/workflow/">3단계 작업 흐름</a> ·
+  <a href="https://datawhalechina.github.io/easy-vibe/ko-kr/appendix/">부록</a>
 </p>
 
 <table align="center">
@@ -247,9 +267,7 @@ Easy-Vibe는 그것을 실제 제품으로 만드는 방법을 가르칩니다.
 
 ### 📖 콘텐츠 내비게이션
 
-<div align="center">
-  <img src="../../assets/readme-panels/01-learning-path.svg" alt="학습 지도" width="100%">
-</div>
+<p><a href="#learning-progression">↑ 위의 성장 경로를 확인한 뒤 아래에서 읽을 장을 고르세요.</a></p>
 
 ### I. 초보자 입문
 

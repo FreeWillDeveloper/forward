@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950" role="img" aria-labelledby="title desc" lang="ko-kr">
+<title id="title">첫 게임에서 복잡한 프로젝트까지</title><desc id="desc">각 단계의 실제 결과물로 성장을 확인하고, 목표에 따라 다음 단계로 나아가세요. 첫 체험 / 대화로 프로그램 만들기 / 실행되는 작은 게임; 1단계 · 프로토타입 / 아이디어 검증하기 / 시연 가능한 프로토타입; 2단계 · 풀스택 개발 / 직접 배포하고 출시하기 / 온라인에서 쓸 수 있는 앱; 3단계 · 심화 개발 / 복잡한 프로젝트 이끌기 / 꾸준히 개선하는 프로젝트</desc>
+<g font-family="Apple SD Gothic Neo, Malgun Gothic, Noto Sans CJK KR, sans-serif">
+<rect x="1" y="1" width="1198" height="948" rx="22" fill="#FFFFFF" stroke="#DCE8F6"/>
+<text x="40" y="43" font-size="22" fill="#0982E6" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="22">easy-vibe</text>
+<text x="1160" y="43" font-size="15" fill="#6985A6" font-weight="600" text-anchor="end" data-fit-width="600" data-fit-base-size="15">02 / 성장 경로 보기</text>
+<text x="40" y="102" font-size="36" fill="#132B49" font-weight="700" text-anchor="start" data-fit-width="1120" data-fit-base-size="36">첫 게임에서 복잡한 프로젝트까지</text>
+<text x="40" y="143" font-size="21" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="1120" data-fit-base-size="21">각 단계의 실제 결과물로 성장을 확인하고, 목표에 따라 다음 단계로 나아가세요.</text>
+<path d="M40 778H315V718H605V658H895V598H1160" stroke="#B8CEE9" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="40" y="365" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="40" y="365" width="250" height="7" rx="3" fill="#1674DB"/>
+<rect x="58" y="387" width="42" height="37" rx="9" fill="#EDF5FF"/>
+<text x="79" y="413" font-size="23" fill="#1674DB" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">00</text>
+<text x="58" y="453" font-size="17" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17">첫 체험</text>
+<text x="58" y="493" font-size="22.9" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25">대화로 프로그램 만들기</text>
+<text x="58" y="529" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">설명 → 실행 → 관찰 → 수정</text>
+<text x="58" y="559" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">실행한 뒤 작은 기능 하나 바꾸기</text>
+<path d="M58 581h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="58" y="609" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16">완료 기준</text>
+<text x="58" y="643" font-size="21" fill="#1674DB" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21">실행되는 작은 게임</text>
+<path d="M60 675l4 4 7-9" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="79" y="680" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">입력과 출력을 설명할 수 있다</text>
+<path d="M60 703l4 4 7-9" stroke="#1674DB" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="79" y="708" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">수정 후에도 정상 작동한다</text>
+<path d="M301 462l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="330" y="305" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="330" y="305" width="250" height="7" rx="3" fill="#6755C9"/>
+<rect x="348" y="327" width="42" height="37" rx="9" fill="#F1EEFF"/>
+<text x="369" y="353" font-size="23" fill="#6755C9" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">01</text>
+<text x="348" y="393" font-size="17" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17">1단계 · 프로토타입</text>
+<text x="348" y="433" font-size="25" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25">아이디어 검증하기</text>
+<text x="348" y="469" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">요구 찾기 → 시제품 → AI 연결</text>
+<text x="348" y="499" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">실제 사용자의 의견을 수집하기</text>
+<path d="M348 521h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="348" y="549" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16">완료 기준</text>
+<text x="348" y="583" font-size="21" fill="#6755C9" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21">시연 가능한 프로토타입</text>
+<path d="M350 615l4 4 7-9" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="369" y="620" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">누구의 어떤 문제인지 설명한다</text>
+<path d="M350 643l4 4 7-9" stroke="#6755C9" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="369" y="648" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">의견에 따라 한 번 개선한다</text>
+<path d="M591 402l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="620" y="245" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="620" y="245" width="250" height="7" rx="3" fill="#088878"/>
+<rect x="638" y="267" width="42" height="37" rx="9" fill="#EAF8F4"/>
+<text x="659" y="293" font-size="23" fill="#088878" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">02</text>
+<text x="638" y="333" font-size="17" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17">2단계 · 풀스택 개발</text>
+<text x="638" y="373" font-size="22.9" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25">직접 배포하고 출시하기</text>
+<text x="638" y="409" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">화면 → API → 데이터 → 배포</text>
+<text x="638" y="439" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">종합 프로젝트로 전체 연결하기</text>
+<path d="M638 461h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="638" y="489" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16">완료 기준</text>
+<text x="638" y="523" font-size="21" fill="#088878" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21">온라인에서 쓸 수 있는 앱</text>
+<path d="M640 555l4 4 7-9" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="659" y="560" font-size="15.4" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">데이터 저장과 핵심 흐름이 된다</text>
+<path d="M640 583l4 4 7-9" stroke="#088878" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="659" y="588" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">다른 사람도 열어서 쓸 수 있다</text>
+<path d="M881 342l18-26m-8 2 8-2 1 8" stroke="#7697BE" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="910" y="185" width="250" height="385" rx="15" fill="#FFFFFF" stroke="#D9E7F7"/>
+<rect x="910" y="185" width="250" height="7" rx="3" fill="#B66B1B"/>
+<rect x="928" y="207" width="42" height="37" rx="9" fill="#FFF4E6"/>
+<text x="949" y="233" font-size="23" fill="#B66B1B" font-weight="650" text-anchor="middle" data-fit-width="36" data-fit-base-size="23">03</text>
+<text x="928" y="273" font-size="17" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="17">3단계 · 심화 개발</text>
+<text x="928" y="313" font-size="22.9" fill="#173654" font-weight="700" text-anchor="start" data-fit-width="214" data-fit-base-size="25">복잡한 프로젝트 이끌기</text>
+<text x="928" y="349" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">작업 분할 → 도구 확장 → 플랫폼</text>
+<text x="928" y="379" font-size="15" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="214" data-fit-base-size="15">목표에 맞는 흐름과 도구 선택</text>
+<path d="M928 401h214" stroke="#E1EAF5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="928" y="429" font-size="16" fill="#6C829C" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="16">완료 기준</text>
+<text x="928" y="463" font-size="21" fill="#B66B1B" font-weight="600" text-anchor="start" data-fit-width="214" data-fit-base-size="21">꾸준히 개선하는 프로젝트</text>
+<path d="M930 495l4 4 7-9" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="949" y="500" font-size="15.4" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">작업 범위와 완료 기준을 정한다</text>
+<path d="M930 523l4 4 7-9" stroke="#B66B1B" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="949" y="528" font-size="16" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="193" data-fit-base-size="16">변경 뒤 핵심 흐름을 확인한다</text>
+<rect x="355" y="725" width="805" height="85" rx="12" fill="#F2F7FD"/>
+<text x="378" y="759" font-size="24" fill="#24486D" font-weight="600" text-anchor="start" data-fit-width="760" data-fit-base-size="24">작품과 개선 기록을 함께 남기세요</text>
+<text x="378" y="792" font-size="18" fill="#425978" font-weight="400" text-anchor="start" data-fit-width="760" data-fit-base-size="18">문제 발견 → 원인 파악 → 수정 → 검증을 거쳐 다음 버전에 반영하세요.</text>
+<rect x="40" y="848" width="1120" height="62" rx="12" fill="#F6F9FD"/>
+<text x="62" y="887" font-size="20" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="20">처음부터 전부 읽을 필요는 없어요</text>
+<text x="428" y="887" font-size="20" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="20">기초가 부족할 때는 부록 참고</text>
+<text x="794" y="887" font-size="20" fill="#527295" font-weight="500" text-anchor="start" data-fit-width="342" data-fit-base-size="20">심화는 목표에 맞는 경로 하나 선택</text>
+</g></svg>
