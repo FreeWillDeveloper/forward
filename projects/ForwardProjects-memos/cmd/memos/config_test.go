@@ -159,3 +159,22 @@ func TestConfigApplyCreatesTheDatabase(t *testing.T) {
 	require.Contains(t, stdout.String(), "Apply complete.", "apply bootstraps a fresh instance")
 	require.FileExists(t, filepath.Join(data, "memos_prod.db"))
 }
+
+func TestLegacySecretsFiles(t *testing.T) {
+	require.Nil(t, legacySecretsFiles(filepath.Join(t.TempDir(), "missing")))
+
+	dir := t.TempDir()
+	for _, name := range []string{"memos-idp-company-sso.json", "memos-idp-Google_SSO.json", "memos-instance-setting-storage.json",
+		"memos-instance-setting-Storage.json", "memos-instance-setting-storage.json.bak", "other.json", "README"} {
+		require.NoError(t, os.WriteFile(filepath.Join(dir, name), []byte("{}"), 0o600))
+	}
+	require.NoError(t, os.Mkdir(filepath.Join(dir, "memos-idp-dir.json"), 0o700))
+	require.NoError(t, os.Symlink(filepath.Join(dir, "other.json"), filepath.Join(dir, "memos-instance-setting-general.json")))
+
+	require.Equal(t, []string{
+		filepath.Join(dir, "memos-idp-Google_SSO.json"),
+		filepath.Join(dir, "memos-idp-company-sso.json"),
+		filepath.Join(dir, "memos-instance-setting-general.json"),
+		filepath.Join(dir, "memos-instance-setting-storage.json"),
+	}, legacySecretsFiles(dir))
+}

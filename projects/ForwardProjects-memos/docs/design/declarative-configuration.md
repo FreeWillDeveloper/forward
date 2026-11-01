@@ -825,3 +825,12 @@ comments and less quoting. Protobuf JSON is already the API's wire format and ne
 - Keycloak: [Importing and exporting realms](https://www.keycloak.org/server/importExport)
 - Google AIP: [AIP-122 Resource names](https://google.aip.dev/122), [AIP-193 Errors](https://google.aip.dev/193),
   [AIP-203 Field behavior](https://google.aip.dev/203)
+
+## Amendments
+
+### 2026-11-01: startup warns about leftover `/etc/secrets` files
+
+The v0.31 deployment configuration files (`/etc/secrets/memos-idp-*.json` and `memos-instance-setting-*.json`) stopped being read in
+26.10.0 without a migration, and an instance that kept them through the upgrade gave no sign of it beyond the settings that had silently
+reverted (usememos/memos#6515). Startup now logs one warning naming any such files still present, without reading them, and points at the
+configuration directory. A missing `/etc/secrets` stays silent.

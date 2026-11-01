@@ -288,6 +288,27 @@
         ]
       },
       {
+        "name": "BookOrbit",
+        "packageName": "eu.kanade.tachiyomi.extension.all.bookorbit",
+        "resources": {
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-all.bookorbit-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/bookorbit/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-all.bookorbit-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106001",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": "8828143345277934555",
+            "name": "BookOrbit",
+            "language": "all",
+            "homeUrl": "http://127.0.0.1:3000"
+          }
+        ]
+      },
+      {
         "name": "Buon Dua",
         "packageName": "eu.kanade.tachiyomi.extension.all.buondua",
         "resources": {
@@ -2506,212 +2527,122 @@
         "name": "Kagane",
         "packageName": "eu.kanade.tachiyomi.extension.all.kagane",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-0/tachiyomi-all.kagane-v1.6.38.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/2d50f67/tachiyomi-all.kagane-v1.6.39.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/kagane/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-0/tachiyomi-all.kagane-v1.6.38.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/2d50f67/tachiyomi-all.kagane-v1.6.39.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106038",
-        "versionName": "1.6.38",
+        "versionCode": "106039",
+        "versionName": "1.6.39",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
             "id": "4024736764982024684",
             "name": "Kagane",
             "language": "en",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "1157710231944574609",
             "name": "Kagane",
             "language": "ja",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "1720654391539317254",
             "name": "Kagane",
             "language": "ko",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "538178062602483073",
             "name": "Kagane",
             "language": "zh",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "6291099060619088371",
             "name": "Kagane",
             "language": "es",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "3249170492103400191",
             "name": "Kagane",
             "language": "es-419",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "6053574930456302165",
             "name": "Kagane",
             "language": "fr",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "253007717341293260",
             "name": "Kagane",
             "language": "de",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "3281832279225761326",
             "name": "Kagane",
             "language": "pt",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "8929946374100381402",
             "name": "Kagane",
             "language": "pt-BR",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "8751507648303673848",
             "name": "Kagane",
             "language": "ru",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "1471532184931679941",
             "name": "Kagane",
             "language": "it",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "7702420917357144001",
             "name": "Kagane",
             "language": "id",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "8791972639916297003",
             "name": "Kagane",
             "language": "vi",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "2006734767320263070",
             "name": "Kagane",
             "language": "th",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "1008382500205235233",
             "name": "Kagane",
             "language": "pl",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "9016992318016575502",
             "name": "Kagane",
             "language": "hi",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           },
           {
             "id": "7861921616625741963",
             "name": "Kagane",
             "language": "ar",
-            "homeUrl": "https://kagane.cx",
-            "mirrorUrls": [
-              "https://kagane.cx",
-              "https://kagane.moe",
-              "https://kagane.net"
-            ]
+            "homeUrl": "https://kagane.moe"
           }
         ]
       },
@@ -9656,24 +9587,20 @@
         "name": "AllManga",
         "packageName": "eu.kanade.tachiyomi.extension.en.allanime",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-0/tachiyomi-en.allanime-v1.6.30.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-en.allanime-v1.6.31.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/allanime/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-0/tachiyomi-en.allanime-v1.6.30.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-en.allanime-v1.6.31.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106030",
-        "versionName": "1.6.30",
+        "versionCode": "106031",
+        "versionName": "1.6.31",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
             "id": "4709139914729853090",
             "name": "AllManga",
             "language": "en",
-            "homeUrl": "https://mkissa.to",
-            "mirrorUrls": [
-              "https://mkissa.to",
-              "https://isekai2nd.com"
-            ]
+            "homeUrl": "https://mkissa.to"
           }
         ]
       },
@@ -17797,6 +17724,27 @@
         ]
       },
       {
+        "name": "Tailspace",
+        "packageName": "eu.kanade.tachiyomi.extension.en.tailspace",
+        "resources": {
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-en.tailspace-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/tailspace/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-en.tailspace-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106001",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "9002977233306000351",
+            "name": "Tailspace",
+            "language": "en",
+            "homeUrl": "https://tailspace.com"
+          }
+        ]
+      },
+      {
         "name": "Tapas",
         "packageName": "eu.kanade.tachiyomi.extension.en.tapastic",
         "resources": {
@@ -19240,13 +19188,13 @@
         "name": "CapibaraTraductor",
         "packageName": "eu.kanade.tachiyomi.extension.es.capibaratraductor",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-1/tachiyomi-es.capibaratraductor-v1.6.4.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-es.capibaratraductor-v1.6.5.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/es/capibaratraductor/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-1/tachiyomi-es.capibaratraductor-v1.6.4.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-es.capibaratraductor-v1.6.5.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106004",
-        "versionName": "1.6.4",
+        "versionCode": "106005",
+        "versionName": "1.6.5",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -21278,13 +21226,13 @@
         "name": "Aniverse",
         "packageName": "eu.kanade.tachiyomi.extension.fr.aniverse",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-1/tachiyomi-fr.aniverse-v1.6.3.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-fr.aniverse-v1.6.4.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/fr/aniverse/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-1/tachiyomi-fr.aniverse-v1.6.3.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-fr.aniverse-v1.6.4.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106003",
-        "versionName": "1.6.3",
+        "versionCode": "106004",
+        "versionName": "1.6.4",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -23581,6 +23529,27 @@
             "name": "MikoRoku",
             "language": "id",
             "homeUrl": "https://mikoroku.com"
+          }
+        ]
+      },
+      {
+        "name": "MirrorKomik",
+        "packageName": "eu.kanade.tachiyomi.extension.id.mirrorkomik",
+        "resources": {
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-id.mirrorkomik-v1.6.1.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/id/mirrorkomik/res/mipmap-xhdpi/ic_launcher.png",
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-id.mirrorkomik-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106001",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "6916717115805451393",
+            "name": "MirrorKomik",
+            "language": "id",
+            "homeUrl": "https://mirrorkomik.info"
           }
         ]
       },
@@ -26538,13 +26507,13 @@
         "name": "Mecha Comic",
         "packageName": "eu.kanade.tachiyomi.extension.ja.mechacomic",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-ja.mechacomic-v1.6.4.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-ja.mechacomic-v1.6.5.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/ja/mechacomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-ja.mechacomic-v1.6.4.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-ja.mechacomic-v1.6.5.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106004",
-        "versionName": "1.6.4",
+        "versionCode": "106005",
+        "versionName": "1.6.5",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -29382,13 +29351,13 @@
         "name": "Hanami Heaven",
         "packageName": "eu.kanade.tachiyomi.extension.pt.noindexscan",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-pt.noindexscan-v1.6.62.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-pt.noindexscan-v1.6.63.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/pt/noindexscan/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-pt.noindexscan-v1.6.62.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-pt.noindexscan-v1.6.63.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106062",
-        "versionName": "1.6.62",
+        "versionCode": "106063",
+        "versionName": "1.6.63",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
@@ -31410,13 +31379,13 @@
         "name": "Nekopost",
         "packageName": "eu.kanade.tachiyomi.extension.th.nekopost",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-th.nekopost-v1.6.18.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-th.nekopost-v1.6.19.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/th/nekopost/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-th.nekopost-v1.6.18.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/c469cb1/tachiyomi-th.nekopost-v1.6.19.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106018",
-        "versionName": "1.6.18",
+        "versionCode": "106019",
+        "versionName": "1.6.19",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -35319,13 +35288,13 @@
         "name": "Baka Manhua",
         "packageName": "eu.kanade.tachiyomi.extension.zh.bakamh",
         "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-zh.bakamh-v1.6.70.apk",
+          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/2d50f67/tachiyomi-zh.bakamh-v1.6.71.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/bakamh/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/fc7a827-2/tachiyomi-zh.bakamh-v1.6.70.jar"
+          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/2d50f67/tachiyomi-zh.bakamh-v1.6.71.jar"
         },
         "extensionLib": "1.6",
-        "versionCode": "106070",
-        "versionName": "1.6.70",
+        "versionCode": "106071",
+        "versionName": "1.6.71",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {

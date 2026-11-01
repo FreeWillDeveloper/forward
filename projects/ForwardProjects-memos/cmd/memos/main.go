@@ -6,6 +6,8 @@ import (
 	"log/slog"
 	"os"
 	"os/signal"
+	"path/filepath"
+	"regexp"
 	"strings"
 	"syscall"
 
@@ -165,6 +167,9 @@ func runServer() error {
 	if err := applyConfigurationAtStartup(ctx, storeInstance); err != nil {
 		return errors.Wrap(err, "failed to apply the declarative configuration")
 	}
+	if files := legacySecretsFiles(legacySecretsDir); len(files) > 0 {
+		slog.Warn("deployment configuration files are no longer read since 26.10.0; declare them in the configuration directory instead", "files", files, "configDir", viper.GetString("config-dir"))
+	}
 	if instanceProfile.Demo {
 		// After the apply, so the demo content attaches to the declared users.
 		if err := storeInstance.Seed(ctx); err != nil {
@@ -307,4 +312,40 @@ type exitCodeError struct {
 
 func (e exitCodeError) Error() string {
 	return fmt.Sprintf("exit status %d", e.code)
+}
+
+// legacySecretsDir held the v0.31 deployment configuration files
+// (memos-idp-*.json and memos-instance-setting-*.json), which 26.10.0 stopped
+// reading without a migration.
+const legacySecretsDir = "/etc/secrets"
+
+var legacyInstanceSettingFilenameMatcher = regexp.MustCompile(`^memos-instance-setting-[a-z0-9]+(?:-[a-z0-9]+)*\.json$`)
+
+// isLegacySecretsFilename reports whether the v0.31 loader read name. It took
+// any memos-idp-*.json, warning only about names that were not lowercase kebab
+// case, but required kebab case for instance settings.
+func isLegacySecretsFilename(name string) bool {
+	if strings.HasPrefix(name, "memos-idp-") && strings.HasSuffix(name, ".json") {
+		return true
+	}
+	return legacyInstanceSettingFilenameMatcher.MatchString(name)
+}
+
+// legacySecretsFiles lists the v0.31 deployment configuration files still
+// present in dir, so startup can say that nothing reads them: an operator who
+// kept the files through the upgrade would otherwise learn it only from the
+// settings they expected to be in effect. The files are not opened, and a
+// missing or unreadable directory yields nothing.
+func legacySecretsFiles(dir string) []string {
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		return nil
+	}
+	var files []string
+	for _, entry := range entries {
+		if !entry.IsDir() && isLegacySecretsFilename(entry.Name()) {
+			files = append(files, filepath.Join(dir, entry.Name()))
+		}
+	}
+	return files
 }
