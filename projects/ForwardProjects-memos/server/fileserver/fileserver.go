@@ -6,6 +6,7 @@ import (
 	"encoding/base64"
 	"fmt"
 	"io"
+	"io/fs"
 	"log/slog"
 	"net/http"
 	"os"
@@ -258,8 +259,7 @@ func (s *FileServerService) serveMediaStream(w http.ResponseWriter, r *http.Requ
 
 	switch attachment.StorageType {
 	case storepb.AttachmentStorageType_LOCAL:
-		http.ServeFile(w, r, s.resolveLocalPath(attachment.Reference))
-		return nil
+		return s.serveLocalFile(w, r, attachment)
 
 	case storepb.AttachmentStorageType_S3:
 		return s.streamS3Object(w, r, attachment, contentType)
@@ -297,8 +297,7 @@ func (s *FileServerService) serveStaticFile(w http.ResponseWriter, r *http.Reque
 
 	switch attachment.StorageType {
 	case storepb.AttachmentStorageType_LOCAL:
-		http.ServeFile(w, r, s.resolveLocalPath(attachment.Reference))
-		return nil
+		return s.serveLocalFile(w, r, attachment)
 	case storepb.AttachmentStorageType_S3:
 		return s.streamS3Object(w, r, attachment, contentType)
 	default:
@@ -361,6 +360,25 @@ func (s *FileServerService) resolveLocalPath(reference string) string {
 		filePath = filepath.Join(s.Profile.Data, filePath)
 	}
 	return filePath
+}
+
+// serveLocalFile serves an attachment stored on disk. A file that is gone
+// answers with the JSON error envelope like every other storage failure,
+// instead of the plain-text page net/http would write for it.
+func (s *FileServerService) serveLocalFile(w http.ResponseWriter, r *http.Request, attachment *store.Attachment) error {
+	path := s.resolveLocalPath(attachment.Reference)
+	info, err := os.Stat(path)
+	if err != nil {
+		if errors.Is(err, fs.ErrNotExist) {
+			return &httphandler.Error{Code: http.StatusNotFound, Message: "attachment file not found", Cause: err}
+		}
+		return &httphandler.Error{Code: http.StatusInternalServerError, Message: "failed to read attachment file", Cause: err}
+	}
+	if info.IsDir() {
+		return &httphandler.Error{Code: http.StatusNotFound, Message: "attachment file not found"}
+	}
+	http.ServeFile(w, r, path)
+	return nil
 }
 
 // streamS3Object streams S3 content through the server, forwarding a supported
