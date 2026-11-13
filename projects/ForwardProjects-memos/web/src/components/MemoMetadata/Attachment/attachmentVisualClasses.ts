@@ -9,7 +9,7 @@ export const VISUAL_TILE_BUTTON_CLASS =
 
 /** A lone drawing uses a flat paper surface; a collage uses the photos' shared frame. */
 export const DRAWING_SHEET_TILE_CLASS =
-  "relative block overflow-hidden rounded-mu-md p-0 text-left border border-mu-edge transition-colors hover:border-mu-control-edge mu-focus focus-visible:border-mu-focus";
+  "relative block overflow-hidden rounded-mu-md p-0 text-left border border-mu-edge transition-colors mu-focus focus-visible:border-mu-focus";
 
 /** A lone drawing: the sheet spans the column, at least 160px tall, with the drawing centered on it. */
 export const DRAWING_SHEET_SINGLE_CLASS = "flex w-full min-h-40 items-center justify-center";

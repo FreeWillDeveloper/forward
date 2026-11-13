@@ -1,6 +1,6 @@
 import { Badge, Button, Field, Input, List, Select, Skeleton, Tabs, Textarea } from "@usememos/ui";
 import { ArrowLeftIcon, ChevronRightIcon, Clock3Icon, PlusIcon, ShieldCheckIcon, UserPlusIcon } from "lucide-react";
-import { type ReactNode, useEffect, useMemo, useState } from "react";
+import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import ConfirmDialog from "@/components/ConfirmDialog";
 import CreateSpaceDialog from "@/components/CreateSpaceDialog";
@@ -352,6 +352,7 @@ const SpaceDetail = ({ space, viewerName, onBack }: SpaceDetailProps) => {
   const [description, setDescription] = useState(space.description);
   const [icon, setIcon] = useState(space.icon);
   const [inviteOpen, setInviteOpen] = useState(false);
+  const inviteButtonRef = useRef<HTMLElement>(null);
   const [leaveOpen, setLeaveOpen] = useState(false);
   const [deleteOpen, setDeleteOpen] = useState(false);
   const [removeTarget, setRemoveTarget] = useState<SpaceMember>();
@@ -609,7 +610,7 @@ const SpaceDetail = ({ space, viewerName, onBack }: SpaceDetailProps) => {
                 <p className="mt-1 mu-caption text-mu-text-secondary">{t("setting.spaces.members-description")}</p>
               </div>
               {isAdmin ? (
-                <Button variant="neutral" onClick={() => setInviteOpen(true)} icon={<UserPlusIcon />}>
+                <Button ref={inviteButtonRef} variant="neutral" onClick={() => setInviteOpen(true)} icon={<UserPlusIcon />}>
                   {t("setting.spaces.invite-member")}
                 </Button>
               ) : null}
@@ -704,6 +705,7 @@ const SpaceDetail = ({ space, viewerName, onBack }: SpaceDetailProps) => {
       <InviteSpaceMemberDialog
         open={inviteOpen}
         onOpenChange={setInviteOpen}
+        finalFocus={inviteButtonRef}
         space={space}
         viewerName={viewerName}
         memberUserNames={memberUserNames}

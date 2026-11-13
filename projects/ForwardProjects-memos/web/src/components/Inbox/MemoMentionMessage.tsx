@@ -144,7 +144,7 @@ function MemoMentionMessage({ notification }: Props) {
           <button
             type="button"
             onClick={handleNavigate}
-            className="w-full p-2 text-left sm:p-3 rounded-mu-lg bg-gradient-to-br from-mu-primary/[0.06] to-mu-primary/[0.03] hover:from-mu-primary/[0.1] hover:to-mu-primary/[0.06] cursor-pointer border border-mu-primary/30 hover:border-mu-primary/50 transition-all duration-200 group/comment hover:shadow"
+            className="w-full p-2 text-left sm:p-3 rounded-mu-lg bg-mu-well/50 hover:bg-mu-hover cursor-pointer border border-mu-edge transition-colors duration-200 group/comment mu-focus focus-visible:border-mu-focus"
           >
             <div className="flex items-start gap-2">
               <div className="w-5 h-5 flex items-center justify-center shrink-0">

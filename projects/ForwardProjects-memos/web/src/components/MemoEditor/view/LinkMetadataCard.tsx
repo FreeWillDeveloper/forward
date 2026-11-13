@@ -41,8 +41,8 @@ const LinkMetadataCard = ({ url, fallback, enabled = true }: LinkMetadataCardPro
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "group my-0 mb-2 flex w-full max-w-full overflow-hidden rounded-mu-md border border-mu-line bg-mu-well/20 text-mu-text no-underline transition-colors",
-        "hover:border-mu-primary/35 hover:bg-mu-hover/20",
+        "group my-0 mb-2 flex w-full max-w-full overflow-hidden rounded-mu-md border border-mu-edge bg-mu-well/20 text-mu-text no-underline transition-colors",
+        "hover:bg-mu-hover/20 mu-focus focus-visible:border-mu-focus",
       )}
     >
       <span className="flex min-w-0 flex-1 flex-col gap-0.5 px-2.5 py-2 sm:gap-1 sm:px-3 sm:py-2.5">

@@ -278,7 +278,7 @@ const MemoViewGuide = ({ onUseExample }: MemoViewGuideProps) => {
               <button
                 type="button"
                 key={example.filter}
-                className="group w-full cursor-pointer rounded-mu-md border border-transparent p-2 text-left transition-colors hover:border-mu-line hover:bg-mu-hover mu-focus focus-visible:border-mu-focus"
+                className="group w-full cursor-pointer rounded-mu-md border border-transparent p-2 text-left transition-colors hover:bg-mu-hover mu-focus focus-visible:border-mu-focus"
                 onClick={() => onUseExample(example)}
               >
                 <span className="flex items-center gap-2 mu-label text-mu-text">

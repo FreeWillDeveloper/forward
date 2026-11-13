@@ -1,5 +1,5 @@
 /*
- * Paper: memos' warm app theme on @usememos/ui's tokens. It sets all 28 colors in the
+ * Paper: memos' warm app theme on @usememos/ui's tokens. It sets all 29 colors in the
  * package's `themeTokens`; tests/paper-theme.test.ts checks that and the contrast of
  * every text pair. Primary stays ink, warm at chroma about 0.02.
  */
@@ -9,6 +9,7 @@
   --mu-surface: #fbf6f0;
   --mu-well: #e7dccf;
   --mu-hover: #ede3d7;
+  --mu-selected: oklch(0.865 0.028 70);
   --mu-key: #fdf9f4;
   --mu-key-hover: #f8f1e9;
   --mu-edge: #d3c5b4;

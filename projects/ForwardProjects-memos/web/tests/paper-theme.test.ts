@@ -62,7 +62,12 @@ const contrast = (text: string, background: string): number => {
 
 describe("Paper theme", () => {
   it("sets every theme token", () => {
-    expect(themeTokens.filter((name) => !declarations.has(name))).toEqual([]);
+    expect([...declarations.keys()].sort()).toEqual([...themeTokens].sort());
+  });
+
+  it("keeps saved selection distinct from hover and well", () => {
+    expect(luminance(token("selected"))).toBeLessThan(luminance(token("hover")));
+    expect(luminance(token("selected"))).toBeLessThan(luminance(token("well")));
   });
 
   it.each(["canvas", "surface"])("keeps control boundaries on %s at 3:1 or more", (background) => {
@@ -76,6 +81,7 @@ describe("Paper theme", () => {
     ["text", "well"],
     ["text", "key"],
     ["text", "hover"],
+    ["text", "selected"],
     ["text", "key-hover"],
     ["text-secondary", "canvas"],
     ["text-secondary", "surface"],
@@ -86,6 +92,7 @@ describe("Paper theme", () => {
     ["text-disabled", "canvas"],
     ["text-disabled", "surface"],
     ["text-disabled", "well"],
+    ["text-disabled", "selected"],
     ["on-primary", "primary"],
     ["on-primary", "primary-hover"],
     ["accent", "canvas"],

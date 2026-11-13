@@ -1,7 +1,7 @@
 import { create } from "@bufbuild/protobuf";
 import { Button, Dialog, Field, Fieldset, Input, Radio, RadioGroup, Spinner } from "@usememos/ui";
 import { CheckIcon, SearchIcon } from "lucide-react";
-import { type FormEvent, useEffect, useState } from "react";
+import { type FormEvent, type RefObject, useEffect, useState } from "react";
 import UserAvatar from "@/components/UserAvatar";
 import { useCreateSpaceInvitation } from "@/hooks/useSpaceQueries";
 import { useUsersByUsernames } from "@/hooks/useUserQueries";
@@ -16,13 +16,14 @@ const LOOKUP_DELAY_MS = 300;
 interface Props {
   open: boolean;
   onOpenChange: (open: boolean) => void;
+  finalFocus?: RefObject<HTMLElement | null>;
   space: Space;
   viewerName: string;
   memberUserNames: Set<string>;
   pendingInviteeNames: Set<string>;
 }
 
-const InviteSpaceMemberDialog = ({ open, onOpenChange, space, viewerName, memberUserNames, pendingInviteeNames }: Props) => {
+const InviteSpaceMemberDialog = ({ open, onOpenChange, finalFocus, space, viewerName, memberUserNames, pendingInviteeNames }: Props) => {
   const t = useTranslate();
   const spaceUid = extractSpaceUidFromName(space.name);
   const createInvitation = useCreateSpaceInvitation(viewerName);
@@ -107,7 +108,7 @@ const InviteSpaceMemberDialog = ({ open, onOpenChange, space, viewerName, member
 
   return (
     <Dialog.Root open={open} onOpenChange={handleOpenChange}>
-      <Dialog.Popup data-critical-surface="invite-member-dialog" closeLabel={t("common.close")}>
+      <Dialog.Popup data-critical-surface="invite-member-dialog" closeLabel={t("common.close")} finalFocus={finalFocus}>
         <form className="grid gap-4" onSubmit={handleSubmit}>
           <Dialog.Title>{t("setting.spaces.invite-to", { space: space.title })}</Dialog.Title>
           <Dialog.Description>
@@ -138,8 +139,8 @@ const InviteSpaceMemberDialog = ({ open, onOpenChange, space, viewerName, member
                 onClick={() => setSelectedUserName(isSelected ? "" : candidate.name)}
                 className={
                   isSelected
-                    ? "flex w-full items-center gap-3 rounded-mu-lg border border-mu-primary/35 bg-mu-primary/5 px-3 py-2 text-left transition-colors"
-                    : "flex w-full items-center gap-3 rounded-mu-lg border border-mu-line px-3 py-2 text-left transition-colors hover:bg-mu-hover disabled:cursor-not-allowed disabled:opacity-60"
+                    ? "flex w-full items-center gap-3 rounded-mu-lg border border-mu-edge bg-mu-well px-3 py-2 text-left text-mu-text transition-colors mu-focus focus-visible:border-mu-focus"
+                    : "flex w-full items-center gap-3 rounded-mu-lg border border-mu-edge px-3 py-2 text-left text-mu-text-secondary transition-colors enabled:hover:bg-mu-hover disabled:cursor-not-allowed disabled:opacity-60 mu-focus focus-visible:border-mu-focus"
                 }
               >
                 <UserAvatar className="size-8" avatarUrl={candidate.avatarUrl} name={candidate.displayName || candidate.username} />

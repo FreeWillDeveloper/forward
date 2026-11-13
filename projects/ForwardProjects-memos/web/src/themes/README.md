@@ -8,7 +8,7 @@ carry an `mu-` prefix (`bg-mu-surface`, `text-mu-text-secondary`).
   `utils/theme.ts` sets the attribute from the saved preference (`default`, `default-dark`, `paper` or
   `system`, kept as they are in the account setting and in localStorage) and the OS scheme.
 - **Paper** (`paper.css`) is memos' app theme: a `[data-theme="paper"]` rule that must set every name in
-  the package's `themeTokens` (28 colors), with every text pair at 4.5:1 or more.
+  the package's `themeTokens` (29 colors), with every text pair at 4.5:1 or more.
   `tests/paper-theme.test.ts` checks both. Its primary stays ink, warm rather than a brand hue.
 - `default.css` only sets the text fonts to the package's and adds the wordmark's serif. Colors and radius
   are used through the package's `mu-` utilities and `var(--mu-*)`; memos keeps no names of its own for

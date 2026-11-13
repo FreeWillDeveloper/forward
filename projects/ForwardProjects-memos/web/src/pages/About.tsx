@@ -21,7 +21,7 @@ const DEFAULT_TITLE = "Memos";
 
 /** One card per project link; the welcome guide reopens from a button in the same frame. */
 const PROJECT_CARD_CLASSES =
-  "group flex h-full flex-col rounded-mu-xl border border-mu-line p-5 transition-colors hover:border-mu-text-secondary/40 hover:bg-mu-hover mu-focus focus-visible:border-mu-focus @min-[60rem]:p-6";
+  "group flex h-full flex-col rounded-mu-xl border border-mu-edge p-5 transition-colors hover:bg-mu-hover mu-focus focus-visible:border-mu-focus @min-[60rem]:p-6";
 
 const isCommitSha = (commit: string) => /^[0-9a-f]{7,40}$/i.test(commit);
 
