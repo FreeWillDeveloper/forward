@@ -1,4 +1,90 @@
 # 更新日志\n
+## [ForwardAirports-xingjiabijichang] - 2026-11-27 22:33:24
+- 仓库: https://github.com/KaWaIDeSuNe/xingjiabijichang
+- 分支: main
+- 新增: 2b2c02b91e0e2fde167d2a811de80f0265fe8b10
+
+## [ForwardAirports-dijiajichang] - 2026-11-27 22:33:24
+- 仓库: https://github.com/KaWaIDeSuNe/dijiajichang
+- 分支: main
+- 新增: de106356146570cb0201eddee1dc582caecdc62d
+
+## [ForwardAirports-Share-SSR-V2ray] - 2026-11-27 22:33:24
+- 仓库: https://github.com/selierlin/Share-SSR-V2ray
+- 分支: master
+- 新增: 677682b35e65490d65c00998671f5ed554d1932c
+
+## [ForwardAirports-clashfree] - 2026-11-27 22:33:24
+- 仓库: https://github.com/clashv2ray-hub/clashfree
+- 分支: main
+- 新增: 31fa08cc63d27249c5f750932ca5be7a322ca2ff
+
+## [ForwardProjects-SmsForwarder] - 2026-11-27 22:33:24
+- 仓库: https://github.com/pppscn/SmsForwarder
+- 分支: main
+- 新增: a142f9270624e96b15ecfae53035581354fb6434
+
+## [ForwardDownloads-Are-u-ok] - 2026-11-27 22:33:24
+- 仓库: https://github.com/bcseputetto/Are-u-ok
+- 分支: master
+- 新增: ea5f8879df7d630b08ff52d128146591ffe1ac87
+
+## [ForwardProjects-memos] - 2026-11-27 22:33:24
+- 仓库: https://github.com/usememos/memos
+- 分支: main
+- 新增: 78a8dc8f810eb104a0855f8a8b23f15a6914f6ee
+
+## [ForwardCollections-chinese-independent-blogs] - 2026-11-27 22:33:24
+- 仓库: https://github.com/timqian/chinese-independent-blogs
+- 分支: master
+- 新增: d91dc560a03501288170356d0aaa7a89702f3292
+
+## [ForwardCollections-WindowsTools] - 2026-11-27 22:33:24
+- 仓库: https://github.com/antatura/WindowsTools
+- 分支: master
+- 新增: 8cac55f178a7827f2b9d7aca65810dc1f16b6199
+
+## [ForwardCollections-fe-interview] - 2026-11-27 22:33:24
+- 仓库: https://github.com/haizlin/fe-interview
+- 分支: master
+- 新增: 79bab2c2a203705e1201051ae8c80b752a3d439e
+
+## [ForwardAI-easy-vibe] - 2026-11-27 22:33:24
+- 仓库: https://github.com/datawhalechina/easy-vibe
+- 分支: main
+- 新增: 3488e2538a78fff49ebcab46bbd2dae117976077
+
+## [ForwardAI-ai-engineering-hub] - 2026-11-27 22:33:24
+- 仓库: https://github.com/patchy631/ai-engineering-hub
+- 分支: main
+- 新增: 042aeb5067384981eeba6a07fa882f436bb1660d
+
+## [ForwardAI-learn-claude-code] - 2026-11-27 22:33:24
+- 仓库: https://github.com/shareAI-lab/learn-claude-code
+- 分支: main
+- 新增: 448c75bb596917ad196cc1fb7558f459c5c50fdd
+
+## [ForwardDownloads-extensions] - 2026-11-27 22:33:24
+- 仓库: https://github.com/keiyoushi/extensions
+- 分支: repo
+- 新增: 4f54155388938b326b08ba3172860af0681bc9cc
+
+## [ForwardCollections-free-programming-books-zh_CN] - 2026-11-27 22:33:24
+- 仓库: https://github.com/justjavac/free-programming-books-zh_CN
+- 分支: main
+- 新增: cc1108ac90f53a1fd4f773b61f5c6b91b91389ca
+
+## [ForwardTVBox-tvyuan-AutoUpdate] - 2026-11-27 22:33:24
+- 仓库: https://github.com/25175/tvyuan
+- 分支: master
+- 新增: 12c23dfa73a9b13ca418c1025a24460da4dd3757
+
+## [ForwardAI-tvbox-sources-AutoUpdate] - 2026-11-27 22:33:24
+- 仓库: https://github.com/jifeng250/tvbox-sources
+- 分支: main
+- 新增: 22d8b6e966bf9265d39a88e11196d9c5f3fbb5e6
+
+
 ## [ForwardAirports-xingjiabijichang] - 2026-11-27 16:21:32
 - 仓库: https://github.com/KaWaIDeSuNe/xingjiabijichang
 - 分支: main
